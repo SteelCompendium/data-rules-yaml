@@ -2,6 +2,7 @@ name: Divine Power
 metadata:
   class: conduit
   feature_type: trait
+  file_basename: Divine Power
   file_dpath: Conduit/10th-Level Features
   item_id: divine-power
   item_index: "01"
