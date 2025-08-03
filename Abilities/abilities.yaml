@@ -1,5 +1,6 @@
 abilities: 
-  - metadata:
+  - name: Charge
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Main Actions
       item_id: charge
@@ -23,7 +24,8 @@ abilities:
           They can fly or burrow as part of the Charge main action if they have that
           movement available to them, but they can't climb or swim while charging
           unless they can automatically use that movement at full speed.
-  - metadata:
+  - name: Defend
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Main Actions
       item_id: defend
@@ -42,7 +44,8 @@ abilities:
           environmental effects or a creature's traits or abilities. A creature
           gains no benefit from this action while another creature is taunted by
           them (see [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2))."
-  - metadata:
+  - name: Free Strike
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Main Actions
       item_id: free-strike
@@ -63,7 +66,8 @@ abilities:
           fails. For instance, a fury who has no other options for ranged strikes
           might use the Ranged Weapon Free Strike ability with an improvised weapon
           when battling a flying foe.
-  - metadata:
+  - name: Heal
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Main Actions
       item_id: heal
@@ -81,7 +85,8 @@ abilities:
           target creature can spend a Recovery to regain Stamina, or can make a
           saving throw against one effect they are suffering that is ended by a
           saving throw.
-  - metadata:
+  - name: Disengage
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Move Actions
       item_id: disengage
@@ -99,7 +104,8 @@ abilities:
           shift more than 1 square when they disengage. A creature who does so can
           break up their shift with their maneuver and main action however they
           wish.
-  - metadata:
+  - name: Ride
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Move Actions
       item_id: ride
@@ -121,7 +127,8 @@ abilities:
           per round. A mounted creature can only have this move action applied to
           them once per round. This movement can be broken up with the rider's
           maneuver and main action however they wish.
-  - metadata:
+  - name: Advance
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Move Actions
       item_id: advance
@@ -137,7 +144,8 @@ abilities:
       - effect: When a creature takes the Advance move action, they move a number of
           squares up to their speed. They can break up this movement with their
           maneuver and main action however they wish.
-  - metadata:
+  - name: Use Consumable
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: use-consumable
@@ -155,7 +163,8 @@ abilities:
           creature can use this maneuver to administer a consumable treasure that
           benefits the user either to themself or to a willing adjacent creature.
           See [Consumables](#page-328-0) in [Chapter 13: Rewards](#page-327-1)."
-  - metadata:
+  - name: Make or Assist a Test
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: make-or-assist-a-test
@@ -179,7 +188,8 @@ abilities:
           Other tests that take no time at all, such as a Reason test to recall lore
           about mummies, are usually free maneuvers in combat. The Director has the
           final say regarding which tests can be made as maneuvers.
-  - metadata:
+  - name: Search for Hidden Creatures
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: search-for-hidden-creatures
@@ -195,7 +205,8 @@ abilities:
       - effect: "The Search for Hidden Creatures maneuver allows a creature to attempt
           to locate creatures hidden from them (see Hide and Sneak in Chapter 9:
           Tests)."
-  - metadata:
+  - name: Grab
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: grab
@@ -234,7 +245,8 @@ abilities:
     
           See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
           information on the grabbed condition.
-  - metadata:
+  - name: Escape Grab
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: escape-grab
@@ -270,7 +282,8 @@ abilities:
     
           See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
           information on the grabbed condition.
-  - metadata:
+  - name: Aid Attack
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: aid-attack
@@ -286,7 +299,8 @@ abilities:
       - effect: A creature who uses the Aid Attack maneuver chooses an enemy adjacent to
           them. The next ability roll an ally makes against that enemy before the
           start of the aiding creature's next turn gains an edge.
-  - metadata:
+  - name: Stand Up
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: stand-up
@@ -302,7 +316,8 @@ abilities:
       - effect: A creature can use the Stand Up maneuver to stand up if they are prone,
           ending that condition. Alternatively, they can use this maneuver to make a
           willing adjacent prone creature stand up.
-  - metadata:
+  - name: Hide
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: hide
@@ -318,7 +333,8 @@ abilities:
       - effect: "Using the Hide maneuver, a creature attempts to hide from other
           creatures who aren't observing them while they have cover or concealment.
           See Hide and Sneak in Chapter 9: Tests for full details."
-  - metadata:
+  - name: Catch Breath
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: catch-breath
@@ -340,7 +356,8 @@ abilities:
           A creature who is dying (see [Dying and Death](#page-292-1) in
           [Stamina](#page-291-0) below) can't use the Catch Breath maneuver, but
           other creatures can help them spend Recoveries in other ways.
-  - metadata:
+  - name: Knockback
+    metadata:
       class: combat
       file_dpath: Abilities/Common/Maneuvers
       item_id: knockback
@@ -371,7 +388,8 @@ abilities:
       - effect: You can usually target only creatures of your size or smaller. If your
           Might score is 2 or higher, you can target any creature with a size equal
           to or less than your Might score.
-  - metadata:
+  - name: Enchantment of Permanence
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -388,7 +406,8 @@ abilities:
     effects:
       - effect: You gain a +6 bonus to Stamina, and this bonus increases by 6 at 4th,
           7th, and 10th levels. Additionally, you gain a +1 bonus to stability.
-  - metadata:
+  - name: Ward of Delightful Consequences
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -557,7 +576,8 @@ abilities:
           target, you and any ally adjacent to the target gain 1 surge whenever the
           target takes damage. The mushrooms can be removed by the target or an
           adjacent creature as a main action.
-  - metadata:
+  - name: Essence Outside of Combat
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -586,7 +606,8 @@ abilities:
           When you use an ability outside of combat that lets you spend unlimited
           essence on its effect, you can use it as if you had spent an amount of
           essence equal to your Victories.
-  - metadata:
+  - name: "Void: Acolyte of the Mystery"
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -604,7 +625,8 @@ abilities:
       - effect: You use your immersion in the mystery of void magic to expand the reach
           of that magic better than other mages. The distance of all your abilities
           that have the Magic, Ranged, and Void keywords increases by 2 squares.
-  - metadata:
+  - name: It Is the Soul Which Hears
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -630,7 +652,8 @@ abilities:
           communicate with it telepathically. You can use words to communicate with
           the plant, but it communicates with you only by transmitting feelings and
           sensations that can't be overly specific.
-  - metadata:
+  - name: 1st-Level Specialization Feature
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -679,7 +702,8 @@ abilities:
           instead touch an existing doorway or other opening that is 1 square or
           smaller in a mundane dirt, stone, or metal surface. The opening is sealed
           by the same material that makes up the surface.
-  - metadata:
+  - name: Enchantment of Celerity
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -696,7 +720,8 @@ abilities:
     effects:
       - effect: You gain a +1 bonus to speed and to the distance you can shift when you
           take the Disengage move action.
-  - metadata:
+  - name: Enchantment of Destruction
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -712,7 +737,8 @@ abilities:
       type: feature/trait/elementalist/1st-level-feature
     effects:
       - effect: You gain a +1 bonus to rolled damage with magic abilities.
-  - metadata:
+  - name: "Green: Acolyte of the Green"
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -768,7 +794,8 @@ abilities:
       - effect: At the start of your turn, you can use a maneuver to use this ability
           again without spending essence.
         name: Persistent 1
-  - metadata:
+  - name: Enchantment of Battle
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -908,7 +935,8 @@ abilities:
       - effect: For each Victory you have, you can target one creature. Each target
           gains the benefit of your A Beyonding of Vision feature until the end of
           your next turn, but doesn't gain the use of the Shared Void Sense ability.
-  - metadata:
+  - name: Ward of Nature's Affection
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1049,7 +1077,8 @@ abilities:
         t1: 3 + R damage; push 2
         t2: 5 + R damage; push 3
         t3: 8 + R damage; push 4
-  - metadata:
+  - name: Ward of Surprising Reactivity
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1097,7 +1126,8 @@ abilities:
         t1: 2 fire damage
         t2: 4 fire damage
         t3: 6 fire damage
-  - metadata:
+  - name: Enchantment of Distance
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1143,7 +1173,8 @@ abilities:
         t2: 6 + R corruption damage
         t3: 9 + R corruption damage
       - effect: You can teleport up to a number of squares equal to your Reason score.
-  - metadata:
+  - name: "Fire: Acolyte of Fire"
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1162,7 +1193,8 @@ abilities:
           have the Fire and Magic keywords gain a +1 bonus to rolled damage. Your
           Hurl Element ability (see below) also gains this bonus when you use it to
           deal fire damage.
-  - metadata:
+  - name: Persistent Magic
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1202,7 +1234,8 @@ abilities:
           you have a Reason score of 2 and are maintaining Instantaneous Excavation,
           taking 10 or more damage in one turn causes you to stop maintaining the
           ability.
-  - metadata:
+  - name: Essence in Combat
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1256,7 +1289,8 @@ abilities:
       - effect: The target can spend a Recovery.
       - effect: The target can spend an additional Recovery for each essence spent.
         cost: Spend 1+ Essence
-  - metadata:
+  - name: Ward of Excellent Protection
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/1st-Level Features
@@ -1372,7 +1406,8 @@ abilities:
         t1: 2 + R corruption damage; R < WEAK, slowed (save ends)
         t2: 4 + R corruption damage; R < AVERAGE, slowed (save ends)
         t3: 6 + R corruption damage; R < STRONG, slowed (save ends)
-  - metadata:
+  - name: Chimeric Manifestation
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/8th-Level Features
@@ -1603,7 +1638,8 @@ abilities:
           Each enemy who ends their turn within 3 squares of the tree is restrained
           until the end of their next turn. A creature restrained this way can use a
           main action to end the effect early.
-  - metadata:
+  - name: Black Hole Star
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/8th-Level Features
@@ -1629,7 +1665,8 @@ abilities:
           Additionally, your Mantle of Essence improves. While in the area of the
           aura, enemies and objects have their stability reduced by an amount equal
           to your level.
-  - metadata:
+  - name: The Flame Primordial
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/8th-Level Features
@@ -1690,7 +1727,8 @@ abilities:
           enters the vortex or starts their turn there is knocked prone. At the end
           of the round, if a winded enemy who is not a leader or solo creature is in
           the vortex, they are instantly destroyed.
-  - metadata:
+  - name: Perk
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/8th-Level Features
@@ -1746,7 +1784,8 @@ abilities:
           target takes fire damage from the fall, and each enemy within 3 squares of
           where they land takes the same amount of fire damage. The ground within 3
           squares of where the target lands is difficult terrain.
-  - metadata:
+  - name: Wyrding
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/6th-Level Features
@@ -1915,7 +1954,8 @@ abilities:
           the start of your next turn.
       - effect: The effect lasts until the start of your next turn.
         name: Persistent 1
-  - metadata:
+  - name: Perk
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/6th-Level Features
@@ -1931,7 +1971,8 @@ abilities:
       type: feature/trait/elementalist/6th-level-feature
     effects:
       - effect: You gain one crafting, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Master of Void
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -1953,7 +1994,8 @@ abilities:
           answers you seek. You no longer require project sources for research
           projects. Whenever you use a respite activity to make a project roll for a
           research project, you automatically complete the project.
-  - metadata:
+  - name: Essential Being
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -1970,7 +2012,8 @@ abilities:
     effects:
       - effect: When you gain essence at the start of each of your turns during combat,
           you gain 4 essence instead of 3.
-  - metadata:
+  - name: Breath
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -1992,7 +2035,8 @@ abilities:
           3 essence.
     
           Breath remains until you convert it to essence.
-  - metadata:
+  - name: Skill
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2008,7 +2052,8 @@ abilities:
       type: feature/trait/elementalist/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Master of Fire
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2030,7 +2075,8 @@ abilities:
           Additionally, your Return to Formlessness ability can be used on
           supernatural objects (but not on artifacts). When you melt a treasure (see
           Chapter 13: Rewards), you gain breath equal to its echelon.
-  - metadata:
+  - name: Master of Green
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2065,7 +2111,8 @@ abilities:
           and chooses to pause their aging, the effects don't stack. Instead, the
           creature gains the benefit from the Life Fruit that pauses their aging for
           the longest time.
-  - metadata:
+  - name: Master of Earth
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2090,7 +2137,8 @@ abilities:
           this respite activity if another creature within 1 mile is already using
           it. Once you use this respite activity, you can't use it again for 10
           days.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2107,7 +2155,8 @@ abilities:
     effects:
       - effect: Your Reason score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/10th-Level Features
@@ -2123,7 +2172,8 @@ abilities:
       type: feature/trait/elementalist/10th-level-feature
     effects:
       - effect: You gain one crafting, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Pierce the Veil of Substance
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/5th-Level Features
@@ -2222,7 +2272,8 @@ abilities:
           up to 5 squares (no action required). As a maneuver, you can make the
           power roll again without spending essence.
         name: Persistent 1
-  - metadata:
+  - name: Hide of Tenfold Shields
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/5th-Level Features
@@ -2283,7 +2334,8 @@ abilities:
           enemy who ends their turn in the area is restrained (save ends).
       - effect: The area remains until the start of your next turn.
         name: Persistent 1
-  - metadata:
+  - name: The Mountain Does Not Move
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/5th-Level Features
@@ -2307,7 +2359,8 @@ abilities:
           your stability down to a minimum of 0, then increase the ally's stability
           by an amount equal to the stability you lost. This change lasts until the
           end of the round.
-  - metadata:
+  - name: Smoldering Step
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/5th-Level Features
@@ -2365,7 +2418,8 @@ abilities:
           and objects within 4 squares of them until the start of your next turn
         t3: 15 + R corruption damage; the target has line of effect only to adjacent
           creatures and objects until the start of your next turn
-  - metadata:
+  - name: Disciple of Fire
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/2nd-Level Features
@@ -2473,7 +2527,8 @@ abilities:
         t1: 5 + R fire damage; A < WEAK, restrained (save ends)
         t2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
         t3: 12 + R fire damage; A < STRONG, restrained (save ends)
-  - metadata:
+  - name: Disciple of Earth
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/2nd-Level Features
@@ -2491,7 +2546,8 @@ abilities:
       - effect: Your body is strengthened by your mind's connection to the element of
           permanence. You have a +6 bonus to Stamina, and you gain an additional +3
           bonus to Stamina whenever you gain a level past 2nd.
-  - metadata:
+  - name: Perk
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/2nd-Level Features
@@ -2717,7 +2773,8 @@ abilities:
       - effect: You see and hear any events that have occurred within 10 squares of the
           object within the last 12 hours, perceiving those events from the object's
           location as if you were there.
-  - metadata:
+  - name: Distance Is Only Memory
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/3rd-Level Features
@@ -2736,7 +2793,8 @@ abilities:
           to any place you have previously been. You and your allies can pass
           through the portal, which remains open for 1 hour or until you dismiss it
           as a main action.
-  - metadata:
+  - name: A Conversation With Fire
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/3rd-Level Features
@@ -2863,7 +2921,8 @@ abilities:
         t2: 18 + R fire damage; I < AVERAGE, dazed (save ends)
         t3: 25 + Rfire damage; I < STRONG, dazed (save ends)
       - effect: This damage ignores immunity.
-  - metadata:
+  - name: Grand Wyrding
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/9th-Level Features
@@ -2915,7 +2974,8 @@ abilities:
       - effect: You use up to three heroic abilities whose essence costs total 11 or
           less, spending no additional essence beyond the cost of this ability. You
           can shift up to 2 squares between your use of each ability.
-  - metadata:
+  - name: Skill
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/7th-Level Features
@@ -2931,7 +2991,8 @@ abilities:
       type: feature/trait/elementalist/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Mantle of Quintessence
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/7th-Level Features
@@ -2956,7 +3017,8 @@ abilities:
           that use the Handle Animals skill. If you have 5 or more Victories, the
           bonus to patience increases to 2 and tests that use the Handle Animals
           skill have a double edge.
-  - metadata:
+  - name: Surging Essence
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/7th-Level Features
@@ -2973,7 +3035,8 @@ abilities:
     effects:
       - effect: When you gain essence at the start of each of your turns during combat,
           you gain 3 essence instead of 2.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/7th-Level Features
@@ -2990,7 +3053,8 @@ abilities:
     effects:
       - effect: Your Reason score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Font of Essence
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3008,7 +3072,8 @@ abilities:
       - effect: The first time each combat round that you or a creature within 10
           squares takes damage that isn't untyped or holy damage, you gain 2 essence
           instead of 1.
-  - metadata:
+  - name: Burning Grounds
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3025,7 +3090,8 @@ abilities:
     effects:
       - effect: At the end of each of your turns, each enemy in the area takes fire
           damage equal to your Reason score.
-  - metadata:
+  - name: Skill
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3041,7 +3107,8 @@ abilities:
       type: feature/trait/elementalist/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Veiling Bed
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3057,7 +3124,8 @@ abilities:
       type: feature/trait/elementalist/4th-level-feature
     effects:
       - effect: The area provides concealment for you and your allies.
-  - metadata:
+  - name: Flowering Bed
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3074,7 +3142,8 @@ abilities:
     effects:
       - effect: At the end of each of your turns, each ally in the area gains temporary
           Stamina equal to your Reason score.
-  - metadata:
+  - name: Quaking Earth
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3091,7 +3160,8 @@ abilities:
     effects:
       - effect: At the end of each of your turns, you can push each enemy in the area up
           to a number of squares equal to your Reason score.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3108,7 +3178,8 @@ abilities:
     effects:
       - effect: Your Reason score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: elementalist
       feature_type: trait
       file_dpath: Elementalist/4th-Level Features
@@ -3152,7 +3223,8 @@ abilities:
         t1: 3 + I holy damage; slide 1
         t2: 5 + I holy damage; slide 2
         t3: 8 + I holy damage; slide 3
-  - metadata:
+  - name: Prayer of Steel
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3225,7 +3297,8 @@ abilities:
         t3: 9 + I holy damage
       - effect: You or one ally within distance gains temporary Stamina equal to your
           Intuition score.
-  - metadata:
+  - name: Blessing of Compassion
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3277,7 +3350,8 @@ abilities:
         t2: 4 + I damage
         t3: 6 + I damage
       - effect: You can have this ability deal holy damage.
-  - metadata:
+  - name: Blessing of Comprehension
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3296,7 +3370,8 @@ abilities:
           language associated with them. You are considered fluent in all languages
           for the purpose of understanding the project source for any research or
           crafting project (see Chapter 12: Downtime Projects)."
-  - metadata:
+  - name: Oracular Visions
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3487,7 +3562,8 @@ abilities:
           score. You can slide each creature up to a number of squares equal to your
           Intuition score. The vines then fade away.
         name: Piety
-  - flavor: You commune with the lingering soul of the recently dead.
+  - name: Grave Speech
+    flavor: You commune with the lingering soul of the recently dead.
     keywords:
       - Magic
     type: Maneuver
@@ -3603,7 +3679,8 @@ abilities:
           of stone within 10 squares whose size is 5 + your Intuition score. The
           wall lasts until the end of the encounter.
         name: Piety
-  - metadata:
+  - name: Revitalizing Ritual
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3622,7 +3699,8 @@ abilities:
           is also finishing a respite to gain the benefit of a divine ritual. The
           chosen character gains a bonus to their recovery value equal to your level
           that lasts until you finish another respite.
-  - metadata:
+  - name: Bastion Ward
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3702,7 +3780,8 @@ abilities:
         t1: The target gains 5 temporary Stamina.
         t2: The target gains 10 temporary Stamina.
         t3: The target gains 15 temporary Stamina.
-  - metadata:
+  - name: Prayer of Destruction
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3719,7 +3798,8 @@ abilities:
     effects:
       - effect: Your god infuses wrath within your being. You gain a +1 bonus to rolled
           damage with magic abilities.
-  - metadata:
+  - name: Prayer of Soldier's Skill
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3795,7 +3875,8 @@ abilities:
           obtains a tier 1 or tier 3 outcome (your choice) on their next power roll
           made before the end of the encounter.
         name: Piety
-  - metadata:
+  - name: Piety Outside of Combat
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3820,7 +3901,8 @@ abilities:
           When you use an ability outside of combat that lets you spend unlimited
           piety on its effect, such as Healing Grace, you can use it as if you had
           spent an amount of piety equal to your Victories.
-  - metadata:
+  - name: Spirit Ward
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -3870,7 +3952,8 @@ abilities:
         t1: 3 + I holy damage; A < WEAK, prone
         t2: 6 + I holy damage; A < AVERAGE, prone
         t3: 9 + I holy damage; A < STRONG, prone and can't stand (save ends)
-  - metadata:
+  - name: Protective Circle
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4120,7 +4203,8 @@ abilities:
       - effect: The power roll takes a bane against the target.
       - effect: The power roll has a double bane against the target.
         cost: Spend 1 Piety
-  - metadata:
+  - name: Prayer of Speed
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4138,7 +4222,8 @@ abilities:
       - effect: Your god blesses your flesh and infuses it with divine quickness. You
           gain a +1 bonus to speed and to the distance you can shift when you take
           the Disengage move action.
-  - metadata:
+  - name: Blessing of Fortunate Weather
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4207,7 +4292,8 @@ abilities:
         t3: 5 sonic damage; push 3
       - effect: You can push each willing ally in the area the same distance, ignoring
           stability.
-  - metadata:
+  - name: Prayer of Distance
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4225,7 +4311,8 @@ abilities:
       - effect: Your god blesses you with the ability to stretch your divine magic
           farther. You have a +2 bonus to the distance of your ranged magic
           abilities.
-  - metadata:
+  - name: Deity and Domains
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4312,7 +4399,8 @@ abilities:
       - effect: Each target can spend a Recovery. Additionally, each target can use a
           free triggered action to end one effect on them that is ended by a saving
           throw or that ends at the end of their turn, or to stand up if prone.
-  - metadata:
+  - name: Inner Light
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4389,7 +4477,8 @@ abilities:
         t2: 5 + I corruption damage
         t3: 7 + I corruption damage
       - effect: You or one ally within distance can spend a Recovery.
-  - metadata:
+  - name: Sanctuary Ward
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4408,7 +4497,8 @@ abilities:
           another creature damages you, that creature can't target you with a strike
           until you harm them or one of their allies, or until the end of their next
           turn.
-  - metadata:
+  - name: Quickness Ward
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4497,7 +4587,8 @@ abilities:
           - **Prayer Effect:** One enemy within 10 squares takes fire damage equal
           to three times your Intuition score.
         name: Piety
-  - metadata:
+  - name: Sanctified Weapon
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4515,7 +4606,8 @@ abilities:
       - effect: As a respite activity, you can bless a weapon. Any creature who wields
           the weapon gains a +1 bonus to rolled damage with abilities that use the
           weapon. This benefit lasts until you finish another respite.
-  - metadata:
+  - name: Inspired Deception
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/1st-Level Features
@@ -4593,7 +4685,8 @@ abilities:
           number of objects created this way equal to your Intuition score. You can
           destroy an object created this way with a thought, no matter how far you
           are from it (no action required).
-  - metadata:
+  - name: 8th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/8th-Level Features
@@ -4610,7 +4703,8 @@ abilities:
     effects:
       - effect: You gain the 7th-level domain feature for the domain whose feature you
           didn't select at that level (see 7th-Level Domain Feature).
-  - metadata:
+  - name: 5th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/8th-Level Features
@@ -4691,7 +4785,8 @@ abilities:
           turn, and can stand up if they are prone. Additionally, at the start of
           each of their turns until the end of the encounter or until they are
           dying, the target gains 3 surges.
-  - metadata:
+  - name: 7th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/8th-Level Features
@@ -4872,7 +4967,8 @@ abilities:
           successes. Whenever you finish a respite, you and any other heroes who
           rested with you regain 1 Victory after your Victories are converted to XP.
           This Victory isn't converted into XP at the end of a subsequent respite.
-  - metadata:
+  - name: 4th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/8th-Level Features
@@ -5028,7 +5124,8 @@ abilities:
           world. If a tree in your network dies, it is no longer part of the
           network. You can remove a tree from your network no matter your distance
           from it, including across different worlds (no action required).
-  - metadata:
+  - name: Perk
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/8th-Level Features
@@ -5102,7 +5199,8 @@ abilities:
     effects:
       - effect: Until the end of the encounter, any ability roll made against a target
           takes a bane and each target has damage immunity 5.
-  - metadata:
+  - name: Burgeoning Saint
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/6th-Level Features
@@ -5444,7 +5542,8 @@ abilities:
     effects:
       - effect: You can target yourself instead of one creature with this ability. Each
           target has damage immunity 5 until the start of your next turn.
-  - metadata:
+  - name: Perk
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/6th-Level Features
@@ -5530,7 +5629,8 @@ abilities:
           each of your turns, you can slide each creature in the area up to a number
           of squares equal to your Intuition score. This forced movement ignores
           stability for your allies.
-  - metadata:
+  - name: Divine Power
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5556,7 +5656,8 @@ abilities:
           that usually costs no piety, you must spend 1 divine power to use it.
     
           Divine power remains until you spend it.
-  - metadata:
+  - name: Avatar
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5585,7 +5686,8 @@ abilities:
           cryptically or incompletely). When you finish your respite, you and your
           allies can appear at any location in the timescape where someone worships
           your deity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5601,7 +5703,8 @@ abilities:
       type: feature/trait/conduit/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Most Pious
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5618,7 +5721,8 @@ abilities:
     effects:
       - effect: When you roll for piety at the start of your turn in combat and you
           pray, you gain 1 additional piety.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5635,7 +5739,8 @@ abilities:
     effects:
       - effect: Your Intuition score increases to 5. Additionally, you can increase one
           of your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/10th-Level Features
@@ -5651,7 +5756,8 @@ abilities:
       type: feature/trait/conduit/10th-level-feature
     effects:
       - effect: You gain one crafting, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: 8th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/5th-Level Features
@@ -5668,7 +5774,8 @@ abilities:
     effects:
       - effect: You gain the 7th-level domain feature for the domain whose feature you
           didn't select at that level (see 7th-Level Domain Feature).
-  - metadata:
+  - name: 5th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/5th-Level Features
@@ -5685,7 +5792,8 @@ abilities:
     effects:
       - effect: You gain the 4th-level domain feature for the domain whose feature you
           didn't select at that level (see 4th-Level Domain Feature).
-  - metadata:
+  - name: 7th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/5th-Level Features
@@ -5866,7 +5974,8 @@ abilities:
           successes. Whenever you finish a respite, you and any other heroes who
           rested with you regain 1 Victory after your Victories are converted to XP.
           This Victory isn't converted into XP at the end of a subsequent respite.
-  - metadata:
+  - name: 4th-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/5th-Level Features
@@ -6280,7 +6389,8 @@ abilities:
       - effect: Each target can choose another creature in the area, then swap places
           with that creature. The creature they choose must be able to fit into the
           space they leave and vice versa.
-  - metadata:
+  - name: 2nd-Level Domain Feature
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/2nd-Level Features
@@ -6427,7 +6537,8 @@ abilities:
     
           - Whenever a target makes a power roll, they must roll three dice and use
           the lowest two rolls.
-  - metadata:
+  - name: The Lists of Heaven
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/2nd-Level Features
@@ -6576,7 +6687,8 @@ abilities:
         t1: 2 lightning damage; vertical slide 1
         t2: 5 lightning damage; vertical slide 2
         t3: 7 lightning damage; vertical slide 3
-  - metadata:
+  - name: Perk
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/2nd-Level Features
@@ -6593,7 +6705,8 @@ abilities:
     effects:
       - effect: "You gain one crafting, lore, or supernatural perk of your choice. See
           Chapter 7: Perks."
-  - metadata:
+  - name: Minor Miracle
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/3rd-Level Features
@@ -7050,7 +7163,8 @@ abilities:
           approach within 5 squares of you by moving or by being force moved by any
           enemy. Targets can be force moved closer to you by you or your allies, or
           can move closer because of your movement.
-  - metadata:
+  - name: Ordained
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/9th-Level Features
@@ -7101,7 +7215,8 @@ abilities:
           target can spend any number of Recoveries, can end any effects on them
           that are ended by a saving throw or that end at the end of their turn, and
           can stand up if they are prone.
-  - metadata:
+  - name: Faith's Sword
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/9th-Level Features
@@ -7186,7 +7301,8 @@ abilities:
         t2: 15 + I corruption damage; A < AVERAGE, weakened (save ends)
         t3: 21 + I corruption damage; A < STRONG, weakened (save ends)
       - effect: While weakened this way, the target has damage weakness 10.
-  - metadata:
+  - name: Blessing of Iron
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7204,7 +7320,8 @@ abilities:
       - effect: The gods send divine favor to you and your allies. While you are not
           dying, enemies take a bane on strikes against you or any ally within 3
           squares of you.
-  - metadata:
+  - name: Gods' Library
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7226,7 +7343,8 @@ abilities:
           any skills in the lore skill group you don't already have, and you gain a
           number of skills from any other skill groups equal to the number of skills
           you had in the lore skill group before you gained this feature."
-  - metadata:
+  - name: Divine Quartermaster
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7245,7 +7363,8 @@ abilities:
           goal equal to 50 times your level or less. You gain a divine version of
           this treasure that lasts until you finish another respite or it is
           consumed.
-  - metadata:
+  - name: Light of the Burning Sun
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7265,7 +7384,8 @@ abilities:
           extra 15 fire damage if the creature is undead. Additionally, you have
           fire immunity equal to your level, which is added to any other fire
           immunity you have.
-  - metadata:
+  - name: Skill
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7281,7 +7401,8 @@ abilities:
       type: feature/trait/conduit/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Your Triumphs Are Remembered
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7300,7 +7421,8 @@ abilities:
           successes. Whenever you finish a respite, you and any other heroes who
           rested with you regain 1 Victory after your Victories are converted to XP.
           This Victory isn't converted into XP at the end of a subsequent respite.
-  - metadata:
+  - name: Word of Death Deferred
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7356,7 +7478,8 @@ abilities:
           action to switch places with a duplicate within their line of effect,
           making the duplicate the target of the ability instead. When either
           duplicate takes damage, it is destroyed.
-  - metadata:
+  - name: Thunderstruck
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7375,7 +7498,8 @@ abilities:
           deal lightning or sonic damage to another creature, you gain 1 surge.
           Additionally, if you use an ability that force moves a creature, the
           forced movement distance gains a bonus equal to your Intuition score.
-  - metadata:
+  - name: Font of Grace
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7394,7 +7518,8 @@ abilities:
           be spent only on that ability during the same turn. If you don't use this
           piety, it is lost. Additionally, you can use your Minor Miracle feature to
           return a creature to life even if you don't have their remains.
-  - metadata:
+  - name: Faithful's Reward
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7411,7 +7536,8 @@ abilities:
     effects:
       - effect: When you roll for piety at the start of your turn in combat, you gain
           1d3 + 1 piety.
-  - metadata:
+  - name: Nature's Bounty
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7445,7 +7571,8 @@ abilities:
     
           Each benefit lasts until the creature who gains it finishes another
           respite.
-  - metadata:
+  - name: Word of Fate Denied
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7465,7 +7592,8 @@ abilities:
           creature within 10 squares of you the target of the triggering damage
           instead. The creature you choose takes the damage and suffers any effects
           associated with it, and that damage can't be reduced in any way.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/7th-Level Features
@@ -7617,7 +7745,8 @@ abilities:
           a conversation with them. During this time, the creature responds to you
           as they would have in life. If the creature isn't free or willing to
           appear, you can speak another name or choose another respite activity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/4th-Level Features
@@ -7696,7 +7825,8 @@ abilities:
           with you. These premonitions help you and your allies stay alive, granting
           each of you temporary Stamina equal to 10 + your level that lasts until
           you finish a respite.
-  - metadata:
+  - name: Blessed Domain
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/4th-Level Features
@@ -7712,7 +7842,8 @@ abilities:
       type: feature/trait/conduit/4th-level-feature
     effects:
       - effect: Whenever you gain piety from a domain feature, you gain 1 additional piety.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/4th-Level Features
@@ -7729,7 +7860,8 @@ abilities:
     effects:
       - effect: Your Intuition score increases to 5. Additionally, you can increase one
           of your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: conduit
       feature_type: trait
       file_dpath: Conduit/4th-Level Features
@@ -7868,7 +8000,8 @@ abilities:
         t3: 9 + M holy damage
       - effect: Until the start of your next turn, enemies take a bane on ability rolls
           made against you or any ally adjacent to you.
-  - metadata:
+  - name: Kit
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -7920,7 +8053,8 @@ abilities:
         t3: 9 + M damage; push 5
       - effect: You can shift up to your speed in a straight line toward the target
           after pushing them.
-  - metadata:
+  - name: Blessing of Compassion
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -7943,7 +8077,8 @@ abilities:
           Additionally, when you are present at the start of a negotiation, one NPC
           of your choice has their patience increased by 1 (to a maximum of 5), and
           the first test made to influence them gains an edge.
-  - metadata:
+  - name: Blessing of Comprehension
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -7962,7 +8097,8 @@ abilities:
           language associated with them. You are considered fluent in all languages
           for the purpose of understanding the project source for any crafting or
           research project (see [Chapter 12: Downtime Projects](#page-307-2))."
-  - metadata:
+  - name: Oracular Visions
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8132,7 +8268,8 @@ abilities:
           you. The trauma of dying can make a creature's memory of that event hazy,
           but the target otherwise knows all they knew in life. After 1 minute, the
           effect ends. You can't use this ability on the same creature twice.
-  - metadata:
+  - name: Revitalizing Ritual
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8215,7 +8352,8 @@ abilities:
       - effect: You can end one effect on the target that is ended by a saving throw or
           that ends at the end of their turn, or a prone target can stand up.
         cost: Spend 1 Wrath
-  - metadata:
+  - name: Censor Order
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8312,7 +8450,8 @@ abilities:
         t3: 8 + M holy damage
       - effect: Each enemy adjacent to the target is pushed away from the target up to a
           number of squares equal to your Presence score.
-  - metadata:
+  - name: Protective Circle
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8416,7 +8555,8 @@ abilities:
         t3: 5 + M holy damage
       - effect: When a target who is not a leader or solo creature is made winded by
           this ability, they are reduced to 0 Stamina.
-  - metadata:
+  - name: Wrath Outside of Combat
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8515,7 +8655,8 @@ abilities:
           you can spend 3 wrath to deal holy damage to them equal to your Presence
           score, then change the target of the strike to another target within the
           strike's distance.
-  - metadata:
+  - name: Blessing of Fortunate Weather
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8550,7 +8691,8 @@ abilities:
           who has chosen a different weather effect, the features negate each other
           where their areas overlap.
         name: Precipitation
-  - metadata:
+  - name: Inner Light
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8610,7 +8752,8 @@ abilities:
           of them is frightened of you (save ends)
       - effect: Each enemy frightened this way is pushed up to 2 squares away from the
           target and takes psychic damage equal to your Presence score.
-  - metadata:
+  - name: Wrath in Combat
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8637,7 +8780,8 @@ abilities:
           judged by you, you gain 1 wrath.
     
           You lose any remaining wrath at the end of the encounter.
-  - metadata:
+  - name: Sanctified Weapon
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8655,7 +8799,8 @@ abilities:
       - effect: As a respite activity, you can bless a weapon. Any creature who wields
           the weapon gains a +1 bonus to rolled damage with abilities that use the
           weapon. This benefit lasts until you finish another respite.
-  - metadata:
+  - name: Inspired Deception
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8699,7 +8844,8 @@ abilities:
           number of objects created this way equal to your Presence score. You can
           destroy an object created this way with a thought, no matter how far you
           are from it (no action required).
-  - metadata:
+  - name: Judgment Order Benefit
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/1st-Level Features
@@ -8836,7 +8982,8 @@ abilities:
       - effect: Until the end of the encounter, while the target is judged by you, you
           can choose to make them the source of any of your abilities. Additionally,
           the target counts as an ally for the purpose of flanking.
-  - metadata:
+  - name: Vow
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/8th-Level Features
@@ -8889,7 +9036,8 @@ abilities:
       - effect: At the end of each of your turns, a target dazed this way deals holy
           damage equal to twice your Presence score to each enemy within 2 squares
           of them.
-  - metadata:
+  - name: Demonologist
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/8th-Level Features
@@ -8910,7 +9058,8 @@ abilities:
           successfully complete a negotiation with one of these creatures, you gain
           an edge on power rolls made against them and can use your Judgment ability
           against them as a free triggered action before an encounter begins.
-  - metadata:
+  - name: Perk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/8th-Level Features
@@ -8926,7 +9075,8 @@ abilities:
       type: feature/trait/censor/8th-level-feature
     effects:
       - effect: You gain one crafting, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Their Past Revealed
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/8th-Level Features
@@ -9080,7 +9230,8 @@ abilities:
       - effect: The effect ends on the target and is applied to the creature who imposed
           the effect on them. That creature also takes damage equal to three times
           your Presence score.
-  - metadata:
+  - name: Implement of Wrath
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/6th-Level Features
@@ -9145,7 +9296,8 @@ abilities:
         t1: Slide 3; I < WEAK, dazed (save ends)
         t2: Slide 5; I < AVERAGE, dazed (save ends)
         t3: Slide 7; I < STRONG, dazed (save ends)
-  - metadata:
+  - name: Perk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/6th-Level Features
@@ -9192,7 +9344,8 @@ abilities:
         t1: 4 psychic damage; slide 3
         t2: 6 psychic damage; slide 5
         t3: 8 psychic damage; slide 7
-  - metadata:
+  - name: Wrath of the Gods
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9209,7 +9362,8 @@ abilities:
     effects:
       - effect: When you gain wrath at the start of each of your turns during combat,
           you gain 4 wrath instead of 3.
-  - metadata:
+  - name: Skill
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9225,7 +9379,8 @@ abilities:
       type: feature/trait/censor/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Virtue
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9250,7 +9405,8 @@ abilities:
           domain's features until you finish another respite.
     
           Virtue remains until you spend it.
-  - metadata:
+  - name: Templar
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9289,7 +9445,8 @@ abilities:
           on power rolls made against such targets. If you attempt to open a portal
           to your deity again before you have defeated your priority targets, you
           suffer your god's wrath, as determined by the Director.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9305,7 +9462,8 @@ abilities:
       type: feature/trait/censor/10th-level-feature
     effects:
       - effect: Your Might and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/10th-Level Features
@@ -9352,7 +9510,8 @@ abilities:
           stand up. The target then gains 2 surges, can shift up to their speed
           while ignoring difficult terrain, and can use a strike signature ability
           as a free triggered action.
-  - metadata:
+  - name: Stand Fast!
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/5th-Level Features
@@ -9404,7 +9563,8 @@ abilities:
         t1: 10 + M damage; you and each ally adjacent to you gain 10 temporary Stamina
         t2: 14 + M damage; you and each ally adjacent to you gain 15 temporary Stamina
         t3: 20 + M damage; you and each ally adjacent to you gain 20 temporary Stamina
-  - metadata:
+  - name: Prophecy
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/5th-Level Features
@@ -9465,7 +9625,8 @@ abilities:
         t3: 20 + M damage
       - effect: Until the end of the encounter, whenever any ally deals damage to a
           target judged by you, that ally gains 1 surge.
-  - metadata:
+  - name: Evil Revealed
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/5th-Level Features
@@ -9554,7 +9715,8 @@ abilities:
       - effect: If the target is already frightened of you or another creature and this
           ability would frighten them again, they instead take psychic damage equal
           to twice your Presence score.
-  - metadata:
+  - name: Stalwart Icon
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9572,7 +9734,8 @@ abilities:
       - effect: You exhibit a small spark of your deity's power, causing creatures to
           trust or fear you, depending on what you need. You gain an edge on tests
           made to intimidate or persuade others.
-  - metadata:
+  - name: Saint's Vigilance
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9592,7 +9755,8 @@ abilities:
           maneuver. Additionally, you gain an edge when searching for hidden
           creatures. If you find a hidden creature, you can use your Judgment
           ability against them as a free triggered action.
-  - metadata:
+  - name: It Was Foretold
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9643,7 +9807,8 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, each target gains
           1 surge at the end of each of your turns.
-  - metadata:
+  - name: Lead by Example
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9694,7 +9859,8 @@ abilities:
       - effect: You can spend a Recovery to allow the target to regain Stamina equal to
           your recovery value. The target can then take their turn immediately
           before the triggering enemy.
-  - metadata:
+  - name: Judge of Character
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9743,7 +9909,8 @@ abilities:
           ability or a strike heroic ability, and has a double edge on that ability.
           If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a
           minimum cost of 0).
-  - metadata:
+  - name: A Sense for Truth
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9795,7 +9962,8 @@ abilities:
           Additionally, each hidden target is automatically revealed and can't
           become hidden again until the start of your next turn. You can then use
           your Judgment ability against one target as a free triggered action.
-  - metadata:
+  - name: Perk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/2nd-Level Features
@@ -9942,7 +10110,8 @@ abilities:
           moves or is force moved out of the area, they take holy damage equal to
           twice your Presence score. A target judged by you who moves willingly
           takes an extra 2d6 holy damage.
-  - metadata:
+  - name: Look On My Work and Despair
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/3rd-Level Features
@@ -10196,7 +10365,8 @@ abilities:
           is winded, they take an extra 25 psychic damage. If a target frightened
           this way is not a leader or solo creature and is winded, they are reduced
           to 0 Stamina.
-  - metadata:
+  - name: Improved Implement of Wrath
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/9th-Level Features
@@ -10223,7 +10393,8 @@ abilities:
           by a saving throw.
     
           - The weapon's wielder has corruption immunity 10.
-  - metadata:
+  - name: Blessing of Iron
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10241,7 +10412,8 @@ abilities:
       - effect: The gods send divine favor to you and your allies. While you are not
           dying, enemies take a bane on strikes against you or any ally within 3
           squares of you.
-  - metadata:
+  - name: Ride the Lightning
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10264,7 +10436,8 @@ abilities:
           Windwalk feature, lightning enhances your locomotion to grant you a bonus
           to speed equal to your Might score. If Windwalk already grants you a bonus
           to speed, this bonus adds to that.
-  - metadata:
+  - name: Gods' Library
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10287,7 +10460,8 @@ abilities:
           and you gain a number of skills from any other skill groups equal to the
           number of skills you had in the lore skill group before you gained this
           feature."
-  - metadata:
+  - name: Divine Quartermaster
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10306,7 +10480,8 @@ abilities:
           goal equal to 50 times your level or less. You gain a divine version of
           this treasure that lasts until you finish another respite or it is
           consumed.
-  - metadata:
+  - name: Light of the Burning Sun
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10326,7 +10501,8 @@ abilities:
           extra 15 fire damage if the creature is undead. Additionally, you have
           fire immunity equal to your level, which is added to any other fire
           immunity you have.
-  - metadata:
+  - name: Skill
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10342,7 +10518,8 @@ abilities:
       type: feature/trait/censor/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Your Triumphs Are Remembered
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10361,7 +10538,8 @@ abilities:
           successes. Whenever you finish a respite, you and any other heroes who
           rested with you regain 1 Victory after your Victories are converted to XP.
           This Victory isn't converted into XP at the end of a subsequent respite.
-  - metadata:
+  - name: Word of Death Deferred
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10417,7 +10595,8 @@ abilities:
           action to switch places with a duplicate within their line of effect,
           making the duplicate the target of the ability instead. When either
           duplicate takes damage, it is destroyed.
-  - metadata:
+  - name: Font of Grace
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10439,7 +10618,8 @@ abilities:
           gains 10 temporary Stamina.
     
           ing the st
-  - metadata:
+  - name: Nature's Bounty
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10473,7 +10653,8 @@ abilities:
     
           Each benefit lasts until the creature who gains it finishes another
           respite.
-  - metadata:
+  - name: Word of Fate Denied
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10493,7 +10674,8 @@ abilities:
           creature within 10 squares of you the target of the triggering damage
           instead. The creature you choose takes the damage and suffers any effects
           associated with it, and that damage can't be reduced in any way.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10509,7 +10691,8 @@ abilities:
       type: feature/trait/censor/7th-level-feature
     effects:
       - effect: Your Might and Presence scores each increase to 5.
-  - metadata:
+  - name: Focused Wrath
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/7th-Level Features
@@ -10553,7 +10736,8 @@ abilities:
           willing creature who you are bonded to with your Invocation of the Heart
           feature. You don't need line of effect to the bonded creature but you must
           be on the same world.
-  - metadata:
+  - name: Improved Hands of the Maker
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10570,7 +10754,8 @@ abilities:
     effects:
       - effect: When you use your Hands of the Maker ability, you can create a mundane
           object that is size 2 or smaller.
-  - metadata:
+  - name: Windwalk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10587,7 +10772,8 @@ abilities:
     effects:
       - effect: While you have 5 or more Victories, you can fly. If you can already fly,
           you have a +2 bonus to speed while flying instead.
-  - metadata:
+  - name: Impervious Touch
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10614,7 +10800,8 @@ abilities:
           than your Presence score. You can place the spell on only one such target
           at a time, and you can maintain the spell on a larger target and a number
           of objects equal to your Presence score simultaneously.
-  - metadata:
+  - name: Wrath Beyond Wrath
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10631,7 +10818,8 @@ abilities:
     effects:
       - effect: The first time each combat round that you deal damage to a creature
           judged by you, you gain 2 wrath instead of 1.
-  - metadata:
+  - name: Light of Revelation
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10653,7 +10841,8 @@ abilities:
           including you, can't hide. While this feature is active, you gain an edge
           on tests made to notice hidden objects and entrances and to detect
           supernatural illusions.
-  - metadata:
+  - name: Seance
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10674,7 +10863,8 @@ abilities:
           a conversation with them. During this time, the creature responds to you
           as they would have in life. If the creature isn't free or willing to
           appear, you can speak another name or choose another respite activity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10690,7 +10880,8 @@ abilities:
       type: feature/trait/censor/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Improved Sanctified Weapon
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10707,7 +10898,8 @@ abilities:
     effects:
       - effect: The weapon improved by your Sanctified Weapon feature grants a +3 bonus
           to rolled damage instead of +1.
-  - metadata:
+  - name: Wode Road
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10730,7 +10922,8 @@ abilities:
           tree in your network dies, it is no longer part of the network. You can
           remove a tree from your network no matter your distance from it, including
           across different worlds (no action required).
-  - metadata:
+  - name: Oracular Warning
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10750,7 +10943,8 @@ abilities:
           with you. These premonitions help you and your allies stay alive, granting
           each of you temporary Stamina equal to 10 + your level that lasts until
           you finish another respite.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10766,7 +10960,8 @@ abilities:
       type: feature/trait/censor/4th-level-feature
     effects:
       - effect: Your Might and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10782,7 +10977,8 @@ abilities:
       type: feature/trait/censor/4th-level-feature
     effects:
       - effect: You gain one crafting, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Invocation of the Heart
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10829,7 +11025,8 @@ abilities:
       - effect: Each creature in the area has a double edge on tests made to hide or
           sneak. The aura lasts until you end it (no action required) or until a
           target harms or deals damage to a creature or object.
-  - metadata:
+  - name: Saint's Epiphany
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10848,7 +11045,8 @@ abilities:
           taking the same respite with divine knowledge. If the target makes a
           project roll during this respite, they can add 1d10 plus your Presence
           score to the roll.
-  - metadata:
+  - name: Blessing of Life
+    metadata:
       class: censor
       feature_type: trait
       file_dpath: Censor/4th-Level Features
@@ -10977,7 +11175,8 @@ abilities:
         t3: 13 damage
       - effect: You can take the Disengage move action as a free maneuver before or
           after you use this ability.
-  - metadata:
+  - name: Null Tradition
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11085,7 +11284,8 @@ abilities:
         t3: 16 + A psychic damage; M < STRONG, weakened (save ends)
       - effect: While weakened this way, the target takes damage equal to your Intuition
           score whenever they use a supernatural ability that costs Malice.
-  - metadata:
+  - name: Density Augmentation
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11289,7 +11489,8 @@ abilities:
         t3: 5 damage
       - effect: You can slide one adjacent enemy up to a number of squares equal to your
           Intuition score.
-  - metadata:
+  - name: Discipline Outside of Combat
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11315,7 +11516,8 @@ abilities:
           discipline on its effect, you can use it as if you had spent an amount of
           discipline equal to your Victories. (Such abilities aren't part of the
           core rules for the null, but they might appear in future products.)
-  - metadata:
+  - name: Psionic Martial Arts
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11397,7 +11599,8 @@ abilities:
         t1: 4 + A damage; I < WEAK, dazed and slowed (save ends)
         t2: 5 + A damage; I < AVERAGE, dazed and slowed (save ends)
         t3: 7 + A damage; I < STRONG, dazed and slowed (save ends)
-  - metadata:
+  - name: Null Speed
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11474,7 +11677,8 @@ abilities:
       - effect: Before the push is resolved, you teleport the target to a square
           adjacent to you and opposite the one they started in. If the target can't
           be teleported this way, you can't push them.
-  - metadata:
+  - name: Speed Augmentation
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11558,7 +11762,8 @@ abilities:
         t2: 7 + A damage
         t3: 10 + A damage
       - effect: You can shift up to half your speed before or after you make this strike.
-  - metadata:
+  - name: Force Augmentation
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/1st-Level Features
@@ -11678,7 +11883,8 @@ abilities:
           forced movement takes psychic damage equal to the total number of squares
           the target was force moved. While the target is dazed this way, they see
           glimpses of creatures from other parts of the timescape.
-  - metadata:
+  - name: Inertial Dampener
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/8th-Level Features
@@ -11729,7 +11935,8 @@ abilities:
         t1: 12 psychic damage; push 3
         t2: 17 psychic damage; push 5
         t3: 23 psychic damage; push 7
-  - metadata:
+  - name: Shared Momentum
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/8th-Level Features
@@ -11780,7 +11987,8 @@ abilities:
           < AVERAGE, they are dazed (save ends). While the triggering creature is
           dazed this way, they take psychic damage equal to your Intuition score
           whenever they use a main action.
-  - metadata:
+  - name: Perk
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/8th-Level Features
@@ -11796,7 +12004,8 @@ abilities:
       type: feature/trait/null/8th-level-feature
     effects:
       - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
-  - metadata:
+  - name: Synaptic Triage
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/8th-Level Features
@@ -11875,7 +12084,8 @@ abilities:
     effects:
       - effect: You gain 20 temporary Stamina. Additionally, until the end of the
           encounter, your stability gains a bonus equal to your Intuition score.
-  - metadata:
+  - name: Elemental Buffer
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/6th-Level Features
@@ -11953,7 +12163,8 @@ abilities:
       - effect: This movement ignores stability. If you slide into another creature, you
           resolve damage to both of you as if your force movement had ended, but you
           keep moving through that creature's space.
-  - metadata:
+  - name: Perk
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/6th-Level Features
@@ -12005,7 +12216,8 @@ abilities:
         t1: 6 damage; M < WEAK, dazed
         t2: 8 damage; M < AVERAGE, dazed
         t3: 12 damage; M < STRONG, dazed
-  - metadata:
+  - name: Elemental Absorption
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/6th-Level Features
@@ -12059,7 +12271,8 @@ abilities:
           square adjacent to the wall and has M < AVERAGE is slowed (save ends).
           Each enemy who is force moved into the wall and has M < AVERAGE is
           restrained (save ends).
-  - metadata:
+  - name: Manifold Body
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12076,7 +12289,8 @@ abilities:
     effects:
       - effect: When you gain discipline at the start of each of your turns during
           combat, you gain 4 discipline instead of 3.
-  - metadata:
+  - name: Discipline Mastery Improvement
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12093,7 +12307,8 @@ abilities:
     effects:
       - effect: Your Discipline Mastery feature provides additional benefits when you
           have 12 or more discipline.
-  - metadata:
+  - name: Skill
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12109,7 +12324,8 @@ abilities:
       type: feature/trait/null/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Manifold Resonance
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12136,7 +12352,8 @@ abilities:
           to apply a benefit from your Psi Boost feature to that ability.
           Additionally, you and allies in the area of your Null Field ability ignore
           banes and double banes on your power rolls.
-  - metadata:
+  - name: Order
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12160,7 +12377,8 @@ abilities:
           size of your Null Field by 1 until the end of the encounter.
     
           Order remains until you spend it.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12176,7 +12394,8 @@ abilities:
       type: feature/trait/null/10th-level-feature
     effects:
       - effect: Your Agility and Intuition scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/10th-Level Features
@@ -12192,7 +12411,8 @@ abilities:
       type: feature/trait/null/10th-level-feature
     effects:
       - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
-  - metadata:
+  - name: Rapid Processing
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/2nd-Level Features
@@ -12398,7 +12618,8 @@ abilities:
         t1: 8 + A psychic damage; vertical pull 3
         t2: 12 + A psychic damage; vertical pull 5
         t3: 16 + A psychic damage; vertical pull 7
-  - metadata:
+  - name: Perk
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/2nd-Level Features
@@ -12415,7 +12636,8 @@ abilities:
     effects:
       - effect: "You gain one exploration, interpersonal, or intrigue perk of your
           choice. See Chapter 7: Perks."
-  - metadata:
+  - name: Inertial Sink
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/2nd-Level Features
@@ -12440,7 +12662,8 @@ abilities:
           by 5 squares in addition to any other reductions. Whenever you take damage
           from being force moved, you reduce that damage by an amount equal to your
           level.
-  - metadata:
+  - name: Entropic Adaptability
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/2nd-Level Features
@@ -12550,7 +12773,8 @@ abilities:
       - effect: Until the end of the encounter, the size of your Null Field ability
           increases by 1. While the area of that ability is enlarged this way, each
           enemy in the area takes a bane on ability rolls.
-  - metadata:
+  - name: Reorder
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/3rd-Level Features
@@ -12600,7 +12824,8 @@ abilities:
           increases by 1. While the area of that ability is enlarged this way,
           whenever an enemy in the area takes rolled damage, they take extra psychic
           damage equal to twice your Intuition score.
-  - metadata:
+  - name: Psionic Leap
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/3rd-Level Features
@@ -12723,7 +12948,8 @@ abilities:
           the timescape who are not present in the encounter. Loved ones of the
           forgotten creature retain a faint sense of melancholy. This effect can be
           reversed only at the Director's discretion.
-  - metadata:
+  - name: I Am the Weapon
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/9th-Level Features
@@ -12842,7 +13068,8 @@ abilities:
           cold damage immunity granted by your Entropic Adaptability trait, you
           ignore the negative effects of dying, and you have a +2 bonus to
           potencies.
-  - metadata:
+  - name: Discipline Mastery Improvement
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/7th-Level Features
@@ -12859,7 +13086,9 @@ abilities:
     effects:
       - effect: Your Discipline Mastery feature provides additional benefits when you
           have 12 or more discipline.
-  - metadata:
+  - name: Extended Power
+    cost: 1 Discipline
+    metadata:
       class: "null"
       cost: 1 Discipline
       cost_amount: 1
@@ -12879,7 +13108,8 @@ abilities:
     effects:
       - effect: If the ability is ranged, the distance gains a bonus equal to your
           Intuition score. If the ability is melee, the distance gains a +2 bonus.
-  - metadata:
+  - name: Improved Body
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/7th-Level Features
@@ -12896,7 +13126,9 @@ abilities:
     effects:
       - effect: When you gain discipline at the start of each of your turns during
           combat, you gain 3 discipline instead of 2.
-  - metadata:
+  - name: Sharpened Power
+    cost: 1 Discipline
+    metadata:
       class: "null"
       cost: 1 Discipline
       cost_amount: 1
@@ -12915,7 +13147,9 @@ abilities:
       type: feature/ability/null/7th-level-feature
     effects:
       - effect: If the ability has any power roll, that roll gains an edge.
-  - metadata:
+  - name: Dynamic Power
+    cost: 1 Discipline
+    metadata:
       class: "null"
       cost: 1 Discipline
       cost_amount: 1
@@ -12935,7 +13169,9 @@ abilities:
     effects:
       - effect: If the ability force moves a target, the forced movement distance gains
           a bonus equal to your Intuition score.
-  - metadata:
+  - name: Shared Power
+    cost: 5 Discipline
+    metadata:
       class: "null"
       cost: 5 Discipline
       cost_amount: 5
@@ -12955,7 +13191,8 @@ abilities:
     effects:
       - effect: If the ability targets individual creatures or objects, you target one
           additional creature or object within distance.
-  - metadata:
+  - name: Skill
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/7th-Level Features
@@ -12971,7 +13208,9 @@ abilities:
       type: feature/trait/null/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Expanded Power
+    cost: 3 Discipline
+    metadata:
       class: "null"
       cost: 3 Discipline
       cost_amount: 3
@@ -12991,7 +13230,9 @@ abilities:
     effects:
       - effect: If the ability targets an area, you increase the size of the area by 1.
           If the area is a line, you increase the size of one dimension, not both.
-  - metadata:
+  - name: Heightened Power
+    cost: 1 Discipline
+    metadata:
       class: "null"
       cost: 1 Discipline
       cost_amount: 1
@@ -13011,7 +13252,9 @@ abilities:
     effects:
       - effect: If the ability deals rolled damage, it deals extra damage equal to your
           Intuition score.
-  - metadata:
+  - name: Magnified Power
+    cost: 5 Discipline
+    metadata:
       class: "null"
       cost: 5 Discipline
       cost_amount: 5
@@ -13031,7 +13274,8 @@ abilities:
     effects:
       - effect: If the ability has a potency, you increase that potency by an amount
           equal to your Intuition score.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/7th-Level Features
@@ -13047,7 +13291,8 @@ abilities:
       type: feature/trait/null/7th-level-feature
     effects:
       - effect: Your Agility and Intuition scores each increase to 5.
-  - metadata:
+  - name: Discipline Mastery Improvement
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13064,7 +13309,8 @@ abilities:
     effects:
       - effect: Your Discipline Mastery feature provides additional benefits when you
           have 12 or more discipline.
-  - metadata:
+  - name: 8th-Level Tradition Feature
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13142,7 +13388,8 @@ abilities:
     effects:
       - effect: Each target can end any conditions or effects on themself, and gains 5
           temporary Stamina for each condition or effect removed.
-  - metadata:
+  - name: Chilling Readiness
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13160,7 +13407,8 @@ abilities:
       - effect: You steel yourself for imminent danger by tapping into your body's cold
           energy. At the start of any combat, you gain a number of surges equal to
           your Victories.
-  - metadata:
+  - name: Instant Action
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13179,7 +13427,8 @@ abilities:
           gain an edge on ability rolls and gain 2 surges. If you are surprised, you
           can spend 3 discipline to no longer be surprised and gain the benefits of
           this feature.
-  - metadata:
+  - name: Enhanced Null Field
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13234,7 +13483,8 @@ abilities:
           space of your afterimage as if you were still there. Additionally, if your
           Null Field ability is active, your afterimage also projects the aura from
           that ability, which you control as if you were in the afterimage's space.
-  - metadata:
+  - name: Skill
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13250,7 +13500,8 @@ abilities:
       type: feature/trait/null/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Regenerative Field
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13302,7 +13553,8 @@ abilities:
         t2: 10 + A damage; I < AVERAGE, restrained (save ends)
         t3: 13 + A damage; I < STRONG, restrained (save ends)
       - effect: This strike resolves before the triggering movement or main action.
-  - metadata:
+  - name: 5th-Level Tradition Feature
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13330,7 +13582,8 @@ abilities:
           | Cryokinetic   | Chilling Readiness |
     
           | Metakinetic   | Inertial Fulcrum   |
-  - metadata:
+  - name: Inertial Fulcrum
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13349,7 +13602,8 @@ abilities:
           the distance of forced movement imposed upon you, you can deal damage to
           one enemy in the area of your Null Field ability equal to your Intuition
           score.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13365,7 +13619,8 @@ abilities:
       type: feature/trait/null/4th-level-feature
     effects:
       - effect: Your Agility and Intuition scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: "null"
       feature_type: trait
       file_dpath: Null/4th-Level Features
@@ -13417,7 +13672,8 @@ abilities:
       - effect: While grabbed this way, the target takes a bane on the Escape Grab
           maneuver. Each time they use that maneuver, they take damage equal to
           twice your Agility score.
-  - metadata:
+  - name: Kit
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13464,7 +13720,8 @@ abilities:
     effects:
       - effect: The targets are force moved one at a time, starting with the target
           nearest to you, and can be pushed into other targets in the same line.
-  - metadata:
+  - name: Primordial Strength
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13608,7 +13865,8 @@ abilities:
         t3: 8 + M damage; M < STRONG, bleeding (save ends)
       - effect: While bleeding this way, the target takes damage equal to your Might
           score at the end of each of your turns.
-  - metadata:
+  - name: Mighty Leaps
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13625,7 +13883,8 @@ abilities:
     effects:
       - effect: "You can't obtain lower than a tier 2 outcome on any Might test made to
           jump (see Movement Types in Chapter 10: Combat)."
-  - metadata:
+  - name: Ferocity in Combat
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13718,7 +13977,8 @@ abilities:
       - effect: When you slide the target, you can move into any square they leave. If
           you take damage from an opportunity attack by moving this way, the target
           takes the same damage.
-  - metadata:
+  - name: Ferocity Outside of Combat
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13743,7 +14003,8 @@ abilities:
           When you use an ability outside of combat that lets you spend unlimited
           ferocity on its effect, such as To the Uttermost End, you can use it as if
           you had spent an amount of ferocity equal to your Victories.
-  - metadata:
+  - name: Primordial Aspect
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13779,7 +14040,8 @@ abilities:
     
           Your primordial aspect is your subclass, and your choice of aspect
           determines many of the features you'll gain as you gain new levels.
-  - metadata:
+  - name: Beast Shape
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13893,7 +14155,8 @@ abilities:
           each ferocity spent. In either case, you lose 1d6 Stamina after making
           this strike.
         cost: Spend 1+ Ferocity
-  - metadata:
+  - name: Primordial Cunning
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -13915,7 +14178,8 @@ abilities:
           As your ferocity grows, you gain benefits as noted on the Reaver Growing
           Ferocity table. Benefits are cumulative except where an improved benefit
           replaces a lesser benefit.
-  - metadata:
+  - name: Relentless Hunter
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/1st-Level Features
@@ -14110,7 +14374,8 @@ abilities:
         t3: 10 + M damage; M < STRONG, bleeding and weakened (save ends)
       - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the
           target.
-  - metadata:
+  - name: Strongest There Is
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/8th-Level Features
@@ -14167,7 +14432,8 @@ abilities:
         t1: Any target whose Stamina is equal to or less than 8 dies.
         t2: Any target whose Stamina is equal to or less than 11 dies.
         t3: Any target whose Stamina is equal to or less than 17 dies.
-  - metadata:
+  - name: A Step Ahead
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/8th-Level Features
@@ -14247,7 +14513,8 @@ abilities:
           encounter or until you are dying, whenever an enemy damages you, they take
           10 damage of the chosen type. If this damage reduces the enemy to 0
           Stamina, you gain 10 temporary Stamina.
-  - metadata:
+  - name: Menagerie
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/8th-Level Features
@@ -14306,7 +14573,8 @@ abilities:
           dealt. If the target is killed by this damage, you can deal any damage
           over what was required to kill them to another creature within 5 squares
           of the target.
-  - metadata:
+  - name: Perk
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/8th-Level Features
@@ -14354,7 +14622,8 @@ abilities:
         t1: 4 damage; push 1
         t2: 7 damage; push 2
         t3: 11 damage; push 3
-  - metadata:
+  - name: Primordial Portal
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/6th-Level Features
@@ -14492,7 +14761,8 @@ abilities:
           strike, they are reduced to 0 Stamina and you choose an enemy within 5
           squares of you. If that enemy has P < AVERAGE, they are frightened of you
           (save ends).
-  - metadata:
+  - name: Perk
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/6th-Level Features
@@ -14576,7 +14846,8 @@ abilities:
       - effect: You can shift up to 4 squares, bringing the target with you. While
           grabbed this way, the target takes damage equal to twice your Might score
           at the start of each of your turns.
-  - metadata:
+  - name: Marauder of the Primordial Chaos
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/6th-Level Features
@@ -14603,7 +14874,8 @@ abilities:
           the Nature's Knight aspect feature (see 3rd-Level Features). When any
           elemental first becomes aware of you in combat, if they have P < AVERAGE,
           they are frightened of you (save ends).
-  - metadata:
+  - name: Chaos Incarnate
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14632,7 +14904,8 @@ abilities:
     
           Additionally, when you use Primordial Strike, you can spend up to 3
           ferocity, gaining 1 surge per ferocity spent to use for that strike.
-  - metadata:
+  - name: Primordial Ferocity
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14649,7 +14922,8 @@ abilities:
     effects:
       - effect: The first time you take damage each combat round, you gain 3 ferocity
           instead of 2.
-  - metadata:
+  - name: Growing Ferocity Improvement
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14666,7 +14940,8 @@ abilities:
     effects:
       - effect: Your Growing Ferocity feature provides additional benefits when you have
           12 or more ferocity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14682,7 +14957,8 @@ abilities:
       type: feature/trait/fury/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Primordial Power
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14709,7 +14985,8 @@ abilities:
           without needing a source of elemental power.
     
           Primordial power remains until you spend it.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14725,7 +15002,8 @@ abilities:
       type: feature/trait/fury/10th-level-feature
     effects:
       - effect: Your Might and Agility scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/10th-Level Features
@@ -14778,7 +15056,8 @@ abilities:
           remaining distance away from the creature or object in the direction they
           came from. As long as forced movement remains, this effect continues if
           the target collides with another creature or object.
-  - metadata:
+  - name: Stormborn
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/5th-Level Features
@@ -14870,7 +15149,8 @@ abilities:
         t2: 9 + M damage
         t3: 13 + M damage
       - effect: You can spend a Recovery.
-  - metadata:
+  - name: Bounder
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/5th-Level Features
@@ -14925,7 +15205,8 @@ abilities:
         t3: 20 + M damage; M < STRONG, slowed (save ends)
       - effect: While slowed this way, the target takes 1 damage for every square they
           move, including from forced movement.
-  - metadata:
+  - name: Unfettered
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/5th-Level Features
@@ -14943,7 +15224,8 @@ abilities:
       - effect: At the start of your turn, you can end any restrained condition on you.
           Additionally, you have a double edge on tests made to escape being
           confined or imprisoned.
-  - metadata:
+  - name: Tooth and Claw
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/2nd-Level Features
@@ -14960,7 +15242,8 @@ abilities:
     effects:
       - effect: At the end of each of your turns, each enemy adjacent to you takes
           damage equal to your Might score.
-  - metadata:
+  - name: Inescapable Wrath
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/2nd-Level Features
@@ -14977,7 +15260,8 @@ abilities:
     effects:
       - effect: You have a bonus to speed equal to your Agility score, and you ignore
           difficult terrain.
-  - metadata:
+  - name: Unstoppable Force
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/2nd-Level Features
@@ -14995,7 +15279,8 @@ abilities:
       - effect: Whenever you use the Charge main action, you can use a strike signature
           ability or a strike heroic ability instead of a free strike. Additionally,
           you can jump as part of your charge.
-  - metadata:
+  - name: Perk
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/2nd-Level Features
@@ -15012,7 +15297,8 @@ abilities:
     effects:
       - effect: "You gain one crafting, exploration, or intrigue perk of your choice.
           See [Chapter 7: Perks](#dead-link)"
-  - metadata:
+  - name: Immovable Object
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/3rd-Level Features
@@ -15061,7 +15347,8 @@ abilities:
       type: feature/ability/fury/3rd-level-feature
     effects:
       - effect: You gain 20 temporary Stamina.
-  - metadata:
+  - name: See Through Their Tricks
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/3rd-Level Features
@@ -15110,7 +15397,8 @@ abilities:
       - effect: If the target is not a leader or solo creature, they are reduced to 0
           Stamina at the end of their next turn. If the target is a leader or solo
           creature, you gain 3 surges and can make a melee free strike against them.
-  - metadata:
+  - name: Nature's Knight
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/3rd-Level Features
@@ -15262,7 +15550,8 @@ abilities:
         t3: 10 psychic damage; each target who is not a leader or solo creature is
           winded; any target who is a minion is reduced to 0 Stamina, as does one
           winded target who is not a leader or solo creature
-  - metadata:
+  - name: Harbinger of the Primordial Chaos
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/9th-Level Features
@@ -15427,7 +15716,8 @@ abilities:
       - effect: If this forced movement causes a target to slam into you, you take no
           damage from the collision and the target takes the damage you would have
           taken.
-  - metadata:
+  - name: Elemental Form
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/7th-Level Features
@@ -15452,7 +15742,8 @@ abilities:
           cold, corruption, fire, lightning, poison, and sonic damage equal to your
           Might score. If you are a stormwight, you have immunity to the damage type
           of your Primordial Storm feature equal to twice your Might score.
-  - metadata:
+  - name: Greater Ferocity
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/7th-Level Features
@@ -15469,7 +15760,8 @@ abilities:
     effects:
       - effect: When you gain ferocity at the start of each of your turns during combat,
           you gain 1d3 + 1 ferocity instead of 1d3.
-  - metadata:
+  - name: Growing Ferocity Improvement
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/7th-Level Features
@@ -15486,7 +15778,8 @@ abilities:
     effects:
       - effect: Your Growing Ferocity feature provides additional benefits when you have
           12 or more ferocity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/7th-Level Features
@@ -15502,7 +15795,8 @@ abilities:
       type: feature/trait/fury/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/7th-Level Features
@@ -15518,7 +15812,8 @@ abilities:
       type: feature/trait/fury/7th-level-feature
     effects:
       - effect: Your Might and Agility scores each increase to 5.
-  - metadata:
+  - name: Primordial Attunement
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15542,7 +15837,8 @@ abilities:
           type. Additionally, you automatically sense any source of one of those
           damage types within 10 squares, such as a fire or a source of elemental
           power.
-  - metadata:
+  - name: Growing Ferocity Improvement
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15559,7 +15855,8 @@ abilities:
     effects:
       - effect: Your Growing Ferocity feature provides additional benefits when you have
           12 or more ferocity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15575,7 +15872,8 @@ abilities:
       type: feature/trait/fury/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Primordial Strike
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15595,7 +15893,8 @@ abilities:
           gain 1 surge that must be used for that strike. The extra damage dealt by
           the surge can be acid, cold, corruption, fire, lightning, poison, or sonic
           (your choice).
-  - metadata:
+  - name: Damaging Ferocity
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15612,7 +15911,8 @@ abilities:
     effects:
       - effect: The first time you take damage each combat round, you gain 2 ferocity
           instead of 1.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15628,7 +15928,8 @@ abilities:
       type: feature/trait/fury/4th-level-feature
     effects:
       - effect: Your Might and Agility scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: fury
       feature_type: trait
       file_dpath: Fury/4th-Level Features
@@ -15644,7 +15945,8 @@ abilities:
       type: feature/trait/fury/4th-level-feature
     effects:
       - effect: You gain one crafting, exploration, or intrigue perk of your choice.
-  - metadata:
+  - name: Strike Now
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -15669,7 +15971,8 @@ abilities:
       - effect: The target can use a signature ability as a free triggered action.
       - effect: You target two allies instead of one.
         cost: Spend 5 Focus
-  - metadata:
+  - name: Kit Signature Ability
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -15686,7 +15989,8 @@ abilities:
     effects:
       - effect: Each kit from your Field Arsenal feature grants you a signature ability.
           Signature abilities can be used at will.
-  - metadata:
+  - name: Field Arsenal
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -15778,7 +16082,8 @@ abilities:
         t3: 8\\+\\ M damage; you and one ally within 10 squares of you can spend a
           Recovery, and each of you gains an edge on the next ability roll you make
           during the encounter
-  - metadata:
+  - name: Studied Commander
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -15915,7 +16220,8 @@ abilities:
         t1: 3\\+\\ M damage; M < WEAK, dazed (save ends)
         t2: 5 + M damage; M < AVERAGE, dazed (save ends)
         t3: 8\\+\\ M damage; M < STRONG, dazed (save ends)
-  - metadata:
+  - name: Focus in Combat
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -16001,7 +16307,8 @@ abilities:
           shift up to a number of squares equal to your Reason score instead of 1
           square.
         cost: Spend 1 Focus
-  - metadata:
+  - name: Tactical Doctrine
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -16040,7 +16347,8 @@ abilities:
     
           Your tactical doctrine is your subclass, and your choice of doctrine
           determines many of the features you'll gain as you gain new levels.
-  - metadata:
+  - name: Commanding Presence
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -16144,7 +16452,8 @@ abilities:
           - If you damage a creature marked by you with a melee ability, the
           creature is taunted by you until the end of their next turn. You can't
           gain more than one benefit from the same trigger.
-  - metadata:
+  - name: Focus Outside of Combat
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -16292,7 +16601,8 @@ abilities:
           strike against them.
       - effect: If the target has R < AVERAGE, they are slowed (EoT).
         cost: Spend 1 Focus
-  - metadata:
+  - name: Covert Operations
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/1st-Level Features
@@ -16355,7 +16665,8 @@ abilities:
           triggered action
       - effect: If the target is reduced to 0 Stamina before one or both chosen allies
           has made their strike, the ally or allies can pick a different target.
-  - metadata:
+  - name: Pincer Movement
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/8th-Level Features
@@ -16379,7 +16690,8 @@ abilities:
           If you did make the strike, one ally within 10 squares of you can make
           this shift as well.
         name: Mark Benefit
-  - metadata:
+  - name: See Your Enemies Driven Before You
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/8th-Level Features
@@ -16430,7 +16742,8 @@ abilities:
       - effect: Each target gains 1 surge and can use a signature ability as a free
           triggered action. That ability gains an edge on the power roll and
           increases the potency of any potency effects by 1.
-  - metadata:
+  - name: Bait and Ambush
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/8th-Level Features
@@ -16452,7 +16765,8 @@ abilities:
           a free maneuver once during the shift. The creature can shift before or
           after the strike is resolved.
         name: Mark Benefit
-  - metadata:
+  - name: Perk
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/8th-Level Features
@@ -16676,7 +16990,8 @@ abilities:
           ability is a minion, the entire squad is killed. If the target of the
           triggering ability is a leader or solo creature, the triggering ability's
           power roll automatically obtains a tier 3 outcome.
-  - metadata:
+  - name: Master of Arms
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/6th-Level Features
@@ -16756,7 +17071,8 @@ abilities:
     effects:
       - effect: You mark two enemies within 10 squares of you. Each target can shift up
           to their speed. You and each target gain 2 surges.
-  - metadata:
+  - name: Perk
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/6th-Level Features
@@ -16808,7 +17124,8 @@ abilities:
           ignore damage immunity and deal extra damage equal to three times your
           Reason score.
         name: Mark Benefit
-  - metadata:
+  - name: Skill
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16824,7 +17141,8 @@ abilities:
       type: feature/trait/tactician/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: True Focus
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16841,7 +17159,8 @@ abilities:
     effects:
       - effect: When you gain focus at the start of each of your turns during combat,
           you gain 4 focus instead of 3.
-  - metadata:
+  - name: Warmaster
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16865,7 +17184,8 @@ abilities:
           Additionally, whenever an ally uses a heroic ability that targets one or
           more creatures marked by you, they spend 2 fewer of their Heroic Resource
           on that ability (minimum 1).
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16881,7 +17201,8 @@ abilities:
       type: feature/trait/tactician/10th-level-feature
     effects:
       - effect: Your Might and Reason scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16897,7 +17218,8 @@ abilities:
       type: feature/trait/tactician/10th-level-feature
     effects:
       - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
-  - metadata:
+  - name: Command
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/10th-Level Features
@@ -16925,7 +17247,8 @@ abilities:
           one tier.
     
           Command remains until you spend it.
-  - metadata:
+  - name: I Predicted That
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -16943,7 +17266,8 @@ abilities:
       - effect: Your expertise in history and lore allows you and your allies to
           outthink rivals in the present day. You and any ally within 10 squares of
           you gain an edge on Reason tests.
-  - metadata:
+  - name: Shake It Off
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -16962,7 +17286,8 @@ abilities:
           from a test, or to end one effect on you that is ended by a saving throw
           or that ends at the end of your turn. Any ally adjacent to you can also
           spend Stamina as a free maneuver to gain this benefit.
-  - metadata:
+  - name: Distracted
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -17101,7 +17426,8 @@ abilities:
           triggered action, and deals extra damage with that ability equal to your
           Reason score. The ability has its Heroic Resource cost reduced by 1 + your
           Reason score (minimum cost 0).
-  - metadata:
+  - name: Tactical Offensive
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -17119,7 +17445,8 @@ abilities:
       - effect: When you use the Charge main action to attack a creature marked by you,
           you can use a signature or heroic ability with the Melee and Strike
           keywords instead of a melee free strike.
-  - metadata:
+  - name: Anticipation
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -17137,7 +17464,8 @@ abilities:
       - effect: You have learned to be more preemptive on the battlefield, thinking more
           steps ahead than your opponents. You can target two creatures with your
           Mark ability.
-  - metadata:
+  - name: Leave No Trace
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/5th-Level Features
@@ -17226,7 +17554,8 @@ abilities:
         t1: R < WEAK, the target is frightened of the triggering ally (save ends)
         t2: R < AVERAGE, the target is frightened of the triggering ally (save ends)
         t3: R < STRONG, the target is frightened of the triggering ally (save ends)
-  - metadata:
+  - name: Melee Superiority
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/2nd-Level Features
@@ -17314,7 +17643,8 @@ abilities:
           target to make a free strike against a creature of your choice within 5
           squares of them.
         name: Mark Benefit
-  - metadata:
+  - name: Infiltration Tactics
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/2nd-Level Features
@@ -17368,7 +17698,8 @@ abilities:
         t1: 2 + R damage; R < WEAK, frightened (save ends)
         t2: 3 + R damage; R < AVERAGE, frightened (save ends)
         t3: 4 + R damage; R < STRONG, frightened (save ends)
-  - metadata:
+  - name: Perk
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/2nd-Level Features
@@ -17385,7 +17716,8 @@ abilities:
     effects:
       - effect: "You gain one exploration, interpersonal, or intrigue perk of your
           choice. See Chapter 7: Perks."
-  - metadata:
+  - name: Goaded
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/2nd-Level Features
@@ -17433,7 +17765,8 @@ abilities:
     effects:
       - effect: Until the start of your next turn, each target has a bonus to stability
           equal to your Might score. Additionally, each target gains 2 surges.
-  - metadata:
+  - name: Out of Position
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/3rd-Level Features
@@ -17670,7 +18003,8 @@ abilities:
         t1: R < WEAK, dazed (save ends)
         t2: R < AVERAGE, dazed (save ends)
         t3: R < STRONG, dazed (save ends)
-  - metadata:
+  - name: Grandmaster of Arms
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/9th-Level Features
@@ -17757,7 +18091,8 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, you can use a
           signature or heroic ability instead of a free strike against any target
           marked by you.
-  - metadata:
+  - name: Seize the Initiative
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17775,7 +18110,8 @@ abilities:
       - effect: If you are not surprised when combat begins, your side gets to go first.
           If an enemy has an ability that allows their side to go first, you roll as
           usual to determine who goes first.
-  - metadata:
+  - name: Grand Strategy
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17796,7 +18132,8 @@ abilities:
           group. Additionally, when you take a respite, you can make a project roll
           for a research project in addition to undertaking another respite
           activity.
-  - metadata:
+  - name: Skill
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17812,7 +18149,8 @@ abilities:
       type: feature/trait/tactician/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Shock and Awe
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17835,7 +18173,8 @@ abilities:
           these people are available when you take a respite, you can make a project
           roll for a crafting project in addition to undertaking another respite
           activity.
-  - metadata:
+  - name: Heightened Focus
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17852,7 +18191,8 @@ abilities:
     effects:
       - effect: When you gain focus at the start of each of your turns during combat,
           you gain 3 focus instead of 2.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17868,7 +18208,8 @@ abilities:
       type: feature/trait/tactician/7th-level-feature
     effects:
       - effect: Your Might and Reason scores each increase to 5.
-  - metadata:
+  - name: Asymmetric Warfare
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/7th-Level Features
@@ -17889,7 +18230,8 @@ abilities:
           intrigue skill group. Additionally, you can use skills from the intrigue
           skill group to conceal large groups of people, such as escaping civilians
           and groups of guerilla warriors.
-  - metadata:
+  - name: Skill
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/4th-Level Features
@@ -17905,7 +18247,8 @@ abilities:
       type: feature/trait/tactician/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Improved Field Arsenal
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/4th-Level Features
@@ -17923,7 +18266,8 @@ abilities:
       - effect: Your expertise with weapons has grown. Whenever you use a signature
           ability from one of your equipped kits or make a free strike using a
           weapon from one of your equipped kits, you gain an edge.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/4th-Level Features
@@ -17939,7 +18283,8 @@ abilities:
       type: feature/trait/tactician/4th-level-feature
     effects:
       - effect: Your Might and Reason scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/4th-Level Features
@@ -17955,7 +18300,8 @@ abilities:
       type: feature/trait/tactician/4th-level-feature
     effects:
       - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
-  - metadata:
+  - name: Focus on Their Weaknesses
+    metadata:
       class: tactician
       feature_type: trait
       file_dpath: Tactician/4th-Level Features
@@ -17972,7 +18318,8 @@ abilities:
     effects:
       - effect: The first time each combat round that you or any ally damages a target
           marked by you, you gain 2 focus instead of 1.
-  - metadata:
+  - name: Kit
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18020,7 +18367,8 @@ abilities:
           you ignore difficult terrain. The illusion and your invisibility last
           until the end of your next turn, or until the illusion is interacted with,
           you take damage, or you use a main action or a maneuver.
-  - metadata:
+  - name: Troubadour Abilities
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18100,7 +18448,8 @@ abilities:
         t1: 2 + P psychic damage; P < WEAK, bleeding (save ends)
         t2: 5 + P psychic damage; P < AVERAGE, bleeding (save ends)
         t3: 7 + P psychic damage; P < STRONG, bleeding (save ends)
-  - metadata:
+  - name: Drama in Combat
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18328,7 +18677,8 @@ abilities:
         t2: 5 damage; P < AVERAGE, slowed (save ends)
         t3: 6 damage; P < STRONG, restrained (save ends)
       - effect: The area is difficult terrain for enemies.
-  - metadata:
+  - name: Troubadour Class Act
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18459,7 +18809,8 @@ abilities:
           turn, any effects from the ability's tier outcomes other than damage are
           negated for all targets. Ability effects that always happen regardless of
           the power roll work as usual.
-  - metadata:
+  - name: Scene Partner
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18704,7 +19055,8 @@ abilities:
     effects:
       - effect: While this performance is active, each target who starts their turn in
           the area gains a +2 bonus to speed until the end of their turn.
-  - metadata:
+  - name: Drama Outside of Combat
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/1st-Level Features
@@ -18761,7 +19113,8 @@ abilities:
           your table, you could always interpret those abilities as a kind of magic.
           A school of conjuring that really does change the battlefield, which the
           auteur merely *flavors* as rewriting the story.
-  - flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
+  - name: '"Ballad of the Beast"'
+    flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
     keywords:
       - Area
       - Magic
@@ -19048,7 +19401,8 @@ abilities:
           move and use either a main action or a maneuver, but can't spend
           Recoveries or use triggered actions At the end of the encounter, each
           target who chose to take turns this way turns to dust and blows away.
-  - metadata:
+  - name: Perk
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/8th-Level Features
@@ -19064,7 +19418,8 @@ abilities:
       type: feature/trait/troubadour/8th-level-feature
     effects:
       - effect: You gain one interpersonal, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Deleted Scene
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/8th-Level Features
@@ -19144,7 +19499,8 @@ abilities:
       - effect: Until the end of the encounter, whenever the target takes damage while
           winded, they can use a free triggered action to deal half the damage they
           took to the source of the damage.
-  - metadata:
+  - name: Masterwork
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/8th-Level Features
@@ -19352,7 +19708,8 @@ abilities:
       - effect: While this performance is active, each target who starts their turn in
           the area gains 1 of their Heroic Resource. This Heroic Resource disappears
           at the end of the target's turn if they don't spend it.
-  - metadata:
+  - name: Perk
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/6th-Level Features
@@ -19401,7 +19758,8 @@ abilities:
         t1: 7 sonic damage; P < WEAK, prone
         t2: 10 sonic damage; P < AVERAGE, prone
         t3: 13 sonic damage; P < STRONG, prone
-  - metadata:
+  - name: Greatest of All Time
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19420,7 +19778,8 @@ abilities:
           effect has their Impression score decreased by 4 during a negotiation (to
           a minimum of 1), and each ally within 3 squares of you gains an edge on
           their next test. These effects last until you start your next respite.
-  - metadata:
+  - name: Dramaturgy
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19439,7 +19798,8 @@ abilities:
           your Appeal to the Muses feature. Additionally, your performances no
           longer have a distance, but can affect any target on the encounter map
           within your line of effect.
-  - metadata:
+  - name: Skill
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19455,7 +19815,8 @@ abilities:
       type: feature/trait/troubadour/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Applause
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19480,7 +19841,8 @@ abilities:
           the outcome by 1 tier.
     
           Applause remains until you spend it.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19496,7 +19858,8 @@ abilities:
       type: feature/trait/troubadour/10th-level-feature
     effects:
       - effect: Your Agility and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/10th-Level Features
@@ -19918,7 +20281,8 @@ abilities:
         t3: 16 + A damage
       - effect: The target can make a melee free strike against you. If they do, you can
           make a melee free strike against the target.
-  - metadata:
+  - name: Appeal to the Muses
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/2nd-Level Features
@@ -19953,7 +20317,8 @@ abilities:
           - If the roll is a 3, you gain 2 of a Heroic Resource, which you can
           distribute among yourself and any allies within the distance of your
           active performance.
-  - metadata:
+  - name: My Reputation Precedes Me
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/2nd-Level Features
@@ -19983,7 +20348,8 @@ abilities:
           a bane on tests made to interact with creatures in the group using skills
           from the interpersonal skill group. You can still use your Scene Partner
           feature to find allies within the group.
-  - metadata:
+  - name: Perk
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/2nd-Level Features
@@ -20000,7 +20366,8 @@ abilities:
     effects:
       - effect: "You gain one interpersonal, lore, or supernatural perk of your choice.
           See Chapter 7: Perks."
-  - metadata:
+  - name: Allow Me to Introduce Tonight's Players
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/2nd-Level Features
@@ -20052,7 +20419,8 @@ abilities:
           players can work with the Director to determine when the target takes
           their turn each combat round. At the end of the encounter, the target
           turns to dust and is blown away.
-  - metadata:
+  - name: Formal Introductions
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/2nd-Level Features
@@ -20180,7 +20548,8 @@ abilities:
       - effect: Instead of sliding a target, you can swap their location with another
           target as long as each can fit into the other's space. You can't slide
           targets into other creatures or objects using this ability.
-  - flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
+  - name: '"Never-Ending Hero"'
+    flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
     keywords:
       - Area
       - Magic
@@ -20279,7 +20648,8 @@ abilities:
           motivating or dispiriting message to the target, either granting them 2
           surges or forcing them to take a bane on the next ability roll they make
           before the start of your next turn.
-  - metadata:
+  - name: Foil
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/3rd-Level Features
@@ -20300,7 +20670,8 @@ abilities:
           on power rolls made against or in competition with you. If the chosen
           creature is reduced to 0 Stamina, you can choose a new foil at the start
           of the next combat round.
-  - metadata:
+  - name: Missed Cue
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/3rd-Level Features
@@ -20348,7 +20719,8 @@ abilities:
           the area doesn't take a bane on strikes against creatures with
           concealment. Once during their turn, they can search for hidden creatures
           as a free maneuver (see Hide and Sneak in Chapter 9: Tests)."
-  - metadata:
+  - name: Roar of the Crowd
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/9th-Level Features
@@ -20587,7 +20959,8 @@ abilities:
       - effect: This ability can't obtain better than a tier 2 outcome unless the target
           is at maximum distance. If you obtain a tier 3 outcome with a natural 17
           or higher, you gain 3 surges that you can use immediately.
-  - metadata:
+  - name: A Muse's Muse
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/7th-Level Features
@@ -20604,7 +20977,8 @@ abilities:
     effects:
       - effect: At the start of each of your turns during combat, you gain 1d3 + 1 drama
           instead of 1d3.
-  - metadata:
+  - name: Skill
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/7th-Level Features
@@ -20620,7 +20994,8 @@ abilities:
       type: feature/trait/troubadour/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Equal Billing
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/7th-Level Features
@@ -20644,7 +21019,8 @@ abilities:
           saving throws. Whenever you or a bonded creature succeeds on a saving
           throw, you and each creature you are bonded with gains temporary Stamina
           equal to your level.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/7th-Level Features
@@ -20660,7 +21036,8 @@ abilities:
       type: feature/trait/troubadour/7th-level-feature
     effects:
       - effect: Your Agility and Presence scores each increase to 5.
-  - metadata:
+  - name: Melodrama
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20695,7 +21072,8 @@ abilities:
           Alternatively, you can forgo choosing a new event to choose one event you
           already have (including an event gained with this feature). Whenever the
           chosen event grants you drama, you gain 1 additional drama.
-  - metadata:
+  - name: Foreshadowing
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20712,7 +21090,8 @@ abilities:
     effects:
       - effect: You can ask the Director for two clues regarding an upcoming encounter
           or negotiation. One of the clues can be false.
-  - metadata:
+  - name: Skill
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20728,7 +21107,8 @@ abilities:
       type: feature/trait/troubadour/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Latest Goss
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20746,7 +21126,8 @@ abilities:
       - effect: You can ask the Director for three rumors regarding the area you're in
           or an area you plan on entering before your next respite. One of the
           rumors can be false.
-  - metadata:
+  - name: Hear Ye, Hear Ye!
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20775,7 +21156,8 @@ abilities:
           size or larger, plus the next closest such population. You and allies
           present for your test gain an edge on Presence tests made in those areas
           until you start your next respite.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20791,7 +21173,8 @@ abilities:
       type: feature/trait/troubadour/4th-level-feature
     effects:
       - effect: Your Agility and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: troubadour
       feature_type: trait
       file_dpath: Troubadour/4th-Level Features
@@ -20807,7 +21190,8 @@ abilities:
       type: feature/trait/troubadour/4th-level-feature
     effects:
       - effect: You gain one interpersonal, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Kit
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/1st-Level Features
@@ -20955,7 +21339,8 @@ abilities:
         t1: 5 + A damage
         t2: 8 + A damage
         t3: 11 + A damage
-  - metadata:
+  - name: Smoke Bomb
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/1st-Level Features
@@ -20975,7 +21360,8 @@ abilities:
           don't initially have cover or concealment. When you do so, you can shift a
           number of squares equal to your Agility score. If you end this movement
           with cover or concealment, you are automatically hidden.
-  - metadata:
+  - name: Insight Outside of Combat
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/1st-Level Features
@@ -21161,7 +21547,8 @@ abilities:
         t1: 2d6 + 7 + A damage
         t2: 2d6 + 11 + A damage
         t3: 2d6 + 16 + A damage
-  - metadata:
+  - name: Insight in Combat
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/1st-Level Features
@@ -21487,7 +21874,8 @@ abilities:
         t2: 5 + A damage
         t3: 8 + A damage; I < STRONG, prone
       - effect: One ally within 5 squares of the target gains 1 surge.
-  - metadata:
+  - name: Parkour
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/8th-Level Features
@@ -21505,7 +21893,8 @@ abilities:
       - effect: Your movement no longer provokes opportunity attacks. Additionally, you
           can use your Harlequin Gambit feature as a free triggered action when a
           creature is reduced to 0 Stamina by your Clever Trick ability.
-  - metadata:
+  - name: Cinder Step
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/8th-Level Features
@@ -21653,7 +22042,8 @@ abilities:
       - effect: "**Spend 2+ Insight**: For every 2 insight spent, you increase the
           cube's size by 1 and gain 1 surge that can be used only with this
           ability."
-  - metadata:
+  - name: Perk
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/8th-Level Features
@@ -21699,7 +22089,8 @@ abilities:
           signature ability that gains an edge three times, or use a strike
           signature ability that has a double edge twice. You can shift up to 2
           squares between each use.
-  - metadata:
+  - name: Umbral Form
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/6th-Level Features
@@ -21940,7 +22331,8 @@ abilities:
         t1: The creature's speed is increased by 2 until the end of the encounter.
         t2: The creature can fly until the end of the encounter.
         t3: The creature turns invisible until the end of their next turn.
-  - metadata:
+  - name: Perk
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/6th-Level Features
@@ -21956,7 +22348,8 @@ abilities:
       type: feature/trait/shadow/6th-level-feature
     effects:
       - effect: You gain one perk of your choice.
-  - metadata:
+  - name: Careful Observation Improvement
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -21973,7 +22366,8 @@ abilities:
     effects:
       - effect: You can target three creatures simultaneously with your Careful
           Observation ability.
-  - metadata:
+  - name: Subterfuge
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -21997,7 +22391,8 @@ abilities:
           your turn. You can use one maneuver for each subterfuge you spend.
     
           Subterfuge remains until you spend it.
-  - metadata:
+  - name: Skill
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -22013,7 +22408,8 @@ abilities:
       type: feature/trait/shadow/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Death Pool
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -22030,7 +22426,8 @@ abilities:
     effects:
       - effect: The first time each combat round that you deal damage incorporating 1 or
           more surges, you gain 3 insight instead of 2.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -22047,7 +22444,8 @@ abilities:
     effects:
       - effect: Your Agility score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -22063,7 +22461,8 @@ abilities:
       type: feature/trait/shadow/10th-level-feature
     effects:
       - effect: You gain one perk of your choice.
-  - metadata:
+  - name: Improved Umbral Form
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/10th-Level Features
@@ -22091,7 +22490,8 @@ abilities:
           you can teleport to unoccupied spaces of your choice within that location.
           Each creature who teleports this way is invisible for 1 hour or until they
           use an ability.
-  - metadata:
+  - name: Volatile Reagents
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/5th-Level Features
@@ -22181,7 +22581,8 @@ abilities:
           area, whenever an enemy ends their turn in the area, you can use a free
           triggered action to shift to a new location within the area and make a
           free strike against them.
-  - metadata:
+  - name: Trail of Cinders
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/5th-Level Features
@@ -22240,7 +22641,8 @@ abilities:
         t1: 8 + A corruption damage
         t2: 13 + A corruption damage
         t3: 17 + A corruption damage
-  - metadata:
+  - name: Harlequin Gambit
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/5th-Level Features
@@ -22450,7 +22852,8 @@ abilities:
           All This Confusion ability. Before you teleport, you can make a free
           strike against a creature who damaged you to trigger In All This
           Confusion. After you teleport, you can spend a Recovery.
-  - metadata:
+  - name: Trained Assassin
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/2nd-Level Features
@@ -22499,7 +22902,8 @@ abilities:
           triggering creature and strike. You can teleport to an unoccupied space
           within 3 squares of that creature and can make a free strike against them.
           You can then spend a Recovery.
-  - metadata:
+  - name: Burning Ash
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/2nd-Level Features
@@ -22517,7 +22921,8 @@ abilities:
       - effect: The ash you leave behind burns your foes. The first time on a turn that
           you use a shadow ability to teleport away from or into a space adjacent to
           an enemy, that enemy takes fire damage equal to your Agility score.
-  - metadata:
+  - name: Perk
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/2nd-Level Features
@@ -22534,7 +22939,8 @@ abilities:
     effects:
       - effect: "You gain one exploration, interpersonal, or intrigue perk of your
           choice. See Chapter 7: Perks."
-  - metadata:
+  - name: Friend!
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/2nd-Level Features
@@ -22847,7 +23253,8 @@ abilities:
       - effect: If you are disguised as a creature the target knew using your I'm No
           Threat ability, this ability deals extra damage equal to three times your
           Agility score.
-  - metadata:
+  - name: Gloom Squad
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/9th-Level Features
@@ -22946,7 +23353,8 @@ abilities:
         t1: An enemy takes 6 damage; an ally can teleport up to 3 squares.
         t2: An enemy takes 10 damage; an ally can teleport up to 5 squares.
         t3: An enemy takes 14 damage; an ally can teleport up to 7 squares.
-  - metadata:
+  - name: Keen Insight
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/7th-Level Features
@@ -22963,7 +23371,8 @@ abilities:
     effects:
       - effect: At the start of each of your turns during combat, you gain 1d3 + 1
           insight instead of 1d3.
-  - metadata:
+  - name: Ventriloquist
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/7th-Level Features
@@ -22981,7 +23390,8 @@ abilities:
       - effect: Whenever you communicate, you can throw your voice so that it seems to
           originate from a creature or object within 10 squares. If you are hidden,
           talking this way doesn't cause you to be revealed.
-  - metadata:
+  - name: Careful Observation Improvement
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/7th-Level Features
@@ -22998,7 +23408,8 @@ abilities:
     effects:
       - effect: You can target three creatures simultaneously with your Careful
           Observation ability.
-  - metadata:
+  - name: Skill
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/7th-Level Features
@@ -23014,7 +23425,8 @@ abilities:
       type: feature/trait/shadow/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/7th-Level Features
@@ -23031,7 +23443,8 @@ abilities:
     effects:
       - effect: Your Agility score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Skill
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/4th-Level Features
@@ -23047,7 +23460,8 @@ abilities:
       type: feature/trait/shadow/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Surge of Insight
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/4th-Level Features
@@ -23067,7 +23481,8 @@ abilities:
           more surges, you gain 2 insight instead of 1.
     
           As a 5th-level shadow, you gain the following features.
-  - metadata:
+  - name: Keep It Down
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/4th-Level Features
@@ -23110,7 +23525,8 @@ abilities:
       type: feature/trait/shadow/4th-level-feature
     effects:
       - effect: The target takes half the damage. You remain hidden.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/4th-Level Features
@@ -23127,7 +23543,8 @@ abilities:
     effects:
       - effect: Your Agility score increases to 5. Additionally, you can increase one of
           your characteristic scores by 1, to a maximum of 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: shadow
       feature_type: trait
       file_dpath: Shadow/4th-Level Features
@@ -23365,7 +23782,8 @@ abilities:
       type: feature/trait/talent/1st-level-feature
     effects:
       - effect: The target takes psychic damage equal to half the triggering damage.
-  - metadata:
+  - name: Telepathic Speech
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23385,7 +23803,8 @@ abilities:
           creatures within distance of your Mind Spike ability if they share a
           language with you and you know of each other. When you communicate with
           someone this way, they can respond telepathically."
-  - metadata:
+  - name: Density Augmentation
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23531,7 +23950,8 @@ abilities:
         cost: Spend 2+ Clarity
       - effect: You can vertical slide the target.
         cost: Spend 3 Clarity
-  - metadata:
+  - name: Entropy Ward
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23611,7 +24031,8 @@ abilities:
       - effect: The size of the cube increases by 2, but the fire disappears at the end
           of your turn.
         name: Strained
-  - metadata:
+  - name: Battle Augmentation
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23635,7 +24056,8 @@ abilities:
           light weapon treasures.
     
           If you have a kit, you can't take this augmentation.
-  - metadata:
+  - name: Distance Augmentation
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23685,7 +24107,8 @@ abilities:
           ability.
       - effect: You can't use maneuvers (save ends).
         name: Strained
-  - metadata:
+  - name: Steel Ward
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23703,7 +24126,8 @@ abilities:
       - effect: Your ward reacts to danger, protecting you from future harm. Whenever
           you take damage, after the damage resolves, you gain damage immunity equal
           to your Reason score until the end of your next turn.
-  - metadata:
+  - name: Vanishing Ward
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23773,7 +24197,8 @@ abilities:
           of your next turn gains an edge.
       - effect: You target one additional creature or object.
         cost: Spend 1 Clarity
-  - metadata:
+  - name: Clarity Outside of Combat
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23867,7 +24292,8 @@ abilities:
           the effect. If the forced movement is reduced to 0 squares, the target can
           push the source of the forced movement a number of squares equal to your
           Reason score.
-  - metadata:
+  - name: Speed Augmentation
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -23995,7 +24421,8 @@ abilities:
       - effect: You are weakened (save ends). While you are weakened this way, whenever
           you are force moved, the forced movement distance gains a +5 bonus.
         name: Strained
-  - metadata:
+  - name: Talent Tradition
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -24082,7 +24509,8 @@ abilities:
         t2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
         t3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your Reason
           score (save ends)
-  - metadata:
+  - name: Repulsive Ward
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -24101,7 +24529,8 @@ abilities:
           Whenever an adjacent creature deals damage to you, you can use a free
           triggered action to push them up to a number of squares equal to your
           Reason score.
-  - metadata:
+  - name: Force Augmentation
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/1st-Level Features
@@ -24275,7 +24704,8 @@ abilities:
           outcome on the power roll, you and the target each have damage weakness 5
           (save ends).
         name: Strained
-  - metadata:
+  - name: Universal Connection
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/8th-Level Features
@@ -24292,7 +24722,8 @@ abilities:
     effects:
       - effect: The range of your Telepathic Speech feature increases to anywhere on the
           same world.
-  - metadata:
+  - name: Doubling the Hours
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/8th-Level Features
@@ -24309,7 +24740,8 @@ abilities:
     effects:
       - effect: While you have 5 or more Victories, you can undertake an additional
           respite activity during a respite.
-  - metadata:
+  - name: Mindlink
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/8th-Level Features
@@ -24363,7 +24795,8 @@ abilities:
           gains a +5 bonus.
       - effect: You can't use maneuvers (save ends).
         name: Strained
-  - metadata:
+  - name: Perk
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/8th-Level Features
@@ -24413,7 +24846,8 @@ abilities:
       - effect: You can't target yourself, and you take the damage and any additional
           effects instead of the target.
         name: Strained
-  - metadata:
+  - name: Low Gravity
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/8th-Level Features
@@ -24430,7 +24864,9 @@ abilities:
     effects:
       - effect: Your mind can carry your body through tough times. You ignore difficult
           terrain and don't need to spend additional movement while prone.
-  - metadata:
+  - name: Extended Power
+    cost: 1 Clarity
+    metadata:
       class: talent
       cost: 1 Clarity
       cost_amount: 1
@@ -24531,7 +24967,9 @@ abilities:
         t1: 8 + P psychic damage
         t2: 13 + P psychic damage
         t3: 17 + P psychic damage
-  - metadata:
+  - name: Sharpened Power
+    cost: 1 Clarity
+    metadata:
       class: talent
       cost: 1 Clarity
       cost_amount: 1
@@ -24550,7 +24988,9 @@ abilities:
       type: feature/ability/talent/6th-level-feature
     effects:
       - effect: If the ability has any power roll, that roll gains an edge.
-  - metadata:
+  - name: Dynamic Power
+    cost: 1 Clarity
+    metadata:
       class: talent
       cost: 1 Clarity
       cost_amount: 1
@@ -24570,7 +25010,9 @@ abilities:
     effects:
       - effect: If the ability force moves a target, the forced movement distance gains
           a bonus equal to your Reason score.
-  - metadata:
+  - name: Shared Power
+    cost: 5 Clarity
+    metadata:
       class: talent
       cost: 5 Clarity
       cost_amount: 5
@@ -24703,7 +25145,9 @@ abilities:
       - effect: The forced movement ignores stability. You take 2d6 damage and are
           weakened (save ends).
         name: Strained
-  - metadata:
+  - name: Expanded Power
+    cost: 3 Clarity
+    metadata:
       class: talent
       cost: 3 Clarity
       cost_amount: 3
@@ -24723,7 +25167,9 @@ abilities:
     effects:
       - effect: If the ability targets an area, you increase the size of the area by 1.
           If the area is a line, you increase the size of one dimension, not both.
-  - metadata:
+  - name: Heightened Power
+    cost: 1 Clarity
+    metadata:
       class: talent
       cost: 1 Clarity
       cost_amount: 1
@@ -24782,7 +25228,9 @@ abilities:
         t3: Five creatures
       - effect: The effect ends early if you take damage from an enemy's ability.
         name: Strained
-  - metadata:
+  - name: Magnified Power
+    cost: 5 Clarity
+    metadata:
       class: talent
       cost: 5 Clarity
       cost_amount: 5
@@ -24802,7 +25250,8 @@ abilities:
     effects:
       - effect: If the ability has a potency, you increase that potency by an amount
           equal to your Reason score.
-  - metadata:
+  - name: Perk
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/6th-Level Features
@@ -24818,7 +25267,8 @@ abilities:
       type: feature/trait/talent/6th-level-feature
     effects:
       - effect: You gain one interpersonal, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Skill
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24834,7 +25284,8 @@ abilities:
       type: feature/trait/talent/10th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Clear Mind
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24851,7 +25302,8 @@ abilities:
     effects:
       - effect: The first time each combat round that a creature is force moved, you
           gain 3 clarity instead of 2.
-  - metadata:
+  - name: Vision
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24877,7 +25329,8 @@ abilities:
           must spend 1 vision to use it.
     
           Vision remains until you spend it.
-  - metadata:
+  - name: Omnisensory
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24896,7 +25349,8 @@ abilities:
           ally, you don't need line of effect to a target of a ranged ability if the
           target is a creature capable of thought who you have previously had line
           of effect to.
-  - metadata:
+  - name: Psion
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24918,7 +25372,8 @@ abilities:
           Additionally, you can choose to not take damage from having negative
           clarity. You can also choose to take on any ability's strained effect even
           if you're not strained.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24934,7 +25389,8 @@ abilities:
       type: feature/trait/talent/10th-level-feature
     effects:
       - effect: Your Reason and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/10th-Level Features
@@ -24950,7 +25406,8 @@ abilities:
       type: feature/trait/talent/10th-level-feature
     effects:
       - effect: You gain one interpersonal, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Distortion Temporal
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -24969,7 +25426,8 @@ abilities:
           aura. That area is difficult terrain for enemies. Additionally, when an
           ally enters the area for the first time in a combat round or starts their
           turn there, they gain a +2 bonus to speed until the end of the turn.
-  - metadata:
+  - name: Speed of Thought
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -25024,7 +25482,8 @@ abilities:
       - effect: If you obtain a tier 2 outcome or better, you are slowed until the end
           of your turn and each target is slowed until the end of their turn.
         name: Strained
-  - metadata:
+  - name: Kinetic Amplifier
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -25078,7 +25537,8 @@ abilities:
           takes 5 fire damage.
       - effect: The target gains 2 surges. You are weakened and slowed (save ends).
         name: Strained
-  - metadata:
+  - name: Remote Amplification
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -25136,7 +25596,8 @@ abilities:
           each square they willingly leave. You have a double bane on ability rolls
           made against the target while they are slowed this way.
         name: Strained
-  - metadata:
+  - name: Triangulate
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -25198,7 +25659,8 @@ abilities:
           target took.
       - effect: You target yourself and three enemies instead.
         name: Strained
-  - metadata:
+  - name: Compulsion
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/5th-Level Features
@@ -25217,7 +25679,8 @@ abilities:
           interpersonal skill group while interacting with an NPC, you can ask them
           a question using your Telepathic Speech feature. The NPC must answer the
           question truthfully to the best of their ability.
-  - metadata:
+  - name: Ease the Mind
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/2nd-Level Features
@@ -25273,7 +25736,8 @@ abilities:
       - effect: You start crying, and you can't use triggered actions or make free
           strikes until the end of the target's next turn.
         name: Strained
-  - metadata:
+  - name: Ease Their Fall
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/2nd-Level Features
@@ -25365,7 +25829,8 @@ abilities:
           on their turn. If a target is already dazed, that condition ends for them.
       - effect: Your speed is halved until the end of the encounter.
         name: Strained
-  - metadata:
+  - name: Ease the Hours
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/2nd-Level Features
@@ -25457,7 +25922,8 @@ abilities:
           move them to provoke opportunity attacks.
       - effect: You take 1d6 damage and are weakened until the end of your turn.
         name: Strained
-  - metadata:
+  - name: Perk
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/2nd-Level Features
@@ -25672,7 +26138,8 @@ abilities:
           ability, you take 2d6 damage and forget a memory, as determined by you and
           the Director.
         name: Strained
-  - metadata:
+  - name: Scan
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/3rd-Level Features
@@ -25846,7 +26313,8 @@ abilities:
       - effect: You can't use this ability if doing so would cause you to have negative
           clarity.
         name: Strained
-  - metadata:
+  - name: Fortress of Perfect Thought
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/9th-Level Features
@@ -25946,7 +26414,8 @@ abilities:
           take half the damage the target takes, and you can't reduce this damage in
           any way.
         name: Strained
-  - metadata:
+  - name: Ancestral Memory
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/7th-Level Features
@@ -25965,7 +26434,8 @@ abilities:
           have up to your Reason score and replace them with an equal number of
           skills from the interpersonal and lore skill groups. These replacements
           last unil the end of your next respite.
-  - metadata:
+  - name: Skill
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/7th-Level Features
@@ -25981,7 +26451,8 @@ abilities:
       type: feature/trait/talent/7th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/7th-Level Features
@@ -25997,7 +26468,8 @@ abilities:
       type: feature/trait/talent/7th-level-feature
     effects:
       - effect: Your Reason and Presence scores each increase to 5.
-  - metadata:
+  - name: Lucid Mind
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/7th-Level Features
@@ -26014,7 +26486,8 @@ abilities:
     effects:
       - effect: At the start of each of your turns during combat, you gain 1d3 + 1
           clarity instead of 1d3.
-  - metadata:
+  - name: Cascading Strain
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/7th-Level Features
@@ -26032,7 +26505,8 @@ abilities:
       - effect: Whenever you take damage from a strained effect or from having negative
           clarity, you can choose one enemy within distance of your Mind Spike
           ability to take the same damage.
-  - metadata:
+  - name: Suspensor Field
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features
@@ -26054,7 +26528,8 @@ abilities:
     
           If you are strained while flying and are force moved, the forced movement
           distance gains a +2 bonus.
-  - metadata:
+  - name: Skill
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features
@@ -26070,7 +26545,8 @@ abilities:
       type: feature/trait/talent/4th-level-feature
     effects:
       - effect: You gain one skill of your choice.
-  - metadata:
+  - name: Characteristic Increase
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features
@@ -26086,7 +26562,8 @@ abilities:
       type: feature/trait/talent/4th-level-feature
     effects:
       - effect: Your Reason and Presence scores each increase to 5.
-  - metadata:
+  - name: Perk
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features
@@ -26102,7 +26579,8 @@ abilities:
       type: feature/trait/talent/4th-level-feature
     effects:
       - effect: You gain one interpersonal, lore, or supernatural perk of your choice.
-  - metadata:
+  - name: Mind Projection
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features
@@ -26129,7 +26607,8 @@ abilities:
           applied to your Stamina. Your mind is instantly forced back into your body
           if you take any damage, and you can immediately return to your body as a
           free maneuver.
-  - metadata:
+  - name: Mind Recovery
+    metadata:
       class: talent
       feature_type: trait
       file_dpath: Talent/4th-Level Features

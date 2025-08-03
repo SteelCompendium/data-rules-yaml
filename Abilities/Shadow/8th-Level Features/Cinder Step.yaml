@@ -1,3 +1,4 @@
+name: Cinder Step
 metadata:
   class: shadow
   feature_type: trait
