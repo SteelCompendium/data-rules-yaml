@@ -15,4 +15,4 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/null/4th-level-feature
 effects:
-  - effect: Your Agility and Intuition scores each increase to 5.
+  - effect: Your Agility and Intuition scores each increase to 3.

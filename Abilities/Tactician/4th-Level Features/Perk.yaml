@@ -15,4 +15,4 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/tactician/4th-level-feature
 effects:
-  - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
+  - effect: You gain one perk of your choice.

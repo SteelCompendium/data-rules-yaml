@@ -15,4 +15,4 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/trait/shadow/4th-level-feature
 effects:
-  - effect: You gain one skill of your choice.
+  - effect: "You gain one skill of your choice. See Skills in Chapter 9: Tests."
