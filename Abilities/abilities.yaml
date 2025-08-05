@@ -1758,160 +1758,85 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/8th-level-feature
     effects:
-      - effect: >-
+      - effect: |-
           **Source of Earth**
-    
           <table style="width:99%;">
-    
           <colgroup>
-    
           <col style="width: 19%" />
-    
           <col style="width: 22%" />
-    
           <col style="width: 17%" />
-    
           <col style="width: 21%" />
-    
           <col style="width: 20%" />
-    
           </colgroup>
-    
           <thead>
-    
           <tr class="header">
-    
           <th style="text-align: center;">Elemental</th>
-    
           <th style="text-align: center;">-</th>
-    
           <th style="text-align: center;">Level 8</th>
-    
           <th style="text-align: center;">BRUTE</th>
-    
           <th style="text-align: center;">EV -</th>
-    
           </tr>
-    
           </thead>
-    
           <tbody>
-    
           <tr class="odd">
-    
           <td style="text-align: center;"><strong>2</strong><br />
-    
           Size</td>
-    
           <td style="text-align: center;"><strong>6</strong><br />
-    
           Speed</td>
-    
           <td style="text-align: center;"><strong>45</strong><br />
-    
           Stamina</td>
-    
           <td style="text-align: center;"><strong>5</strong><br />
-    
           Stability</td>
-    
           <td style="text-align: center;"><strong>5</strong><br />
-    
           Free Strike</td>
-    
           </tr>
-    
           <tr class="even">
-    
           <td style="text-align: center;"><strong>-</strong><br />
-    
           Immunities</td>
-    
           <td style="text-align: center;"><strong>Burrow</strong><br />
-    
           Movement</td>
-    
           <td style="text-align: center;"></td>
-    
           <td style="text-align: center;"><strong>-</strong><br />
-    
           With Captain</td>
-    
           <td style="text-align: center;"><strong>-</strong><br />
-    
           Weaknesses</td>
-    
           </tr>
-    
           <tr class="odd">
-    
           <td style="text-align: center;"><strong>+3</strong><br />
-    
           Might</td>
-    
           <td style="text-align: center;"><strong>+1</strong><br />
-    
           Agility</td>
-    
           <td style="text-align: center;"><strong>-5</strong><br />
-    
           Reason</td>
-    
           <td style="text-align: center;"><strong>-5</strong><br />
-    
           Intuition</td>
-    
           <td style="text-align: center;"><strong>-3</strong><br />
-    
           Presence</td>
-    
           </tr>
-    
           </tbody>
-    
           </table>
+      - effect: >-
+          **Earthwalk**
     
-          > **Earthwalk**
-    
-          >
-    
-          > Difficult terrain composed of earth and stone doesn't cost the source
+          Difficult terrain composed of earth and stone doesn't cost the source
           extra movement.
+      - effect: |-
+          **Tunneler**
+          When the source burrows, they create a size 2 tunnel.
+      - effect: >-
+          **Earth Harness**
     
-          > **Tunneler**
-    
-          >
-    
-          > When the source burrows, they create a size 2 tunnel.
-    
-          > **Earth Harness**
-    
-          >
-    
-          > A creature that has the Earth Accepts Me ability can use it as a free
+          A creature that has the Earth Accepts Me ability can use it as a free
           action to meld into the source.
-    
-          > **Boulder Bash**
-    
-          >
-    
-          > | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
-    
-          > | --------------------------------- | ----------------------------: |
-    
-          > | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
-    
-          >
-    
-          > **2d10 + 3:**
-    
-          >
-    
-          > - **≤11:** 5 damage; push 3
-    
-          > - **12-16:** 9 damage; push 4
-    
-          > - **17+:** 12 damage; push 5
+      - effect: |-
+          **Boulder Bash**
+          | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
+          | --------------------------------- | ----------------------------: |
+          | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
+      - roll: 2d10 + 3
+        t1: 5 damage; push 3
+        t2: 9 damage; push 4
+        t3: 12 damage; push 5
   - name: Perk
     metadata:
       class: elementalist
@@ -15948,19 +15873,17 @@ abilities:
           focus on its effect, you can use it as if you had spent an amount of focus
           equal to your Victories. (Such abilities aren't part of the core rules for
           the tactician, but they might appear in future products.)
+      - effect: >-
+          **Tactician Abilities Explained**
     
-          > **Tactician Abilities Explained**
-    
-          >
-    
-          > Many of the tactician's abilities grant allies extra movement, damage,
-          and actions. But what's happening in the fiction to allow this? The
-          tactician is an incredible strategist and inspiring leader who is quick to
-          give commands and inspiration that causes their allies to act. The
-          tactician can quickly read the battlefield, analyze enemies, and then bark
-          orders and encouragement that pushes their allies to greatness. Many of
-          the names of the tactician's abilities are the actual commands they give
-          their friends!
+          Many of the tactician's abilities grant allies extra movement, damage, and
+          actions. But what's happening in the fiction to allow this? The tactician
+          is an incredible strategist and inspiring leader who is quick to give
+          commands and inspiration that causes their allies to act. The tactician
+          can quickly read the battlefield, analyze enemies, and then bark orders
+          and encouragement that pushes their allies to greatness. Many of the names
+          of the tactician's abilities are the actual commands they give their
+          friends!
   - name: Field Arsenal
     metadata:
       class: tactician
@@ -18831,37 +18754,29 @@ abilities:
           When you use an ability outside of combat that lets you spend unlimited
           drama on its effect, such as Artful Flourish, you can use it as if you had
           spent an amount of drama equal to your Victories.
+      - effect: >-
+          **The Auteur Troubadour**
     
-          > **The Auteur Troubadour**
-    
-          >
-    
-          > Abilities like Guest Star, Missed Cue, and Twist at the End allow the
+          Abilities like Guest Star, Missed Cue, and Twist at the End allow the
           auteur to rewrite bits of what happens in the battle by temporarily
           removing creatures from an encounter, bringing people back to life, or
           causing a new ally to appear. These abilities and features are no more
           powerful than any other, but they're narratively different from shooting
           rays of fire or swinging a sword.
     
-          >
-    
-          > This is because, uniquely among all the subclasses in *Draw Steel*, the
+          This is because, uniquely among all the subclasses in *Draw Steel*, the
           auteur knows that the combat encounter playing out at your table is really
           a story being told sometime later, probably in a tavern.
     
-          >
-    
-          > When the auteur uses these abilities, they are changing that story. They
+          When the auteur uses these abilities, they are changing that story. They
           rewrite stories to make them more dramatic in the telling. What *actually*
           happened is a matter of some debate. Even the people who were there don't
           agree on exactly what took place. How people *remember* it is what's
           important!
     
-          >
-    
-          > This is pretty weird, but also very fun. If it's too weird for you or
-          your table, you could always interpret those abilities as a kind of magic.
-          A school of conjuring that really does change the battlefield, which the
+          This is pretty weird, but also very fun. If it's too weird for you or your
+          table, you could always interpret those abilities as a kind of magic. A
+          school of conjuring that really does change the battlefield, which the
           auteur merely *flavors* as rewriting the story.
   - name: '"Thunder Mother"'
     flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
