@@ -1,6 +1,6 @@
 name: Invocation of Mystery
 cost: 9 Piety
-flavor: '"Now you see us …"'
+flavor: '"Now you see us..."'
 keywords:
   - Area
   - Magic
