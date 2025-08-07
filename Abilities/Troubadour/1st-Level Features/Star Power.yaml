@@ -2,7 +2,7 @@ name: Star Power
 cost: 1 Drama
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords:
-  - —
+  - "-"
 type: Maneuver
 distance: Self
 target: Self

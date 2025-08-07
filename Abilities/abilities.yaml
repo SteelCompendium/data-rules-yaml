@@ -290,7 +290,7 @@ abilities:
           also a maneuver in combat (see Assist a Test in Chapter 9: Tests).
     
           Complex or time-consuming tests might require a main action if made in
-          combat—or could take so long that they can't be made during combat at all.
+          combat-or could take so long that they can't be made during combat at all.
           Other tests that take no time at all, such as a Reason test to recall lore
           about mummies, are usually free maneuvers in combat. The Director has the
           final say regarding which tests can be made as maneuvers.
@@ -1197,7 +1197,7 @@ abilities:
           score instead.
         cost: Spend 1 Essence
   - name: Meteoric Introduction
-    flavor: You give your enemy a gentle tap—like an asteroid impact.
+    flavor: You give your enemy a gentle tap-like an asteroid impact.
     keywords:
       - Earth
       - Magic
@@ -3567,6 +3567,7 @@ abilities:
     effects:
       - roll: Power Roll + Intuition
         t1: 3 + I holy damage
+        t2: 5 + I holy damage
         t3: 8 + I holy damage
       - effect: One ally within distance gains a number of surges equal to the tier
           outcome of your power roll.
@@ -8319,7 +8320,7 @@ abilities:
           have your abilities deal fire damage to the target instead of holy damage.
   - name: Arrest
     cost: 5 Wrath
-    flavor: “I got you, you son of a bitch.”
+    flavor: '"I got you, you son of a bitch."'
     keywords:
       - Magic
       - Melee
@@ -13699,7 +13700,7 @@ abilities:
       - effect: >-
           You are a product of customs older than warfare, older than civilization,
           older than most of the world. You have undergone a rite of passage that
-          revealed the building blocks of the timescape—the Primordial Chaos—and
+          revealed the building blocks of the timescape-the Primordial Chaos-and
           that left an aspect of that chaos inside you. You choose a primordial
           aspect from the following options, each of which grants you a skill.
           (*Quick Build:* Berserker.)
@@ -13843,7 +13844,7 @@ abilities:
           benefits tied to your Growing Ferocity feature.
   - name: Out of the Way!
     cost: 3 Ferocity
-    flavor: Your enemies will clear your path—whether they want to or not.
+    flavor: Your enemies will clear your path-whether they want to or not.
     keywords:
       - Melee
       - Strike
@@ -15973,10 +15974,9 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - roll: Power Roll + Might
-        t1: 3\\+\\ M damage; you or one ally within 10 squares of you can spend a
-          Recovery
+        t1: 3 + M damage; you or one ally within 10 squares of you can spend a Recovery
         t2: 5 + M damage; you or one ally within 10 squares of you can spend a Recovery
-        t3: 8\\+\\ M damage; you and one ally within 10 squares of you can spend a
+        t3: 8 + M damage; you and one ally within 10 squares of you can spend a
           Recovery, and each of you gains an edge on the next ability roll you make
           during the encounter
   - name: Studied Commander
@@ -16062,9 +16062,9 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - roll: Power Roll + Might
-        t1: 3\\+\\ M damage; M < WEAK, dazed (save ends)
+        t1: 3 + M damage; M < WEAK, dazed (save ends)
         t2: 5 + M damage; M < AVERAGE, dazed (save ends)
-        t3: 8\\+\\ M damage; M < STRONG, dazed (save ends)
+        t3: 8 + M damage; M < STRONG, dazed (save ends)
   - name: Hammer and Anvil
     cost: 5 Focus
     flavor: "\"Let's not argue about who's the hammer and who's the anvil!\""
@@ -16096,11 +16096,11 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - roll: Power Roll + Might
-        t1: 5\\+\\ M damage; one ally within 10 squares of you can use a strike
-          signature ability against the target as a free triggered action
+        t1: 5 + M damage; one ally within 10 squares of you can use a strike signature
+          ability against the target as a free triggered action
         t2: 9 + M damage; one ally within 10 squares of you can use a strike signature
           ability that gains an edge against the target as a free triggered action
-        t3: 12\\+\\ M damage; two allies within 10 squares of you can each use a strike
+        t3: 12 + M damage; two allies within 10 squares of you can each use a strike
           signature ability that gains an edge against the target as a free
           triggered action
       - effect: If the target is reduced to 0 Stamina before one or both chosen allies
@@ -16213,7 +16213,7 @@ abilities:
       type: feature/trait/tactician/1st-level-feature
     effects:
       - effect: >-
-          Warfare is as old as civilization—and perhaps even older. As battle became
+          Warfare is as old as civilization-and perhaps even older. As battle became
           ever more complex, military leaders invented tactical doctrine, outlining
           how combatants should be structured, used, and deployed. Doctrine can be
           learned at war colleges passing on ancient martial traditions, or directly
@@ -16259,7 +16259,7 @@ abilities:
           double edge on tests made to stop combat and start a negotiation.
   - name: Now!
     cost: 5 Focus
-    flavor: Your allies wait for your command—then unleash death!
+    flavor: Your allies wait for your command-then unleash death!
     keywords:
       - Ranged
     type: Maneuver
@@ -16317,13 +16317,13 @@ abilities:
     effects:
       - effect: You mark the target.
       - roll: Power Roll + Might
-        t1: 4\\+\\ M damage; R < WEAK, weakened (save ends)
+        t1: 4 + M damage; R < WEAK, weakened (save ends)
         t2: 6 + M damage; R < AVERAGE, weakened (save ends)
-        t3: 10\\+\\ M damage; R < STRONG, weakened (save ends)
+        t3: 10 + M damage; R < STRONG, weakened (save ends)
       - effect: Before the start of your next turn, the first time any ally deals damage
           to any target marked by you, that ally can spend a Recovery.
   - name: Mark
-    flavor: You draw your allies' attention to a specific foe—with devastating effect.
+    flavor: You draw your allies' attention to a specific foe-with devastating effect.
     keywords:
       - Ranged
     type: Maneuver
@@ -16976,16 +16976,15 @@ abilities:
       type: feature/ability/tactician/6th-level-feature
     effects:
       - roll: Power Roll + Might
-        t1: 6\\+\\ M damage; one ally within 10 squares can use the Charge main action
-          as a free triggered action, and can use a melee strike signature ability
+        t1: 6 + M damage; one ally within 10 squares can use the Charge main action as a
+          free triggered action, and can use a melee strike signature ability
           instead of a free strike for the charge
         t2: 9 + M damage; one ally within 10 squares can use the Charge main action as a
           free triggered action, and can use a melee strike signature ability that
           gains an edge instead of a free strike for the charge
-        t3: 13\\+\\ M damage; two allies within 10 squares can use the Charge main
-          action as a free triggered action, and can each use a melee strike
-          signature ability that gains an edge instead of a free strike for the
-          charge
+        t3: 13 + M damage; two allies within 10 squares can use the Charge main action
+          as a free triggered action, and can each use a melee strike signature
+          ability that gains an edge instead of a free strike for the charge
       - effect: If the target is hit with two or more strikes as part of this ability
           and they have R < STRONG, they are dazed (save ends). If the target is
           reduced to 0 Stamina before one or both allies has made their strike, the
@@ -17839,7 +17838,7 @@ abilities:
     cost: 11 Focus
     flavor: I've identified a way to negate their strengths.
     keywords:
-      - —
+      - "-"
     type: Main action
     distance: Self
     target: Self
@@ -19171,7 +19170,7 @@ abilities:
     cost: 1 Drama
     flavor: Your years of practicing fencing and dancing pay off on the battlefield.
     keywords:
-      - —
+      - "-"
     type: Maneuver
     distance: Self
     target: Self
@@ -20463,7 +20462,7 @@ abilities:
           twice their highest characteristic score.
   - name: We Meet at Last
     cost: 7 Drama
-    flavor: You magically intertwine your fate with another creature—for better or worse.
+    flavor: You magically intertwine your fate with another creature-for better or worse.
     keywords:
       - Magic
       - Ranged
@@ -21434,7 +21433,7 @@ abilities:
   - name: Defensive Roll
     flavor: When an enemy attacks, you roll with the impact to reduce the harm.
     keywords:
-      - —
+      - "-"
     type: Triggered
     distance: Self
     target: Self
@@ -21560,10 +21559,10 @@ abilities:
   - name: Coat the Blade
     flavor: A little poison goes a long way.
     keywords:
-      - —
+      - "-"
     type: Maneuver
     distance: Self
-    target: \\ Self
+    target: Self
     metadata:
       class: shadow
       feature_type: trait
@@ -21696,7 +21695,7 @@ abilities:
     cost: 1 Insight
     flavor: Keep up the attack. Never give them a moment's grace.
     keywords:
-      - —
+      - "-"
     type: Free triggered
     distance: Self
     target: Self
@@ -23046,7 +23045,7 @@ abilities:
           reduced by a number equal to the target's Intuition score.
   - name: Pinning Shot
     cost: 7 Insight
-    flavor: One missile—placed well and placed hard.
+    flavor: One missile-placed well and placed hard.
     keywords:
       - Ranged
       - Strike
@@ -23081,7 +23080,7 @@ abilities:
     cost: 7 Insight
     flavor: You enter a flow state that makes you nearly impossible to pin down.
     keywords:
-      - —
+      - "-"
     type: Maneuver
     distance: Self
     target: Self
@@ -24510,12 +24509,10 @@ abilities:
           your Presence score, and they can end one effect on them that is ended by
           a saving throw or that ends at the end of their turn. If you target an
           enemy, you make a power roll.
-      - effect: >-
-          **Power Roll + Presence:**
-    
-          3 + P psychic damage; I < WEAK, frightened (save ends) 6 + P psychic
-          damage; I < AVERAGE, frightened (save ends) 9 + P psychic damage; I <
-          STRONG, frightened (save ends)
+      - roll: Power Roll + Presence
+        t1: 3 + P psychic damage; I < WEAK, frightened (save ends)
+        t2: 6 + P psychic damage; I < AVERAGE, frightened (save ends)
+        t3: 9 + P psychic damage; I < STRONG, frightened (save ends)
   - name: Inertia Soak
     cost: 5 Clarity
     flavor: Your psionic energy surrounds the target and pushes everything else away
@@ -25191,7 +25188,7 @@ abilities:
           additional creature or object within distance.
   - name: Synaptic Conditioning
     cost: 9 Clarity
-    flavor: It's a subtle mindset shift. It's not that they're your enemy—you just
+    flavor: It's a subtle mindset shift. It's not that they're your enemy-you just
       don't like them!
     keywords:
       - Psionic
@@ -26249,7 +26246,7 @@ abilities:
       - roll: Power Roll + Presence
         t1: 3 + P corruption damage; P < WEAK, weakened (save ends)
         t2: 5 + P corruption damage; the target is flung through time, and if P <
-          AVERAGER, they are weakened (save ends)
+          AVERAGE, they are weakened (save ends)
         t3: 8 + P corruption damage; the target is flung through time, and if P <
           STRONG, they are weakened (save ends)
       - effect: A target who is flung through time is removed from the encounter map
