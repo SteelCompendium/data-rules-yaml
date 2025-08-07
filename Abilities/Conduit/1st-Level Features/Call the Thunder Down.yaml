@@ -4,7 +4,7 @@ flavor: You ask your saint for thunder and your prayer is answered.
 keywords:
   - Area
   - Magic
-  - Range
+  - Ranged
 type: Main action
 distance: 3 cube within 10
 target: Each enemy in the area

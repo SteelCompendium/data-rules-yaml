@@ -2,7 +2,7 @@ name: Hands of the Maker
 flavor: You craft objects with the power of your mind.
 keywords:
   - Magic
-type: Manuever
+type: Maneuver
 distance: Self
 target: Self
 metadata:

@@ -6,7 +6,7 @@ keywords:
   - Psionic
   - Strike
   - Weapon
-type: Free trigger
+type: Free triggered
 distance: Melee 1
 target: One creature
 trigger: The target moves or uses a main action.
