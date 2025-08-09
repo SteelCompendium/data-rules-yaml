@@ -6,7 +6,7 @@ keywords:
   - Ranged
   - Strike
   - Telekinesis
-type: Main Action
+type: Main action
 distance: Self; see below
 target: Self
 metadata:

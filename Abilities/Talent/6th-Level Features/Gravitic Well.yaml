@@ -6,7 +6,7 @@ keywords:
   - Psionic
   - Ranged
   - Telekinesis
-type: Main Action
+type: Main action
 distance: 4 cube within 10
 target: Each creature and object in the area
 metadata:
