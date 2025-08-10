@@ -6,7 +6,7 @@ keywords:
   - Ranged
 type: Maneuver
 distance: Ranged 10
-target: one ally
+target: One ally
 metadata:
   class: conduit
   cost: 11 Piety

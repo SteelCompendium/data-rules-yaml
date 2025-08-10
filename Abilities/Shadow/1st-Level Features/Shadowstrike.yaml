@@ -6,7 +6,7 @@ keywords:
   - Melee
   - Ranged
 type: Main action
-distance: Self; see below 5
+distance: Self; see below
 target: Self
 metadata:
   class: shadow

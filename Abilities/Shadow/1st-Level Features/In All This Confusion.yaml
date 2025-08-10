@@ -4,7 +4,7 @@ keywords:
   - Magic
 type: Triggered
 distance: Self
-target: \\ Self
+target: Self
 trigger: You take damage.
 metadata:
   class: shadow
