@@ -25,9 +25,9 @@ metadata:
   type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Presence
-    t1: 2 + P corruption damage; p
-    t2: 3 + P corruption damage; p
-    t3: 5 + P corruption damage; p
+    t1: 2 + P corruption damage; P < WEAK, slowed (save ends)
+    t2: 3 + P corruption damage; P < AVERAGE, slowed (save ends)
+    t3: 5 + P corruption damage; P < STRONG, slowed (save ends)
   - effect: The target takes an extra 1 corruption damage for each additional time
       they are targeted by this ability during the encounter.
   - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
