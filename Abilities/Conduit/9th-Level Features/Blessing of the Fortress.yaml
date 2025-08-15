@@ -26,7 +26,7 @@ metadata:
   source: mcdm.heroes.v1
   type: feature/ability/conduit/9th-level-feature
 effects:
-  - effect: Until the end of the encounter or until you are dying, no target can
-      approach within 5 squares of you by moving or by being force moved by any
+  - effect: Until the end of the encounter or until you are dying, no enemy can
+      approach within 5 squares of you. by moving or by being force moved by any
       enemy. Targets can be force moved closer to you by you or your allies, or
       can move closer because of your movement.
