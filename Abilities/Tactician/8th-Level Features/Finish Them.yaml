@@ -8,6 +8,7 @@ distance: Ranged 10
 target: One creature
 trigger: The target is not a leader or solo creature, and becomes winded.
 metadata:
+  action_type: Free triggered
   class: tactician
   cost: 11 Focus
   cost_amount: 11
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.4.2:04
   source: mcdm.heroes.v1
   target: One creature
-  type: Free triggered
+  type: feature/ability/tactician/8th-level-feature
 effects:
   - effect: The target is killed. Additionally, the creature who caused the target
       to be winded can spend a Recovery.

@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: tactician
   cost: 7 Focus
   cost_amount: 7
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.4.6:04
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/tactician/3rd-level-feature
 effects:
   - effect: Until the end of the encounter or until you are dying, the first time on
       a turn that you or any ally deals damage to a target marked by you, the

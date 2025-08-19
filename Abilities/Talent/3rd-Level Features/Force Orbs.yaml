@@ -10,6 +10,7 @@ type: Main action
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Main action
   class: talent
   cost: 7 Clarity
   cost_amount: 7
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.6:01
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/talent/3rd-level-feature
 effects:
   - effect: >-
       You create three size 1T orbs that orbit your body. Each orb gives you a

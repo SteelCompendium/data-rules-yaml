@@ -9,6 +9,7 @@ distance: Ranged 10
 target: Self or one ally
 trigger: The target force moves a creature or object.
 metadata:
+  action_type: Triggered
   class: elementalist
   distance: Ranged 10
   feature_type: ability
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.9.1:06
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Triggered
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: The forced movement distance gains a bonus equal to your Reason score.
   - effect: The forced movement distance gains a bonus equal to twice your Reason

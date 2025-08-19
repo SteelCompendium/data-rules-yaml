@@ -10,6 +10,7 @@ type: Main action
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Main action
   class: fury
   cost: 11 Ferocity
   cost_amount: 11
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.5.2:01
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/fury/8th-level-feature
 effects:
   - effect: You shift up to your speed. Each enemy you move adjacent to during this
       movement takes damage equal to twice your Might score. Then make one power

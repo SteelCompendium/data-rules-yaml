@@ -8,6 +8,7 @@ type: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
+  action_type: No action
   class: troubadour
   distance: 5 aura
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.3.1:22
   source: mcdm.heroes.v1
   target: Self and each ally in the area
-  type: No action
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: While this performance is active, each target who starts their turn in
       the area gains 1 surge.

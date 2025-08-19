@@ -9,6 +9,7 @@ target: One ally
 trigger: The target uses an ability that targets only one enemy and costs 3 or
   fewer of their Heroic Resource.
 metadata:
+  action_type: Triggered
   class: troubadour
   cost: 3 Drama
   cost_amount: 3
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.3.1:23
   source: mcdm.heroes.v1
   target: One ally
-  type: Triggered
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: The target can choose one additional target for the triggering ability.
       Any damage dealt to the additional target is sonic damage.

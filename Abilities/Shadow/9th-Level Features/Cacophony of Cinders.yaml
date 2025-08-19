@@ -9,6 +9,7 @@ type: Main action
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Main action
   class: shadow
   cost: 11 Insight
   cost_amount: 11
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.2.7:04
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/shadow/9th-level-feature
 effects:
   - effect: You shift up to twice your speed, making one power roll that targets
       each creature you come adjacent to during the shift.

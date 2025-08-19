@@ -11,6 +11,7 @@ type: Main action
 distance: Ranged 10
 target: Two enemies
 metadata:
+  action_type: Main action
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.4:03
   source: mcdm.heroes.v1
   target: Two enemies
-  type: Main action
+  type: feature/ability/talent/5th-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: 8 damage; A < WEAK, the target is stitched to the other target (save ends)

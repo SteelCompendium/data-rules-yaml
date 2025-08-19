@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one creature
 metadata:
+  action_type: Maneuver
   class: talent
   distance: Ranged 10
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.1.1:11
   source: mcdm.heroes.v1
   target: Self or one creature
-  type: Maneuver
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The target shifts up to a number of squares equal to your Reason score.
   - effect: The target can use a maneuver.

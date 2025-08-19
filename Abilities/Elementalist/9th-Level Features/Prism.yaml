@@ -8,6 +8,7 @@ type: Main action
 distance: Self
 target: Self
 metadata:
+  action_type: Main action
   class: elementalist
   cost: 11 Essence
   cost_amount: 11
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.9.7:02
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/elementalist/9th-level-feature
 effects:
   - effect: You use up to three heroic abilities whose essence costs total 11 or
       less, spending no additional essence beyond the cost of this ability. You

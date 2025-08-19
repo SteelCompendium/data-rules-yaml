@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Two allies
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 9 Piety
   cost_amount: 9
@@ -32,6 +33,6 @@ metadata:
     - 1.1.1:13.2.8.3:11
   source: mcdm.heroes.v1
   target: Two allies
-  type: Maneuver
+  type: feature/ability/conduit/6th-level-feature
 effects:
   - effect: Each target gains 3 of their Heroic Resource.

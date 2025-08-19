@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Three allies
 metadata:
+  action_type: Maneuver
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -28,6 +29,6 @@ metadata:
     - 1.1.1:13.2.4.1:08
   source: mcdm.heroes.v1
   target: Three allies
-  type: Maneuver
+  type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: Each target can make a free strike.

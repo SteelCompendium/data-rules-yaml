@@ -9,6 +9,7 @@ type: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  action_type: Main action
   class: censor
   cost: 5 Wrath
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.7.5:05
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/censor/2nd-level-feature
 effects:
   - roll: Power Roll + Might
     t1: 8 + M holy damage; P < WEAK, frightened (save ends)

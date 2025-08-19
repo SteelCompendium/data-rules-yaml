@@ -8,6 +8,7 @@ type: Main action
 distance: Melee 1
 target: One mundane wooden object
 metadata:
+  action_type: Main action
   class: elementalist
   distance: Melee 1
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.9.6:01
   source: mcdm.heroes.v1
   target: One mundane wooden object
-  type: Main action
+  type: feature/ability/elementalist/3rd-level-feature
 effects:
   - effect: You see and hear any events that have occurred within 10 squares of the
       object within the last 12 hours, perceiving those events from the object's

@@ -9,6 +9,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: fury
   cost: 7 Ferocity
   cost_amount: 7
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.5.5:04
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/fury/3rd-level-feature
 effects:
   - effect: If the target is not a leader or solo creature, they are reduced to 0
       Stamina at the end of their next turn. If the target is a leader or solo

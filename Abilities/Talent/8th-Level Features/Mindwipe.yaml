@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 2
 target: One creature
 metadata:
+  action_type: Main action
   class: talent
   cost: 11 Clarity
   cost_amount: 11
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.2:03
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/talent/8th-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 12 + R damage; R < WEAK, the target takes a bane on their next power roll

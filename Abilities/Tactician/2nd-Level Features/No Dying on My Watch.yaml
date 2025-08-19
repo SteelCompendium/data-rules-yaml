@@ -10,6 +10,7 @@ distance: Ranged 5
 target: One enemy
 trigger: The target deals damage to an ally.
 metadata:
+  action_type: Triggered
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -33,7 +34,7 @@ metadata:
     - 1.1.1:13.2.4.5:02
   source: mcdm.heroes.v1
   target: One enemy
-  type: Triggered
+  type: feature/ability/tactician/2nd-level-feature
 effects:
   - effect: You move up to your speed toward the triggering ally, ending this
       movement adjacent to them or in the nearest square if you can't reach an

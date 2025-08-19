@@ -7,6 +7,7 @@ distance: Ranged 10
 target: One enemy
 trigger: You lose Stamina and are not dying.
 metadata:
+  action_type: Triggered
   class: fury
   distance: Ranged 10
   feature_type: ability
@@ -25,7 +26,7 @@ metadata:
     - 1.1.1:13.2.5.1:14
   source: mcdm.heroes.v1
   target: One enemy
-  type: Triggered
+  type: feature/ability/fury/1st-level-feature
 effects:
   - effect: You gain temporary Stamina equal to your Might score and can enter your
       animal form or hybrid form.

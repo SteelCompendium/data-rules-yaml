@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: One ally
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 11 Piety
   cost_amount: 11
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.7:01
   source: mcdm.heroes.v1
   target: One ally
-  type: Maneuver
+  type: feature/ability/conduit/9th-level-feature
 effects:
   - effect: The target has an additional main action they can use on their next
       turn, and gains 3 of their Heroic Resource.

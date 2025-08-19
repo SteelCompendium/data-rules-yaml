@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: elementalist
   cost: 5 Essence
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.9.1:07
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: Until the start of your next turn, the target can move through solid
       matter, they ignore difficult terrain, and their movement can't provoke

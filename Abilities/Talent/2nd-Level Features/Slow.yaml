@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Three creatures or objects
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 5 Clarity
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.1.5:06
   source: mcdm.heroes.v1
   target: Three creatures or objects
-  type: Maneuver
+  type: feature/ability/talent/2nd-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: The target's speed is halved (save ends), or if P < WEAK, the target is

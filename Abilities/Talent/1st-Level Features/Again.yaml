@@ -8,6 +8,7 @@ distance: Ranged 10
 target: Self or one creature
 trigger: The target makes an ability roll.
 metadata:
+  action_type: Triggered
   class: talent
   distance: Ranged 10
   feature_type: ability
@@ -27,7 +28,7 @@ metadata:
     - 1.1.1:13.2.1.1:13
   source: mcdm.heroes.v1
   target: Self or one creature
-  type: Triggered
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: You can use this ability after seeing the result of the triggering roll.
       The target must reroll the power roll and use the new roll.

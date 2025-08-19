@@ -6,6 +6,7 @@ type: Maneuver
 distance: Ranged 20
 target: One creature
 metadata:
+  action_type: Maneuver
   class: shadow
   distance: Ranged 20
   feature_type: ability
@@ -24,7 +25,7 @@ metadata:
     - 1.1.1:13.2.2.6:04
   source: mcdm.heroes.v1
   target: One creature
-  type: Maneuver
+  type: feature/ability/shadow/3rd-level-feature
 effects:
   - effect: As long as you remain within distance of the target, maintain line of
       effect to them, and strike no other creature first, you gain an edge on

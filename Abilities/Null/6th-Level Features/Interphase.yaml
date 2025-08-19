@@ -7,6 +7,7 @@ type: Main action
 distance: Self
 target: Self
 metadata:
+  action_type: Main action
   class: "null"
   cost: 9 Discipline
   cost_amount: 9
@@ -28,6 +29,6 @@ metadata:
     - 1.1.1:13.2.6.3:05
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/null/6th-level-feature
 effects:
   - effect: You can use up to three signature abilities, each of which gains an edge.

@@ -11,6 +11,7 @@ type: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  action_type: Main action
   class: talent
   cost: 3 Clarity
   cost_amount: 3
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.1:08
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: "Choose the damage type and the weakness for this ability from one of
       the following: acid, corruption, or fire. The target takes damage before

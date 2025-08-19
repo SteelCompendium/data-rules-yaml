@@ -9,6 +9,7 @@ target: Self
 trigger: Another hero ends their turn. That hero can't have used this ability to
   start their turn.
 metadata:
+  action_type: Free triggered
   class: shadow
   cost: 1 Insight
   cost_amount: 1
@@ -30,6 +31,6 @@ metadata:
     - 1.1.1:13.2.2.1:15
   source: mcdm.heroes.v1
   target: Self
-  type: Free triggered
+  type: feature/ability/shadow/1st-level-feature
 effects:
   - effect: You take your turn after the triggering hero.

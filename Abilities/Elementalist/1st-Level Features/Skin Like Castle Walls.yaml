@@ -9,6 +9,7 @@ distance: Ranged 10
 target: Self or one ally
 trigger: The target takes damage.
 metadata:
+  action_type: Triggered
   class: elementalist
   distance: Ranged 10
   feature_type: ability
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.9.1:14
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Triggered
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: The target takes half the damage.
   - effect: If the damage has any potency effects associated with it, the potency is

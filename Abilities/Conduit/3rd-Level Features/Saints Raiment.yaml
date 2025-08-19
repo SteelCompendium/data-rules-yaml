@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: One ally
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 7 Piety
   cost_amount: 7
@@ -30,6 +31,6 @@ metadata:
     - 1.1.1:13.2.8.6:04
   source: mcdm.heroes.v1
   target: One ally
-  type: Maneuver
+  type: feature/ability/conduit/3rd-level-feature
 effects:
   - effect: The target gains 20 temporary Stamina and 3 surges.

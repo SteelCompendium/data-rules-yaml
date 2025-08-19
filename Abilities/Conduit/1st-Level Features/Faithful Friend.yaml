@@ -7,6 +7,7 @@ type: Main action
 distance: Self
 target: Self
 metadata:
+  action_type: Main action
   class: conduit
   distance: Self
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.8.1:02
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: You conjure a spirit that takes the form of any animal you have seen.
       The incorporeal animal has speed 5 and can fly, but can't physically

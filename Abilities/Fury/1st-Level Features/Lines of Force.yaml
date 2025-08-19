@@ -8,6 +8,7 @@ distance: Melee 1
 target: Self or one creature
 trigger: The target would be force moved.
 metadata:
+  action_type: Triggered
   class: fury
   distance: Melee 1
   feature_type: ability
@@ -27,7 +28,7 @@ metadata:
     - 1.1.1:13.2.5.1:11
   source: mcdm.heroes.v1
   target: Self or one creature
-  type: Triggered
+  type: feature/ability/fury/1st-level-feature
 effects:
   - effect: You can select a new target of the same size or smaller within distance
       to be force moved instead. You become the source of the forced movement,

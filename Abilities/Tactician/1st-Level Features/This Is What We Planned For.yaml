@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Two allies
 metadata:
+  action_type: Maneuver
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.4.1:04
   source: mcdm.heroes.v1
   target: Two allies
-  type: Maneuver
+  type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: Each target who hasn't acted yet this combat round can take their turn
       in any order immediately after yours.

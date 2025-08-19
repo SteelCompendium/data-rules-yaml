@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self and each ally
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 5 Piety
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.5:12
   source: mcdm.heroes.v1
   target: Self and each ally
-  type: Maneuver
+  type: feature/ability/conduit/2nd-level-feature
 effects:
   - effect: Until the end of the encounter or until you are dying, each target gains
       1 surge at the end of each of your turns.

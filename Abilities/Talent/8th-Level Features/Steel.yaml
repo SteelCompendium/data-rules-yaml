@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 11 Clarity
   cost_amount: 11
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.1.2:04
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/talent/8th-level-feature
 effects:
   - effect: The target has damage immunity 5 and can't be made slowed or weakened
       until the start of your next turn. Whenever the target force moves a

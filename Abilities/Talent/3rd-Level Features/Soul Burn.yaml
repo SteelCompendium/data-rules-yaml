@@ -11,6 +11,7 @@ type: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  action_type: Main action
   class: talent
   cost: 7 Clarity
   cost_amount: 7
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.6:02
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/talent/3rd-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: 6 + P damage; P < WEAK, dazed (save ends)

@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: conduit
   distance: Ranged 10
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.8.1:12
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The target can spend a Recovery.
   - effect: >-

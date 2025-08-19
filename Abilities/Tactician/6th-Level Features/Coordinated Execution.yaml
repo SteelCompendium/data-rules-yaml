@@ -8,6 +8,7 @@ distance: Ranged 10
 target: One ally
 trigger: The target uses an ability to deal rolled damage to a creature while hidden.
 metadata:
+  action_type: Free triggered
   class: tactician
   cost: 9 Focus
   cost_amount: 9
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.4.3:04
   source: mcdm.heroes.v1
   target: One ally
-  type: Free triggered
+  type: feature/ability/tactician/6th-level-feature
 effects:
   - effect: If the target of the triggering ability is not a leader or solo
       creature, they are reduced to 0 Stamina. If the target of the triggering

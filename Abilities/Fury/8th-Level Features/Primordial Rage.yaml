@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: fury
   cost: 11 Ferocity
   cost_amount: 11
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.5.2:03
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/fury/8th-level-feature
 effects:
   - effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
       Until the end of the encounter or until you are dying, you can choose one

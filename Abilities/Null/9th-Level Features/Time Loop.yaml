@@ -8,6 +8,7 @@ distance: Self
 target: Self
 trigger: Another creature on the encounter map ends their turn.
 metadata:
+  action_type: Free triggered
   class: "null"
   cost: 11 Discipline
   cost_amount: 11
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.6.6:04
   source: mcdm.heroes.v1
   target: Self
-  type: Free triggered
+  type: feature/ability/null/9th-level-feature
 effects:
   - effect: You take a bonus turn immediately after the triggering creature. This
       ability can be used only once per combat round.

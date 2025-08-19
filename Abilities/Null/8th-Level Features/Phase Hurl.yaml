@@ -11,6 +11,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: "null"
   cost: 11 Discipline
   cost_amount: 11
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.6.2:03
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/null/8th-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 9 + A damage; push 5; I < WEAK, dazed (save ends)

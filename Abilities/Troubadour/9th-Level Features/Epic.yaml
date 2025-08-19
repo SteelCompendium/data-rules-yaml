@@ -10,6 +10,7 @@ type: Maneuver
 distance: Melee 1 or ranged 10
 target: One creature
 metadata:
+  action_type: Maneuver
   class: troubadour
   cost: 11 Drama
   cost_amount: 11
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.3.7:05
   source: mcdm.heroes.v1
   target: One creature
-  type: Maneuver
+  type: feature/ability/troubadour/9th-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: The target takes a bane on ability rolls (save ends).

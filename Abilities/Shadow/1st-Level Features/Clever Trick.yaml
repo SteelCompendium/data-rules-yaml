@@ -8,6 +8,7 @@ distance: Self
 target: Self
 trigger: An enemy targets you with a strike.
 metadata:
+  action_type: Triggered
   class: shadow
   cost: 1 Insight
   cost_amount: 1
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.2.1:06
   source: mcdm.heroes.v1
   target: Self
-  type: Triggered
+  type: feature/ability/shadow/1st-level-feature
 effects:
   - effect: Choose an enemy within distance of the triggering strike, including the
       enemy who targeted you. The strike targets that enemy instead.

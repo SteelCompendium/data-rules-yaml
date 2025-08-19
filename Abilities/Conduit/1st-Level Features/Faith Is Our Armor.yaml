@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Four allies
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 5 Piety
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.1:03
   source: mcdm.heroes.v1
   target: Four allies
-  type: Maneuver
+  type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: You can target yourself instead of one ally with this ability.
   - roll: Power Roll + Intuition

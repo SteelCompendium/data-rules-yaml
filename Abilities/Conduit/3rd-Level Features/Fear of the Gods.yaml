@@ -9,6 +9,7 @@ type: Main action
 distance: 5 cube within 10
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: conduit
   cost: 7 Piety
   cost_amount: 7
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.8.6:03
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/conduit/3rd-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: 6 psychic damage; I < WEAK, frightened (save ends)

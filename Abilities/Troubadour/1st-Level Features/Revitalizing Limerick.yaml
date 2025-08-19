@@ -8,6 +8,7 @@ type: No action
 distance: 5 aura
 target: Self and each ally in the area
 metadata:
+  action_type: No action
   class: troubadour
   distance: 5 aura
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.3.1:06
   source: mcdm.heroes.v1
   target: Self and each ally in the area
-  type: No action
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: At the end of each of your turns while this performance is active, you
       can choose up to a number of targets equal to your Presence score. Each

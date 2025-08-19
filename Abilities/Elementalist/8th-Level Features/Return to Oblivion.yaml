@@ -10,6 +10,7 @@ type: Main action
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Main action
   class: elementalist
   cost: 11 Essence
   cost_amount: 11
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.9.2:05
   source: mcdm.heroes.v1
   target: Special
-  type: Main action
+  type: feature/ability/elementalist/8th-level-feature
 effects:
   - effect: You create a size 1L vortex that lasts until the end of the encounter.
       At the start of each combat round while the vortex is unoccupied, the

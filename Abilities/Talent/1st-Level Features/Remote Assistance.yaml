@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: One creature or object
 metadata:
+  action_type: Maneuver
   class: talent
   distance: Ranged 10
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.1.1:21
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Maneuver
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The next ability roll an ally makes against the target before the start
       of your next turn gains an edge.

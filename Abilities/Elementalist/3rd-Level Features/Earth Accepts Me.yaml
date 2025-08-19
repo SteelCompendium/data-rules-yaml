@@ -7,6 +7,7 @@ type: Main action
 distance: Self
 target: Self
 metadata:
+  action_type: Main action
   class: elementalist
   distance: Self
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.9.6:05
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/elementalist/3rd-level-feature
 effects:
   - effect: You step into a mundane dirt, metal, or stone object (including a wall)
       that is as large as you or larger. You can remain inside the object for as

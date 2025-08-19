@@ -10,6 +10,7 @@ type: Main action
 distance: Ranged 10
 target: One enemy
 metadata:
+  action_type: Main action
   class: conduit
   cost: 7 Piety
   cost_amount: 7
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.8.6:01
   source: mcdm.heroes.v1
   target: One enemy
-  type: Main action
+  type: feature/ability/conduit/3rd-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: 7 + I corruption damage

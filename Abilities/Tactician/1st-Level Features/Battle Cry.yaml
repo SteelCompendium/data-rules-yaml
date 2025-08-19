@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Three allies
 metadata:
+  action_type: Maneuver
   class: tactician
   cost: 3 Focus
   cost_amount: 3
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.4.1:07
   source: mcdm.heroes.v1
   target: Three allies
-  type: Maneuver
+  type: feature/ability/tactician/1st-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: Each target gains 1 surge.

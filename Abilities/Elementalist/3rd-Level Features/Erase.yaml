@@ -10,6 +10,7 @@ type: Main action
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Main action
   class: elementalist
   cost: 7 Essence
   cost_amount: 7
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.9.6:06
   source: mcdm.heroes.v1
   target: Special
-  type: Main action
+  type: feature/ability/elementalist/3rd-level-feature
 effects:
   - effect: The number of creatures you target with this ability is determined by
       your power roll.

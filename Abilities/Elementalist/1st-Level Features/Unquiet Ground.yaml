@@ -10,6 +10,7 @@ type: Main action
 distance: 2 cube within 10
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: elementalist
   distance: 2 cube within 10
   feature_type: ability
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.9.1:18
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 2 damage

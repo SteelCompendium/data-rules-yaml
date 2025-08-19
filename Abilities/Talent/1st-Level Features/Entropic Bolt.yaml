@@ -9,6 +9,7 @@ type: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  action_type: Main action
   class: talent
   distance: Ranged 10
   feature_type: ability
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.1.1:15
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Main action
+  type: feature/ability/talent/1st-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: 2 + P corruption damage; P < WEAK, slowed (save ends)

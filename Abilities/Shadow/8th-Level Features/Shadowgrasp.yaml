@@ -9,6 +9,7 @@ type: Main action
 distance: 2 burst
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: shadow
   cost: 11 Insight
   cost_amount: 11
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.2.2:05
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/shadow/8th-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 11 corruption damage; A < WEAK, restrained (save ends)

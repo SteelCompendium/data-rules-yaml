@@ -11,6 +11,7 @@ type: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  action_type: Main action
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.4:01
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/talent/5th-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 10 + R psychic damage; R < WEAK, slowed (save ends)

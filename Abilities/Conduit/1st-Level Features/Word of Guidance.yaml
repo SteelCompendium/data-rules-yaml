@@ -8,6 +8,7 @@ distance: Ranged 10
 target: One ally
 trigger: The target makes an ability roll for a damage-dealing ability.
 metadata:
+  action_type: Triggered
   class: conduit
   distance: Ranged 10
   feature_type: ability
@@ -27,7 +28,7 @@ metadata:
     - 1.1.1:13.2.8.1:14
   source: mcdm.heroes.v1
   target: One ally
-  type: Triggered
+  type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The power roll gains an edge.
   - effect: The power roll has a double edge.

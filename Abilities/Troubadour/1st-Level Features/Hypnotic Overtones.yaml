@@ -8,6 +8,7 @@ type: Main action
 distance: 2 burst
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: troubadour
   cost: 3 Drama
   cost_amount: 3
@@ -31,7 +32,7 @@ metadata:
     - 1.1.1:13.2.3.1:13
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: Slide 1; I < WEAK, dazed (save ends)

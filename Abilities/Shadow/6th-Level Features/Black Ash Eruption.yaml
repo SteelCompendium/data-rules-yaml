@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: shadow
   cost: 9 Insight
   cost_amount: 9
@@ -35,7 +36,7 @@ metadata:
     - 1.1.1:13.2.2.3:01
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/shadow/6th-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 3 + A damage; vertical push 5

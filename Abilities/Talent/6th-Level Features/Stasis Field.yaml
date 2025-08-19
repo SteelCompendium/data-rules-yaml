@@ -10,6 +10,7 @@ type: Main action
 distance: 4 cube within 10
 target: Each creature and object in the area
 metadata:
+  action_type: Main action
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.3:04
   source: mcdm.heroes.v1
   target: Each creature and object in the area
-  type: Main action
+  type: feature/ability/talent/6th-level-feature
 effects:
   - effect: >-
       The area is frozen in time until the start of your next turn. Each object

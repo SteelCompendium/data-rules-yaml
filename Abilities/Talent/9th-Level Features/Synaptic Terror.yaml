@@ -10,6 +10,7 @@ type: Main action
 distance: 3 burst
 target: Each ally and enemy in the area
 metadata:
+  action_type: Main action
   class: talent
   cost: 11 Clarity
   cost_amount: 11
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.7:01
   source: mcdm.heroes.v1
   target: Each ally and enemy in the area
-  type: Main action
+  type: feature/ability/talent/9th-level-feature
 effects:
   - effect: You and each target ally can't obtain lower than a tier 2 outcome on
       power rolls until the start of your next turn. Each target enemy is

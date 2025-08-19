@@ -8,6 +8,7 @@ type: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  action_type: Main action
   class: shadow
   cost: 11 Insight
   cost_amount: 11
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.2.7:02
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Main action
+  type: feature/ability/shadow/9th-level-feature
 effects:
   - effect: Each enemy within 3 squares of the target who is not currently targeted
       by this ability also becomes targeted by this ability. This effect

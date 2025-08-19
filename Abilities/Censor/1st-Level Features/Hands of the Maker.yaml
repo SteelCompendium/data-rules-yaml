@@ -6,6 +6,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: censor
   distance: Self
   feature_type: ability
@@ -24,7 +25,7 @@ metadata:
     - 1.1.1:13.2.7.1:10
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/censor/1st-level-feature
 effects:
   - effect: You create a mundane object of size 1S or smaller. You can maintain a
       number of objects created this way equal to your Presence score. You can

@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Each ally
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 5 Piety
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.5:10
   source: mcdm.heroes.v1
   target: Each ally
-  type: Maneuver
+  type: feature/ability/conduit/2nd-level-feature
 effects:
   - effect: Until the start of your next turn, each time a target kills an enemy,
       they regain Stamina equal to 5 + your Intuition score.

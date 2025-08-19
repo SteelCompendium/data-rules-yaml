@@ -9,6 +9,7 @@ type: Maneuver
 distance: 2 burst
 target: Each ally in the area
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 11 Clarity
   cost_amount: 11
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.1.7:02
   source: mcdm.heroes.v1
   target: Each ally in the area
-  type: Maneuver
+  type: feature/ability/talent/9th-level-feature
 effects:
   - effect: The targets share 6 of their Heroic Resource among themselves, as you
       determine. A target can't gain more than 3 of their Heroic Resource this

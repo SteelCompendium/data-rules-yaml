@@ -7,6 +7,7 @@ type: Main action
 distance: Ranged 10
 target: One creature
 metadata:
+  action_type: Main action
   class: shadow
   cost: 5 Insight
   cost_amount: 5
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.2.5:01
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/shadow/2nd-level-feature
 effects:
   - effect: You attach a small bomb to a creature. If you are hidden from the
       creature, they don't notice the bomb and you remain hidden. The creature

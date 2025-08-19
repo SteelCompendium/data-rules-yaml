@@ -9,6 +9,7 @@ distance: Ranged 10
 target: Self, or one creature or object
 trigger: The target takes damage.
 metadata:
+  action_type: Triggered
   class: talent
   cost: 3 Clarity
   cost_amount: 3
@@ -31,7 +32,7 @@ metadata:
     - 1.1.1:13.2.1.2:01
   source: mcdm.heroes.v1
   target: Self, or one creature or object
-  type: Triggered
+  type: feature/ability/talent/8th-level-feature
 effects:
   - effect: The target is teleported to an unoccupied space adjacent to you, taking
       no damage and suffering no additional effects if this movement would get

@@ -11,6 +11,7 @@ distance: Melee 1
 target: One creature
 trigger: The target moves or uses a main action.
 metadata:
+  action_type: Free triggered
   class: "null"
   cost: 9 Discipline
   cost_amount: 9
@@ -35,7 +36,7 @@ metadata:
     - 1.1.1:13.2.6.7:01
   source: mcdm.heroes.v1
   target: One creature
-  type: Free triggered
+  type: feature/ability/null/4th-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 7 + A damage; I < WEAK, restrained (save ends)

@@ -8,6 +8,7 @@ type: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Main action
   class: censor
   cost: 5 Wrath
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.7.5:03
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Main action
+  type: feature/ability/censor/2nd-level-feature
 effects:
   - effect: The target can use a free triggered action to use a strike signature
       ability or a strike heroic ability, and has a double edge on that ability.

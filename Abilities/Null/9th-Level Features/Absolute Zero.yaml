@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 11 Discipline
   cost_amount: 11
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.6.6:01
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/null/9th-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: You gain 20 temporary Stamina.

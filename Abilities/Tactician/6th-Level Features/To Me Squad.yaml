@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: tactician
   cost: 9 Focus
   cost_amount: 9
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.4.3:06
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/tactician/6th-level-feature
 effects:
   - roll: Power Roll + Might
     t1: 6 + M damage; one ally within 10 squares can use the Charge main action as a

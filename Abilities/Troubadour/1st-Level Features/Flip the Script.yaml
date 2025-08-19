@@ -9,6 +9,7 @@ type: Main action
 distance: 3 burst
 target: Self and each ally in the area
 metadata:
+  action_type: Main action
   class: troubadour
   cost: 5 Drama
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.3.1:10
   source: mcdm.heroes.v1
   target: Self and each ally in the area
-  type: Main action
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: Each target can teleport up to 5 squares. Any teleported target who was
       slowed is no longer slowed.

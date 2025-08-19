@@ -8,6 +8,7 @@ type: Maneuver
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 11 Piety
   cost_amount: 11
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.7:04
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/conduit/9th-level-feature
 effects:
   - effect: Until the end of the encounter or until you are dying, no enemy can
       approach within 5 squares of you by moving or by being force moved by any

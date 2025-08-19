@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 2
 target: Self or one ally
 metadata:
+  action_type: Main action
   class: talent
   cost: 3 Clarity
   cost_amount: 3
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.1:10
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Main action
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: Ability rolls made against the target take a bane until the start of
       your next turn. Whenever the target takes damage while under this effect,

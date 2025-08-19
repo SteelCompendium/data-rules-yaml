@@ -8,6 +8,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: shadow
   distance: Melee 1
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.2.1:14
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 3 + A damage

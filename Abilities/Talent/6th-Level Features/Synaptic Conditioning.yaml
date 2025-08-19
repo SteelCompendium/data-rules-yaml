@@ -11,6 +11,7 @@ type: Main action
 distance: Melee 2
 target: One creature
 metadata:
+  action_type: Main action
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.3:06
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/talent/6th-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 10 psychic damage; the target takes a bane on ability rolls made to harm you

@@ -11,6 +11,7 @@ type: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -36,7 +37,7 @@ metadata:
     - 1.1.1:13.2.1.3:01
   source: mcdm.heroes.v1
   target: Special
-  type: Maneuver
+  type: feature/ability/talent/6th-level-feature
 effects:
   - effect: You target a number of creatures with this ability determined by the
       outcome of your power roll. You and your allies are invisible to each

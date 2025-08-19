@@ -9,6 +9,7 @@ type: Main action
 distance: 3 cube within 10
 target: Special
 metadata:
+  action_type: Main action
   class: troubadour
   cost: 5 Drama
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.3.5:04
   source: mcdm.heroes.v1
   target: Special
-  type: Main action
+  type: feature/ability/troubadour/2nd-level-feature
 effects:
   - effect: The area is haunted by a swirling horde of phantoms until the end of the
       encounter. Allies can enter any square of the area without spending

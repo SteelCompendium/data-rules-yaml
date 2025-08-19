@@ -10,6 +10,7 @@ type: Maneuver
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Maneuver
   class: troubadour
   cost: 3 Drama
   cost_amount: 3
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.3.1:04
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: You shift up to your speed. You make one power roll that targets each
       enemy you move adjacent to during this shift.

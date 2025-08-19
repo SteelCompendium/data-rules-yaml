@@ -7,6 +7,7 @@ type: Maneuver
 distance: 1 burst
 target: Self and each ally in the area
 metadata:
+  action_type: Maneuver
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.4.5:04
   source: mcdm.heroes.v1
   target: Self and each ally in the area
-  type: Maneuver
+  type: feature/ability/tactician/2nd-level-feature
 effects:
   - effect: Until the start of your next turn, each target has a bonus to stability
       equal to your Might score. Additionally, each target gains 2 surges.

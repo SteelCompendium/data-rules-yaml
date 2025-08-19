@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 9 Piety
   cost_amount: 9
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.8:02
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/conduit/7th-level-feature
 effects:
   - effect: You create two illusory duplicates of the target, which appear anywhere
       within distance. These duplicates last until the end of the encounter. On

@@ -9,6 +9,7 @@ type: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Main action
   class: conduit
   cost: 11 Piety
   cost_amount: 11
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.8.2:02
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Main action
+  type: feature/ability/conduit/8th-level-feature
 effects:
   - effect: The target can spend any number of Recoveries, can end any effects on
       them that are ended by a saving throw or that end at the end of their

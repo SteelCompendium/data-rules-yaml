@@ -8,6 +8,7 @@ type: Main action
 distance: Ranged 10
 target: Three creatures or objects
 metadata:
+  action_type: Main action
   class: "null"
   cost: 9 Discipline
   cost_amount: 9
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.6.3:01
   source: mcdm.heroes.v1
   target: Three creatures or objects
-  type: Main action
+  type: feature/ability/null/6th-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: Vertical slide 6

@@ -10,6 +10,7 @@ type: Maneuver
 distance: Melee 1
 target: One creature or object
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 5 Discipline
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.6.1:13
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Maneuver
+  type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: Push 3

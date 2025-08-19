@@ -8,6 +8,7 @@ distance: Ranged 10
 target: One ally
 trigger: The target would take damage from an ability that uses a power roll.
 metadata:
+  action_type: Triggered
   class: conduit
   distance: Ranged 10
   feature_type: ability
@@ -27,7 +28,7 @@ metadata:
     - 1.1.1:13.2.8.1:16
   source: mcdm.heroes.v1
   target: One ally
-  type: Triggered
+  type: feature/ability/conduit/1st-level-feature
 effects:
   - effect: The power roll takes a bane against the target.
   - effect: The power roll has a double bane against the target.

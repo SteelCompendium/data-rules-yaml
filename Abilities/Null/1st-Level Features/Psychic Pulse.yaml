@@ -8,6 +8,7 @@ type: Maneuver
 distance: 2 burst
 target: Each enemy in the area
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 3 Discipline
   cost_amount: 3
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.6.1:17
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Maneuver
+  type: feature/ability/null/1st-level-feature
 effects:
   - effect: Each target takes psychic damage equal to twice your Intuition score.
       Until the start of your next turn, the size of your Null Field ability

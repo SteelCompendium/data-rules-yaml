@@ -10,6 +10,7 @@ type: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  action_type: Main action
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.3:02
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Main action
+  type: feature/ability/talent/6th-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: Slide 4 + R; M < WEAK, the forced movement is vertical

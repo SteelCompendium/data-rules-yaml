@@ -9,6 +9,7 @@ type: Main action
 distance: Ranged 10
 target: One creature or object
 metadata:
+  action_type: Main action
   class: elementalist
   distance: Ranged 10
   feature_type: ability
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.9.1:11
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Main action
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 2 + R fire damage; push 2

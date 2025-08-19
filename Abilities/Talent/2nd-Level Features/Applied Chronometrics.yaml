@@ -10,6 +10,7 @@ type: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 5 Clarity
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.5:03
   source: mcdm.heroes.v1
   target: Special
-  type: Maneuver
+  type: feature/ability/talent/2nd-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: You target two creatures, one of which can be you.

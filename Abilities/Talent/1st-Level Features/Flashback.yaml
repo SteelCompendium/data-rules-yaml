@@ -10,6 +10,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 5 Clarity
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.1:03
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The target uses an ability with a base Heroic Resource cost of 7 or
       lower that they've previously used this round, without needing to spend

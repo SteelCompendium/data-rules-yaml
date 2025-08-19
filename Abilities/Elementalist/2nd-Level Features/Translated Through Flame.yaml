@@ -10,6 +10,7 @@ type: Main action
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Main action
   class: elementalist
   cost: 5 Essence
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.9.5:03
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Main action
+  type: feature/ability/elementalist/2nd-level-feature
 effects:
   - effect: The target is teleported to another space within distance. Make a power
       roll that affects each enemy adjacent to the target's new space.

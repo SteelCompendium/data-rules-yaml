@@ -8,6 +8,7 @@ type: Main action
 distance: 1 burst
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: "null"
   distance: 1 burst
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.6.1:10
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 3 damage

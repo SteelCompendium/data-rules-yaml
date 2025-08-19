@@ -10,6 +10,7 @@ type: Maneuver
 distance: 3 cube within 10
 target: Each creature in the area
 metadata:
+  action_type: Maneuver
   class: shadow
   cost: 5 Insight
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.2.5:05
   source: mcdm.heroes.v1
   target: Each creature in the area
-  type: Maneuver
+  type: feature/ability/shadow/2nd-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: Slide 4

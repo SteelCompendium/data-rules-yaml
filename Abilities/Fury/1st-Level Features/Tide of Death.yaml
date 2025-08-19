@@ -8,6 +8,7 @@ type: Main action
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Main action
   class: fury
   cost: 3 Ferocity
   cost_amount: 3
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.5.1:10
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/fury/1st-level-feature
 effects:
   - effect: You move up to your speed in a straight line, and enemy squares are not
       difficult terrain for this movement. You can end this movement in a

@@ -9,6 +9,7 @@ type: Main action
 distance: Self; see below
 target: Self
 metadata:
+  action_type: Main action
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.4.5:01
   source: mcdm.heroes.v1
   target: Self
-  type: Main action
+  type: feature/ability/tactician/2nd-level-feature
 effects:
   - effect: You shift up to your speed directly toward an ally, ending adjacent to
       them, then swapping locations with that ally as long as you can fit into

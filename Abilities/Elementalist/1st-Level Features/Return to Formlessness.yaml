@@ -8,6 +8,7 @@ type: Main action
 distance: Melee 1
 target: One mundane object
 metadata:
+  action_type: Main action
   class: elementalist
   distance: Melee 1
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.9.1:03
   source: mcdm.heroes.v1
   target: One mundane object
-  type: Main action
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: You heat the target and cause it to melt or combust, destroying it. If
       the object is larger than 1 square, then only the square of the object you

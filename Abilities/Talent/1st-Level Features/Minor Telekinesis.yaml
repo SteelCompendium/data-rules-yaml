@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one size 1 creature or object
 metadata:
+  action_type: Maneuver
   class: talent
   distance: Ranged 10
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.1.1:02
   source: mcdm.heroes.v1
   target: Self or one size 1 creature or object
-  type: Maneuver
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: You slide the target up to a number of squares equal to your Reason score.
   - effect: The size of the creature or object you can target increases by 1 for

@@ -8,6 +8,7 @@ distance: Ranged 10
 target: Self or one ally
 trigger: The target starts their turn or takes damage.
 metadata:
+  action_type: Triggered
   class: censor
   distance: Ranged 10
   feature_type: ability
@@ -27,7 +28,7 @@ metadata:
     - 1.1.1:13.2.7.1:02
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Triggered
+  type: feature/ability/censor/1st-level-feature
 effects:
   - effect: You spend a Recovery and the target regains Stamina equal to your
       recovery value.

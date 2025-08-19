@@ -6,6 +6,7 @@ type: Main action
 distance: Ranged 10
 target: One ally
 metadata:
+  action_type: Main action
   class: tactician
   distance: Ranged 10
   feature_type: ability
@@ -24,7 +25,7 @@ metadata:
     - 1.1.1:13.2.4.1:06
   source: mcdm.heroes.v1
   target: One ally
-  type: Main action
+  type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: The target can use a signature ability as a free triggered action.
   - effect: You target two allies instead of one.

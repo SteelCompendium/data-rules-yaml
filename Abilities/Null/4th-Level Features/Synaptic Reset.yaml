@@ -8,6 +8,7 @@ type: Maneuver
 distance: 3 burst
 target: Self and each ally in the area
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 9 Discipline
   cost_amount: 9
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.6.7:02
   source: mcdm.heroes.v1
   target: Self and each ally in the area
-  type: Maneuver
+  type: feature/ability/null/4th-level-feature
 effects:
   - effect: Each target can end any conditions or effects on themself, and gains 5
       temporary Stamina for each condition or effect removed.

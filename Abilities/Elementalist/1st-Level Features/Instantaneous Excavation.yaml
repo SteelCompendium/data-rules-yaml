@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Maneuver
   class: elementalist
   cost: 5 Essence
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.9.1:20
   source: mcdm.heroes.v1
   target: Special
-  type: Maneuver
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - effect: You open up two holes with 1-square openings that are 4 squares deep,
       which can be placed on any mundane surface within distance. You can place

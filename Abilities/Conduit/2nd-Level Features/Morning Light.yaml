@@ -8,6 +8,7 @@ type: Main action
 distance: 3 burst
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: conduit
   cost: 5 Piety
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.5:09
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/conduit/2nd-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: 4 fire damage

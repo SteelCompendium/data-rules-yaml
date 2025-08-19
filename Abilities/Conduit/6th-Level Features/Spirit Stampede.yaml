@@ -9,6 +9,7 @@ type: Main action
 distance: 10 x 2 line within 5
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: conduit
   cost: 9 Piety
   cost_amount: 9
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.8.3:04
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/conduit/6th-level-feature
 effects:
   - roll: Power Roll + Intuition
     t1: 5 damage; M < WEAK, prone and can't stand (save ends)

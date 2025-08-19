@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 2
 target: One creature
 metadata:
+  action_type: Main action
   class: "null"
   distance: Melee 2
   feature_type: ability
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.6.1:09
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/null/1st-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 5 + A psychic damage; vertical pull 1

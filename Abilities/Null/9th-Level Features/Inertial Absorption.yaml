@@ -8,6 +8,7 @@ distance: Self
 target: Self
 trigger: Another creature damages you using an ability.
 metadata:
+  action_type: Free triggered
   class: "null"
   cost: 11 Discipline
   cost_amount: 11
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.6.6:02
   source: mcdm.heroes.v1
   target: Self
-  type: Free triggered
+  type: feature/ability/null/9th-level-feature
 effects:
   - effect: You take half the damage, negate any effects associated with the damage
       for you, and gain 3 surges.

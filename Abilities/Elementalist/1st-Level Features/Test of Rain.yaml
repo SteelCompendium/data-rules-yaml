@@ -10,6 +10,7 @@ type: Main action
 distance: 3 cube within 10
 target: Each enemy in the area
 metadata:
+  action_type: Main action
   class: elementalist
   cost: 5 Essence
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.9.1:15
   source: mcdm.heroes.v1
   target: Each enemy in the area
-  type: Main action
+  type: feature/ability/elementalist/1st-level-feature
 effects:
   - roll: Power Roll + Reason
     t1: 4 acid damage

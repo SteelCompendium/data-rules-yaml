@@ -8,6 +8,7 @@ distance: Self; see below
 target: Self
 trigger: You use your In All This Confusion ability.
 metadata:
+  action_type: Free triggered
   class: shadow
   cost: 5 Insight
   cost_amount: 5
@@ -29,7 +30,7 @@ metadata:
     - 1.1.1:13.2.2.5:03
   source: mcdm.heroes.v1
   target: Self
-  type: Free triggered
+  type: feature/ability/shadow/2nd-level-feature
 effects:
   - effect: You ignore any effects associated with the damage that triggered your In
       All This Confusion ability. Before you teleport, you can make a free

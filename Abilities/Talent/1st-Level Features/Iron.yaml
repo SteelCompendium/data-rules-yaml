@@ -9,6 +9,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 5 Clarity
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.1.1:04
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/talent/1st-level-feature
 effects:
   - effect: The target's stability increases by an amount equal to your Reason
       score, and they gain 10 temporary Stamina and 2 surges. This stability

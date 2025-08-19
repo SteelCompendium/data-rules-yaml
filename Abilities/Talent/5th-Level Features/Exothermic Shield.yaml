@@ -10,6 +10,7 @@ type: Maneuver
 distance: Ranged 10
 target: Self or one ally
 metadata:
+  action_type: Maneuver
   class: talent
   cost: 9 Clarity
   cost_amount: 9
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.1.4:02
   source: mcdm.heroes.v1
   target: Self or one ally
-  type: Maneuver
+  type: feature/ability/talent/5th-level-feature
 effects:
   - effect: Until the start of your next turn, the target has cold immunity 10 and
       fire immunity 10, and their strikes deal extra fire damage equal to twice

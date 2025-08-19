@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Maneuver
   class: elementalist
   distance: Ranged 10
   feature_type: ability
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.9.5:04
   source: mcdm.heroes.v1
   target: Special
-  type: Maneuver
+  type: feature/ability/elementalist/2nd-level-feature
 effects:
   - effect: >-
       You open two size 1 portals in unoccupied spaces within distance, which

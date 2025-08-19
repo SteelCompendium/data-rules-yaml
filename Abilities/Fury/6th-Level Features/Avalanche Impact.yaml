@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: fury
   cost: 9 Ferocity
   cost_amount: 9
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.5.3:04
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/fury/6th-level-feature
 effects:
   - effect: You jump up to your maximum jump distance and make one power roll that
       targets each creature adjacent to the space where you land.

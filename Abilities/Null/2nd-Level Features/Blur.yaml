@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 5 Discipline
   cost_amount: 5
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.6.4:01
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/null/2nd-level-feature
 effects:
   - effect: You can use a signature or heroic ability. You gain an edge on that
       ability's power rolls.

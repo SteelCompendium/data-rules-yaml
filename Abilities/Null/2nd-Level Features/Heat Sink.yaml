@@ -8,6 +8,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: "null"
   cost: 5 Discipline
   cost_amount: 5
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.6.4:04
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/null/2nd-level-feature
 effects:
   - effect: Until the start of your next turn, the size of your Null Field ability
       increases by 1, and you and any ally benefit from concealment while in the

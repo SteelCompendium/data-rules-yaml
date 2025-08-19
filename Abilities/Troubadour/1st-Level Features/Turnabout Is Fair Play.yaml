@@ -8,6 +8,7 @@ target: One creature
 trigger: The target makes an ability roll that has an edge, a double edge, a
   bane, or a double bane.
 metadata:
+  action_type: Triggered
   class: troubadour
   distance: Ranged 10
   feature_type: ability
@@ -26,7 +27,7 @@ metadata:
     - 1.1.1:13.2.3.1:19
   source: mcdm.heroes.v1
   target: One creature
-  type: Triggered
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: An edge on the triggering roll becomes a bane, or a double edge becomes
       an edge. A bane becomes an edge, or a double bane becomes a bane.

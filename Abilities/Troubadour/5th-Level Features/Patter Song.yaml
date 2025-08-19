@@ -8,6 +8,7 @@ type: Maneuver
 distance: Ranged 10
 target: Special
 metadata:
+  action_type: Maneuver
   class: troubadour
   cost: 9 Drama
   cost_amount: 9
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.3.4:02
   source: mcdm.heroes.v1
   target: Special
-  type: Maneuver
+  type: feature/ability/troubadour/5th-level-feature
 effects:
   - roll: Power Roll + Presence
     t1: One ally within distance can take their turn immediately after yours.

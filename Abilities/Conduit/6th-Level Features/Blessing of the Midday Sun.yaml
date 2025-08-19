@@ -8,6 +8,7 @@ type: Maneuver
 distance: 4 aura
 target: Self and each creature in the area
 metadata:
+  action_type: Maneuver
   class: conduit
   cost: 9 Piety
   cost_amount: 9
@@ -30,7 +31,7 @@ metadata:
     - 1.1.1:13.2.8.3:07
   source: mcdm.heroes.v1
   target: Self and each creature in the area
-  type: Maneuver
+  type: feature/ability/conduit/6th-level-feature
 effects:
   - effect: Until the end of the encounter or until you are dying, each enemy in the
       area takes a bane on power rolls, and you and each ally in the area gain 1

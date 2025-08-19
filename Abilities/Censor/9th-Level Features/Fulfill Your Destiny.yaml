@@ -9,6 +9,7 @@ distance: Ranged 10
 target: One ally
 trigger: You or another hero ends their turn.
 metadata:
+  action_type: Triggered
   class: censor
   cost: 11 Wrath
   cost_amount: 11
@@ -31,7 +32,7 @@ metadata:
     - 1.1.1:13.2.7.7:02
   source: mcdm.heroes.v1
   target: One ally
-  type: Triggered
+  type: feature/ability/censor/9th-level-feature
 effects:
   - effect: The target takes their turn after the triggering hero, and immediately
       removes all conditions and negative effects on themself. During their

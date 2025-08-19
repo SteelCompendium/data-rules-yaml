@@ -9,6 +9,7 @@ type: Main action
 distance: Ranged 5
 target: One creature
 metadata:
+  action_type: Main action
   class: shadow
   cost: 5 Insight
   cost_amount: 5
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.2.1:08
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/shadow/1st-level-feature
 effects:
   - roll: Power Roll + Agility
     t1: 6 + A damage; R < WEAK, the target has damage weakness 5 (save ends)

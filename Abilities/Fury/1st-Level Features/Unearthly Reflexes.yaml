@@ -7,6 +7,7 @@ distance: Self
 target: Self
 trigger: You take damage.
 metadata:
+  action_type: Triggered
   class: fury
   distance: Self
   feature_type: ability
@@ -25,7 +26,7 @@ metadata:
     - 1.1.1:13.2.5.1:05
   source: mcdm.heroes.v1
   target: Self
-  type: Triggered
+  type: feature/ability/fury/1st-level-feature
 effects:
   - effect: You take half the damage from the triggering effect and can shift up to
       a number of squares equal to your Agility score.

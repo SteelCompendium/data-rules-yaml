@@ -7,6 +7,7 @@ type: Maneuver
 distance: Self
 target: Self
 metadata:
+  action_type: Maneuver
   class: troubadour
   cost: 5 Drama
   cost_amount: 5
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.3.1:05
   source: mcdm.heroes.v1
   target: Self
-  type: Maneuver
+  type: feature/ability/troubadour/1st-level-feature
 effects:
   - effect: You turn invisible and create a magical illusion of your corpse falling
       in your space. While you are invisible, you gain a +3 bonus to speed and

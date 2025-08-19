@@ -10,6 +10,7 @@ type: Main action
 distance: Melee 1 or ranged 5
 target: One creature or object
 metadata:
+  action_type: Main action
   class: tactician
   cost: 5 Focus
   cost_amount: 5
@@ -34,7 +35,7 @@ metadata:
     - 1.1.1:13.2.4.1:12
   source: mcdm.heroes.v1
   target: One creature or object
-  type: Main action
+  type: feature/ability/tactician/1st-level-feature
 effects:
   - effect: You mark the target.
   - roll: Power Roll + Might

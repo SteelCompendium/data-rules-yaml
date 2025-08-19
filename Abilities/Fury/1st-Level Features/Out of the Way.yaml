@@ -9,6 +9,7 @@ type: Main action
 distance: Melee 1
 target: One creature
 metadata:
+  action_type: Main action
   class: fury
   cost: 3 Ferocity
   cost_amount: 3
@@ -32,7 +33,7 @@ metadata:
     - 1.1.1:13.2.5.1:04
   source: mcdm.heroes.v1
   target: One creature
-  type: Main action
+  type: feature/ability/fury/1st-level-feature
 effects:
   - roll: Power Roll + Might
     t1: 3 + M damage; slide 2

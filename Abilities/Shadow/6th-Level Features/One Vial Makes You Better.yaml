@@ -7,6 +7,7 @@ type: Maneuver
 distance: Ranged 10
 target: Three creatures
 metadata:
+  action_type: Maneuver
   class: shadow
   cost: 9 Insight
   cost_amount: 9
@@ -28,7 +29,7 @@ metadata:
     - 1.1.1:13.2.2.3:06
   source: mcdm.heroes.v1
   target: Three creatures
-  type: Maneuver
+  type: feature/ability/shadow/6th-level-feature
 effects:
   - effect: >-
       You ready, hand, or lob a potion to each target, who can immediately quaff
