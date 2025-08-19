@@ -6305,7 +6305,7 @@ abilities:
           and you choose any targets for that ability
   - name: Morning Light
     cost: 5 Piety
-    flavor: Light shines at your command, burning your foes and blessing your
+    flavor: Light shines at your command, burning your foes and blessing your allies.
     keywords:
       - Area
       - Magic
@@ -17980,7 +17980,8 @@ abilities:
           score a critical hit.
   - name: Their Lack of Focus Is Their Undoing
     cost: 11 Focus
-    flavor: You trick your enemies into attacking each other and leave them
+    flavor: You trick your enemies into attacking each other and leave them confused
+      by the aftermath.
     keywords:
       - Magic
       - Ranged
@@ -21688,7 +21689,7 @@ abilities:
       - Strike
       - Weapon
     type: Main action
-    distance: Melee 1
+    distance: Melee 1 or ranged 5
     target: One creature
     metadata:
       class: shadow
@@ -21895,7 +21896,7 @@ abilities:
           surge.
   - name: Eviscerate
     cost: 3 Insight
-    flavor: You leave your foe bleeding out after a devastating attack
+    flavor: You leave your foe bleeding out after a devastating attack.
     keywords:
       - Melee
       - Ranged
@@ -23386,6 +23387,7 @@ abilities:
   - name: To the Stars
     cost: 11 Insight
     flavor: You attach your most potent explosive to your foe. Under less pressing
+      circumstances, you're sure you could launch them into orbit.
     keywords:
       - Melee
       - Ranged
