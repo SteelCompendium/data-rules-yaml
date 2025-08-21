@@ -230,6 +230,7 @@ abilities:
     
           See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
           information on the grabbed condition.
+        name: Effect
   - name: Escape Grab
     metadata:
       class: combat
@@ -268,6 +269,7 @@ abilities:
     
           See [Conditions](#page-91-2) in [Chapter 5: Classes](#page-83-2) for
           information on the grabbed condition.
+        name: Effect
   - name: Make or Assist a Test
     metadata:
       class: combat
@@ -405,6 +407,7 @@ abilities:
       - effect: You can usually target only creatures of your size or smaller. If your
           Might score is 2 or higher, you can target any creature with a size equal
           to or less than your Might score.
+        name: Effect
   - name: Essence Outside of Combat
     metadata:
       class: elementalist
@@ -471,6 +474,7 @@ abilities:
       type: feature/ability/elementalist/1st-level-feature
     effects:
       - effect: The target can spend a Recovery.
+        name: Effect
       - effect: The target can spend an additional Recovery for each essence spent.
         cost: Spend 1+ Essence
   - name: Enchantment of Destruction
@@ -531,6 +535,7 @@ abilities:
       - effect: "When you make this strike, choose the damage type from one of the
           following options: acid, cold, corruption, fire, lightning, poison, or
           sonic."
+        name: Effect
   - name: Essence in Combat
     metadata:
       class: elementalist
@@ -608,6 +613,7 @@ abilities:
           target, you and any ally adjacent to the target gain 1 surge whenever the
           target takes damage. The mushrooms can be removed by the target or an
           adjacent creature as a main action.
+        name: Effect
   - name: Practical Magic
     flavor: Your mastery of elemental power lets you customize your conjurations.
     keywords:
@@ -652,6 +658,7 @@ abilities:
           - You teleport up to a number of squares equal to your Reason score. If
           you choose this option, you can spend essence to teleport 1 additional
           square for each essence spent.
+        name: Effect
   - name: Ward of Excellent Protection
     metadata:
       class: elementalist
@@ -796,6 +803,7 @@ abilities:
       - effect: You can end one effect on yourself that is ended by a saving throw or
           that ends at the end of your turn. Each ally in the area also gains this
           benefit.
+        name: Effect
   - name: The Green Within, the Green Without
     flavor: Whipping vines erupt from a foe's body to grasp at another close by.
     keywords:
@@ -836,6 +844,7 @@ abilities:
         t2: 5 + R damage
         t3: 7 + R damage
       - effect: You slide one creature within 10 squares of the target up to 2 squares.
+        name: Effect
   - name: Motivate Earth
     flavor: The earth rises, falls, or opens up at your command.
     keywords:
@@ -880,6 +889,7 @@ abilities:
           or other opening that is 1 square or smaller in a mundane dirt, stone, or
           metal surface. The opening is sealed by the same material that makes up
           the surface.
+        name: Effect
   - name: Ward of Nature's Affection
     metadata:
       class: elementalist
@@ -964,6 +974,7 @@ abilities:
       - effect: You heat the target and cause it to melt or combust, destroying it. If
           the object is larger than 1 square, then only the square of the object you
           touch is destroyed.
+        name: Effect
   - name: Enchantment of Permanence
     metadata:
       class: elementalist
@@ -1023,6 +1034,7 @@ abilities:
         t2: 6 + R corruption damage
         t3: 9 + R corruption damage
       - effect: You can teleport up to a number of squares equal to your Reason score.
+        name: Effect
   - name: Ward of Delightful Consequences
     metadata:
       class: elementalist
@@ -1085,6 +1097,7 @@ abilities:
           opportunity attacks. If the target ends their turn inside solid matter,
           they are forced out into the space where they entered it and this effect
           ends.
+        name: Effect
       - effect: The effect lasts until the start of your next turn.
         name: Persistent 1
   - name: Enchantment of Celerity
@@ -1143,6 +1156,7 @@ abilities:
       - effect: You teleport the target up to a number of squares equal to your Reason
           score. If the target moves to trigger this ability, you can teleport them
           at any point during the move.
+        name: Effect
       - effect: You teleport the target up to a number of squares equal to twice your
           Reason score instead.
         cost: Spend 1 Essence
@@ -1220,6 +1234,7 @@ abilities:
       type: feature/ability/elementalist/1st-level-feature
     effects:
       - effect: The target takes half the damage.
+        name: Effect
       - effect: If the damage has any potency effects associated with it, the potency is
           reduced by 1 for the target.
         cost: Spend 1 Essence
@@ -1259,6 +1274,7 @@ abilities:
       - effect: For each Victory you have, you can target one creature. Each target
           gains the benefit of your A Beyonding of Vision feature until the end of
           your next turn, but doesn't gain the use of the Shared Void Sense ability.
+        name: Effect
   - name: It Is the Soul Which Hears
     metadata:
       class: elementalist
@@ -1400,6 +1416,7 @@ abilities:
           that square, with a height in squares up to your Reason score. The pillar
           can't collide with any creatures or objects, nor can it force creatures
           raised by it to collide with other creatures or objects.
+        name: Effect
   - name: Explosive Assistance
     flavor: You add a little magic to an ally's aggression at just the right time.
     keywords:
@@ -1435,6 +1452,7 @@ abilities:
       type: feature/ability/elementalist/1st-level-feature
     effects:
       - effect: The forced movement distance gains a bonus equal to your Reason score.
+        name: Effect
       - effect: The forced movement distance gains a bonus equal to twice your Reason
           score instead.
         cost: Spend 1 Essence
@@ -1514,7 +1532,8 @@ abilities:
       target: Special
       type: feature/ability/elementalist/1st-level-feature
     effects:
-      - effect: You open up two holes with 1-square openings that are 4 squares deep,
+      - name: Effect
+        effect: You open up two holes with 1-square openings that are 4 squares deep,
           which can be placed on any mundane surface within distance. You can place
           these holes next to each other to create fewer holes with wider openings.
           When the holes open, make a separate power roll for each creature on the
@@ -1700,6 +1719,7 @@ abilities:
       - effect: Choose yourself or one ally within distance. That character can end one
           effect on them that is ended by a saving throw or that ends at the end of
           their turn.
+        name: Effect
   - name: "Green: Acolyte of the Green"
     metadata:
       class: elementalist
@@ -1783,6 +1803,7 @@ abilities:
         t2: 5 damage
         t3: 7 damage
       - effect: The ground beneath the area is difficult terrain for enemies.
+        name: Effect
   - name: "Fire: Acolyte of Fire"
     metadata:
       class: elementalist
@@ -1948,6 +1969,7 @@ abilities:
         t2: 10 fire damage; the Director loses 3 Malice
         t3: 15 fire damage; the Director loses 4 Malice
       - effect: The Director's Malice can become negative as a result of this ability.
+        name: Effect
   - name: World Torn Asunder
     cost: 11 Essence
     flavor: You stomp your foot and quake the whole world over.
@@ -1993,6 +2015,7 @@ abilities:
           and 6 squares deep. Each creature in the area who is prone and size 2 or
           smaller falls in. Other creatures can enter the fissure or can shift to
           the nearest unoccupied space of their choice outside it.
+        name: Effect
   - name: Return to Oblivion
     cost: 11 Essence
     flavor: You create a tear in reality that could consume everything.
@@ -2038,6 +2061,7 @@ abilities:
           enters the vortex or starts their turn there is knocked prone. At the end
           of the round, if a winded enemy who is not a leader or solo creature is in
           the vortex, they are instantly destroyed.
+        name: Effect
   - name: Heart of the Wode
     cost: 11 Essence
     flavor: You call forth one of the Great Tree's many splinters to provide for
@@ -2089,6 +2113,7 @@ abilities:
           Each enemy who ends their turn within 3 squares of the tree is restrained
           until the end of their next turn. A creature restrained this way can use a
           main action to end the effect early.
+        name: Effect
   - name: Summon Source of Earth
     flavor: The ground rumbles as an elemental bursts forth, ready to serve.
     keywords:
@@ -2133,6 +2158,7 @@ abilities:
           you use this ability again. They can't regain Stamina during the
           encounter. When the source's Stamina is reduced to 0, you can't use this
           ability again until you earn 1 or more Victories.
+        name: Effect
       - effect: The source takes another turn. They are dismissed at the start of your
           next turn.
         name: Persistent 2
@@ -2318,6 +2344,7 @@ abilities:
           target takes fire damage from the fall, and each enemy within 3 squares of
           where they land takes the same amount of fire damage. The ground within 3
           squares of where the target lands is difficult terrain.
+        name: Effect
   - name: Wyrding
     metadata:
       class: elementalist
@@ -2424,6 +2451,7 @@ abilities:
     
           - They can use their highest characteristic instead of Might for Might
           power rolls.
+        name: Effect
       - effect: The effect lasts until the start of your next turn. Additionally, at the
           start of your turn, the target can spend 2 Recoveries.
         name: Persistent 2
@@ -2472,6 +2500,7 @@ abilities:
           ignore concealment. Additionally, whenever the target gains their Heroic
           Resource, they gain 1 additional Heroic Resource. This effect lasts until
           the start of your next turn.
+        name: Effect
       - effect: The effect lasts until the start of your next turn.
         name: Persistent 1
   - name: The Wode Remembers and Returns
@@ -2519,6 +2548,7 @@ abilities:
           in unoccupied spaces within it until the start of your next turn. The area
           is difficult terrain for enemies, and any ally who ends their turn in the
           area has cover.
+        name: Effect
       - effect: The area remains until the start of your next turn. Additionally, at the
           start of your turn, each ally in the area can spend a Recovery.
         name: Persistent 2
@@ -2841,6 +2871,7 @@ abilities:
       - effect: When the target ends their next turn, or if they drop to 0 Stamina
           before then, each enemy adjacent to them takes fire damage equal to twice
           your Reason score. Each affected enemy then gains this same effect.
+        name: Effect
   - name: Storm of Sands
     cost: 9 Essence
     flavor: Dirt and debris swirl into a dark, pulsing hurricane.
@@ -2887,6 +2918,7 @@ abilities:
       - effect: The area lasts until the start of your next turn. It is difficult
           terrain for enemies, and you and your allies have concealment while in the
           area.
+        name: Effect
       - effect: The area remains until the start of your next turn, and you can move it
           up to 5 squares (no action required). As a maneuver, you can make the
           power roll again without spending essence.
@@ -3039,6 +3071,7 @@ abilities:
         t3: 5 corruption damage; A < STRONG, restrained (save ends)
       - effect: The area is difficult terrain until the start of your next turn. Each
           enemy who ends their turn in the area is restrained (save ends).
+        name: Effect
       - effect: The area remains until the start of your next turn.
         name: Persistent 1
   - name: Disciple of Fire
@@ -3155,7 +3188,8 @@ abilities:
       target: One creature
       type: feature/ability/elementalist/2nd-level-feature
     effects:
-      - effect: The target uses their signature ability against a creature of your
+      - name: Effect
+        effect: The target uses their signature ability against a creature of your
           choice. This signature ability can target the creature even if it usually
           wouldn't. You then make a power roll against the target of this ability.
       - roll: Power Roll + Reason
@@ -3210,6 +3244,7 @@ abilities:
           present, you and your allies choose which portal to emerge from when
           entering a portal, and a creature who force moves an enemy into a portal
           chooses that enemy's destination portal.
+        name: Effect
   - name: Translated Through Flame
     cost: 5 Essence
     flavor: Your ally disappears, then reappears in a burst of fire.
@@ -3249,7 +3284,8 @@ abilities:
       target: Self or one ally
       type: feature/ability/elementalist/2nd-level-feature
     effects:
-      - effect: The target is teleported to another space within distance. Make a power
+      - name: Effect
+        effect: The target is teleported to another space within distance. Make a power
           roll that affects each enemy adjacent to the target's new space.
       - roll: Power Roll + Reason
         t1: 3 fire damage
@@ -3346,6 +3382,7 @@ abilities:
     
           - Each enemy who enters the area for the first time in a combat round or
           starts their turn there takes damage equal to your Reason score.
+        name: Effect
       - effect: The area remains until the start of your next turn. As a maneuver, you
           can move the area up to 5 squares. This ability ends if the area is ever
           not within your line of effect.
@@ -3389,9 +3426,9 @@ abilities:
       target: Special
       type: feature/ability/elementalist/3rd-level-feature
     effects:
-      - effect: The number of creatures you target with this ability is determined by
+      - name: Special
+        effect: The number of creatures you target with this ability is determined by
           your power roll.
-        name: Special
       - roll: Power Roll + Reason
         t1: One creature
         t2: Two creatures
@@ -3402,6 +3439,7 @@ abilities:
           the end of their second turn, they fade from existence for 1 hour, after
           which they reappear in their original space or the nearest unoccupied
           space.
+        name: Effect
   - name: Wall of Fire
     cost: 7 Essence
     flavor: A blazing, beautifully organized inferno erupts at your command.
@@ -3446,6 +3484,7 @@ abilities:
           enemy who enters the area for the first time in a combat round or starts
           their turn there takes fire damage equal to your Reason score for each
           square of the area they start their turn in or enter.
+        name: Effect
       - effect: The wall lasts until the start of your next turn, and you can add a
           number of squares to the wall equal to your Reason score.
         name: Persistent 1
@@ -3487,6 +3526,7 @@ abilities:
           anything outside the object and vice versa. You can travel through the
           object freely until you exit it. If the object you meld with is destroyed,
           you take 10 damage and exit the object.
+        name: Effect
   - name: Swarm of Spirits
     cost: 7 Essence
     flavor: Guardian animal spirits surround you to harry your foes and bolster your
@@ -3533,6 +3573,7 @@ abilities:
       - effect: Until the end of your next turn, each ally in the area has each of their
           characteristic scores treated as 1 higher for the purpose of resisting
           potencies, and has a +1 bonus to saving throws.
+        name: Effect
       - effect: You make the power roll again to target each enemy in the area without
           spending essence, and the effect lasts until the start of your next turn.
         name: Persistent 1
@@ -3580,6 +3621,7 @@ abilities:
         t2: 9 damage
         t3: 12 damage
       - effect: The ground in or directly beneath the area drops 3 squares.
+        name: Effect
   - name: Remember Growth and Sun and Rain
     flavor: You stir any wood's memory and learn what it has seen.
     keywords:
@@ -3616,6 +3658,7 @@ abilities:
       - effect: You see and hear any events that have occurred within 10 squares of the
           object within the last 12 hours, perceiving those events from the object's
           location as if you were there.
+        name: Effect
   - name: Distance Is Only Memory
     metadata:
       class: elementalist
@@ -3703,6 +3746,7 @@ abilities:
           30 temporary Stamina that lasts until depleted or until the effect ends.
           If this temporary Stamina disappears, the effect ends and the shield
           explodes, dealing 10 damage to each enemy within 5 squares of the target.
+        name: Effect
       - effect: The effect lasts until the start of your next turn.
         name: Persistent 2
   - name: Earth Rejects You
@@ -3795,6 +3839,7 @@ abilities:
         t2: 18 + R fire damage; I < AVERAGE, dazed (save ends)
         t3: 25 + R fire damage; I < STRONG, dazed (save ends)
       - effect: This damage ignores immunity.
+        name: Effect
   - name: Grand Wyrding
     metadata:
       class: elementalist
@@ -3857,6 +3902,7 @@ abilities:
       - effect: You use up to three heroic abilities whose essence costs total 11 or
           less, spending no additional essence beyond the cost of this ability. You
           can shift up to 2 squares between your use of each ability.
+        name: Effect
   - name: Skill
     metadata:
       class: elementalist
@@ -4159,6 +4205,7 @@ abilities:
       type: feature/ability/conduit/1st-level-feature
     effects:
       - effect: The power roll gains an edge.
+        name: Effect
       - effect: The power roll has a double edge.
         cost: Spend 1 Piety
   - name: Protection Domain Piety and Effect
@@ -4178,15 +4225,14 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that you or any ally
+      - effect: You gain 2 piety the first time in an encounter that you or any ally
           within 10 squares gains temporary Stamina, or uses a triggered action to
           reduce incoming damage or to impose a bane or double bane on an enemy's
           power roll.
-    
-          - **Prayer Effect:** One ally within 10 squares gains temporary Stamina
-          equal to four times your Intuition score.
         name: Piety
+      - effect: One ally within 10 squares gains temporary Stamina equal to four times
+          your Intuition score.
+        name: Prayer Effect
   - name: War Domain Piety and Effect
     metadata:
       class: conduit
@@ -4204,14 +4250,13 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that you or a creature
+      - effect: You gain 2 piety the first time in an encounter that you or a creature
           within 10 squares takes damage greater than 10 + your level in a single
           turn.
-    
-          - **Prayer Effect:** Choose up to three allies within 10 squares of you,
-          or choose yourself instead of one ally. Each target gains 2 surges.
         name: Piety
+      - effect: Choose up to three allies within 10 squares of you, or choose yourself
+          instead of one ally. Each target gains 2 surges.
+        name: Prayer Effect
   - name: Oracular Visions
     metadata:
       class: conduit
@@ -4294,6 +4339,7 @@ abilities:
         t2: 4 + I damage
         t3: 6 + I damage
       - effect: You can have this ability deal holy damage.
+        name: Effect
   - name: Blessed Light
     flavor: Burning radiance falls upon your foe, transferring some of their energy
       to a nearby ally.
@@ -4335,6 +4381,7 @@ abilities:
         t3: 8 + I holy damage
       - effect: One ally within distance gains a number of surges equal to the tier
           outcome of your power roll.
+        name: Effect
   - name: Call the Thunder Down
     cost: 3 Piety
     flavor: You ask your saint for thunder and your prayer is answered.
@@ -4378,6 +4425,7 @@ abilities:
         t3: 5 sonic damage; push 3
       - effect: You can push each willing ally in the area the same distance, ignoring
           stability.
+        name: Effect
   - name: Prayer of Speed
     metadata:
       class: conduit
@@ -4430,6 +4478,7 @@ abilities:
       type: feature/ability/conduit/1st-level-feature
     effects:
       - effect: The target can spend a Recovery.
+        name: Effect
       - effect: >-
           For each piety spent, choose one of the following enhancements:
     
@@ -4480,16 +4529,15 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that a creature within 10
-          squares regains Stamina.
-    
-          - **Prayer Effect:** Choose yourself or one ally within 10 squares. That
-          character can spend a Recovery, can end one effect on them that is ended
-          by a saving throw or that ends at the end of their turn, or can stand up
-          if they are prone. Alternatively, you or one ally within 10 squares gains
-          temporary Stamina equal to two times your Intuition score.
+      - effect: You gain 2 piety the first time in an encounter that a creature within
+          10 squares regains Stamina.
         name: Piety
+      - effect: Choose yourself or one ally within 10 squares. That character can spend
+          a Recovery, can end one effect on them that is ended by a saving throw or
+          that ends at the end of their turn, or can stand up if they are prone.
+          Alternatively, you or one ally within 10 squares gains temporary Stamina
+          equal to two times your Intuition score.
+        name: Prayer Effect
   - name: Sun Domain Piety and Effect
     metadata:
       class: conduit
@@ -4507,13 +4555,12 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that an enemy within 10
+      - effect: You gain 2 piety the first time in an encounter that an enemy within 10
           squares takes fire or holy damage.
-    
-          - **Prayer Effect:** One enemy within 10 squares takes fire damage equal
-          to three times your Intuition score.
         name: Piety
+      - effect: One enemy within 10 squares takes fire damage equal to three times your
+          Intuition score.
+        name: Prayer Effect
   - name: Death Domain Piety and Effect
     metadata:
       class: conduit
@@ -4531,15 +4578,14 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that a creature within 10
-          squares who isn't a minion is reduced to 0 Stamina, or the first time in
-          an encounter that a solo creature within 10 squares becomes winded.
-    
-          - **Prayer Effect:** You inflict a deadly curse on up to two enemies
-          within 10 squares of you. Each target takes corruption damage equal to
-          twice your Intuition score.
+      - effect: You gain 2 piety the first time in an encounter that a creature within
+          10 squares who isn't a minion is reduced to 0 Stamina, or the first time
+          in an encounter that a solo creature within 10 squares becomes winded.
         name: Piety
+      - effect: You inflict a deadly curse on up to two enemies within 10 squares of
+          you. Each target takes corruption damage equal to twice your Intuition
+          score.
+        name: Prayer Effect
   - name: Faithful Friend
     flavor: An animal spirit is drawn to you, sharing their senses with you and
       serving you faithfully.
@@ -4579,6 +4625,7 @@ abilities:
           any time (no action required). If the spirit takes any damage, they are
           dismissed and you take 1d10 psychic damage that can't be reduced in any
           way.
+        name: Effect
   - name: Grave Speech
     flavor: You commune with the lingering soul of the recently dead.
     keywords:
@@ -4615,6 +4662,7 @@ abilities:
           you. The trauma of dying can make a creature's memory of that event hazy,
           but the target otherwise knows all they knew in life. After 1 minute, the
           effect ends. You can't use this ability on the same creature twice.
+        name: Effect
   - name: Revitalizing Ritual
     metadata:
       class: conduit
@@ -4707,6 +4755,7 @@ abilities:
           number of objects created this way equal to your Intuition score. You can
           destroy an object created this way with a thought, no matter how far you
           are from it (no action required).
+        name: Effect
   - name: Prayer of Soldier's Skill
     metadata:
       class: conduit
@@ -4808,7 +4857,8 @@ abilities:
       target: Four allies
       type: feature/ability/conduit/1st-level-feature
     effects:
-      - effect: You can target yourself instead of one ally with this ability.
+      - name: Effect
+        effect: You can target yourself instead of one ally with this ability.
       - roll: Power Roll + Intuition
         t1: The target gains 5 temporary Stamina.
         t2: The target gains 10 temporary Stamina.
@@ -4830,14 +4880,13 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that you or any ally
+      - effect: You gain 2 piety the first time in an encounter that you or any ally
           within 10 squares uses the Aid Attack maneuver or an ability that targets
           an ally.
-    
-          - **Prayer Effect:** Each ally within 10 squares of you gains temporary
-          Stamina equal to two times your Intuition score.
         name: Piety
+      - effect: Each ally within 10 squares of you gains temporary Stamina equal to two
+          times your Intuition score.
+        name: Prayer Effect
   - name: Trickery Domain Piety and Effect
     metadata:
       class: conduit
@@ -4855,13 +4904,12 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that you or a creature
+      - effect: You gain 2 piety the first time in an encounter that you or a creature
           within 10 squares takes the Aid Attack or Hide maneuver.
-    
-          - **Prayer Effect:** You slide one creature within 10 squares of you up to
-          a number of squares equal to 5 + your conduit level.
         name: Piety
+      - effect: You slide one creature within 10 squares of you up to a number of
+          squares equal to 5 + your conduit level.
+        name: Prayer Effect
   - name: Spirit Ward
     metadata:
       class: conduit
@@ -4899,16 +4947,15 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that you or a creature
+      - effect: You gain 2 piety the first time in an encounter that you or a creature
           within 10 squares takes acid, cold, fire, lightning, poison, or sonic
           damage.
-    
-          - **Prayer Effect:** Vines whip up from the floor or ground within 10
-          squares, wrapping around a number of creatures equal to your Intuition
-          score. You can slide each creature up to a number of squares equal to your
-          Intuition score. The vines then fade away.
         name: Piety
+      - effect: Vines whip up from the floor or ground within 10 squares, wrapping
+          around a number of creatures equal to your Intuition score. You can slide
+          each creature up to a number of squares equal to your Intuition score. The
+          vines then fade away.
+        name: Prayer Effect
   - name: Blessing of Fortunate Weather
     metadata:
       class: conduit
@@ -5050,6 +5097,7 @@ abilities:
       - effect: Choose yourself or one ally within distance. That character can impose a
           bane on one power roll made against them before the end of their next
           turn.
+        name: Effect
   - name: Judgment's Hammer
     cost: 3 Piety
     flavor: Your divine fury is a hammer that crashes down upon the unrighteous.
@@ -5128,6 +5176,7 @@ abilities:
         t3: 5 holy damage
       - effect: You can teleport yourself and each ally in the area to unoccupied spaces
           in the area.
+        name: Effect
   - name: Blessing of Compassion
     metadata:
       class: conduit
@@ -5194,6 +5243,7 @@ abilities:
         t3: 9 + I holy damage
       - effect: You or one ally within distance gains temporary Stamina equal to your
           Intuition score.
+        name: Effect
   - name: Violence Will Not Aid Thee
     cost: 3 Piety
     flavor: After some holy lightning, your enemy will think twice about their next attack.
@@ -5239,6 +5289,7 @@ abilities:
       - effect: The first time on a turn that the target deals damage to another
           creature, the target of this ability takes 1d10 lightning damage (save
           ends).
+        name: Effect
   - name: Sermon of Grace
     cost: 5 Piety
     flavor: You inspire your allies with tales of your saint's great deeds.
@@ -5277,6 +5328,7 @@ abilities:
       - effect: Each target can spend a Recovery. Additionally, each target can use a
           free triggered action to end one effect on them that is ended by a saving
           throw or that ends at the end of their turn, or to stand up if prone.
+        name: Effect
   - name: Deity and Domains
     metadata:
       class: conduit
@@ -5365,16 +5417,15 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that an ally within 10
+      - effect: You gain 2 piety the first time in an encounter that an ally within 10
           squares obtains a tier 3 outcome on a power roll, or an enemy within 10
           squares obtains a tier 1 outcome on a power roll.
-    
-          - **Prayer Effect:** You call on the forces of fate to create a reliable
-          future. Choose a creature within 10 squares. That creature automatically
-          obtains a tier 1 or tier 3 outcome (your choice) on their next power roll
-          made before the end of the encounter.
         name: Piety
+      - effect: You call on the forces of fate to create a reliable future. Choose a
+          creature within 10 squares. That creature automatically obtains a tier 1
+          or tier 3 outcome (your choice) on their next power roll made before the
+          end of the encounter.
+        name: Prayer Effect
   - name: Font of Wrath
     cost: 3 Piety
     flavor: A brilliant column of holy light appears on the battlefield, striking
@@ -5418,6 +5469,7 @@ abilities:
           enemies can't. Any enemy who moves within 2 squares of the spirit for the
           first time in a combat round or starts their turn there takes holy damage
           equal to your Intuition score.
+        name: Effect
   - name: Inner Light
     metadata:
       class: conduit
@@ -5583,6 +5635,7 @@ abilities:
         t2: 5 + I corruption damage
         t3: 7 + I corruption damage
       - effect: You or one ally within distance can spend a Recovery.
+        name: Effect
   - name: Sanctuary Ward
     metadata:
       class: conduit
@@ -5621,14 +5674,13 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that a creature within 10
-          squares uses an area ability.
-    
-          - **Prayer Effect:** You summon the forces of creation and create a wall
-          of stone within 10 squares whose size is 5 + your Intuition score. The
-          wall lasts until the end of the encounter.
+      - effect: You gain 2 piety the first time in an encounter that a creature within
+          10 squares uses an area ability.
         name: Piety
+      - effect: You summon the forces of creation and create a wall of stone within 10
+          squares whose size is 5 + your Intuition score. The wall lasts until the
+          end of the encounter.
+        name: Prayer Effect
   - name: Quickness Ward
     metadata:
       class: conduit
@@ -5666,13 +5718,12 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/conduit/1st-level-feature
     effects:
-      - effect: >-
-          You gain 2 piety the first time in an encounter that an enemy within 10
+      - effect: You gain 2 piety the first time in an encounter that an enemy within 10
           squares is force moved.
-    
-          - **Prayer Effect:** Each enemy in a 3 cube within 10 squares takes
-          lightning damage equal to twice your Intuition score.
         name: Piety
+      - effect: Each enemy in a 3 cube within 10 squares takes lightning damage equal to
+          twice your Intuition score.
+        name: Prayer Effect
   - name: Sanctified Weapon
     metadata:
       class: conduit
@@ -5746,6 +5797,7 @@ abilities:
       type: feature/ability/conduit/1st-level-feature
     effects:
       - effect: The power roll takes a bane against the target.
+        name: Effect
       - effect: The power roll has a double bane against the target.
         cost: Spend 1 Piety
   - name: Blessing of Steel
@@ -5785,6 +5837,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter, any ability roll made against a target
           takes a bane and each target has damage immunity 5.
+        name: Effect
   - name: 8th-Level Domain Feature
     metadata:
       class: conduit
@@ -5841,6 +5894,7 @@ abilities:
     effects:
       - effect: At the end of each of your turns until the end of the encounter or until
           you are dying, each target gains 3 surges.
+        name: Effect
   - name: Perk
     metadata:
       class: conduit
@@ -5901,6 +5955,7 @@ abilities:
           turn, and can stand up if they are prone. Additionally, at the start of
           each of their turns until the end of the encounter or until they are
           dying, the target gains 3 surges.
+        name: Effect
   - name: Drag the Unworthy
     cost: 11 Piety
     flavor: You conjure an angel who moves a foe and heals your allies.
@@ -5944,6 +5999,7 @@ abilities:
         t3: 18 + I holy damage; slide 6
       - effect: Each ally the target comes adjacent to during the forced movement can
           spend a Recovery.
+        name: Effect
   - name: Burgeoning Saint
     metadata:
       class: conduit
@@ -6057,6 +6113,7 @@ abilities:
           each of your turns, you can slide each creature in the area up to a number
           of squares equal to your Intuition score. This forced movement ignores
           stability for your allies.
+        name: Effect
   - name: Revitalizing Grace
     cost: 9 Piety
     flavor: With a gesture, you restore your health and that of your allies.
@@ -6095,6 +6152,7 @@ abilities:
       - effect: Each target can spend any number of Recoveries. Additionally, each
           target can end one effect on themself that is ended by a saving throw or
           that ends at the end of their turn, or they can stand up if prone.
+        name: Effect
   - name: Lightning Lord
     cost: 9 Piety
     flavor: Lightning bursts forth from your body in several directions.
@@ -6136,6 +6194,7 @@ abilities:
         t3: 13 lightning damage; push 3
       - effect: The targets are force moved one at a time, starting with the target
           nearest to you, and can be pushed into other targets in the same line.
+        name: Effect
   - name: Your Story Ends Here
     cost: 9 Piety
     flavor: You bend the fate of a foe, willing them to die.
@@ -6179,6 +6238,7 @@ abilities:
         t3: 19 + I corruption damage; R < STRONG, weakened (save ends)
       - effect: If this damage kills the target, you and each ally within distance can
           spend a Recovery.
+        name: Effect
   - name: Invocation of Mystery
     cost: 9 Piety
     flavor: '"Now you see us..."'
@@ -6215,6 +6275,7 @@ abilities:
       type: feature/ability/conduit/6th-level-feature
     effects:
       - effect: Each target is invisible until the start of your next turn.
+        name: Effect
   - name: Spirit Stampede
     cost: 9 Piety
     flavor: Animal spirits run through the battlefield, trampling your foes.
@@ -6295,6 +6356,7 @@ abilities:
     effects:
       - effect: You can target yourself instead of one creature with this ability. Each
           target has damage immunity 5 until the start of your next turn.
+        name: Effect
   - name: Perk
     metadata:
       class: conduit
@@ -6348,7 +6410,8 @@ abilities:
       target: Special
       type: feature/ability/conduit/6th-level-feature
     effects:
-      - effect: You conjure a size 2 rolling machine that appears in an unoccupied space
+      - name: Effect
+        effect: You conjure a size 2 rolling machine that appears in an unoccupied space
           within distance. The machine has 50 Stamina and immunity all to poison and
           psychic damage. It disappears at the end of the encounter, if its Stamina
           drops to 0, or if you are dying. When the machine first appears, make the
@@ -6398,6 +6461,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, each enemy in the
           area takes a bane on power rolls, and you and each ally in the area gain 1
           surge at the end of each of your turns.
+        name: Effect
   - name: Blade of the Heavens
     cost: 9 Piety
     flavor: A greatsword streams down from the sky, threatening to pin your foe.
@@ -6477,6 +6541,7 @@ abilities:
       type: feature/ability/conduit/6th-level-feature
     effects:
       - effect: Each target gains 3 of their Heroic Resource.
+        name: Effect
   - name: Divine Power
     metadata:
       class: conduit
@@ -6656,6 +6721,7 @@ abilities:
           is reduced to 0 Stamina before the end of the encounter, you can use a
           free triggered action to move this effect to another creature within
           distance.
+        name: Effect
   - name: Vessel of Retribution
     cost: 9 Piety
     flavor: You infuse yourself or an ally with the retributive energy of the gods,
@@ -6695,6 +6761,7 @@ abilities:
     effects:
       - effect: The first time the target is dying or winded before the end of the
           encounter, each enemy within 5 squares of them takes 15 holy damage.
+        name: Effect
   - name: 5th-Level Domain Feature
     metadata:
       class: conduit
@@ -6796,6 +6863,7 @@ abilities:
           next turn and can spend any number of Recoveries. At the start of their
           turn, the target reappears in the space they left or the nearest
           unoccupied space of their choice.
+        name: Effect
   - name: Nature Judges Thee
     cost: 5 Piety
     flavor: Mystical thorned vines appear at your bidding and bind your foes.
@@ -6878,6 +6946,7 @@ abilities:
           ally within 3 squares of the statue gains this same benefit. The statue is
           destroyed if it takes 20 or more damage. It has immunity all to poison and
           psychic damage.
+        name: Effect
   - name: Reap
     cost: 5 Piety
     flavor: The gods reward those who smite their foes.
@@ -6915,6 +6984,7 @@ abilities:
     effects:
       - effect: Until the start of your next turn, each time a target kills an enemy,
           they regain Stamina equal to 5 + your Intuition score.
+        name: Effect
   - name: Divine Comedy
     cost: 5 Piety
     flavor: You and your allies swap places to confound your foes.
@@ -6953,6 +7023,7 @@ abilities:
       - effect: Each target can choose another creature in the area, then swap places
           with that creature. The creature they choose must be able to fit into the
           space they leave and vice versa.
+        name: Effect
   - name: Saint's Tempest
     cost: 5 Piety
     flavor: A raging storm appears, striking your foes with lightning and throwing
@@ -7041,6 +7112,7 @@ abilities:
     
           - Whenever a target makes a power roll, they must roll three dice and use
           the lowest two rolls.
+        name: Effect
   - name: Sacred Bond
     cost: 5 Piety
     flavor: You forge a divine connection between two creatures.
@@ -7081,6 +7153,7 @@ abilities:
           The original target suffers any effects associated with the damage.
           Additionally, whenever one target spends a Recovery, the other target can
           use a free triggered action to spend a Recovery.
+        name: Effect
   - name: Our Hearts Your Strength
     cost: 5 Piety
     flavor: An ally gains strength from their friends.
@@ -7120,6 +7193,7 @@ abilities:
           start of each of the target's turns, they gain a bonus to speed and a
           bonus to rolled damage equal to the number of allies within 10 squares of
           them. This bonus lasts until the start of their next turn.
+        name: Effect
   - name: The Gods Command You Obey
     cost: 5 Piety
     flavor: You speak with the voice of your saint, commanding your enemies.
@@ -7206,6 +7280,7 @@ abilities:
         t3: 10 fire damage
       - effect: Each ally in the area deals fire damage equal to your Intuition score
           with their next strike made before the end of their next turn.
+        name: Effect
   - name: The Lists of Heaven
     metadata:
       class: conduit
@@ -7282,6 +7357,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, whenever a target
           starts their turn in the area, they can spend a Recovery.
+        name: Effect
   - name: Blessing of Insight
     cost: 5 Piety
     flavor: The gods grant insight revealing where best to strike your enemies.
@@ -7319,6 +7395,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, each target gains
           1 surge at the end of each of your turns.
+        name: Effect
   - name: 2nd-Level Domain Feature
     metadata:
       class: conduit
@@ -7410,6 +7487,7 @@ abilities:
         t2: 9 psychic damage; I < AVERAGE, frightened (save ends)
         t3: 13 psychic damage; I < STRONG, frightened (save ends)
       - effect: Each target is frightened of you or a creature you choose within distance.
+        name: Effect
   - name: Words of Wrath and Grace
     cost: 7 Piety
     flavor: Your saint grants your enemies a vision of pain and fills your allies
@@ -7452,6 +7530,7 @@ abilities:
         t2: 5 holy damage
         t3: 7 holy damage
       - effect: Each ally in the area can spend a Recovery.
+        name: Effect
   - name: Saint's Raiment
     cost: 7 Piety
     flavor: An ally becomes the wearer of an empowered golden cloak.
@@ -7488,6 +7567,7 @@ abilities:
       type: feature/ability/conduit/3rd-level-feature
     effects:
       - effect: The target gains 20 temporary Stamina and 3 surges.
+        name: Effect
   - name: Soul Siphon
     cost: 7 Piety
     flavor: A beam of energy connects a foe to a friend, draining life from one to
@@ -7532,6 +7612,7 @@ abilities:
         t2: 10 + I corruption damage
         t3: 15 + I corruption damage
       - effect: One ally within distance can spend any number of Recoveries.
+        name: Effect
   - name: Bend Fate
     cost: 11 Piety
     flavor: The gods know you must prevail, and they bless your fate.
@@ -7569,6 +7650,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, each of the
           target's power rolls has its outcome improved by one tier.
+        name: Effect
   - name: Blessing of the Fortress
     cost: 11 Piety
     flavor: A magic circle extends out from you, barring foes from getting close.
@@ -7608,6 +7690,7 @@ abilities:
           approach within 5 squares of you by moving or by being force moved by any
           enemy. Targets can be force moved closer to you by you or your allies, or
           can move closer because of your movement.
+        name: Effect
   - name: Righteous Phalanx
     cost: 11 Piety
     flavor: A wall of spinning swords and knives appears where you wish.
@@ -7649,6 +7732,7 @@ abilities:
           and can be placed in occupied squares. Creatures can enter and pass
           through the wall. Each enemy who enters the area for the first time in a
           combat round or starts their turn there takes 15 damage.
+        name: Effect
   - name: Night Falls
     cost: 11 Piety
     flavor: You summon darkness that thwarts only your foes.
@@ -7689,6 +7773,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, the area is
           filled with magic darkness that your enemies can't see through, but you
           and your allies can.
+        name: Effect
   - name: Godstorm
     cost: 11 Piety
     flavor: You summon a divine storm that remains under your control.
@@ -7734,6 +7819,7 @@ abilities:
           you are dying. At the start of each of your turns, you can move the storm
           up to 5 squares (no action required). On subsequent turns while the storm
           is active, you can use a maneuver to make its power roll.
+        name: Effect
   - name: Radiance of Grace
     cost: 11 Piety
     flavor: Intense light is emitted from your body, healing your allies.
@@ -7773,6 +7859,7 @@ abilities:
           target can spend any number of Recoveries, can end any effects on them
           that are ended by a saving throw or that end at the end of their turn, and
           can stand up if they are prone.
+        name: Effect
   - name: Divine Dragon
     cost: 11 Piety
     flavor: From nothing but divine will, you create a powerful ally.
@@ -7808,7 +7895,8 @@ abilities:
       target: Special
       type: feature/ability/conduit/9th-level-feature
     effects:
-      - effect: >-
+      - name: Effect
+        effect: >-
           You conjure a size 4 dragon that appears in an unoccupied space within
           distance. The dragon has speed 6 and can fly, stability 4, 100 Stamina,
           immunity all to fire damage, and uses your characteristics. The dragon
@@ -7875,6 +7963,7 @@ abilities:
         t3: 21 + I damage; A < STRONG, restrained (save ends)
       - effect: While restrained this way, the target takes 10 damage at the start of
           each of your turns.
+        name: Effect
   - name: Faith's Sword
     metadata:
       class: conduit
@@ -7939,6 +8028,7 @@ abilities:
         t2: 15 + I corruption damage; A < AVERAGE, weakened (save ends)
         t3: 21 + I corruption damage; A < STRONG, weakened (save ends)
       - effect: While weakened this way, the target has damage weakness 10.
+        name: Effect
   - name: Alacrity of the Heart
     cost: 11 Piety
     flavor: You speak inspiring words to a friend and spur them to incredible feats.
@@ -7976,6 +8066,7 @@ abilities:
     effects:
       - effect: The target has an additional main action they can use on their next
           turn, and gains 3 of their Heroic Resource.
+        name: Effect
   - name: Ordained
     metadata:
       class: conduit
@@ -8039,6 +8130,7 @@ abilities:
           costs a Heroic Resource or Malice, the creature can use it without any
           cost. For the purpose of using this ability, your allies and enemies are
           the target's allies and enemies, and you decide who the ability targets.
+        name: Effect
   - name: Solar Flare
     cost: 11 Piety
     flavor: You call down a sphere of fire that burns your foes to ash.
@@ -8158,6 +8250,7 @@ abilities:
           willing creature who you are bonded to with your Invocation of the Heart
           feature. You don't need line of effect to the bonded creature but you must
           be on the same world.
+        name: Effect
   - name: Divine Quartermaster
     metadata:
       class: conduit
@@ -8317,6 +8410,7 @@ abilities:
           action to switch places with a duplicate within their line of effect,
           making the duplicate the target of the ability instead. When either
           duplicate takes damage, it is destroyed.
+        name: Effect
   - name: Word of Death Deferred
     metadata:
       class: conduit
@@ -8669,6 +8763,7 @@ abilities:
       - effect: Each creature in the area has a double edge on tests made to hide or
           sneak. The aura lasts until you end it (no action required) or until a
           target harms or deals damage to a creature or object.
+        name: Effect
   - name: Wode Road
     metadata:
       class: conduit
@@ -8847,6 +8942,7 @@ abilities:
     effects:
       - effect: You spend a Recovery and the target regains Stamina equal to your
           recovery value.
+        name: Effect
       - effect: You can end one effect on the target that is ended by a saving throw or
           that ends at the end of their turn, or a prone target can stand up.
         cost: Spend 1 Wrath
@@ -8895,6 +8991,7 @@ abilities:
         t3: 9 + M damage; push 5
       - effect: You can shift up to your speed in a straight line toward the target
           after pushing them.
+        name: Effect
   - name: Every Step... Death!
     flavor: You show your foe a glimpse of their fate after death.
     keywords:
@@ -8934,6 +9031,7 @@ abilities:
         t3: 10 + P psychic damage
       - effect: Each time the target willingly moves before the end of your next turn,
           they take 1 psychic damage for each square they move.
+        name: Effect
   - name: Behold the Face of Justice!
     cost: 5 Wrath
     flavor: You attack a foe and your enemies behold a vision of the true nature of
@@ -8986,6 +9084,7 @@ abilities:
           of them is frightened of you (save ends)
       - effect: Each enemy frightened this way is pushed up to 2 squares away from the
           target and takes psychic damage equal to your Presence score.
+        name: Effect
   - name: Oracular Visions
     metadata:
       class: censor
@@ -9108,6 +9207,7 @@ abilities:
           any time (no action required). If the spirit takes any damage, they are
           dismissed and you take 1d10 psychic damage that can't be reduced in any
           way.
+        name: Effect
   - name: Wrath Outside of Combat
     metadata:
       class: censor
@@ -9172,6 +9272,7 @@ abilities:
           you. The trauma of dying can make a creature's memory of that event hazy,
           but the target otherwise knows all they knew in life. After 1 minute, the
           effect ends. You can't use this ability on the same creature twice.
+        name: Effect
   - name: Revitalizing Ritual
     metadata:
       class: censor
@@ -9238,6 +9339,7 @@ abilities:
         t3: 9 + M holy damage
       - effect: Until the start of your next turn, enemies take a bane on ability rolls
           made against you or any ally adjacent to you.
+        name: Effect
   - name: Hands of the Maker
     flavor: You craft objects with the power of your mind.
     keywords:
@@ -9271,6 +9373,7 @@ abilities:
           number of objects created this way equal to your Presence score. You can
           destroy an object created this way with a thought, no matter how far you
           are from it (no action required).
+        name: Effect
   - name: The Gods Punish and Defend
     cost: 3 Wrath
     flavor: You channel holy energy to smite a foe and heal an ally.
@@ -9316,6 +9419,7 @@ abilities:
         t3: 11 + M holy damage
       - effect: You can spend a Recovery to allow yourself or one ally within 10 squares
           to regain Stamina equal to your recovery value.
+        name: Effect
   - name: Censor Order
     metadata:
       class: censor
@@ -9511,6 +9615,7 @@ abilities:
     
           You can choose only one free triggered action option at a time, even if
           multiple options are triggered by the same effect.
+        name: Effect
   - name: Repent!
     cost: 3 Wrath
     flavor: You conjure memories of their sins to harry your foes.
@@ -9595,6 +9700,7 @@ abilities:
         t3: 5 + M holy damage
       - effect: When a target who is not a leader or solo creature is made winded by
           this ability, they are reduced to 0 Stamina.
+        name: Effect
   - name: Blessing of Compassion
     metadata:
       class: censor
@@ -9667,6 +9773,7 @@ abilities:
         t3: 12 + M holy damage; M < STRONG, the target has fire weakness 7 (save ends)
       - effect: While the target has fire weakness from this ability, you can choose to
           have your abilities deal fire damage to the target instead of holy damage.
+        name: Effect
   - name: Arrest
     cost: 5 Wrath
     flavor: '"I got you, you son of a bitch."'
@@ -9714,6 +9821,7 @@ abilities:
           you can spend 3 wrath to deal holy damage to them equal to your Presence
           score, then change the target of the strike to another target within the
           strike's distance.
+        name: Effect
   - name: Inner Light
     metadata:
       class: censor
@@ -9775,6 +9883,7 @@ abilities:
         t3: 8 + M holy damage
       - effect: Each enemy adjacent to the target is pushed away from the target up to a
           number of squares equal to your Presence score.
+        name: Effect
   - name: Sanctified Weapon
     metadata:
       class: censor
@@ -9919,6 +10028,7 @@ abilities:
           damage equal to twice your Presence score to each enemy within 2 squares
           of them. Additionally, a target weakened this way can't be targeted by
           their allies' abilities.
+        name: Effect
   - name: Pillar of Holy Fire
     cost: 11 Wrath
     flavor: Your enemy's guilt fuels a holy flame that burns your foes.
@@ -9963,6 +10073,7 @@ abilities:
       - effect: At the end of each of your turns, a target dazed this way deals holy
           damage equal to twice your Presence score to each enemy within 2 squares
           of them.
+        name: Effect
   - name: Vow
     metadata:
       class: censor
@@ -10027,6 +10138,7 @@ abilities:
       - effect: Until the end of the encounter, while the target is judged by you, you
           can choose to make them the source of any of your abilities. Additionally,
           the target counts as an ally for the purpose of flanking.
+        name: Effect
   - name: Demonologist
     metadata:
       class: censor
@@ -10115,6 +10227,7 @@ abilities:
           this way, each of their allies within 5 squares of them who can make a
           triggered free strike against a different creature must make the free
           strike against the target instead.
+        name: Effect
   - name: Their Past Revealed
     metadata:
       class: censor
@@ -10177,6 +10290,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, whenever any
           target takes a triggered action or a free triggered action, that action is
           negated and the target takes holy damage equal to your Presence score.
+        name: Effect
   - name: Burden of Evil
     cost: 9 Wrath
     flavor: You reveal a vision of your enemies' fate that causes them to scramble
@@ -10259,6 +10373,7 @@ abilities:
       - effect: The target is unaffected by the strike and you become the target
           instead, even if you aren't a valid target for it. You take half the
           damage from the strike, and the target gains 3 surges.
+        name: Effect
   - name: Congregation
     cost: 9 Wrath
     flavor: You focus your allies' wrath on a chosen foe.
@@ -10307,6 +10422,7 @@ abilities:
           against the target
       - effect: Each ally can shift up to 2 squares and gains 2 surges before making the
           strike.
+        name: Effect
   - name: Pain of Your Own Making
     cost: 9 Wrath
     flavor: You reverse the effects from an evildoer.
@@ -10347,6 +10463,7 @@ abilities:
       - effect: The effect ends on the target and is applied to the creature who imposed
           the effect on them. That creature also takes damage equal to three times
           your Presence score.
+        name: Effect
   - name: Begone!
     cost: 9 Wrath
     flavor: You terrify your enemies into retreating, creating chaos in their ranks.
@@ -10617,6 +10734,7 @@ abilities:
           stand up. The target then gains 2 surges, can shift up to their speed
           while ignoring difficult terrain, and can use a strike signature ability
           as a free triggered action.
+        name: Effect
   - name: Shield of the Righteous
     cost: 9 Wrath
     flavor: You strike a foe and create a fleet of divine shields that protect your allies.
@@ -10698,6 +10816,7 @@ abilities:
         t3: Each target gains 3 surges.
       - effect: A target can end one effect on them that is ended by a saving throw or
           that ends at the end of their turn, or a prone target can stand up.
+        name: Effect
   - name: Prophecy
     metadata:
       class: censor
@@ -10792,6 +10911,7 @@ abilities:
         t3: 20 + M damage
       - effect: Until the end of the encounter, whenever any ally deals damage to a
           target judged by you, that ally gains 1 surge.
+        name: Effect
   - name: Evil Revealed
     metadata:
       class: censor
@@ -10860,6 +10980,7 @@ abilities:
       - effect: If the target is already frightened of you or another creature and this
           ability would frighten them again, they instead take psychic damage equal
           to twice your Presence score.
+        name: Effect
   - name: Stalwart Icon
     metadata:
       class: censor
@@ -10963,6 +11084,7 @@ abilities:
       - effect: You can spend a Recovery to allow the target to regain Stamina equal to
           your recovery value. The target can then take their turn immediately
           before the triggering enemy.
+        name: Effect
   - name: With My Blessing
     cost: 5 Wrath
     flavor: A word in prayer, and the gods show the way.
@@ -11002,6 +11124,7 @@ abilities:
           ability or a strike heroic ability, and has a double edge on that ability.
           If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a
           minimum cost of 0).
+        name: Effect
   - name: Saint's Vigilance
     metadata:
       class: censor
@@ -11065,6 +11188,7 @@ abilities:
           Additionally, each hidden target is automatically revealed and can't
           become hidden again until the start of your next turn. You can then use
           your Judgment ability against one target as a free triggered action.
+        name: Effect
   - name: Perk
     metadata:
       class: censor
@@ -11151,6 +11275,7 @@ abilities:
         t3: 12 + P damage; P < STRONG, restrained (save ends)
       - effect: While the target is restrained this way, your abilities that impose
           forced movement can still move them.
+        name: Effect
   - name: A Sense for Truth
     metadata:
       class: censor
@@ -11210,6 +11335,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, each target gains
           1 surge at the end of each of your turns.
+        name: Effect
   - name: Look On My Work and Despair
     metadata:
       class: censor
@@ -11275,6 +11401,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, whenever a target
           makes a strike, they take holy damage equal to twice your Presence score.
           A target judged by you takes an extra 2d6 holy damage.
+        name: Effect
   - name: Edict of Disruptive Isolation
     cost: 7 Wrath
     flavor: The evil within your foes detonates with holy fire that burns only the guilty.
@@ -11315,6 +11442,7 @@ abilities:
           holy damage equal to your Presence score at the end of each of your turns.
           A target takes an extra 2d6 holy damage if they are judged by you or if
           they are adjacent to any enemy.
+        name: Effect
   - name: Edict of Perfect Order
     cost: 7 Wrath
     flavor: Within the area of your divine presence, your enemies will regret using
@@ -11357,6 +11485,7 @@ abilities:
           Monsters](https://mcdm.gg/DS-Monsters)*), they take holy damage equal to
           three times your Presence score. A target judged by you takes an extra 2d6
           holy damage."
+        name: Effect
   - name: Edict of Stillness
     cost: 7 Wrath
     flavor: The holy aura you project makes it painful for evil-doers to leave your reach.
@@ -11397,6 +11526,7 @@ abilities:
           moves or is force moved out of the area, they take holy damage equal to
           twice your Presence score. A target judged by you who moves willingly
           takes an extra 2d6 holy damage.
+        name: Effect
   - name: Banish
     cost: 11 Wrath
     flavor: You sever the target's tenuous connection to the world.
@@ -11445,6 +11575,7 @@ abilities:
           target can do nothing but make saving throws, and takes 10 holy damage
           each time they do so. If the target is reduced to 0 Stamina while
           banished, they are lost to the timescape.
+        name: Effect
   - name: Improved Implement of Wrath
     metadata:
       class: censor
@@ -11513,6 +11644,7 @@ abilities:
       - effect: The target takes their turn after the triggering hero, and immediately
           removes all conditions and negative effects on themself. During their
           turn, the target has a double edge on power rolls.
+        name: Effect
   - name: Apostate
     cost: 11 Wrath
     flavor: You channel holy energy to seal an enemy's fate.
@@ -11556,6 +11688,7 @@ abilities:
         t3: 26 + M holy damage
       - effect: Until the end of the encounter or until you are dying, the target has
           damage weakness 10.
+        name: Effect
   - name: Terror Manifest
     cost: 11 Wrath
     flavor: '"I know what you fear."'
@@ -11601,6 +11734,7 @@ abilities:
           is winded, they take an extra 25 psychic damage. If a target frightened
           this way is not a leader or solo creature and is winded, they are reduced
           to 0 Stamina.
+        name: Effect
   - name: Edict of Unyielding Resolve
     cost: 11 Wrath
     flavor: You and your allies are clad in shimmering armor.
@@ -11638,6 +11772,7 @@ abilities:
     effects:
       - effect: Until the end of the encounter or until you are dying, each target who
           starts their turn in the area gains 10 temporary Stamina.
+        name: Effect
   - name: Blessing and a Curse
     cost: 11 Wrath
     flavor: The gods bless and damn in equal measure.
@@ -11677,6 +11812,7 @@ abilities:
       - effect: The target obtains a tier 1 or tier 3 outcome on their power roll (your
           choice). You can then choose another target within distance, who obtains
           the opposite outcome on their next power roll.
+        name: Effect
   - name: Gods' Library
     metadata:
       class: censor
@@ -11737,6 +11873,7 @@ abilities:
           willing creature who you are bonded to with your Invocation of the Heart
           feature. You don't need line of effect to the bonded creature but you must
           be on the same world.
+        name: Effect
   - name: Ride the Lightning
     metadata:
       class: censor
@@ -11900,6 +12037,7 @@ abilities:
           action to switch places with a duplicate within their line of effect,
           making the duplicate the target of the ability instead. When either
           duplicate takes damage, it is destroyed.
+        name: Effect
   - name: Word of Death Deferred
     metadata:
       class: censor
@@ -12294,6 +12432,7 @@ abilities:
       - effect: Each creature in the area has a double edge on tests made to hide or
           sneak. The aura lasts until you end it (no action required) or until a
           target harms or deals damage to a creature or object.
+        name: Effect
   - name: Wode Road
     metadata:
       class: censor
@@ -12446,6 +12585,7 @@ abilities:
         t3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
       - effect: A target who goes out of phase is slowed, has their stability reduced by
           2, and can't obtain a tier 3 outcome on ability rolls.
+        name: Effect
   - name: Null Field
     flavor: You project an aura that dampens the power of your foes.
     keywords:
@@ -12495,6 +12635,7 @@ abilities:
     
           This ability remains active even after an encounter ends. It ends only if
           you are dying or if you willingly end it (no action required).
+        name: Effect
   - name: Faster Than the Eye
     flavor: You strike so quickly that your hands become a blur.
     keywords:
@@ -12536,6 +12677,7 @@ abilities:
         t3: 7 damage
       - effect: You can deal damage equal to your Agility score to one creature or
           object adjacent to you.
+        name: Effect
   - name: A Squad Unto Myself
     cost: 5 Discipline
     flavor: You move so quickly, it seems as though an army assaulted your foes.
@@ -12579,6 +12721,7 @@ abilities:
         t3: 13 damage
       - effect: You can take the Disengage move action as a free maneuver before or
           after you use this ability.
+        name: Effect
   - name: Null Tradition
     metadata:
       class: "null"
@@ -12663,6 +12806,7 @@ abilities:
       - effect: An object you target must be your size or smaller. You gain an edge on
           this ability. Additionally, for each square you push the target, they take
           1 psychic damage.
+        name: Effect
   - name: Arcane Disruptor
     cost: 5 Discipline
     flavor: Your blow reorders a foe's body, causing pain if they attempt to channel
@@ -12710,6 +12854,7 @@ abilities:
         t3: 16 + A psychic damage; M < STRONG, weakened (save ends)
       - effect: While weakened this way, the target takes damage equal to your Intuition
           score whenever they use a supernatural ability that costs Malice.
+        name: Effect
   - name: Density Augmentation
     metadata:
       class: "null"
@@ -12775,6 +12920,7 @@ abilities:
       - effect: Until the start of your next turn, whenever the target moves or is force
           moved, you can use a free triggered action to shift up to your speed. You
           must end this shift adjacent to the target.
+        name: Effect
   - name: Kinetic Strike
     flavor: Your opponent staggers. They cannot ignore you.
     keywords:
@@ -12854,6 +13000,7 @@ abilities:
           increases by 1. At the end of your current turn, each enemy in the area of
           your Null Field ability takes psychic damage equal to your Intuition
           score.
+        name: Effect
   - name: Discipline Outside of Combat
     metadata:
       class: "null"
@@ -13077,6 +13224,7 @@ abilities:
       type: feature/ability/null/1st-level-feature
     effects:
       - effect: You take half the damage.
+        name: Effect
       - effect: The potency of one effect associated with the damage is reduced by 1 for
           you.
         cost: Spend 1 Discipline
@@ -13122,6 +13270,7 @@ abilities:
       - effect: Before the push is resolved, you teleport the target to a square
           adjacent to you and opposite the one they started in. If the target can't
           be teleported this way, you can't push them.
+        name: Effect
   - name: Speed Augmentation
     metadata:
       class: "null"
@@ -13188,6 +13337,7 @@ abilities:
           strike. Additionally, whenever an effect lets you make a free strike or
           use a signature ability, you can use this ability instead, paying its
           discipline cost as usual.
+        name: Effect
   - name: Dance of Blows
     flavor: You strike everywhere at once, tricking an enemy into moving out of position.
     keywords:
@@ -13227,6 +13377,7 @@ abilities:
         t3: 5 damage
       - effect: You can slide one adjacent enemy up to a number of squares equal to your
           Intuition score.
+        name: Effect
   - name: Inertial Step
     flavor: You flit about the battlefield and take an opportunistic strike.
     keywords:
@@ -13267,6 +13418,7 @@ abilities:
         t2: 7 + A damage
         t3: 10 + A damage
       - effect: You can shift up to half your speed before or after you make this strike.
+        name: Effect
   - name: Force Augmentation
     metadata:
       class: "null"
@@ -13372,6 +13524,7 @@ abilities:
       - effect: While suppressed, a target takes psychic damage equal to twice your
           Intuition score at the start of their turns, whenever they use a
           supernatural ability, or whenever they use an ability that costs Malice.
+        name: Effect
   - name: Phase Hurl
     cost: 11 Discipline
     flavor: You throw your foe out of phase with this manifold, causing them to harm
@@ -13421,6 +13574,7 @@ abilities:
           forced movement takes psychic damage equal to the total number of squares
           the target was force moved. While the target is dazed this way, they see
           glimpses of creatures from other parts of the timescape.
+        name: Effect
   - name: Inertial Dampener
     metadata:
       class: "null"
@@ -13544,6 +13698,7 @@ abilities:
           < AVERAGE, they are dazed (save ends). While the triggering creature is
           dazed this way, they take psychic damage equal to your Intuition score
           whenever they use a main action.
+        name: Effect
   - name: Perk
     metadata:
       class: "null"
@@ -13623,6 +13778,7 @@ abilities:
         t3: Vertical slide 10
       - effect: The pillars vanish as soon as the effects of the forced movement are
           resolved.
+        name: Effect
   - name: Iron Body
     cost: 9 Discipline
     flavor: You focus until your body becomes as hard as iron.
@@ -13658,6 +13814,7 @@ abilities:
     effects:
       - effect: You gain 20 temporary Stamina. Additionally, until the end of the
           encounter, your stability gains a bonus equal to your Intuition score.
+        name: Effect
   - name: Wall of Ice
     cost: 9 Discipline
     flavor: You create a wall of ice.
@@ -13703,6 +13860,7 @@ abilities:
           square adjacent to the wall and has M < AVERAGE is slowed (save ends).
           Each enemy who is force moved into the wall and has M < AVERAGE is
           restrained (save ends).
+        name: Effect
   - name: Elemental Buffer
     metadata:
       class: "null"
@@ -13757,6 +13915,7 @@ abilities:
       type: feature/ability/null/6th-level-feature
     effects:
       - effect: You can use up to three signature abilities, each of which gains an edge.
+        name: Effect
   - name: Gravitic Charge
     cost: 9 Discipline
     flavor: You channel your discipline into momentum that defies gravity.
@@ -13797,6 +13956,7 @@ abilities:
       - effect: This movement ignores stability. If you slide into another creature, you
           resolve damage to both of you as if your force movement had ended, but you
           keep moving through that creature's space.
+        name: Effect
   - name: Perk
     metadata:
       class: "null"
@@ -13854,7 +14014,8 @@ abilities:
       target: Self
       type: feature/ability/null/6th-level-feature
     effects:
-      - effect: You can shift up to your speed, and squares occupied by enemies or
+      - name: Effect
+        effect: You can shift up to your speed, and squares occupied by enemies or
           objects are not difficult terrain for this shift. You make one power roll
           that targets each enemy you moved through during this shift.
       - roll: Power Roll + Agility
@@ -14171,6 +14332,7 @@ abilities:
         t3: You gain 20 temporary Stamina.
       - effect: While you have temporary Stamina from this ability, you can't be made
           bleeding even while dying.
+        name: Effect
   - name: Heat Sink
     cost: 5 Discipline
     flavor: You absorb ambient heat, coating the ground in frost and precipitating
@@ -14210,6 +14372,7 @@ abilities:
           increases by 1, and you and any ally benefit from concealment while in the
           area. At the end of this turn, each enemy in the area takes cold damage
           equal to your Intuition score.
+        name: Effect
   - name: Blur
     cost: 5 Discipline
     flavor: You release stored time, allowing you to act twice.
@@ -14245,6 +14408,7 @@ abilities:
     effects:
       - effect: You can use a signature or heroic ability. You gain an edge on that
           ability's power rolls.
+        name: Effect
   - name: Gravitic Strike
     cost: 5 Discipline
     flavor: Your fist emanates gravitic force that pulls a distant enemy closer.
@@ -14396,6 +14560,7 @@ abilities:
           each of your turns to end one effect on you that is ended by a saving
           throw or that ends at the end of your turn. Each ally in the area also
           gains these benefits.
+        name: Effect
   - name: Molecular Rearrangement Field
     cost: 7 Discipline
     flavor: Your enemies' wounds open, your allies' wounds close.
@@ -14435,6 +14600,7 @@ abilities:
           combat round or starts their turn there is bleeding (save ends). Each ally
           who enters the area for the first time in a combat round or starts their
           turn there gains temporary Stamina equal to your Intuition score.
+        name: Effect
   - name: Absorption Field
     cost: 7 Discipline
     flavor: Your null field absorbs kinetic energy.
@@ -14471,6 +14637,7 @@ abilities:
       - effect: Until the end of the encounter, the size of your Null Field ability
           increases by 1. While the area of that ability is enlarged this way, each
           enemy in the area takes a bane on ability rolls.
+        name: Effect
   - name: Reorder
     metadata:
       class: "null"
@@ -14531,6 +14698,7 @@ abilities:
           increases by 1. While the area of that ability is enlarged this way,
           whenever an enemy in the area takes rolled damage, they take extra psychic
           damage equal to twice your Intuition score.
+        name: Effect
   - name: Psionic Leap
     metadata:
       class: "null"
@@ -14586,6 +14754,7 @@ abilities:
     effects:
       - effect: You take half the damage, negate any effects associated with the damage
           for you, and gain 3 surges.
+        name: Effect
   - name: Heat Drain
     cost: 11 Discipline
     flavor: You drain all the heat from the target.
@@ -14631,6 +14800,7 @@ abilities:
           Intuition score at the start of each of your turns. Additionally, whenever
           the target damages another creature while restrained this way, any potency
           associated with the damage is reduced by 2.
+        name: Effect
   - name: Realitas
     cost: 11 Discipline
     flavor: Your essential hyperreality disrupts your enemy's connection to existence.
@@ -14682,6 +14852,7 @@ abilities:
           the timescape who are not present in the encounter. Loved ones of the
           forgotten creature retain a faint sense of melancholy. This effect can be
           reversed only at the Director's discretion.
+        name: Effect
   - name: Time Loop
     cost: 11 Discipline
     flavor: You show shadows what true speed is.
@@ -14718,6 +14889,7 @@ abilities:
     effects:
       - effect: You take a bonus turn immediately after the triggering creature. This
           ability can be used only once per combat round.
+        name: Effect
   - name: Arrestor Cycle
     cost: 11 Discipline
     flavor: You trap your foe in a looping cycle of time, where they relive the last
@@ -14764,6 +14936,7 @@ abilities:
           acted. A target who doesn't lose their turn takes psychic damage equal to
           twice your Intuition score for each main action they take until the end of
           their next turn.
+        name: Effect
   - name: Absolute Zero
     cost: 11 Discipline
     flavor: You become the coldest thing in the timescape.
@@ -14806,6 +14979,7 @@ abilities:
           cold damage immunity granted by your Entropic Adaptability trait, you
           ignore the negative effects of dying, and you have a +2 bonus to
           potencies.
+        name: Effect
   - name: I Am the Weapon
     metadata:
       class: "null"
@@ -15014,6 +15188,7 @@ abilities:
     effects:
       - effect: Each target can end any conditions or effects on themself, and gains 5
           temporary Stamina for each condition or effect removed.
+        name: Effect
   - name: Chilling Readiness
     metadata:
       class: "null"
@@ -15119,6 +15294,7 @@ abilities:
           space of your afterimage as if you were still there. Additionally, if your
           Null Field ability is active, your afterimage also projects the aura from
           that ability, which you control as if you were in the afterimage's space.
+        name: Effect
   - name: Skill
     metadata:
       class: "null"
@@ -15203,6 +15379,7 @@ abilities:
         t2: 10 + A damage; I < AVERAGE, restrained (save ends)
         t3: 13 + A damage; I < STRONG, restrained (save ends)
       - effect: This strike resolves before the triggering movement or main action.
+        name: Effect
   - name: Inertial Fulcrum
     metadata:
       class: "null"
@@ -15306,6 +15483,7 @@ abilities:
       - effect: While grabbed this way, the target takes a bane on the Escape Grab
           maneuver. Each time they use that maneuver, they take damage equal to
           twice your Agility score.
+        name: Effect
   - name: Kit
     metadata:
       class: fury
@@ -15364,6 +15542,7 @@ abilities:
     effects:
       - effect: The targets are force moved one at a time, starting with the target
           nearest to you, and can be pushed into other targets in the same line.
+        name: Effect
   - name: Primordial Strength
     metadata:
       class: fury
@@ -15429,6 +15608,7 @@ abilities:
         t2: 5 + M damage
         t3: 7 + M damage; A < STRONG, slowed (save ends)
       - effect: You can shift 1 square.
+        name: Effect
   - name: Ferocity Outside of Combat
     metadata:
       class: fury
@@ -15488,6 +15668,7 @@ abilities:
     effects:
       - effect: You take half the damage from the triggering effect and can shift up to
           a number of squares equal to your Agility score.
+        name: Effect
       - effect: If the damage has any potency effects associated with it, the potency is
           reduced by 1 for you.
         cost: Spend 1 Ferocity
@@ -15545,6 +15726,7 @@ abilities:
     effects:
       - effect: You gain 1 surge, and the next ability roll you make this turn
           automatically obtains a tier 3 outcome.
+        name: Effect
   - name: Ferocity in Combat
     metadata:
       class: fury
@@ -15654,6 +15836,7 @@ abilities:
         t3: 10 + M damage; M < STRONG, bleeding and weakened (save ends)
       - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the
           target.
+        name: Effect
   - name: To the Death!
     flavor: Your reckless assault leaves you tactically vulnerable.
     keywords:
@@ -15693,6 +15876,7 @@ abilities:
         t3: 9 + M damage
       - effect: You gain 2 surges, and the target can make an opportunity attack against
           you as a free triggered action.
+        name: Effect
   - name: Tide of Death
     cost: 3 Ferocity
     flavor: Teach them the folly of lining up for you.
@@ -15728,7 +15912,8 @@ abilities:
       target: Self
       type: feature/ability/fury/1st-level-feature
     effects:
-      - effect: You move up to your speed in a straight line, and enemy squares are not
+      - name: Effect
+        effect: You move up to your speed in a straight line, and enemy squares are not
           difficult terrain for this movement. You can end this movement in a
           creature's space and move them to an adjacent unoccupied space. You make
           one power roll that targets each enemy whose space you move through.
@@ -15738,6 +15923,7 @@ abilities:
         t3: 5 damage
       - effect: The last target you damage takes extra damage equal to your Might score
           for each opportunity attack you trigger during your move.
+        name: Effect
   - name: Beast Shape
     metadata:
       class: fury
@@ -15802,6 +15988,7 @@ abilities:
       - effect: When you slide the target, you can move into any square they leave. If
           you take damage from an opportunity attack by moving this way, the target
           takes the same damage.
+        name: Effect
   - name: Brutal Slam
     flavor: The heavy impact of your weapon attacks drives your foes ever back.
     keywords:
@@ -15984,6 +16171,7 @@ abilities:
         t3: 8 + M damage; M < STRONG, bleeding (save ends)
       - effect: While bleeding this way, the target takes damage equal to your Might
           score at the end of each of your turns.
+        name: Effect
   - name: To the Uttermost End
     cost: 5 Ferocity
     flavor: You gut your life force to ensure a foe's demise.
@@ -16085,6 +16273,7 @@ abilities:
           determine the new target's destination, and can push the target instead of
           using the original forced movement type. Additionally, the forced movement
           distance gains a bonus equal to your Might score.
+        name: Effect
       - effect: The forced movement distance gains a bonus equal to twice your Might
           score instead.
         cost: Spend 1 Ferocity
@@ -16120,6 +16309,7 @@ abilities:
     effects:
       - effect: You gain temporary Stamina equal to your Might score and can enter your
           animal form or hybrid form.
+        name: Effect
       - effect: If you are not dying, you can spend a Recovery.
         cost: Spend 1 Ferocity
   - name: Strongest There Is
@@ -16182,7 +16372,8 @@ abilities:
       target: Self
       type: feature/ability/fury/8th-level-feature
     effects:
-      - effect: You shift up to your speed. Each enemy you move adjacent to during this
+      - name: Effect
+        effect: You shift up to your speed. Each enemy you move adjacent to during this
           movement takes damage equal to twice your Might score. Then make one power
           roll that targets each enemy you move adjacent to during this shift. You
           gain 1 ferocity for each target who dies as a result of this ability
@@ -16250,6 +16441,7 @@ abilities:
           target of any ability you use, with that target taking an extra 15 damage
           of the chosen type. Additionally, whenever you gain ferocity from taking
           damage, the source of the damage takes 5 damage of the chosen type.
+        name: Effect
   - name: Elemental Ferocity
     cost: 11 Ferocity
     flavor: Your primordial energy makes for instant retribution.
@@ -16288,6 +16480,7 @@ abilities:
           encounter or until you are dying, whenever an enemy damages you, they take
           10 damage of the chosen type. If this damage reduces the enemy to 0
           Stamina, you gain 10 temporary Stamina.
+        name: Effect
   - name: Menagerie
     metadata:
       class: fury
@@ -16359,6 +16552,7 @@ abilities:
           dealt. If the target is killed by this damage, you can deal any damage
           over what was required to kill them to another creature within 5 squares
           of the target.
+        name: Effect
   - name: Perk
     metadata:
       class: fury
@@ -16410,7 +16604,8 @@ abilities:
       target: Self
       type: feature/ability/fury/6th-level-feature
     effects:
-      - effect: You jump up to your maximum jump distance and make one power roll that
+      - name: Effect
+        effect: You jump up to your maximum jump distance and make one power roll that
           targets each creature adjacent to the space where you land.
       - roll: Power Roll + Might
         t1: 4 damage; push 1
@@ -16491,6 +16686,7 @@ abilities:
         t3: 16 + M damage; push 7
       - effect: When the target ends this forced movement, each creature within 2
           squares of the target is pushed 3 squares.
+        name: Effect
   - name: Seek and Destroy
     cost: 9 Ferocity
     flavor: You break through the enemy lines to make an example.
@@ -16528,7 +16724,8 @@ abilities:
       target: One creature
       type: feature/ability/fury/6th-level-feature
     effects:
-      - effect: You shift up to your speed.
+      - name: Effect
+        effect: You shift up to your speed.
       - roll: Power Roll + Might
         t1: 4 + M damage; P < WEAK, frightened (save ends)
         t2: 6 + M damage; P < AVERAGE, frightened (save ends)
@@ -16537,6 +16734,7 @@ abilities:
           strike, they are reduced to 0 Stamina and you choose an enemy within 5
           squares of you. If that enemy has P < AVERAGE, they are frightened of you
           (save ends).
+        name: Effect
   - name: Marauder of the Primordial Chaos
     metadata:
       class: fury
@@ -16626,6 +16824,7 @@ abilities:
     effects:
       - effect: You target a creature adjacent to you with the same strike, using the
           same power roll as the triggering strike.
+        name: Effect
   - name: Riders on the Storm
     cost: 9 Ferocity
     flavor: You focus your connection to the Primordial Chaos into a seething storm.
@@ -16667,6 +16866,7 @@ abilities:
           the aura is active. Each ally target who starts or ends their turn in the
           area can also fly until the start of their next turn or until the effect
           ends.
+        name: Effect
       - effect: When you use this ability outside of combat without spending ferocity,
           you must spend 1 uninterrupted minute summoning a primordial storm that
           fills the area, and you take 1d6 damage before the ability takes effect.
@@ -16718,6 +16918,7 @@ abilities:
       - effect: You can shift up to 4 squares, bringing the target with you. While
           grabbed this way, the target takes damage equal to twice your Might score
           at the start of each of your turns.
+        name: Effect
   - name: Chaos Incarnate
     metadata:
       class: fury
@@ -16914,6 +17115,7 @@ abilities:
         t2: 9 + M damage
         t3: 13 + M damage
       - effect: You can spend a Recovery.
+        name: Effect
   - name: Rebounding Storm
     cost: 9 Ferocity
     flavor: You knock around enemies like playthings.
@@ -16960,6 +17162,7 @@ abilities:
           remaining distance away from the creature or object in the direction they
           came from. As long as forced movement remains, this effect continues if
           the target collides with another creature or object.
+        name: Effect
   - name: Stormborn
     metadata:
       class: fury
@@ -17047,6 +17250,7 @@ abilities:
         t3: 20 + M damage; M < STRONG, slowed (save ends)
       - effect: While slowed this way, the target takes 1 damage for every square they
           move, including from forced movement.
+        name: Effect
   - name: To Stone!
     cost: 9 Ferocity
     flavor: You channel the Primordial Chaos into blows that petrify your foe... literally.
@@ -17096,6 +17300,7 @@ abilities:
           Additionally, a creature who fails the saving throw while restrained this
           way is petrified until they are given a supernatural cure or you choose to
           reverse the effect (no action required).
+        name: Effect
   - name: Unfettered
     metadata:
       class: fury
@@ -17277,6 +17482,7 @@ abilities:
       type: feature/ability/fury/3rd-level-feature
     effects:
       - effect: You gain 20 temporary Stamina.
+        name: Effect
   - name: See Through Their Tricks
     metadata:
       class: fury
@@ -17336,6 +17542,7 @@ abilities:
           of their next turn. Additionally, when you use an ability that deals
           rolled damage against any enemy taunted by you, the ability deals extra
           damage equal to twice your Might score and increases its potency by 1.
+        name: Effect
   - name: You Are Already Dead
     cost: 7 Ferocity
     flavor: Slash. Walk away.
@@ -17376,6 +17583,7 @@ abilities:
       - effect: If the target is not a leader or solo creature, they are reduced to 0
           Stamina at the end of their next turn. If the target is a leader or solo
           creature, you gain 3 surges and can make a melee free strike against them.
+        name: Effect
   - name: Demon Unleashed
     cost: 7 Ferocity
     flavor: Foes tremble at the sight of you.
@@ -17412,6 +17620,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, each enemy who
           starts their turn adjacent to you and has P < STRONG is frightened until
           the end of their turn.
+        name: Effect
   - name: Deluge
     cost: 11 Ferocity
     flavor: You summon your primordial storm.
@@ -17454,6 +17663,7 @@ abilities:
         t2: 10 damage
         t3: 15 damage
       - effect: This ability deals your primordial damage type and ignores damage immunity.
+        name: Effect
   - name: Shower of Blood
     cost: 11 Ferocity
     flavor: You shock your foes with the brutality of your strike, resetting the
@@ -17502,6 +17712,7 @@ abilities:
           actions or free triggered actions, ability rolls made against them gain an
           edge, and their characteristic scores are considered 1 lower for the
           purpose of resisting potencies.
+        name: Effect
   - name: Death Rattle
     cost: 11 Ferocity
     flavor: You unleash an otherworldly cry that rips through your enemies, killing
@@ -17591,6 +17802,7 @@ abilities:
         t3: 15 damage; push 7
       - effect: If this forced movement causes a target to be hurled through an object,
           that target takes an extra 10 damage.
+        name: Effect
   - name: Primordial Bane
     cost: 11 Ferocity
     flavor: You attune the target to be weaker to a specific element.
@@ -17637,6 +17849,7 @@ abilities:
       - effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
           The target loses any damage immunity to the chosen type and gains weakness
           10 to the chosen type (save ends).
+        name: Effect
   - name: Primordial Vortex
     cost: 11 Ferocity
     flavor: You channel the power of the Primordial Chaos to pull foes to you.
@@ -17683,6 +17896,7 @@ abilities:
       - effect: If this forced movement causes a target to slam into you, you take no
           damage from the collision and the target takes the damage you would have
           taken.
+        name: Effect
   - name: Harbinger of the Primordial Chaos
     metadata:
       class: fury
@@ -17976,6 +18190,7 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - effect: The target can use a signature ability as a free triggered action.
+        name: Effect
       - effect: You target two allies instead of one.
         cost: Spend 5 Focus
   - name: Kit Signature Ability
@@ -18283,6 +18498,7 @@ abilities:
           triggered action
       - effect: If the target is reduced to 0 Stamina before one or both chosen allies
           has made their strike, the ally or allies can pick a different target.
+        name: Effect
   - name: This Is What We Planned For
     cost: 5 Focus
     flavor: All those coordination drills you made them do finally pay off.
@@ -18318,6 +18534,7 @@ abilities:
     effects:
       - effect: Each target who hasn't acted yet this combat round can take their turn
           in any order immediately after yours.
+        name: Effect
   - name: Parry
     flavor: Your quick reflexes cost an enemy the precision they seek.
     keywords:
@@ -18353,6 +18570,7 @@ abilities:
       - effect: You can shift 1 square. If the target is you, or if you end this shift
           adjacent to the target, the target takes half the damage. If the damage
           has any potency effect associated with it, the potency is decreased by 1.
+        name: Effect
       - effect: This ability's distance becomes Melee 1 + your Reason score, and you can
           shift up to a number of squares equal to your Reason score instead of 1
           square.
@@ -18482,6 +18700,7 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - effect: Each target can make a free strike.
+        name: Effect
   - name: Mind Game
     cost: 5 Focus
     flavor: Your attack demoralizes your foe. Your allies begin to think you can win.
@@ -18521,13 +18740,15 @@ abilities:
       target: One creature or object
       type: feature/ability/tactician/1st-level-feature
     effects:
-      - effect: You mark the target.
+      - name: Effect
+        effect: You mark the target.
       - roll: Power Roll + Might
         t1: 4 + M damage; R < WEAK, weakened (save ends)
         t2: 6 + M damage; R < AVERAGE, weakened (save ends)
         t3: 10 + M damage; R < STRONG, weakened (save ends)
       - effect: Before the start of your next turn, the first time any ally deals damage
           to any target marked by you, that ally can spend a Recovery.
+        name: Effect
   - name: Mark
     flavor: You draw your allies' attention to a specific foe-with devastating effect.
     keywords:
@@ -18586,6 +18807,7 @@ abilities:
           - If you damage a creature marked by you with a melee ability, the
           creature is taunted by you until the end of their next turn. You can't
           gain more than one benefit from the same trigger.
+        name: Effect
   - name: Advanced Tactics
     flavor: Your leadership aids an ally.
     keywords:
@@ -18617,6 +18839,7 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - effect: The target gains 2 surges, which they can use on the triggering damage.
+        name: Effect
       - effect: If the damage has any potency effect associated with it, the potency is
           increased by 1.
         cost: Spend 1 Focus
@@ -18654,6 +18877,7 @@ abilities:
       type: feature/ability/tactician/1st-level-feature
     effects:
       - effect: Each target can move up to their speed.
+        name: Effect
   - name: Battle Cry
     cost: 3 Focus
     flavor: You shout a phrase that galvanizes your team.
@@ -18723,6 +18947,7 @@ abilities:
     effects:
       - effect: At any time during the target's movement, one ally can make a free
           strike against them.
+        name: Effect
       - effect: If the target has R < AVERAGE, they are slowed (EoT).
         cost: Spend 1 Focus
   - name: Covert Operations
@@ -18799,6 +19024,7 @@ abilities:
           Resource, as long as they have enough Heroic Resource to pay for the
           ability. If the target is reduced to 0 Stamina before the chosen ally has
           used their ability, the ally can pick a different target.
+        name: Effect
   - name: Bait and Ambush
     metadata:
       class: tactician
@@ -18859,6 +19085,7 @@ abilities:
     effects:
       - effect: The target is killed. Additionally, the creature who caused the target
           to be winded can spend a Recovery.
+        name: Effect
   - name: Pincer Movement
     metadata:
       class: tactician
@@ -18946,6 +19173,7 @@ abilities:
       - effect: Each target gains 1 surge and can use a signature ability as a free
           triggered action. That ability gains an edge on the power roll and
           increases the potency of any potency effects by 1.
+        name: Effect
   - name: Perk
     metadata:
       class: tactician
@@ -19001,6 +19229,7 @@ abilities:
           free triggered action. The ability has a double edge on the power roll,
           ignores damage immunity, and increases the potency of any potency effects
           by 1.
+        name: Effect
   - name: Hustle!
     cost: 9 Focus
     flavor: You and your allies coordinate to form a new battle line.
@@ -19036,6 +19265,7 @@ abilities:
     effects:
       - effect: You mark two enemies within 10 squares of you. Each target can shift up
           to their speed. You and each target gain 2 surges.
+        name: Effect
   - name: Coordinated Execution
     cost: 9 Focus
     flavor: You direct your ally to make a killing blow.
@@ -19075,6 +19305,7 @@ abilities:
           ability is a minion, the entire squad is killed. If the target of the
           triggering ability is a leader or solo creature, the triggering ability's
           power roll automatically obtains a tier 3 outcome.
+        name: Effect
   - name: Master of Arms
     metadata:
       class: tactician
@@ -19132,7 +19363,8 @@ abilities:
       target: One ally
       type: feature/ability/tactician/6th-level-feature
     effects:
-      - effect: The target takes half the damage. You then make a power roll against the
+      - name: Effect
+        effect: The target takes half the damage. You then make a power roll against the
           triggering creature.
       - roll: Power Roll + Might
         t1: A < WEAK, dazed (save ends)
@@ -19201,6 +19433,7 @@ abilities:
         t3: 13 + M damage; slide 5
       - effect: If a target is force moved into another creature, they must make a free
           strike against that creature.
+        name: Effect
   - name: Battle Plan
     cost: 9 Focus
     flavor: With new understanding of your foes, you create the perfect plan to win
@@ -19240,6 +19473,7 @@ abilities:
           encounter, the Director tells you if any creatures marked by you have
           damage immunity or weakness and the value of that immunity or weakness.
           Additionally, you and each ally within 3 squares of you gains 2 surges.
+        name: Effect
       - effect: Until the end of the encounter, whenever you or any ally makes a strike
           against a creature marked by you, you can spend 2 focus to make the strike
           ignore damage immunity and deal extra damage equal to three times your
@@ -19298,6 +19532,7 @@ abilities:
           and they have R < STRONG, they are dazed (save ends). If the target is
           reduced to 0 Stamina before one or both allies has made their strike, the
           ally or allies can pick a different target.
+        name: Effect
   - name: Skill
     metadata:
       class: tactician
@@ -19484,6 +19719,7 @@ abilities:
           triggered action, and deals extra damage with that ability equal to your
           Reason score. The ability has its Heroic Resource cost reduced by 1 + your
           Reason score (minimum cost 0).
+        name: Effect
   - name: Shake It Off
     metadata:
       class: tactician
@@ -19540,6 +19776,7 @@ abilities:
     effects:
       - effect: Each target gains 2 surges. Additionally, they can spend a Recovery,
           remove any conditions or effects on them, and stand up if they are prone.
+        name: Effect
   - name: Squad! Gear Check!
     cost: 9 Focus
     flavor: You distract a foe while your allies secure their defensive gear.
@@ -19582,6 +19819,7 @@ abilities:
         t2: 13 + M damage
         t3: 18 + M damage
       - effect: You and each ally adjacent to the target gain 10 temporary Stamina.
+        name: Effect
   - name: Distracted
     metadata:
       class: tactician
@@ -19639,6 +19877,7 @@ abilities:
     effects:
       - effect: Each target gains 1 surge and can use a signature ability that has a
           double edge.
+        name: Effect
   - name: Tactical Offensive
     metadata:
       class: tactician
@@ -19741,6 +19980,7 @@ abilities:
         t2: 9 + R damage; taunted (EoT)
         t3: 12 + R damage; taunted (EoT)
       - effect: One ally adjacent to the target can spend a Recovery.
+        name: Effect
   - name: No Dying on My Watch
     cost: 5 Focus
     flavor: You prioritize saving an ally over your own safety.
@@ -19779,7 +20019,8 @@ abilities:
       target: One enemy
       type: feature/ability/tactician/2nd-level-feature
     effects:
-      - effect: You move up to your speed toward the triggering ally, ending this
+      - name: Effect
+        effect: You move up to your speed toward the triggering ally, ending this
           movement adjacent to them or in the nearest square if you can't reach an
           adjacent square. The triggering ally can spend a Recovery and gains 5
           temporary Stamina for each enemy you came adjacent to during the move. You
@@ -19823,6 +20064,7 @@ abilities:
     effects:
       - effect: Until the start of your next turn, each target has a bonus to stability
           equal to your Might score. Additionally, each target gains 2 surges.
+        name: Effect
   - name: Melee Superiority
     metadata:
       class: tactician
@@ -19887,6 +20129,7 @@ abilities:
           Until the end of the encounter, whenever you or any ally makes a strike
           against a creature marked by you, you can spend 2 focus to add one
           additional target to the strike."
+        name: Effect
   - name: Infiltration Tactics
     metadata:
       class: tactician
@@ -19944,7 +20187,8 @@ abilities:
       target: Self
       type: feature/ability/tactician/2nd-level-feature
     effects:
-      - effect: You shift up to your speed directly toward an ally, ending adjacent to
+      - name: Effect
+        effect: You shift up to your speed directly toward an ally, ending adjacent to
           them, then swapping locations with that ally as long as you can fit into
           each other's spaces. The ally can spend a Recovery, and you can make the
           following weapon strike with a distance of melee 1 against a creature.
@@ -19989,6 +20233,7 @@ abilities:
     effects:
       - effect: Each target is marked by you, and must immediately make a free strike
           against a creature of your choice within 5 squares of them.
+        name: Effect
       - effect: Until the end of the encounter, whenever you or any ally makes a strike
           against a creature marked by you, you can spend 2 focus to force that
           target to make a free strike against a creature of your choice within 5
@@ -20073,6 +20318,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, whenever you or
           any ally deals damage to a target marked by you who has R < AVERAGE, the
           target is frightened of the creature who dealt the damage (save ends).
+        name: Effect
   - name: Frontal Assault
     cost: 7 Focus
     flavor: The purpose of a charge is to break their morale and force a retreat.
@@ -20112,6 +20358,7 @@ abilities:
           shift up to 2 squares. Additionally, any ally using the Charge main action
           to target a creature marked by you can use a melee strike signature
           ability or a melee strike heroic ability instead of a melee free strike.
+        name: Effect
   - name: Out of Position
     metadata:
       class: tactician
@@ -20172,6 +20419,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, whenever you or
           any ally deals damage to a target marked by you, that creature gains 2
           surges, which they can use immediately.
+        name: Effect
   - name: Stay Strong and Focus!
     cost: 7 Focus
     flavor: '"We can do this! Keep faith and hold fast!"'
@@ -20208,6 +20456,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, whenever you or
           any ally deals damage to a target marked by you, the creature who dealt
           the damage can spend a Recovery.
+        name: Effect
   - name: Squad! Hit and Run!
     cost: 11 Focus
     flavor: I had to pry this secret from the shadow colleges.
@@ -20245,6 +20494,7 @@ abilities:
           signature ability that gains an edge. After resolving their ability, each
           target can shift up to 2 squares and become hidden even if they have no
           cover or concealment, or if they are observed.
+        name: Effect
   - name: Counterstrategy
     cost: 11 Focus
     flavor: I've identified a way to negate their strengths.
@@ -20282,6 +20532,7 @@ abilities:
           dying, whenever the Director spends Malice (see *[Draw Steel:
           Monsters](https://mcdm.gg/DS-Monsters)*), choose yourself or one ally
           within 10 squares. The chosen character gains 2 of their Heroic Resource."
+        name: Effect
   - name: That One Is Mine!
     cost: 11 Focus
     flavor: You focus on making an enemy irrelevant.
@@ -20321,7 +20572,8 @@ abilities:
       target: One creature
       type: feature/ability/tactician/9th-level-feature
     effects:
-      - effect: The target is marked by you.
+      - name: Effect
+        effect: The target is marked by you.
       - roll: Power Roll + Might
         t1: 8 + M damage
         t2: 13 + M damage
@@ -20329,6 +20581,7 @@ abilities:
       - effect: Until the end of the encounter or until you are dying, you can use a
           signature or heroic ability instead of a free strike against any target
           marked by you.
+        name: Effect
   - name: Grandmaster of Arms
     metadata:
       class: tactician
@@ -20390,7 +20643,8 @@ abilities:
       target: Three enemies
       type: feature/ability/tactician/9th-level-feature
     effects:
-      - effect: Each target uses a signature ability against one or more targets of your
+      - name: Effect
+        effect: Each target uses a signature ability against one or more targets of your
           choosing, with each ability automatically obtaining a tier 3 outcome on
           the power roll. After resolving the targets' abilities, you make a power
           roll against each original target.
@@ -20436,6 +20690,7 @@ abilities:
       - effect: Each target can make a ranged free strike that gains an edge against any
           enemy marked by you within distance of their ranged free strike. A target
           ignores banes and double banes when making this strike.
+        name: Effect
   - name: Grand Strategy
     metadata:
       class: tactician
@@ -20732,6 +20987,7 @@ abilities:
           you ignore difficult terrain. The illusion and your invisibility last
           until the end of your next turn, or until the illusion is interacted with,
           you take damage, or you use a main action or a maneuver.
+        name: Effect
   - name: Troubadour Abilities
     metadata:
       class: troubadour
@@ -20787,6 +21043,7 @@ abilities:
     effects:
       - effect: While this performance is active, each target who starts their turn in
           the area gains 1 surge.
+        name: Effect
   - name: Hypnotic Overtones
     cost: 3 Drama
     flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
@@ -20905,6 +21162,7 @@ abilities:
     effects:
       - effect: The target can choose one additional target for the triggering ability.
           Any damage dealt to the additional target is sonic damage.
+        name: Effect
       - effect: You can trigger this ability when a target uses an ability that has a
           Heroic Resource cost of 3 + each additional drama spent.
         cost: Spend 1+ Drama
@@ -20944,6 +21202,7 @@ abilities:
       - effect: At the end of each of your turns while this performance is active, you
           can choose up to a number of targets equal to your Presence score. Each
           chosen target can spend a Recovery.
+        name: Effect
   - name: Dramatic Monologue
     flavor: It doesn't need to make sense. Just say it with emotion.
     keywords:
@@ -20987,6 +21246,7 @@ abilities:
           - You insult a foe where they're most vulnerable. One enemy within
           distance takes a bane on the next power roll they make before the end of
           their next turn.
+        name: Effect
       - effect: You can choose two targets for the chosen effect.
         cost: Spend 1 Drama
   - name: Turnabout Is Fair Play
@@ -21022,6 +21282,7 @@ abilities:
     effects:
       - effect: An edge on the triggering roll becomes a bane, or a double edge becomes
           an edge. A bane becomes an edge, or a double bane becomes a bane.
+        name: Effect
       - effect: An edge on the triggering roll becomes a double bane, or a double edge
           is negated. A bane becomes a double edge, or a double bane is negated.
         cost: Spend 3 Drama
@@ -21146,6 +21407,7 @@ abilities:
         t2: 5 damage; P < AVERAGE, slowed (save ends)
         t3: 6 damage; P < STRONG, restrained (save ends)
       - effect: The area is difficult terrain for enemies.
+        name: Effect
   - name: Troubadour Class Act
     metadata:
       class: troubadour
@@ -21224,6 +21486,7 @@ abilities:
     effects:
       - effect: Each target can teleport up to 5 squares. Any teleported target who was
           slowed is no longer slowed.
+        name: Effect
   - name: Riposte
     flavor: "\"I'd have brought treats had I known I'd be fighting a dog.\""
     keywords:
@@ -21256,6 +21519,7 @@ abilities:
     effects:
       - effect: The target makes a free strike against the creature who made the
           triggering strike.
+        name: Effect
   - name: Drama Outside of Combat
     metadata:
       class: troubadour
@@ -21342,7 +21606,8 @@ abilities:
       target: One creature
       type: feature/ability/troubadour/1st-level-feature
     effects:
-      - effect: At the end of each combat round while this performance is active, you
+      - name: Effect
+        effect: At the end of each combat round while this performance is active, you
           can make a power roll against the target that ignores cover. You can't
           target the same creature twice with this effect.
       - roll: Power Roll + Presence
@@ -21396,6 +21661,7 @@ abilities:
           turn, any effects from the ability's tier outcomes other than damage are
           negated for all targets. Ability effects that always happen regardless of
           the power roll work as usual.
+        name: Effect
   - name: Scene Partner
     metadata:
       class: troubadour
@@ -21505,6 +21771,7 @@ abilities:
         t3: 9 + P damage
       - effect: The target is taunted by you or a willing ally adjacent to you until the
           end of the target's next turn.
+        name: Effect
   - name: Artful Flourish
     flavor: And they said practicing fencing was a waste!
     keywords:
@@ -21543,6 +21810,7 @@ abilities:
         t2: 5 damage
         t3: 7 damage
       - effect: You can shift up to 3 squares.
+        name: Effect
       - effect: You can target one additional creature or object for every 2 drama spent.
         cost: Spend 2+ Drama
   - name: Witty Banter
@@ -21586,6 +21854,7 @@ abilities:
         t3: 7 + P psychic damage
       - effect: One ally within 10 squares of you can end one effect on them that is
           ended by a saving throw or that ends at the end of their turn.
+        name: Effect
       - effect: The chosen ally can spend a Recovery.
         cost: Spend 1 Drama
   - name: Upstage
@@ -21627,7 +21896,8 @@ abilities:
       target: Self
       type: feature/ability/troubadour/1st-level-feature
     effects:
-      - effect: You shift up to your speed. You make one power roll that targets each
+      - name: Effect
+        effect: You shift up to your speed. You make one power roll that targets each
           enemy you move adjacent to during this shift.
       - roll: Power Roll + Agility or Presence
         t1: Taunted (EoT); A < WEAK, prone
@@ -21668,6 +21938,7 @@ abilities:
     effects:
       - effect: While this performance is active, each target who starts their turn in
           the area gains a +2 bonus to speed until the end of their turn.
+        name: Effect
   - name: Method Acting
     cost: 5 Drama
     flavor: They're so hurt by your performance, you start to believe it yourself.
@@ -21711,6 +21982,7 @@ abilities:
         t3: 14 + A damage; P < STRONG, weakened (save ends)
       - effect: You can become bleeding (save ends) to deal an extra 5 corruption damage
           to the target.
+        name: Effect
   - name: Blocking
     flavor: No, no, no, you lose the audience that way. Try it like this...
     keywords:
@@ -21750,6 +22022,7 @@ abilities:
           teleported in a way that would harm them (such as over a cliff), leave
           them dying, or result in them suffering a condition or other negative
           effect.
+        name: Effect
   - name: Acrobatics
     flavor: Folks love a good tumble.
     keywords:
@@ -21787,6 +22060,7 @@ abilities:
           the area can automatically obtain a tier 3 outcome on one test made to
           jump, tumble, or climb as part of their movement before the end of their
           turn.
+        name: Effect
   - name: Star Power
     cost: 1 Drama
     flavor: Your years of practicing fencing and dancing pay off on the battlefield.
@@ -21823,6 +22097,7 @@ abilities:
       - effect: You gain a +2 bonus to speed until the end of your turn. Additionally,
           the next power roll you make this turn can't have an outcome lower than
           tier 2.
+        name: Effect
       - effect: You gain a +4 bonus to speed instead.
         cost: Spend 1 Drama
   - name: Radical Fantasia
@@ -21863,6 +22138,7 @@ abilities:
           forced movement gains a +2 bonus to the forced movement distance until the
           end of their turn. Additionally, once per combat round, each target can
           use a triggered action as a free triggered action.
+        name: Effect
   - name: The Show Must Go On
     cost: 11 Drama
     flavor: You shine a bright light on the players on the stage and compel them to
@@ -21909,6 +22185,7 @@ abilities:
           they can't willingly leave the area (save ends)
       - effect: Each ally within distance can't obtain lower than a tier 2 outcome on
           the next test they make before the start of your next turn.
+        name: Effect
   - name: Moonlight Sonata
     flavor: Music pours out of your heart, filling the area with the utmost delicacy
       and without damper.
@@ -21949,6 +22226,7 @@ abilities:
           move and use either a main action or a maneuver, but can't spend
           Recoveries or use triggered actions. At the end of the encounter, each
           target who chose to take turns this way turns to dust and blows away.
+        name: Effect
   - name: Perk
     metadata:
       class: troubadour
@@ -22025,6 +22303,7 @@ abilities:
           an ally within distance of that ability into the creature's space in a
           plume of rose petals. You or the teleported ally can then make a melee
           free strike.
+        name: Effect
   - name: Saved in the Edit
     cost: 11 Drama
     flavor: You shout a word of power that allows you to rewrite reality to your whims.
@@ -22076,6 +22355,7 @@ abilities:
     
           - The target has a bonus to speed and a penalty to stability equal to your
           Presence score.
+        name: Effect
   - name: Power Ballad
     cost: 11 Drama
     flavor: A song for the brokenhearted wraps itself around the target and blossoms
@@ -22116,6 +22396,7 @@ abilities:
       - effect: Until the end of the encounter, whenever the target takes damage while
           winded, they can use a free triggered action to deal half the damage they
           took to the source of the damage.
+        name: Effect
   - name: Masterwork
     metadata:
       class: troubadour
@@ -22267,6 +22548,7 @@ abilities:
           you. You choose which enemies your free strike targets and which enemies
           the target creature's free strike targets. You then slide the target 5
           squares, ignoring stability.
+        name: Effect
   - name: You're All My Understudies
     cost: 9 Drama
     flavor: It's important for everyone to know each other's lines, just in case...
@@ -22305,6 +22587,7 @@ abilities:
       - effect: Until the end of the encounter, each target gains the speed bonus,
           weapon distance bonus, disengage bonus, and stability bonus of your
           currently equipped kit in addition to their own kit's bonuses.
+        name: Effect
   - name: Legendary Drum Fill
     cost: 9 Drama
     flavor: You start a drumroll that roars like thunder with every impact the heroes make.
@@ -22343,6 +22626,7 @@ abilities:
     effects:
       - effect: Each target gains 1 surge, then gains 1 surge at the start of each
           combat round until the end of the encounter.
+        name: Effect
   - name: Spotlight
     flavor: The audience is watching, so you'd better give them a show.
     keywords:
@@ -22379,6 +22663,7 @@ abilities:
       - effect: While this performance is active, each target who starts their turn in
           the area gains 1 of their Heroic Resource. This Heroic Resource disappears
           at the end of the target's turn if they don't spend it.
+        name: Effect
   - name: Perk
     metadata:
       class: troubadour
@@ -22434,7 +22719,8 @@ abilities:
       target: Each enemy in the area
       type: feature/ability/troubadour/6th-level-feature
     effects:
-      - effect: A prone target ignores this ability.
+      - name: Effect
+        effect: A prone target ignores this ability.
       - roll: Power Roll + Presence
         t1: 7 sonic damage; P < WEAK, prone
         t2: 10 sonic damage; P < AVERAGE, prone
@@ -22616,6 +22902,7 @@ abilities:
       - effect: While this performance is active, each target who starts their turn in
           the area can reroll the first power roll that turn that obtains a tier 2
           outcome. They must use the new roll.
+        name: Effect
   - name: We Can't Be Upstaged!
     flavor: Swordplay so graceful it looks like you all practiced this.
     keywords:
@@ -22652,6 +22939,7 @@ abilities:
       - effect: While this performance is active, a target who starts their turn in the
           area gains a bonus to the distance they can shift equal to your Presence
           score until the end of their turn.
+        name: Effect
   - name: Fix It in Post
     metadata:
       class: troubadour
@@ -22713,6 +23001,7 @@ abilities:
       - effect: The target gains 20 temporary Stamina. Until the end of the encounter,
           whenever the target takes damage while you're within distance, you can
           choose to take the damage instead of the target.
+        name: Effect
   - name: Patter Song
     cost: 9 Drama
     flavor: Dazzle them with your fancy patter and they forget where they were.
@@ -22800,6 +23089,7 @@ abilities:
         t3: 20 damage
       - effect: Unless you score a critical hit, this ability can't reduce a non-minion
           target below 1 Stamina.
+        name: Effect
   - name: Continuity Error
     cost: 9 Drama
     flavor: Your subject is written into two places at once.
@@ -22844,6 +23134,7 @@ abilities:
           the other entity persists as the original entity and this effect ends. The
           effect also ends if both entities occupy the same space, causing them to
           automatically merge and combine their current Stamina.
+        name: Effect
   - name: Bolstering Banter
     metadata:
       class: troubadour
@@ -22927,6 +23218,7 @@ abilities:
           Resource, and cost no Malice. When you make the strike, you use your
           Presence score for any power rolls, and any damage you deal is sonic
           damage.
+        name: Effect
   - name: Guest Star
     cost: 5 Drama
     flavor: We offered them a percentage of the gross. So they're working for free!
@@ -22971,6 +23263,7 @@ abilities:
           the guest star is reduced to 0 Stamina, they retreat or revert to a
           bystander. The same bystander can't be uplifted this way more than once
           during an encounter."
+        name: Effect
   - name: Tough Crowd
     cost: 5 Drama
     flavor: Your fans don't seem to like the opening act...
@@ -23008,7 +23301,8 @@ abilities:
       target: Special
       type: feature/ability/troubadour/2nd-level-feature
     effects:
-      - effect: The area is haunted by a swirling horde of phantoms until the end of the
+      - name: Effect
+        effect: The area is haunted by a swirling horde of phantoms until the end of the
           encounter. Allies can enter any square of the area without spending
           movement. At the end of each of your turns, you can make one power roll
           that targets each enemy in the area.
@@ -23147,6 +23441,7 @@ abilities:
           players can work with the Director to determine when the target takes
           their turn each combat round. At the end of the encounter, the target
           turns to dust and is blown away.
+        name: Effect
   - name: Perk
     metadata:
       class: troubadour
@@ -23209,6 +23504,7 @@ abilities:
         t3: 16 + A damage
       - effect: The target can make a melee free strike against you. If they do, you can
           make a melee free strike against the target.
+        name: Effect
   - name: Formal Introductions
     metadata:
       class: troubadour
@@ -23280,6 +23576,7 @@ abilities:
           end this movement adjacent to the other target and on solid ground. Each
           target can then make a melee free strike that deals extra damage equal to
           twice their highest characteristic score.
+        name: Effect
   - name: We Meet at Last
     cost: 7 Drama
     flavor: You magically intertwine your fate with another creature-for better or worse.
@@ -23325,6 +23622,7 @@ abilities:
           communicate a motivating or dispiriting message to the target, either
           granting them 2 surges or forcing them to take a bane on the next ability
           roll they make before the start of your next turn.
+        name: Effect
   - name: '"Never-Ending Hero"'
     flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
     keywords:
@@ -23361,6 +23659,7 @@ abilities:
       - effect: While this performance is active, each target who starts their turn
           dying while in the area gains an edge on power rolls and ignores the
           effects of bleeding until the end of their turn.
+        name: Effect
   - name: Infernal Gavotte
     cost: 7 Drama
     flavor: A spicy performance lights a fire under your allies' feet.
@@ -23405,6 +23704,7 @@ abilities:
         t2: 7 fire damage; A < AVERAGE, weakened (save ends)
         t3: 10 fire damage; A < STRONG, weakened (save ends)
       - effect: Each ally in the area can shift up to 2 squares.
+        name: Effect
   - name: Extensive Rewrites
     cost: 7 Drama
     flavor: No, this isn't right. That foe was over there!
@@ -23447,6 +23747,7 @@ abilities:
       - effect: Instead of sliding a target, you can swap their location with another
           target as long as each can fit into the other's space. You can't slide
           targets into other creatures or objects using this ability.
+        name: Effect
   - name: '"Fire Up the Night"'
     flavor: Maybe you and I ♪ We can still bring the light!♪
     keywords:
@@ -23484,6 +23785,7 @@ abilities:
           the area doesn't take a bane on strikes against creatures with
           concealment. Once during their turn, they can search for hidden creatures
           as a free maneuver (see Hide and Sneak in Chapter 9: Tests)."
+        name: Effect
   - name: Star Solo
     cost: 7 Drama
     flavor: Your performance travels and doesn't stop moving until your audience is
@@ -23534,6 +23836,7 @@ abilities:
       - effect: You can choose to have this ability deal sonic damage. Additionally, you
           can use this ability against the same target for the next 2 combat rounds
           without spending drama.
+        name: Effect
   - name: Foil
     metadata:
       class: troubadour
@@ -23647,6 +23950,7 @@ abilities:
       - effect: Each creature within distance gains a +5 bonus to speed until the end of
           their next turn. While under this effect, each target must use their full
           movement during their turn.
+        name: Effect
   - name: Rising Tension
     cost: 11 Drama
     flavor: You narrate the tension of the scene and put all hope into your
@@ -23688,6 +23992,7 @@ abilities:
           power roll of their choice made during their next turn, is no longer
           slowed or weakened if they were before, and can immediately take their
           turn after yours if they have not taken their turn already this round.
+        name: Effect
   - name: Renegotiated Contract
     cost: 11 Drama
     flavor: No, no. You don't die until the sequel.
@@ -23725,7 +24030,8 @@ abilities:
       target: One creature
       type: feature/ability/troubadour/9th-level-feature
     effects:
-      - effect: Add your current Stamina to your target's current Stamina, then you have
+      - name: Effect
+        effect: Add your current Stamina to your target's current Stamina, then you have
           half that total Stamina and the target has the remainder. If either of you
           would gain more Stamina this way than their Stamina maximum, the
           difference in Stamina between what that creature would gain and their
@@ -23785,6 +24091,7 @@ abilities:
         t2: 16 + P sonic damage; push 10
         t3: 22 + P sonic damage; push 15
       - effect: Forced movement from this ability ignores stability.
+        name: Effect
   - name: Epic
     cost: 11 Drama
     flavor: Your story tells a tale of the villain's waning power and how the heroes
@@ -23831,6 +24138,7 @@ abilities:
       - effect: Choose one ally within distance. While the target is affected by this
           ability, each time they use an ability, that ally can make a free strike
           against them after the ability is resolved.
+        name: Effect
   - name: Expert Fencer
     cost: 11 Drama
     flavor: If you can land the strike, the crowd goes wild.
@@ -23877,6 +24185,7 @@ abilities:
       - effect: This ability can't obtain better than a tier 2 outcome unless the target
           is at maximum distance. If you obtain a tier 3 outcome with a natural 17
           or higher, you gain 3 surges that you can use immediately.
+        name: Effect
   - name: Skill
     metadata:
       class: troubadour
@@ -24174,6 +24483,7 @@ abilities:
     effects:
       - effect: Choose an enemy within distance of the triggering strike, including the
           enemy who targeted you. The strike targets that enemy instead.
+        name: Effect
   - name: Insight in Combat
     metadata:
       class: shadow
@@ -24244,6 +24554,7 @@ abilities:
         t2: 5 + A damage
         t3: 8 + A damage; I < STRONG, prone
       - effect: One ally within 5 squares of the target gains 1 surge.
+        name: Effect
   - name: Teamwork Has Its Place
     flavor: You attack an enemy as an ally exposes their weakness.
     keywords:
@@ -24285,6 +24596,7 @@ abilities:
         t3: 9 + A damage
       - effect: If any ally is adjacent to the target, you gain 1 surge before making
           the power roll.
+        name: Effect
   - name: Get In Get Out
     cost: 3 Insight
     flavor: Move unexpectedly, strike fast, and be gone!
@@ -24390,6 +24702,7 @@ abilities:
         t2: 6 + A damage; slide 3
         t3: 10 + A damage; slide 5
       - effect: You can shift into any square the target leaves when you slide them.
+        name: Effect
   - name: Defensive Roll
     flavor: When an enemy attacks, you roll with the impact to reduce the harm.
     keywords:
@@ -24424,6 +24737,7 @@ abilities:
           after the triggering effect resolves. If you end this shift with
           concealment or cover, you can use the Hide maneuver even if you are
           observed.
+        name: Effect
       - effect: The potency of any effects associated with the damage are reduced by 1
           for you.
         cost: Spend 1 Insight
@@ -24503,7 +24817,8 @@ abilities:
       target: Self
       type: feature/ability/shadow/1st-level-feature
     effects:
-      - effect: You shift up to your speed and make one power roll that targets up to
+      - name: Effect
+        effect: You shift up to your speed and make one power roll that targets up to
           three enemies who came adjacent to you during the move.
       - roll: Power Roll + Agility
         t1: 3 damage
@@ -24541,6 +24856,7 @@ abilities:
       - effect: You teleport up to 5 squares. If you have concealment or cover at your
           destination, you can use the Hide maneuver even if you are observed. If
           you successfully hide using this maneuver, you gain 1 surge.
+        name: Effect
       - effect: You teleport 1 additional square for each insight spent.
         cost: Spend 1+ Insight
   - name: Coat the Blade
@@ -24574,6 +24890,7 @@ abilities:
     effects:
       - effect: You gain 2 surges. Additionally, whenever you use a surge before the end
           of the encounter, you can choose to have it deal poison damage.
+        name: Effect
       - effect: For each insight you spend, you gain 1 additional surge.
         cost: Spend 1+ Insight
   - name: I'm No Threat
@@ -24617,6 +24934,7 @@ abilities:
           interact with a creature, when you use this ability again, or when you end
           the illusion (no action required). If you end this illusion by harming
           another creature, you gain 1 surge.
+        name: Effect
       - effect: Choose a creature whose size is no more than 1 greater than yours and
           who is within 10 squares. This ability's illusion makes you appear as that
           creature. This illusion covers your entire body, including clothing and
@@ -24708,6 +25026,7 @@ abilities:
         t3: 9 + A damage
       - effect: If the target has none of your allies adjacent to them, you gain 1 surge
           before making the power roll.
+        name: Effect
   - name: Hesitation Is Weakness
     cost: 1 Insight
     flavor: Keep up the attack. Never give them a moment's grace.
@@ -24744,6 +25063,7 @@ abilities:
       type: feature/ability/shadow/1st-level-feature
     effects:
       - effect: You take your turn after the triggering hero.
+        name: Effect
   - name: In All This Confusion
     flavor: You vanish in a plume of black smoke to avoid danger.
     keywords:
@@ -24776,6 +25096,7 @@ abilities:
     effects:
       - effect: You take half the damage, then can teleport up to 4 squares after the
           triggering effect resolves.
+        name: Effect
       - effect: You teleport 1 additional square for each insight spent.
         cost: Spend 1+ Insight
   - name: Shadowstrike
@@ -24816,6 +25137,7 @@ abilities:
       type: feature/ability/shadow/1st-level-feature
     effects:
       - effect: You use a strike signature ability twice.
+        name: Effect
   - name: Insight Outside of Combat
     metadata:
       class: shadow
@@ -24884,6 +25206,7 @@ abilities:
           you gain 1 surge. If you are flanking the target when you use this
           ability, choose one ally who is flanking with you. That ally also gains 1
           surge.
+        name: Effect
   - name: Eviscerate
     cost: 3 Insight
     flavor: You leave your foe bleeding out after a devastating attack.
@@ -25131,6 +25454,7 @@ abilities:
           signature ability that gains an edge three times, or use a strike
           signature ability that has a double edge twice. You can shift up to 2
           squares between each use.
+        name: Effect
   - name: Assassinate
     cost: 11 Insight
     flavor: A practiced attack will instantly kill an already weakened foe.
@@ -25174,6 +25498,7 @@ abilities:
         t3: 24 + A damage
       - effect: A target who is not a minion, leader, or solo creature and who is winded
           after taking this damage is reduced to 0 Stamina.
+        name: Effect
   - name: Time Bomb
     flavor: The longer it cooks, the bigger the boom.
     keywords:
@@ -25213,6 +25538,7 @@ abilities:
           the current encounter, the area increases by 1 and you gain 1 surge that
           must be used with this ability. After using the ability or at the end of
           the encounter, its area and surges are reset.
+        name: Effect
       - effect: For every 2 insight spent, you increase the cube's size by 1 and gain 1
           surge that can be used only with this ability.
         cost: Spend 2+ Insight
@@ -25273,6 +25599,7 @@ abilities:
     effects:
       - effect: Until the start of your next turn, any ability roll made against a
           target gains an edge.
+        name: Effect
   - name: Umbral Form
     metadata:
       class: shadow
@@ -25355,6 +25682,7 @@ abilities:
           A creature who drinks the potion can spend up to 2 Recoveries, and has
           acid immunity, fire immunity, or poison immunity (their choice) equal to
           your level until the end of the encounter.
+        name: Effect
   - name: Black Ash Eruption
     cost: 9 Insight
     flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
@@ -25400,6 +25728,7 @@ abilities:
         t2: 6 + A damage; vertical push 10
         t3: 9 + A damage; vertical push 15
       - effect: A creature force moved by this ability must be moved straight upward.
+        name: Effect
   - name: Puppet Strings
     cost: 9 Insight
     flavor: You prick little needles on the tips of your fingers into the nerves of
@@ -25451,6 +25780,7 @@ abilities:
       - effect: You choose the new targets for the original target's free strike or
           ability. Additionally, if you are hidden or disguised, using this ability
           doesn't cause you to be revealed.
+        name: Effect
   - name: Cinderstorm
     cost: 9 Insight
     flavor: You teleport your friends in a burst of ash and fire.
@@ -25489,6 +25819,7 @@ abilities:
           enemy takes fire damage equal to your Agility score. Additionally, a
           target who ends this movement in concealment or cover can use the Hide
           maneuver even if they are observed.
+        name: Effect
   - name: One Vial Makes You Faster
     cost: 9 Insight
     flavor: Each ally who catches a potion you throw can take the battle to the next level.
@@ -25523,7 +25854,8 @@ abilities:
       target: Three creatures
       type: feature/ability/shadow/6th-level-feature
     effects:
-      - effect: >-
+      - name: Effect
+        effect: >-
           You ready, hand, or lob a potion to each target, who can immediately quaff
           the potion (no action required). If they don't drink the potion right
           away, they must use the Use Consumable maneuver to consume it later. The
@@ -25795,6 +26127,7 @@ abilities:
       - effect: You disappear before making the power roll. After the power roll is
           resolved, you appear in the first unoccupied space at the far end of the
           line.
+        name: Effect
   - name: Blackout
     cost: 9 Insight
     flavor: You cause a plume of shadow to erupt from your eyes and create a cloud
@@ -25837,6 +26170,7 @@ abilities:
           area, whenever an enemy ends their turn in the area, you can use a free
           triggered action to shift to a new location within the area and make a
           free strike against them.
+        name: Effect
   - name: Into the Shadows
     cost: 9 Insight
     flavor: You sweep your foe off their feet and plunge them into absolute darkness.
@@ -25876,7 +26210,8 @@ abilities:
       target: One creature or object
       type: feature/ability/shadow/5th-level-feature
     effects:
-      - effect: You and the target are removed from the encounter map until the start of
+      - name: Effect
+        effect: You and the target are removed from the encounter map until the start of
           your next turn. You reappear in the spaces you left or the nearest
           unoccupied spaces. Make a power roll upon your return.
       - roll: Power Roll + Agility
@@ -25955,6 +26290,7 @@ abilities:
         t2: 15 + A damage; P < AVERAGE, dazed (save ends)
         t3: 21 + A damage; P < STRONG, dazed (save ends)
       - effect: The target can't communicate with anyone until the end of the encounter.
+        name: Effect
   - name: Friend!
     metadata:
       class: shadow
@@ -26018,6 +26354,7 @@ abilities:
           All This Confusion ability. Before you teleport, you can make a free
           strike against a creature who damaged you to trigger In All This
           Confusion. After you teleport, you can spend a Recovery.
+        name: Effect
   - name: Stink Bomb
     cost: 5 Insight
     flavor: Putrid yellow gas explodes from a bomb you toss.
@@ -26060,6 +26397,7 @@ abilities:
       - effect: The gas remains in the area until the end of the encounter. Any creature
           who starts their turn in the area and has M < AVERAGE is weakened (save
           ends).
+        name: Effect
   - name: Sticky Bomb
     cost: 5 Insight
     flavor: Explosives are best when they're attached to an enemy.
@@ -26093,7 +26431,8 @@ abilities:
       target: One creature
       type: feature/ability/shadow/2nd-level-feature
     effects:
-      - effect: You attach a small bomb to a creature. If you are hidden from the
+      - name: Effect
+        effect: You attach a small bomb to a creature. If you are hidden from the
           creature, they don't notice the bomb and you remain hidden. The creature
           otherwise notices the bomb and can disarm and remove it as a main action.
           If they don't, at the end of your next turn, the bomb detonates. When the
@@ -26161,6 +26500,7 @@ abilities:
           triggering creature and strike. You can teleport to an unoccupied space
           within 3 squares of that creature and can make a free strike against them.
           You can then spend a Recovery.
+        name: Effect
   - name: Burning Ash
     metadata:
       class: shadow
@@ -26245,6 +26585,7 @@ abilities:
         t3: Slide 7
       - effect: This forced movement ignores stability. Instead, the forced movement is
           reduced by a number equal to the target's Intuition score.
+        name: Effect
   - name: In a Puff of Ash
     cost: 5 Insight
     flavor: You enchant a strike with your teleportation magic.
@@ -26367,6 +26708,7 @@ abilities:
       - effect: Until the end of the encounter, whenever an enemy moves or is force
           moved adjacent to you or damages you, you can take the Disengage move
           action as a free triggered action.
+        name: Effect
   - name: Careful Observation
     flavor: A moment of focus leaves a foe firmly in your sights.
     keywords:
@@ -26400,6 +26742,7 @@ abilities:
           effect to them, and strike no other creature first, you gain an edge on
           the next strike you make against the assessed creature, and gain 1 surge
           you can use only on that strike.
+        name: Effect
   - name: Staggering Blow
     cost: 7 Insight
     flavor: There's no recovering from this.
@@ -26488,6 +26831,7 @@ abilities:
         t3: 18 + A damage
       - effect: The target is taunted by a willing ally within 5 squares of you until
           the end of the target's next turn.
+        name: Effect
   - name: I Am You
     cost: 11 Insight
     flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
@@ -26527,6 +26871,7 @@ abilities:
           and speed (if they are better than yours), and can use any types of
           movement they can use. You can also use the target's signature ability,
           using their bonus for the power roll.
+        name: Effect
   - name: Demon Door
     cost: 11 Insight
     flavor: You create a temporary portal to allow a massive demonic hand to reach through.
@@ -26573,6 +26918,7 @@ abilities:
         t3: 25 + A corruption damage; push 7
       - effect: On a critical hit, the target is grabbed by the demon and pulled through
           the portal before it closes, never to be seen again.
+        name: Effect
   - name: It Was Me All Along
     cost: 11 Insight
     flavor: After everything you've been through together, you twist the blade and
@@ -26619,6 +26965,7 @@ abilities:
       - effect: If you are disguised as a creature the target knew using your I'm No
           Threat ability, this ability deals extra damage equal to three times your
           Agility score.
+        name: Effect
   - name: To the Stars
     cost: 11 Insight
     flavor: You attach your most potent explosive to your foe. Under less pressing
@@ -26664,6 +27011,7 @@ abilities:
         t3: 11 + A fire damage; vertical push 15
       - effect: The ground beneath a 3-cube area around the target's starting position
           is difficult terrain.
+        name: Effect
   - name: Gloom Squad
     metadata:
       class: shadow
@@ -26733,7 +27081,8 @@ abilities:
       target: Self
       type: feature/ability/shadow/9th-level-feature
     effects:
-      - effect: You shift up to twice your speed, making one power roll that targets
+      - name: Effect
+        effect: You shift up to twice your speed, making one power roll that targets
           each creature you come adjacent to during the shift.
       - roll: Power Roll + Agility
         t1: An enemy takes 6 damage; an ally can teleport up to 3 squares.
@@ -26774,7 +27123,8 @@ abilities:
       target: One creature or object
       type: feature/ability/shadow/9th-level-feature
     effects:
-      - effect: Each enemy within 3 squares of the target who is not currently targeted
+      - name: Effect
+        effect: Each enemy within 3 squares of the target who is not currently targeted
           by this ability also becomes targeted by this ability. This effect
           continues until there are no more available targets. The ability deals
           acid, fire, or poison damage (your choice).
@@ -26970,6 +27320,7 @@ abilities:
       type: feature/ability/shadow/4th-level-feature
     effects:
       - effect: The target takes half the damage. You remain hidden.
+        name: Effect
   - name: Characteristic Increase
     metadata:
       class: shadow
@@ -27048,6 +27399,7 @@ abilities:
         t3: 5 + P corruption damage; P < STRONG, slowed (save ends)
       - effect: The target takes an extra 1 corruption damage for each additional time
           they are targeted by this ability during the encounter.
+        name: Effect
       - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
           power roll.
         name: Strained
@@ -27091,6 +27443,7 @@ abilities:
       - effect: Until the start of your next turn, the target gains a +3 bonus to speed,
           and they have a double edge on the next power roll they make. If the
           target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+        name: Effect
       - effect: You take 1d6 damage, and you can't use triggered actions (save ends).
         name: Strained
   - name: Kinetic Pulse
@@ -27218,6 +27571,7 @@ abilities:
           carrying or wearing such an object (such as a mirror, an unpainted metal
           shield, or shiny metal plate armor), you can target one additional
           creature or object within 3 squares of the first target.
+        name: Effect
       - effect: You gain 1 surge that you can use immediately, and you take damage equal
           to your Reason score that can't be reduced in any way.
         name: Strained
@@ -27295,6 +27649,7 @@ abilities:
       type: feature/ability/talent/1st-level-feature
     effects:
       - effect: The target takes psychic damage equal to half the triggering damage.
+        name: Effect
   - name: Telepathic Speech
     metadata:
       class: talent
@@ -27420,6 +27775,7 @@ abilities:
       - effect: The target uses an ability with a base Heroic Resource cost of 7 or
           lower that they've previously used this round, without needing to spend
           the base cost. Augmentations to the ability can be paid for as usual.
+        name: Effect
       - effect: You take 1d6 damage and are slowed (save ends).
         name: Strained
   - name: Spirit Sword
@@ -27462,6 +27818,7 @@ abilities:
         t2: 6 + P damage
         t3: 9 + P damage
       - effect: You gain 1 surge.
+        name: Effect
       - effect: The target takes an extra 3 damage. You also take 3 damage that can't be
           reduced in any way.
         name: Strained
@@ -27499,6 +27856,7 @@ abilities:
       type: feature/ability/talent/1st-level-feature
     effects:
       - effect: You slide the target up to a number of squares equal to your Reason score.
+        name: Effect
       - effect: The size of the creature or object you can target increases by 1 for
           every 2 clarity spent.
         cost: Spend 2+ Clarity
@@ -27556,6 +27914,7 @@ abilities:
       type: feature/ability/talent/1st-level-feature
     effects:
       - effect: The target shifts up to a number of squares equal to your Reason score.
+        name: Effect
       - effect: The target can use a maneuver.
         cost: Spend 2 Clarity
   - name: Incinerate
@@ -27602,6 +27961,7 @@ abilities:
       - effect: A column of fire remains in the area until the start of your next turn.
           Each enemy who enters the area for the first time in a combat round or
           starts their turn there takes 2 fire damage.
+        name: Effect
       - effect: The size of the cube increases by 2, but the fire disappears at the end
           of your turn.
         name: Strained
@@ -27721,6 +28081,7 @@ abilities:
           score, and they gain 10 temporary Stamina and 2 surges. This stability
           increase lasts until the target no longer has temporary Stamina from this
           ability.
+        name: Effect
       - effect: You can't use maneuvers (save ends).
         name: Strained
   - name: Steel Ward
@@ -27796,6 +28157,7 @@ abilities:
     effects:
       - effect: You can use this ability after seeing the result of the triggering roll.
           The target must reroll the power roll and use the new roll.
+        name: Effect
   - name: Remote Assistance
     flavor: An ally gains the benefit of your intellect.
     keywords:
@@ -27829,6 +28191,7 @@ abilities:
     effects:
       - effect: The next ability roll an ally makes against the target before the start
           of your next turn gains an edge.
+        name: Effect
       - effect: You target one additional creature or object.
         cost: Spend 1 Clarity
   - name: Choke
@@ -27876,6 +28239,7 @@ abilities:
         t3: 8 + R damage; M < STRONG, restrained (save ends)
       - effect: You can vertical pull the target up to 2 squares. If the target is made
           restrained by this ability, this forced movement ignores their stability.
+        name: Effect
   - name: Repel
     flavor: They aren't going anywhere, but you might!
     keywords:
@@ -27914,6 +28278,7 @@ abilities:
           the effect. If the forced movement is reduced to 0 squares, the target can
           push the source of the forced movement a number of squares equal to your
           Reason score.
+        name: Effect
   - name: Speed Augmentation
     metadata:
       class: talent
@@ -27976,6 +28341,7 @@ abilities:
           your next turn. Whenever the target takes damage while under this effect,
           they can use a triggered action to make a free strike against the source
           of the damage.
+        name: Effect
   - name: Awe
     cost: 3 Clarity
     flavor: You project psionic energy out to a creature and take on a new visage in
@@ -28017,7 +28383,8 @@ abilities:
       target: One creature
       type: feature/ability/talent/1st-level-feature
     effects:
-      - effect: If you target an ally, they gain temporary Stamina equal to three times
+      - name: Effect
+        effect: If you target an ally, they gain temporary Stamina equal to three times
           your Presence score, and they can end one effect on them that is ended by
           a saving throw or that ends at the end of their turn. If you target an
           enemy, you make a power roll.
@@ -28070,6 +28437,7 @@ abilities:
           a number of squares equal to your Reason score. When pushing an ally, the
           target can ignore that ally's stability. A creature can only be force
           moved this way once a turn.
+        name: Effect
       - effect: You are weakened (save ends). While you are weakened this way, whenever
           you are force moved, the forced movement distance gains a +5 bonus.
         name: Strained
@@ -28165,7 +28533,8 @@ abilities:
       target: One creature
       type: feature/ability/talent/1st-level-feature
     effects:
-      - effect: "Choose the damage type and the weakness for this ability from one of
+      - name: Effect
+        effect: "Choose the damage type and the weakness for this ability from one of
           the following: acid, corruption, or fire. The target takes damage before
           this ability imposes any weakness."
       - roll: Power Roll + Reason
@@ -28258,6 +28627,7 @@ abilities:
         t3: 23 + R damage; R < STRONG, the target has a double bane on power rolls (save
           ends)
       - effect: The target can't communicate with anyone until the end of the encounter.
+        name: Effect
       - effect: You take 3d6 damage.
         name: Strained
   - name: Rejuvenate
@@ -28310,6 +28680,7 @@ abilities:
     
           - The target gains 2 surges, and gains a +3 bonus to speed until the end
           of the encounter.
+        name: Effect
       - effect: You and the target both permanently grow visibly younger (the equivalent
           of 20 human years, to the minimum of an 18-yearold). Additionally, you are
           weakened and slowed (save ends).
@@ -28350,6 +28721,7 @@ abilities:
       - effect: Each target can fly until the start of your next turn, and can
           immediately shift up to their speed. You can also shift up to your speed.
           While flying, a target's stability is reduced to 0 and can't be increased.
+        name: Effect
       - effect: The effects last for 1 hour instead.
         cost: Spend 5 Clarity
   - name: Doubt
@@ -28401,6 +28773,7 @@ abilities:
           Steel: Monsters](https://mcdm.gg/DS-Monsters)*). After you make the power
           roll, you or one ally within distance have a double edge on the next power
           roll you make before the end of the encounter."
+        name: Effect
       - effect: You feel dispirited until you finish a respite. If you obtain a tier 3
           outcome on the power roll, you and the target each have damage weakness 5
           (save ends).
@@ -28506,6 +28879,7 @@ abilities:
           until the start of your next turn. Whenever the target force moves a
           creature or object while under this effect, the forced movement distance
           gains a +5 bonus.
+        name: Effect
       - effect: You can't use maneuvers (save ends).
         name: Strained
   - name: Perk
@@ -28565,6 +28939,7 @@ abilities:
       - effect: The target is teleported to an unoccupied space adjacent to you, taking
           no damage and suffering no additional effects if this movement would get
           them out of harm's way.
+        name: Effect
       - effect: You can't target yourself, and you take the damage and any additional
           effects instead of the target.
         name: Strained
@@ -28626,7 +29001,8 @@ abilities:
       target: Each creature and object in the area
       type: feature/ability/talent/6th-level-feature
     effects:
-      - effect: >-
+      - name: Effect
+        effect: >-
           The area is frozen in time until the start of your next turn. Each object
           in the area is restrained and can't fall until the effect ends. Until the
           effect ends, creatures in the area who are reduced to 0 Stamina or would
@@ -28679,12 +29055,13 @@ abilities:
       target: One enemy
       type: feature/ability/talent/6th-level-feature
     effects:
-      - effect: The target has damage weakness 5 until the end of your next turn.
+      - name: Effect
+        effect: The target has damage weakness 5 until the end of your next turn.
           Whenever the target takes damage while they have this weakness, they are
           knocked prone.
-      - effect: This ability gains the Strike keyword as the vision hurts the target's
+      - name: Strained
+        effect: This ability gains the Strike keyword as the vision hurts the target's
           psyche. You make a power roll, then are weakened (save ends).
-        name: Strained
       - roll: Power Roll + Presence
         t1: 8 + P psychic damage
         t2: 13 + P psychic damage
@@ -28784,6 +29161,7 @@ abilities:
         t2: 9 damage; vertical pull 7 toward the center of the area
         t3: 13 damage; vertical pull 10 toward the center of the area
       - effect: Targets closest to the center of the area are pulled first.
+        name: Effect
       - effect: The size of the area increases by 2. You also target yourself and each
           ally within distance.
         name: Strained
@@ -28874,7 +29252,8 @@ abilities:
       target: Special
       type: feature/ability/talent/6th-level-feature
     effects:
-      - effect: You target a number of creatures with this ability determined by the
+      - name: Effect
+        effect: You target a number of creatures with this ability determined by the
           outcome of your power roll. You and your allies are invisible to each
           target until the start of your next turn.
       - roll: Power Roll + Reason
@@ -29165,7 +29544,8 @@ abilities:
       target: Each enemy in the area
       type: feature/ability/talent/5th-level-feature
     effects:
-      - effect: You teleport to a square on the opposite side of the area before making
+      - name: Effect
+        effect: You teleport to a square on the opposite side of the area before making
           the power roll.
       - roll: Power Roll + Reason
         t1: 12 sonic damage
@@ -29238,6 +29618,7 @@ abilities:
           your Reason score. Additionally, whenever an enemy uses a melee ability
           against the target while they are under this effect, the enemy takes 5
           fire damage.
+        name: Effect
       - effect: The target gains 2 surges. You are weakened and slowed (save ends).
         name: Strained
   - name: Speed of Thought
@@ -29326,6 +29707,7 @@ abilities:
         t3: 20 + R psychic damage; R < STRONG, slowed (save ends)
       - effect: While slowed this way, the target takes 3 psychic damage for each square
           they willingly leave.
+        name: Effect
       - effect: While slowed this way, the target instead takes 5 psychic damage for
           each square they willingly leave. You have a double bane on ability rolls
           made against the target while they are slowed this way.
@@ -29403,6 +29785,7 @@ abilities:
           target takes damage that wasn't dealt by or also taken by another stitched
           target, each other stitched target takes half the damage the initial
           target took.
+        name: Effect
       - effect: You target yourself and three enemies instead.
         name: Strained
   - name: Compulsion
@@ -29580,6 +29963,7 @@ abilities:
       - effect: Until the start of your next turn, each target gains a +5 bonus to
           speed, they can't be made dazed, and they can use an additional maneuver
           on their turn. If a target is already dazed, that condition ends for them.
+        name: Effect
       - effect: Your speed is halved until the end of the encounter.
         name: Strained
   - name: Gravitic Burst
@@ -29673,6 +30057,7 @@ abilities:
           that would harm them (such as over a cliff), leave them dying, or result
           in them suffering a condition or other negative effect. However, you can
           move them to provoke opportunity attacks.
+        name: Effect
       - effect: You take 1d6 damage and are weakened until the end of your turn.
         name: Strained
   - name: Perk
@@ -29786,6 +30171,7 @@ abilities:
         t3: The target is slowed (save ends), or if P < STRONG, the target's speed is 0
           (save ends).
       - effect: A target can't use triggered actions while their speed is reduced this way.
+        name: Effect
       - effect: The potency of this ability increases by 1 and you take 1d6 damage. At
           the start of each combat round while any target is affected by this
           ability, you take 1d6 damage. You can end the effect on all affected
@@ -29830,7 +30216,8 @@ abilities:
       target: Self
       type: feature/ability/talent/3rd-level-feature
     effects:
-      - effect: >-
+      - name: Effect
+        effect: >-
           You create three size 1T orbs that orbit your body. Each orb gives you a
           cumulative damage immunity 1. Each time you take damage, you lose 1 orb.
     
@@ -29893,6 +30280,7 @@ abilities:
       - effect: A target who is flung through time is removed from the encounter map
           until the end of their next turn, reappearing in their original space or
           the nearest unoccupied space.
+        name: Effect
       - effect: You take 2d6 damage and permanently grow visibly older (the equivalent
           of 10 years for a human). If you obtain a tier 3 outcome on the power
           roll, you gain 2 clarity.
@@ -29943,6 +30331,7 @@ abilities:
         t2: 10 + P damage; P < AVERAGE, dazed (save ends)
         t3: 14 + P damage; P < STRONG, dazed (save ends)
       - effect: The target takes a bane on Presence tests until the end of the encounter.
+        name: Effect
       - effect: The potency of this ability increases by 1. You take 2d6 damage and gain
           3 surges that you can use immediately.
         name: Strained
@@ -29988,6 +30377,7 @@ abilities:
           on the ally and reflected back at the enemy. The ability deals half the
           damage to the enemy that it would have dealt to the ally and loses any
           additional effects.
+        name: Effect
       - effect: The size of the aura increases by 1. Whenever your aura reflects an
           ability, you take 2d6 damage and forget a memory, as determined by you and
           the Director.
@@ -30060,6 +30450,7 @@ abilities:
         t3: 13 damage; push 15
       - effect: On a critical hit, the size of the area increases by 3, and this ability
           deals an extra 10 damage.
+        name: Effect
       - effect: You are weakened (save ends). If you scored a critical hit with this
           ability, you die.
         name: Strained
@@ -30100,7 +30491,8 @@ abilities:
       target: Each enemy and object in the area
       type: feature/ability/talent/9th-level-feature
     effects:
-      - effect: Make a power roll to determine the area of this ability. Each target is
+      - name: Effect
+        effect: Make a power roll to determine the area of this ability. Each target is
           vertical pushed 6 squares. You can target only objects of size 1L or
           smaller.
       - roll: Power Roll + Reason
@@ -30150,10 +30542,11 @@ abilities:
       target: Three allies
       type: feature/ability/talent/9th-level-feature
     effects:
-      - effect: Each target can use any main action available to them as a free
+      - name: Effect
+        effect: Each target can use any main action available to them as a free
           triggered action, but they lose their main action on their next turn.
-      - effect: Make a power roll that targets you and each enemy within distance.
-        name: Strained
+      - name: Strained
+        effect: Make a power roll that targets you and each enemy within distance.
       - roll: Power Roll + Presence
         t1: 4 corruption damage; slowed (save ends)
         t2: 6 corruption damage; slowed (save ends)
@@ -30197,7 +30590,8 @@ abilities:
       target: Each ally and enemy in the area
       type: feature/ability/talent/9th-level-feature
     effects:
-      - effect: You and each target ally can't obtain lower than a tier 2 outcome on
+      - name: Effect
+        effect: You and each target ally can't obtain lower than a tier 2 outcome on
           power rolls until the start of your next turn. Each target enemy is
           affected by the ability's power roll.
       - roll: Power Roll + Reason
@@ -30248,6 +30642,7 @@ abilities:
           determine. A target can't gain more than 3 of their Heroic Resource this
           way. After using this ability, you can't gain any clarity until the end of
           the next combat round.
+        name: Effect
   - name: Resonant Mind Spike
     cost: 11 Clarity
     flavor: You fire a telepathic bolt empowered by every consciousness within reach
@@ -30294,6 +30689,7 @@ abilities:
         t2: 24 + R psychic damage
         t3: 28 + R psychic damage
       - effect: This ability ignores cover and concealment.
+        name: Effect
       - effect: The ability roll scores a critical hit on a natural 17 or higher. You
           take half the damage the target takes, and you can't reduce this damage in
           any way.
