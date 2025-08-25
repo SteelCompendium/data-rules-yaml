@@ -27380,7 +27380,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You advance an enemy's age for a moment.
       item_id: entropic-bolt
-      item_index: "15"
+      item_index: "16"
       item_name: Entropic Bolt
       keywords:
         - Chronopathy
@@ -27391,7 +27391,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
       scdc:
-        - 1.1.1:13.2.1.1:15
+        - 1.1.1:13.2.1.1:16
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -27428,7 +27428,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You clear the mind of nothing but the goal.
       item_id: perfect-clarity-5-clarity
-      item_index: "06"
+      item_index: "07"
       item_name: Perfect Clarity (5 Clarity)
       keywords:
         - Psionic
@@ -27438,7 +27438,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity-5-clarity
       scdc:
-        - 1.1.1:13.2.1.1:06
+        - 1.1.1:13.2.1.1:07
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -27467,7 +27467,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: The force of your mind hurls enemies backward.
       item_id: kinetic-pulse
-      item_index: "14"
+      item_index: "15"
       item_name: Kinetic Pulse
       keywords:
         - Area
@@ -27477,7 +27477,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-pulse
       scdc:
-        - 1.1.1:13.2.1.1:14
+        - 1.1.1:13.2.1.1:15
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/talent/1st-level-feature
@@ -27508,7 +27508,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You blast a foe with a pulse of cold energy.
       item_id: hoarfrost
-      item_index: "05"
+      item_index: "06"
       item_name: Hoarfrost
       keywords:
         - Cryokinesis
@@ -27519,7 +27519,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
       scdc:
-        - 1.1.1:13.2.1.1:05
+        - 1.1.1:13.2.1.1:06
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -27550,7 +27550,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: Your eyes emit rays of powerful enervating force.
       item_id: optic-blast
-      item_index: "18"
+      item_index: "19"
       item_name: Optic Blast
       keywords:
         - Metamorphosis
@@ -27561,7 +27561,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:optic-blast
       scdc:
-        - 1.1.1:13.2.1.1:18
+        - 1.1.1:13.2.1.1:19
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -27637,7 +27637,7 @@ abilities:
       flavor: Creating a brief psychic link between an enemy and their target gives
         that foe a taste of their own medicine.
       item_id: feedback-loop
-      item_index: "19"
+      item_index: "20"
       item_name: Feedback Loop
       keywords:
         - Psionic
@@ -27646,7 +27646,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:feedback-loop
       scdc:
-        - 1.1.1:13.2.1.1:19
+        - 1.1.1:13.2.1.1:20
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -27713,7 +27713,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: A telepathic bolt instantly zaps a creature's brain.
       item_id: mind-spike
-      item_index: "20"
+      item_index: "21"
       item_name: Mind Spike
       keywords:
         - Psionic
@@ -27724,7 +27724,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:mind-spike
       scdc:
-        - 1.1.1:13.2.1.1:20
+        - 1.1.1:13.2.1.1:21
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -27760,7 +27760,7 @@ abilities:
       flavor: The target is thrown several seconds back through time and gets to do it
         all again.
       item_id: flashback-5-clarity
-      item_index: "03"
+      item_index: "04"
       item_name: Flashback (5 Clarity)
       keywords:
         - Chronopathy
@@ -27770,7 +27770,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:flashback-5-clarity
       scdc:
-        - 1.1.1:13.2.1.1:03
+        - 1.1.1:13.2.1.1:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -27800,7 +27800,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You form a blade of mind energy and stab your target, invigorating yourself.
       item_id: spirit-sword
-      item_index: "07"
+      item_index: 8
       item_name: Spirit Sword
       keywords:
         - Animapathy
@@ -27811,7 +27811,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:spirit-sword
       scdc:
-        - 1.1.1:13.2.1.1:07
+        - 1.1.1:13.2.1.1:08
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -27902,7 +27902,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: To your ally, it seems as though the world has slowed down.
       item_id: accelerate
-      item_index: "11"
+      item_index: "12"
       item_name: Accelerate
       keywords:
         - Psionic
@@ -27911,7 +27911,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:accelerate
       scdc:
-        - 1.1.1:13.2.1.1:11
+        - 1.1.1:13.2.1.1:12
       source: mcdm.heroes.v1
       target: Self or one creature
       type: feature/ability/talent/1st-level-feature
@@ -27940,7 +27940,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: The air erupts into a column of smokeless flame.
       item_id: incinerate
-      item_index: 9
+      item_index: "10"
       item_name: Incinerate
       keywords:
         - Area
@@ -27952,7 +27952,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:incinerate
       scdc:
-        - 1.1.1:13.2.1.1:09
+        - 1.1.1:13.2.1.1:10
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/talent/1st-level-feature
@@ -28065,7 +28065,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
       item_id: iron-5-clarity
-      item_index: "04"
+      item_index: "05"
       item_name: Iron (5 Clarity)
       keywords:
         - Metamorphosis
@@ -28075,7 +28075,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron-5-clarity
       scdc:
-        - 1.1.1:13.2.1.1:04
+        - 1.1.1:13.2.1.1:05
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -28144,7 +28144,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You step back a split second to see if things play out a little differently.
       item_id: again
-      item_index: "13"
+      item_index: "14"
       item_name: Again
       keywords:
         - Psionic
@@ -28153,7 +28153,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:again
       scdc:
-        - 1.1.1:13.2.1.1:13
+        - 1.1.1:13.2.1.1:14
       source: mcdm.heroes.v1
       target: Self or one creature
       type: feature/ability/talent/1st-level-feature
@@ -28178,7 +28178,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: An ally gains the benefit of your intellect.
       item_id: remote-assistance
-      item_index: "21"
+      item_index: "22"
       item_name: Remote Assistance
       keywords:
         - Psionic
@@ -28187,7 +28187,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:remote-assistance
       scdc:
-        - 1.1.1:13.2.1.1:21
+        - 1.1.1:13.2.1.1:22
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -28220,7 +28220,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: You crush a foe in a telekinetic grip.
       item_id: choke-3-clarity
-      item_index: "22"
+      item_index: "23"
       item_name: Choke (3 Clarity)
       keywords:
         - Psionic
@@ -28231,7 +28231,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:choke-3-clarity
       scdc:
-        - 1.1.1:13.2.1.1:22
+        - 1.1.1:13.2.1.1:23
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -28261,7 +28261,7 @@ abilities:
       file_dpath: Talent/1st-Level Features
       flavor: They aren't going anywhere, but you might!
       item_id: repel
-      item_index: "17"
+      item_index: "18"
       item_name: Repel
       keywords:
         - Psionic
@@ -28270,7 +28270,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:repel
       scdc:
-        - 1.1.1:13.2.1.1:17
+        - 1.1.1:13.2.1.1:18
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -28325,7 +28325,7 @@ abilities:
       flavor: You give a target a glimpse into the future so that they're ready for
         what comes next.
       item_id: precognition-3-clarity
-      item_index: "10"
+      item_index: "11"
       item_name: Precognition (3 Clarity)
       keywords:
         - Chronopathy
@@ -28335,7 +28335,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition-3-clarity
       scdc:
-        - 1.1.1:13.2.1.1:10
+        - 1.1.1:13.2.1.1:11
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -28370,7 +28370,7 @@ abilities:
       flavor: You project psionic energy out to a creature and take on a new visage in
         their mind.
       item_id: awe-3-clarity
-      item_index: "16"
+      item_index: "17"
       item_name: Awe (3 Clarity)
       keywords:
         - Psionic
@@ -28381,7 +28381,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe-3-clarity
       scdc:
-        - 1.1.1:13.2.1.1:16
+        - 1.1.1:13.2.1.1:17
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -28419,7 +28419,7 @@ abilities:
       flavor: Your psionic energy surrounds the target and pushes everything else away
         from them.
       item_id: inertia-soak-5-clarity
-      item_index: "12"
+      item_index: "13"
       item_name: Inertia Soak (5 Clarity)
       keywords:
         - Psionic
@@ -28429,7 +28429,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:inertia-soak-5-clarity
       scdc:
-        - 1.1.1:13.2.1.1:12
+        - 1.1.1:13.2.1.1:13
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -28520,7 +28520,7 @@ abilities:
       flavor: Smoke flows from your enemy like tears as their skin begins to blacken
         and flake.
       item_id: smolder-3-clarity
-      item_index: 8
+      item_index: 9
       item_name: Smolder (3 Clarity)
       keywords:
         - Psionic
@@ -28531,7 +28531,7 @@ abilities:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder-3-clarity
       scdc:
-        - 1.1.1:13.2.1.1:08
+        - 1.1.1:13.2.1.1:09
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -28545,6 +28545,55 @@ abilities:
         t2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
         t3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your Reason
           score (save ends)
+  - name: Materialize
+    flavor: You picture an object in your mind and give it form-directly above your
+      opponent's head.
+    keywords:
+      - Psionic
+      - Ranged
+      - Resopathy
+      - Strike
+    type: Main action
+    distance: Ranged 10
+    target: One creature or object
+    metadata:
+      action_type: Main action
+      class: talent
+      distance: Ranged 10
+      feature_type: ability
+      file_basename: Materialize
+      file_dpath: Talent/1st-Level Features
+      flavor: You picture an object in your mind and give it form-directly above your
+        opponent's head.
+      item_id: materialize
+      item_index: "03"
+      item_name: Materialize
+      keywords:
+        - Psionic
+        - Ranged
+        - Resopathy
+        - Strike
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:materialize
+      scdc:
+        - 1.1.1:13.2.1.1:03
+      source: mcdm.heroes.v1
+      target: One creature or object
+      type: feature/ability/talent/1st-level-feature
+    effects:
+      - roll: Power Roll + Reason
+        t1: 3 + R damage
+        t2: 5 + R damage
+        t3: 8 + R damage
+      - effect: A worthless size 1M object drops onto the target to deal the damage,
+          then rolls into an adjacent unoccupied space of your choice. The object is
+          made of wood, stone, or metal (your choice).
+        name: Effect
+      - effect: The object explodes after the damage is dealt, and each creature
+          adjacent to the target takes damage equal to your Reason score. You also
+          take damage equal to your Reason score that can't be reduced in any way.
+        name: Strained
   - name: Repulsive Ward
     metadata:
       class: talent
