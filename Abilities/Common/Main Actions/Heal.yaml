@@ -1,4 +1,5 @@
-name: Heal
+name: ""
+icon: Heal
 metadata:
   class: combat
   file_basename: Heal

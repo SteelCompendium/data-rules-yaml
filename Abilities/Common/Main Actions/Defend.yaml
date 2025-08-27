@@ -1,4 +1,5 @@
-name: Defend
+name: ""
+icon: Defend
 metadata:
   class: combat
   file_basename: Defend

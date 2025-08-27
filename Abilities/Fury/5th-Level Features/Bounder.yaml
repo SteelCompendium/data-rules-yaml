@@ -1,4 +1,5 @@
-name: Bounder
+name: ""
+icon: Bounder
 metadata:
   class: fury
   feature_type: trait

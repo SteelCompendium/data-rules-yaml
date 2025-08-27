@@ -1,4 +1,5 @@
-name: Kit
+name: ""
+icon: Kit
 metadata:
   class: fury
   feature_type: trait

@@ -1,4 +1,5 @@
-name: I Predicted That
+name: ""
+icon: I Predicted That
 metadata:
   class: tactician
   feature_type: trait

@@ -1,4 +1,5 @@
-name: Grand Strategy
+name: ""
+icon: Grand Strategy
 metadata:
   class: tactician
   feature_type: trait

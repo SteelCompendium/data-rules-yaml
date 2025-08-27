@@ -1,4 +1,5 @@
-name: Windwalk
+name: ""
+icon: Windwalk
 metadata:
   class: conduit
   feature_type: trait

@@ -1,4 +1,5 @@
-name: Pincer Movement
+name: ""
+icon: Pincer Movement
 metadata:
   class: tactician
   feature_type: trait

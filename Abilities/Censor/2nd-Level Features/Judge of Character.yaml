@@ -1,4 +1,5 @@
-name: Judge of Character
+name: ""
+icon: Judge of Character
 metadata:
   class: censor
   feature_type: trait

@@ -1,4 +1,5 @@
-name: Blessing of Life
+name: ""
+icon: Blessing of Life
 metadata:
   class: conduit
   feature_type: trait

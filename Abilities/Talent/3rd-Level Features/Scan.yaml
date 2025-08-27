@@ -1,4 +1,5 @@
-name: Scan
+name: ""
+icon: Scan
 metadata:
   class: talent
   feature_type: trait

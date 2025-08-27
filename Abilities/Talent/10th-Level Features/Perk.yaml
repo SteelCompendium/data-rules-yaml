@@ -1,4 +1,5 @@
-name: Perk
+name: ""
+icon: Perk
 metadata:
   class: talent
   feature_type: trait
