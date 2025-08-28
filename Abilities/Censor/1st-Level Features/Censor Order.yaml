@@ -1,5 +1,4 @@
-name: ""
-icon: Censor Order
+name: Censor Order
 metadata:
   class: censor
   feature_type: trait

@@ -1,5 +1,4 @@
-name: ""
-icon: Missed Cue
+name: Missed Cue
 metadata:
   class: troubadour
   feature_type: trait

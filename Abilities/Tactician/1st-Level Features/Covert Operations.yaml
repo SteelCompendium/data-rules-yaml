@@ -1,5 +1,4 @@
-name: ""
-icon: Covert Operations
+name: Covert Operations
 metadata:
   class: tactician
   feature_type: trait

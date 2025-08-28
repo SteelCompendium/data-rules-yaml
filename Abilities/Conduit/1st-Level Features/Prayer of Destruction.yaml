@@ -1,5 +1,4 @@
-name: ""
-icon: Prayer of Destruction
+name: Prayer of Destruction
 metadata:
   class: conduit
   feature_type: trait

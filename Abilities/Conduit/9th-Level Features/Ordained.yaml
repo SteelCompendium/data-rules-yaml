@@ -1,5 +1,4 @@
-name: ""
-icon: Ordained
+name: Ordained
 metadata:
   class: conduit
   feature_type: trait

@@ -1,5 +1,4 @@
-name: ""
-icon: Smoldering Step
+name: Smoldering Step
 metadata:
   class: elementalist
   feature_type: trait

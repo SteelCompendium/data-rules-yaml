@@ -1,5 +1,4 @@
-name: ""
-icon: Flowering Bed
+name: Flowering Bed
 metadata:
   class: elementalist
   feature_type: trait

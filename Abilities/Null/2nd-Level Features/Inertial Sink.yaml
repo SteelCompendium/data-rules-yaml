@@ -1,5 +1,4 @@
-name: ""
-icon: Inertial Sink
+name: Inertial Sink
 metadata:
   class: "null"
   feature_type: trait

@@ -1,5 +1,4 @@
-name: ""
-icon: Impervious Touch
+name: Impervious Touch
 metadata:
   class: conduit
   feature_type: trait

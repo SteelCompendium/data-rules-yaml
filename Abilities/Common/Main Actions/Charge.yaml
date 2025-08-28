@@ -1,5 +1,4 @@
-name: ""
-icon: Charge
+name: Charge
 metadata:
   class: combat
   file_basename: Charge

@@ -1,5 +1,4 @@
-name: ""
-icon: Virtue
+name: Virtue
 metadata:
   class: censor
   feature_type: trait

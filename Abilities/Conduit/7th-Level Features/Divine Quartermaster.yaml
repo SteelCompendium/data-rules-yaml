@@ -1,5 +1,4 @@
-name: ""
-icon: Divine Quartermaster
+name: Divine Quartermaster
 metadata:
   class: conduit
   feature_type: trait

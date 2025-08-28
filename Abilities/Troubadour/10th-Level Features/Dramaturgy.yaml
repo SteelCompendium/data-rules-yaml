@@ -1,5 +1,4 @@
-name: ""
-icon: Dramaturgy
+name: Dramaturgy
 metadata:
   class: troubadour
   feature_type: trait

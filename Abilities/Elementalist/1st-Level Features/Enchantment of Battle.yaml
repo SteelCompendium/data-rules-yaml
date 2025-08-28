@@ -1,5 +1,4 @@
-name: ""
-icon: Enchantment of Battle
+name: Enchantment of Battle
 metadata:
   class: elementalist
   feature_type: trait

@@ -1,5 +1,4 @@
-name: ""
-icon: Distance Augmentation
+name: Distance Augmentation
 metadata:
   class: talent
   feature_type: trait

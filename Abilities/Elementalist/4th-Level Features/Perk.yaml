@@ -1,5 +1,4 @@
-name: ""
-icon: Perk
+name: Perk
 metadata:
   class: elementalist
   feature_type: trait

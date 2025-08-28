@@ -1,5 +1,4 @@
-name: ""
-icon: Skill
+name: Skill
 metadata:
   class: conduit
   feature_type: trait

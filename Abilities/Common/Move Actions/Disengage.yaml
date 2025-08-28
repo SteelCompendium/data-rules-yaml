@@ -1,5 +1,4 @@
-name: ""
-icon: Disengage
+name: Disengage
 metadata:
   class: combat
   file_basename: Disengage

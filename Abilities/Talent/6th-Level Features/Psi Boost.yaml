@@ -1,5 +1,4 @@
-name: ""
-icon: Psi Boost
+name: Psi Boost
 metadata:
   class: talent
   feature_type: trait

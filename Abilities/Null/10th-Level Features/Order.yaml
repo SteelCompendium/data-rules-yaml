@@ -1,5 +1,4 @@
-name: ""
-icon: Order
+name: Order
 metadata:
   class: "null"
   feature_type: trait

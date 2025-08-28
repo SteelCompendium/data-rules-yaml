@@ -1,5 +1,4 @@
-name: ""
-icon: Judgment Order Benefit
+name: Judgment Order Benefit
 metadata:
   class: censor
   feature_type: trait

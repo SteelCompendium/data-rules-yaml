@@ -1,5 +1,4 @@
-name: ""
-icon: Wrath in Combat
+name: Wrath in Combat
 metadata:
   class: censor
   feature_type: trait

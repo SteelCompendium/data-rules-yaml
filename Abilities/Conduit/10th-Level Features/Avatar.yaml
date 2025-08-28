@@ -1,5 +1,4 @@
-name: ""
-icon: Avatar
+name: Avatar
 metadata:
   class: conduit
   feature_type: trait

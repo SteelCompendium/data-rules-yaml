@@ -1,5 +1,4 @@
-name: ""
-icon: Blessing of Compassion
+name: Blessing of Compassion
 metadata:
   class: censor
   feature_type: trait
