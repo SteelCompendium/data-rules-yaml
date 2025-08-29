@@ -27421,6 +27421,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Arcane Archer
       scc:
         - mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow
       scdc:
@@ -27462,6 +27463,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Retiarius
       scc:
         - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
       scdc:
@@ -27499,6 +27501,7 @@ abilities:
         - Psionic
         - Strike
         - Weapon
+      kit: Battlemind
       scc:
         - mcdm.heroes.v1:kit-ability.battlemind:unmooring
       scdc:
@@ -27537,6 +27540,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Sword and Board
       scc:
         - mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash
       scdc:
@@ -27576,6 +27580,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Raider
       scc:
         - mcdm.heroes.v1:kit-ability.raider:raiders-awe
       scdc:
@@ -27616,6 +27621,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Cloak and Dagger
       scc:
         - mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade
       scdc:
@@ -27651,6 +27657,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Guisarmier
       scc:
         - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
       scdc:
@@ -27686,6 +27693,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Swashbuckler
       scc:
         - mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork
       scdc:
@@ -27724,6 +27732,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Whirlwind
       scc:
         - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
       scdc:
@@ -27759,6 +27768,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Sniper
       scc:
         - mcdm.heroes.v1:kit-ability.sniper:patient-shot
       scdc:
@@ -27799,6 +27809,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Warrior Priest
       scc:
         - mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand
       scdc:
@@ -27837,6 +27848,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Ranger
       scc:
         - mcdm.heroes.v1:kit-ability.ranger:hamstring-shot
       scdc:
@@ -27872,6 +27884,7 @@ abilities:
         - Ranged
         - Strike
         - Weapon
+      kit: Rapid Fire
       scc:
         - mcdm.heroes.v1:kit-ability.rapid-fire:two-shot
       scdc:
@@ -27907,6 +27920,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Panther
       scc:
         - mcdm.heroes.v1:kit-ability.panther:devastating-rush
       scdc:
@@ -27947,6 +27961,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Pugilist
       scc:
         - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
       scdc:
@@ -27984,6 +27999,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Martial Artist
       scc:
         - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
       scdc:
@@ -28024,6 +28040,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Shining Armor
       scc:
         - mcdm.heroes.v1:kit-ability.shining-armor:protective-attack
       scdc:
@@ -28061,6 +28078,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Mountain
       scc:
         - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
       scdc:
@@ -28100,6 +28118,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Dual Wielder
       scc:
         - mcdm.heroes.v1:kit-ability.dual-wielder:double-strike
       scdc:
@@ -28142,6 +28161,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Spellsword
       scc:
         - mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning
       scdc:
@@ -28181,6 +28201,7 @@ abilities:
         - Melee
         - Strike
         - Weapon
+      kit: Stick and Robe
       scc:
         - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
       scdc:
