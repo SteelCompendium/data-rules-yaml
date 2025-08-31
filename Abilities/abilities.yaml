@@ -296,7 +296,7 @@ abilities:
     
     
           Complex or time-consuming tests might require a main action if made in
-          combat-or could take so long that they can't be made during combat at all.
+          combat—or could take so long that they can't be made during combat at all.
           Other tests that take no time at all, such as a Reason test to recall lore
           about mummies, are usually free maneuvers in combat. The Director has the
           final say regarding which tests can be made as maneuvers.
@@ -15780,8 +15780,8 @@ abilities:
     effects:
       - effect: You are a product of customs older than warfare, older than
           civilization, older than most of the world. You have undergone a rite of
-          passage that revealed the building blocks of the timescape-the Primordial
-          Chaos-and that left an aspect of that chaos inside you. You choose a
+          passage that revealed the building blocks of the timescape—the Primordial
+          Chaos—and that left an aspect of that chaos inside you. You choose a
           primordial aspect from the following options, each of which grants you a
           skill. (*Quick Build:* Berserker.)
       - effect: Your primordial aspect is your subclass, and your choice of aspect
@@ -15939,7 +15939,7 @@ abilities:
           benefits tied to your Growing Ferocity feature.
   - name: Out of the Way!
     cost: 3 Ferocity
-    flavor: Your enemies will clear your path-whether they want to or not.
+    flavor: Your enemies will clear your path—whether they want to or not.
     keywords:
       - Melee
       - Strike
@@ -15957,7 +15957,7 @@ abilities:
       feature_type: ability
       file_basename: Out of the Way
       file_dpath: Fury/1st-Level Features
-      flavor: Your enemies will clear your path-whether they want to or not.
+      flavor: Your enemies will clear your path—whether they want to or not.
       item_id: out-of-the-way-3-ferocity
       item_index: "04"
       item_name: Out of the Way! (3 Ferocity)
@@ -18617,7 +18617,7 @@ abilities:
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
-      - effect: Warfare is as old as civilization-and perhaps even older. As battle
+      - effect: Warfare is as old as civilization—and perhaps even older. As battle
           became ever more complex, military leaders invented tactical doctrine,
           outlining how combatants should be structured, used, and deployed.
           Doctrine can be learned at war colleges passing on ancient martial
@@ -18650,7 +18650,7 @@ abilities:
           double edge on tests made to stop combat and start a negotiation.
   - name: Now!
     cost: 5 Focus
-    flavor: Your allies wait for your command-then unleash death!
+    flavor: Your allies wait for your command—then unleash death!
     keywords:
       - Ranged
     type: Maneuver
@@ -18666,7 +18666,7 @@ abilities:
       feature_type: ability
       file_basename: Now
       file_dpath: Tactician/1st-Level Features
-      flavor: Your allies wait for your command-then unleash death!
+      flavor: Your allies wait for your command—then unleash death!
       item_id: now-5-focus
       item_index: 8
       item_name: Now! (5 Focus)
@@ -18732,7 +18732,7 @@ abilities:
           to any target marked by you, that ally can spend a Recovery.
         name: Effect
   - name: Mark
-    flavor: You draw your allies' attention to a specific foe-with devastating effect.
+    flavor: You draw your allies' attention to a specific foe—with devastating effect.
     keywords:
       - Ranged
     type: Maneuver
@@ -18745,7 +18745,7 @@ abilities:
       feature_type: ability
       file_basename: Mark
       file_dpath: Tactician/1st-Level Features
-      flavor: You draw your allies' attention to a specific foe-with devastating effect.
+      flavor: You draw your allies' attention to a specific foe—with devastating effect.
       item_id: mark
       item_index: "11"
       item_name: Mark
@@ -22128,7 +22128,7 @@ abilities:
       - effect: You gain a +4 bonus to speed instead.
         cost: Spend 1 Drama
   - name: Radical Fantasia
-    flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy-aaaiigh?♪
+    flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪
     keywords:
       - Area
       - Magic
@@ -22143,7 +22143,7 @@ abilities:
       feature_type: ability
       file_basename: Radical Fantasia
       file_dpath: Troubadour/8th-Level Features
-      flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy-aaaiigh?♪
+      flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪
       item_id: radical-fantasia
       item_index: "02"
       item_name: Radical Fantasia
@@ -23611,7 +23611,7 @@ abilities:
         name: Effect
   - name: We Meet at Last
     cost: 7 Drama
-    flavor: You magically intertwine your fate with another creature-for better or worse.
+    flavor: You magically intertwine your fate with another creature—for better or worse.
     keywords:
       - Magic
       - Ranged
@@ -23628,7 +23628,7 @@ abilities:
       feature_type: ability
       file_basename: We Meet at Last
       file_dpath: Troubadour/3rd-Level Features
-      flavor: You magically intertwine your fate with another creature-for better or worse.
+      flavor: You magically intertwine your fate with another creature—for better or worse.
       item_id: we-meet-at-last-7-drama
       item_index: "06"
       item_name: We Meet at Last (7 Drama)
@@ -26673,7 +26673,7 @@ abilities:
         t3: 14 + A damage; you can teleport the target up to 5 squares
   - name: Pinning Shot
     cost: 7 Insight
-    flavor: One missile-placed well and placed hard.
+    flavor: One missile—placed well and placed hard.
     keywords:
       - Ranged
       - Strike
@@ -26691,7 +26691,7 @@ abilities:
       feature_type: ability
       file_basename: Pinning Shot
       file_dpath: Shadow/3rd-Level Features
-      flavor: One missile-placed well and placed hard.
+      flavor: One missile—placed well and placed hard.
       item_id: pinning-shot-7-insight
       item_index: "02"
       item_name: Pinning Shot (7 Insight)
@@ -27671,7 +27671,7 @@ abilities:
         t2: 7 damage
         t3: 9 damage
   - name: Fancy Footwork
-    flavor: All combat is a dance-and you'll be the one leading.
+    flavor: All combat is a dance—and you'll be the one leading.
     keywords:
       - Melee
       - Strike
@@ -27685,7 +27685,7 @@ abilities:
       distance: Melee 1
       file_basename: Fancy Footwork
       file_dpath: Abilities/Kits/Swashbuckler
-      flavor: All combat is a dance-and you'll be the one leading.
+      flavor: All combat is a dance—and you'll be the one leading.
       item_id: fancy-footwork
       item_index: "01"
       item_name: Fancy Footwork
@@ -29394,7 +29394,7 @@ abilities:
         t3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your Reason
           score (save ends)
   - name: Materialize
-    flavor: You picture an object in your mind and give it form-directly above your
+    flavor: You picture an object in your mind and give it form—directly above your
       opponent's head.
     keywords:
       - Psionic
@@ -29411,7 +29411,7 @@ abilities:
       feature_type: ability
       file_basename: Materialize
       file_dpath: Talent/1st-Level Features
-      flavor: You picture an object in your mind and give it form-directly above your
+      flavor: You picture an object in your mind and give it form—directly above your
         opponent's head.
       item_id: materialize
       item_index: "03"
@@ -29968,7 +29968,7 @@ abilities:
         t3: 17 + P psychic damage
   - name: Synaptic Conditioning
     cost: 9 Clarity
-    flavor: It's a subtle mindset shift. It's not that they're your enemy-you just
+    flavor: It's a subtle mindset shift. It's not that they're your enemy—you just
       don't like them!
     keywords:
       - Psionic
@@ -29988,7 +29988,7 @@ abilities:
       feature_type: ability
       file_basename: Synaptic Conditioning
       file_dpath: Talent/6th-Level Features
-      flavor: It's a subtle mindset shift. It's not that they're your enemy-you just
+      flavor: It's a subtle mindset shift. It's not that they're your enemy—you just
         don't like them!
       item_id: synaptic-conditioning-9-clarity
       item_index: "06"
