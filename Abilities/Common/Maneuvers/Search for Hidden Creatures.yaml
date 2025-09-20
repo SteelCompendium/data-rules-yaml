@@ -1,3 +1,5 @@
+type: feature
+feature_type: trait
 name: Search for Hidden Creatures
 metadata:
   class: combat

@@ -1,3 +1,5 @@
+type: feature
+feature_type: trait
 name: Hide
 metadata:
   class: combat

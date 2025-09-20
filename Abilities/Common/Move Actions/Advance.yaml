@@ -1,3 +1,5 @@
+type: feature
+feature_type: trait
 name: Advance
 metadata:
   class: combat
