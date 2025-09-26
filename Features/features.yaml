@@ -672,133 +672,131 @@ features:
                 tier2: 4 + R corruption damage
                 tier3: 6 + R corruption damage
               - name: Effect
-                effect: >-
-                  Choose yourself or one ally within distance. That character can
-                  end one effect on them that is ended by a saving throw or that
-                  ends at the end of their turn.
-    
-                  ###### Bifurcated Incineration
-    
-                  *Two jets of flame lance out at your command.*
-    
-                  | **Fire, Magic, Ranged, Strike** |                 **Main
-                  action** |
-    
-                  | ------------------------------- |
-                  ------------------------------: |
-    
-                  | **📏 Ranged 10**                | **🎯 Two creatures or
-                  objects** |
-              - effect: >-
-                  ###### Grasp of Beyond
-    
-    
-                  *You absorb the life energy of another creature and use it to
-                  teleport.*
-    
-                  | **Magic, Melee, Strike, Void** |     **Main action** |
-    
-                  | ------------------------------ | ------------------: |
-    
-                  | **📏 Melee 1**                 | **🎯 One creature** |
-                roll: Power Roll + Reason
+                effect: Choose yourself or one ally within distance. That character can end one
+                  effect on them that is ended by a saving throw or that ends at the
+                  end of their turn.
+          - type: feature
+            feature_type: ability
+            name: Bifurcated Incineration
+            flavor: Two jets of flame lance out at your command.
+            keywords:
+              - Fire
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: Two creatures or objects
+            effects:
+              - roll: Power Roll + Reason
                 tier1: 2 fire damage
                 tier2: 4 fire damage
                 tier3: 6 fire damage
+          - type: feature
+            feature_type: ability
+            name: Grasp of Beyond
+            flavor: You absorb the life energy of another creature and use it to teleport.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+              - Void
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Reason
                 tier1: 3 + R corruption damage
                 tier2: 6 + R corruption damage
                 tier3: 9 + R corruption damage
               - name: Effect
-                effect: >-
-                  You can teleport up to a number of squares equal to your Reason
-                  score.
-    
-                  ###### The Green Within, the Green Without
-    
-                  *Whipping vines erupt from a foe's body to grasp at another close
-                  by.*
-    
-                  | **Green, Magic, Ranged, Strike** |     **Main action** |
-    
-                  | -------------------------------- | ------------------: |
-    
-                  | **📏 Ranged 10**                 | **🎯 One creature** |
+                effect: You can teleport up to a number of squares equal to your Reason score.
+          - type: feature
+            feature_type: ability
+            name: The Green Within, the Green Without
+            flavor: Whipping vines erupt from a foe's body to grasp at another close by.
+            keywords:
+              - Green
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 + R damage
                 tier2: 5 + R damage
                 tier3: 7 + R damage
               - name: Effect
-                effect: >-
-                  You slide one creature within 10 squares of the target up to 2
-                  squares.
-    
-                  ###### Meteoric Introduction
-    
-                  *You give your enemy a gentle tap-like an asteroid impact.*
-    
-                  | **Earth, Magic, Melee, Strike** |               **Main action**
-                  |
-    
-                  | ------------------------------- | ----------------------------:
-                  |
-    
-                  | **📏 Melee 1**                  | **🎯 One creature or object**
-                  |
-              - effect: >-
-                  ###### Ray of Agonizing Self-Reflection
-    
-    
-                  *You inflict pain and doubt in equal measure.*
-    
-                  | **Magic, Ranged, Strike, Void** |               **Main action**
-                  |
-    
-                  | ------------------------------- | ----------------------------:
-                  |
-    
-                  | **📏 Ranged 10**                | **🎯 One creature or object**
-                  |
-                roll: Power Roll + Reason
+                effect: You slide one creature within 10 squares of the target up to 2 squares.
+          - type: feature
+            feature_type: ability
+            name: Meteoric Introduction
+            flavor: You give your enemy a gentle tap-like an asteroid impact.
+            keywords:
+              - Earth
+              - Magic
+              - Melee
+              - Strike
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Reason
                 tier1: 3 + R damage; push 2
                 tier2: 5 + R damage; push 3
                 tier3: 8 + R damage; push 4
-              - effect: >-
-                  ###### Unquiet Ground
-    
-    
-                  *A sudden storm of detritus assaults your foes and leaves them
-                  struggling to move.*
-    
-                  | **Area, Earth, Magic, Ranged** |               **Main action** |
-    
-                  | ------------------------------ | ----------------------------: |
-    
-                  | **📏 2 cube within 10**        | **🎯 Each enemy in the area** |
-                roll: Power Roll + Reason
+          - type: feature
+            feature_type: ability
+            name: Ray of Agonizing Self-Reflection
+            flavor: You inflict pain and doubt in equal measure.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+              - Void
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Reason
                 tier1: 2 + R corruption damage; R < WEAK, slowed (save ends)
                 tier2: 4 + R corruption damage; R < AVERAGE, slowed (save ends)
                 tier3: 6 + R corruption damage; R < STRONG, slowed (save ends)
+          - type: feature
+            feature_type: ability
+            name: Unquiet Ground
+            flavor: A sudden storm of detritus assaults your foes and leaves them struggling
+              to move.
+            keywords:
+              - Area
+              - Earth
+              - Magic
+              - Ranged
+            usage: Main action
+            distance: 2 cube within 10
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 damage
                 tier2: 5 damage
                 tier3: 7 damage
               - name: Effect
-                effect: >-
-                  The ground beneath the area is difficult terrain for enemies.
-    
-                  ###### Viscous Fire
-    
-                  *A jet of heavy fire erupts where you strike.*
-    
-                  | **Fire, Magic, Ranged, Strike** |               **Main action**
-                  |
-    
-                  | ------------------------------- | ----------------------------:
-                  |
-    
-                  | **📏 Ranged 10**                | **🎯 One creature or object**
-                  |
+                effect: The ground beneath the area is difficult terrain for enemies.
+          - type: feature
+            feature_type: ability
+            name: Viscous Fire
+            flavor: A jet of heavy fire erupts where you strike.
+            keywords:
+              - Fire
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 + R fire damage; push 2
                 tier2: 5 + R fire damage; push 3
@@ -1002,28 +1000,29 @@ features:
             effects:
               - effect: Difficult terrain composed of earth and stone doesn't cost the source
                   extra movement.
-              - effect: |-
-                  **Tunneler**
-    
-                  When the source burrows, they create a size 2 tunnel.
-              - effect: >-
-                  **Earth Harness**
-    
-    
-                  A creature that has the Earth Accepts Me ability can use it as a
-                  free action to meld into the source.
-              - effect: >-
-                  **Boulder Bash**
-    
-    
-                  | **Melee, Ranged, Strike, Weapon**
-                  |                 **Signature** |
-    
-                  | --------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 2 or ranged 10**       | **🎯 One creature or
-                  object** |
+          - type: feature
+            feature_type: trait
+            name: Tunneler
+            effects:
+              - effect: When the source burrows, they create a size 2 tunnel.
+          - type: feature
+            feature_type: trait
+            name: Earth Harness
+            effects:
+              - effect: A creature that has the Earth Accepts Me ability can use it as a free
+                  action to meld into the source.
+          - type: feature
+            feature_type: ability
+            name: Boulder Bash
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+              - Weapon
+            usage: Signature
+            distance: Melee 2 or ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + 3
                 tier1: 5 damage; push 3
                 tier2: 9 damage; push 4
@@ -1145,22 +1144,23 @@ features:
                   Heroic Resource, they gain 1 additional Heroic Resource. This
                   effect lasts until the start of your next turn.
               - name: Persistent 1
-                effect: >-
-                  The effect lasts until the start of your next turn.
-    
-                  ###### Magma Titan (9 Essence)
-    
-                  *Their body swells with lava, mud, and might, towering over their
-                  enemies.*
-    
-                  | **Earth, Fire, Green, Magic, Ranged** |            **Maneuver**
-                  |
-    
-                  | ------------------------------------- | ----------------------:
-                  |
-    
-                  | **📏 Ranged 10**                      | **🎯 Self or one ally**
-                  |
+                effect: The effect lasts until the start of your next turn.
+          - type: feature
+            feature_type: ability
+            name: Magma Titan
+            cost: 9 Essence
+            flavor: Their body swells with lava, mud, and might, towering over their
+              enemies.
+            keywords:
+              - Earth
+              - Fire
+              - Green
+              - Magic
+              - Ranged
+            usage: Maneuver
+            distance: Ranged 10
+            target: Self or one ally
+            effects:
               - name: Effect
                 effect: >-
                   Until the start of your next turn, the target has the following
@@ -1183,46 +1183,50 @@ features:
                   - They can use their highest characteristic instead of Might for
                   Might power rolls.
               - name: Persistent 2
-                effect: >-
-                  The effect lasts until the start of your next turn. Additionally,
-                  at the start of your turn, the target can spend 2 Recoveries.
-    
-                  ###### Meteor (9 Essence)
-    
-                  *You teleport the target into the air and let the ground and the
-                  elemental force of fire do the rest.*
-    
-                  | **Earth, Fire, Magic, Ranged, Void** |               **Main
-                  action** |
-    
-                  | ------------------------------------ |
-                  ----------------------------: |
-    
-                  | **📏 Ranged 10**                     | **🎯 One creature or
-                  object** |
+                effect: The effect lasts until the start of your next turn. Additionally, at the
+                  start of your turn, the target can spend 2 Recoveries.
+          - type: feature
+            feature_type: ability
+            name: Meteor
+            cost: 9 Essence
+            flavor: You teleport the target into the air and let the ground and the
+              elemental force of fire do the rest.
+            keywords:
+              - Earth
+              - Fire
+              - Magic
+              - Ranged
+              - Void
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: You teleport the target up to 4 squares.
                 tier2: You teleport the target up to 6 squares.
                 tier3: You teleport the target up to 8 squares.
               - name: Effect
-                effect: >-
-                  If the target is teleported to a space where they would fall, they
+                effect: If the target is teleported to a space where they would fall, they
                   immediately do so, treating the fall as if their Agility score
                   were 0. The target takes fire damage from the fall, and each enemy
                   within 3 squares of where they land takes the same amount of fire
                   damage. The ground within 3 squares of where the target lands is
                   difficult terrain.
-    
-                  ###### The Wode Remembers and Returns (9 Essence)
-    
-                  *You create a terrarium that spans from canopy above to underbrush
-                  below.*
-    
-                  | **Area, Earth, Green, Magic, Void** | **Main action** |
-    
-                  | ----------------------------------- | --------------: |
-    
-                  | **📏 4 burst**                      |  **🎯 Special** |
+          - type: feature
+            feature_type: ability
+            name: The Wode Remembers and Returns
+            cost: 9 Essence
+            flavor: You create a terrarium that spans from canopy above to underbrush below.
+            keywords:
+              - Area
+              - Earth
+              - Green
+              - Magic
+              - Void
+            usage: Main action
+            distance: 4 burst
+            target: Special
+            effects:
               - name: Effect
                 effect: The area becomes dark and verdant, with trees and plant life appearing
                   in unoccupied spaces within it until the start of your next turn.
@@ -1705,51 +1709,70 @@ features:
                   round or starts their turn there takes damage equal to your Reason
                   score.
               - name: Persistent 1
-                effect: >-
-                  The area remains until the start of your next turn. As a maneuver,
-                  you can move the area up to 5 squares. This ability ends if the
-                  area is ever not within your line of effect.
-    
-                  ###### Subvert the Green Within (5 Essence)
-    
-                  *Fungal spores sprout inside your enemy's brain, allowing you to
-                  control their actions.*
-    
-                  | **Green, Magic, Ranged, Strike, Void** |     **Main action** |
-    
-                  | -------------------------------------- | ------------------: |
-    
-                  | **📏 Ranged 10**                       | **🎯 One creature** |
+                effect: The area remains until the start of your next turn. As a maneuver, you
+                  can move the area up to 5 squares. This ability ends if the area
+                  is ever not within your line of effect.
+          - type: feature
+            feature_type: ability
+            name: Subvert the Green Within
+            cost: 5 Essence
+            flavor: Fungal spores sprout inside your enemy's brain, allowing you to control
+              their actions.
+            keywords:
+              - Green
+              - Magic
+              - Ranged
+              - Strike
+              - Void
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - name: Effect
                 effect: The target uses their signature ability against a creature of your
                   choice. This signature ability can target the creature even if it
                   usually wouldn't. You then make a power roll against the target of
                   this ability.
-              - effect: |-
-                  ###### Translated Through Flame (5 Essence)
-    
-                  *Your ally disappears, then reappears in a burst of fire.*
-                  | **Fire, Magic, Ranged, Void** |         **Main action** |
-                  | ----------------------------- | ----------------------: |
-                  | **📏 Ranged 10**              | **🎯 Self or one ally** |
-                roll: Power Roll + Reason
+              - roll: Power Roll + Reason
                 tier1: 5 + R poison damage
                 tier2: 9 + R poison damage
                 tier3: 12 + R poison damage
+          - type: feature
+            feature_type: ability
+            name: Translated Through Flame
+            cost: 5 Essence
+            flavor: Your ally disappears, then reappears in a burst of fire.
+            keywords:
+              - Fire
+              - Magic
+              - Ranged
+              - Void
+            usage: Main action
+            distance: Ranged 10
+            target: Self or one ally
+            effects:
               - name: Effect
                 effect: The target is teleported to another space within distance. Make a power
                   roll that affects each enemy adjacent to the target's new space.
-              - effect: |-
-                  ###### Volcano's Embrace (5 Essence)
-    
-                  *Wrap them up in fire and melting stone.*
-                  | **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |
-                  | -------------------------------------- | ------------------: |
-                  | **📏 Ranged 10**                       | **🎯 One creature** |
-                roll: Power Roll + Reason
+              - roll: Power Roll + Reason
                 tier1: 3 fire damage
                 tier2: 5 fire damage
                 tier3: 8 fire damage
+          - type: feature
+            feature_type: ability
+            name: Volcano's Embrace
+            cost: 5 Essence
+            flavor: Wrap them up in fire and melting stone.
+            keywords:
+              - Earth
+              - Fire
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Reason
                 tier1: 5 + R fire damage; A < WEAK, restrained (save ends)
                 tier2: 9 + R fire damage; A < AVERAGE, restrained (save ends)
@@ -2031,20 +2054,21 @@ features:
                 tier2: 9 damage
                 tier3: 13 damage
               - name: Persistent 2
-                effect: >-
-                  At the start of your turn, you can use a maneuver to use this
-                  ability again without spending essence.
-    
-                  ###### The Green Defends Its Servants (11 Essence)
-    
-                  *A luminous green shield shows its true beauty the more it
-                  cracks.*
-    
-                  | **Green, Magic, Ranged** |            **Maneuver** |
-    
-                  | ------------------------ | ----------------------: |
-    
-                  | **📏 Ranged 10**         | **🎯 Self or one ally** |
+                effect: At the start of your turn, you can use a maneuver to use this ability
+                  again without spending essence.
+          - type: feature
+            feature_type: ability
+            name: The Green Defends Its Servants
+            cost: 11 Essence
+            flavor: A luminous green shield shows its true beauty the more it cracks.
+            keywords:
+              - Green
+              - Magic
+              - Ranged
+            usage: Maneuver
+            distance: Ranged 10
+            target: Self or one ally
+            effects:
               - name: Effect
                 effect: You conjure an elemental shield that protects the target until the end
                   of your next turn. While the shield is active, the target can take
@@ -2054,35 +2078,38 @@ features:
                   effect ends and the shield explodes, dealing 10 damage to each
                   enemy within 5 squares of the target.
               - name: Persistent 2
-                effect: >-
-                  The effect lasts until the start of your next turn.
-    
-                  ###### Prism (11 Essence)
-    
-                  *You split your essence, allowing you to cast multiple effects at
-                  once.*
-    
-                  | **Magic, Void** | **Main action** |
-    
-                  | --------------- | --------------: |
-    
-                  | **📏 Self**     |     **🎯 Self** |
+                effect: The effect lasts until the start of your next turn.
+          - type: feature
+            feature_type: ability
+            name: Prism
+            cost: 11 Essence
+            flavor: You split your essence, allowing you to cast multiple effects at once.
+            keywords:
+              - Magic
+              - Void
+            usage: Main action
+            distance: Self
+            target: Self
+            effects:
               - name: Effect
-                effect: >-
-                  You use up to three heroic abilities whose essence costs total 11
-                  or less, spending no additional essence beyond the cost of this
+                effect: You use up to three heroic abilities whose essence costs total 11 or
+                  less, spending no additional essence beyond the cost of this
                   ability. You can shift up to 2 squares between your use of each
                   ability.
-    
-                  ###### Unquenchable Fire (11 Essence)
-    
-                  *You let fly a fiery missile braided with pure primal energy.*
-    
-                  | **Fire, Magic, Ranged, Strike** |            **Main action** |
-    
-                  | ------------------------------- | -------------------------: |
-    
-                  | **📏 Ranged 10**                | **🎯 One enemy or object** |
+          - type: feature
+            feature_type: ability
+            name: Unquenchable Fire
+            cost: 11 Essence
+            flavor: You let fly a fiery missile braided with pure primal energy.
+            keywords:
+              - Fire
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One enemy or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: 13 + R fire damage; I < WEAK, dazed (save ends)
                 tier2: 18 + R fire damage; I < AVERAGE, dazed (save ends)
@@ -2490,18 +2517,24 @@ features:
             usage: Triggered
             distance: Ranged 10
             target: One ally
-            trigger: The target would take damage from an ability that uses a power roll.
+            trigger: The target makes an ability roll for a damage-dealing ability.
             effects:
               - name: Effect
                 effect: The power roll gains an edge.
               - cost: Spend 1 Piety
-                effect: |-
-                  The power roll has a double edge.
-                  ###### Word of Judgment
-                  *Your holy word saps an attacking enemy's strength.*
-                  | **Magic, Ranged** |   **Triggered** |
-                  | ----------------- | --------------: |
-                  | **📏 Ranged 10**  | **🎯 One ally** |
+                effect: The power roll has a double edge.
+          - type: feature
+            feature_type: ability
+            name: Word of Judgment
+            flavor: Your holy word saps an attacking enemy's strength.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: One ally
+            trigger: The target would take damage from an ability that uses a power roll.
+            effects:
               - name: Effect
                 effect: The power roll takes a bane against the target.
               - cost: Spend 1 Piety
@@ -3264,119 +3297,128 @@ features:
                 tier2: 5 + I holy damage
                 tier3: 8 + I holy damage
               - name: Effect
-                effect: >-
-                  One ally within distance gains a number of surges equal to the
-                  tier outcome of your power roll.
-    
-                  ###### Drain
-    
-                  *You drain the energy from your target to revitalize yourself or
-                  an ally.*
-    
-                  | **Magic, Melee, Strike** |     **Main action** |
-    
-                  | ------------------------ | ------------------: |
-    
-                  | **📏 Melee 1**           | **🎯 One creature** |
+                effect: One ally within distance gains a number of surges equal to the tier
+                  outcome of your power roll.
+          - type: feature
+            feature_type: ability
+            name: Drain
+            flavor: You drain the energy from your target to revitalize yourself or an ally.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 2 + I corruption damage
                 tier2: 5 + I corruption damage
                 tier3: 7 + I corruption damage
               - name: Effect
-                effect: |-
-                  You or one ally within distance can spend a Recovery.
-                  ###### Holy Lash
-                  *A tendril of divine energy shoots forth to draw in your foe.*
-                  | **Magic, Ranged, Strike** |               **Main action** |
-                  | ------------------------- | ----------------------------: |
-                  | **📏 Ranged 10**          | **🎯 One creature or object** |
-              - effect: >-
-                  ###### Lightfall
-    
-    
-                  *A rain of holy light scours your enemies and repositions your
-                  allies.*
-    
-                  | **Area, Magic** |               **Main action** |
-    
-                  | --------------- | ----------------------------: |
-    
-                  | **📏 2 burst**  | **🎯 Each enemy in the area** |
-                roll: Power Roll + Intuition
+                effect: You or one ally within distance can spend a Recovery.
+          - type: feature
+            feature_type: ability
+            name: Holy Lash
+            flavor: A tendril of divine energy shoots forth to draw in your foe.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Intuition
                 tier1: 3 + I holy damage; vertical pull 2
                 tier2: 5 + I holy damage; vertical pull 3
                 tier3: 8 + I holy damage; vertical pull 4
+          - type: feature
+            feature_type: ability
+            name: Lightfall
+            flavor: A rain of holy light scours your enemies and repositions your allies.
+            keywords:
+              - Area
+              - Magic
+            usage: Main action
+            distance: 2 burst
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 2 holy damage
                 tier2: 3 holy damage
                 tier3: 5 holy damage
               - name: Effect
-                effect: >-
-                  You can teleport yourself and each ally in the area to unoccupied
-                  spaces in the area.
-    
-                  ###### Sacrificial Offer
-    
-                  *Divine magic tears at your foe and defends a nearby friend.*
-    
-                  | **Magic, Ranged, Strike** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Ranged 10**          | **🎯 One creature** |
+                effect: You can teleport yourself and each ally in the area to unoccupied spaces
+                  in the area.
+          - type: feature
+            feature_type: ability
+            name: Sacrificial Offer
+            flavor: Divine magic tears at your foe and defends a nearby friend.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 2 + I corruption damage
                 tier2: 4 + I corruption damage
                 tier3: 6 + I corruption damage
               - name: Effect
-                effect: >-
-                  Choose yourself or one ally within distance. That character can
-                  impose a bane on one power roll made against them before the end
-                  of their next turn.
-    
-                  ###### Staggering Curse
-    
-                  *A blast of judgment disorients your foe.*
-    
-                  | **Magic, Melee, Strike** |               **Main action** |
-    
-                  | ------------------------ | ----------------------------: |
-    
-                  | **📏 Melee 1**           | **🎯 One creature or object** |
-              - effect: >-
-                  ###### Warrior's Prayer
-    
-    
-                  *Your quickly uttered prayer lends aggressive divine energy to a
-                  friend engaged in melee.*
-    
-                  | **Magic, Ranged, Strike** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Ranged 10**          | **🎯 One creature** |
-                roll: Power Roll + Intuition
+                effect: Choose yourself or one ally within distance. That character can impose a
+                  bane on one power roll made against them before the end of their
+                  next turn.
+          - type: feature
+            feature_type: ability
+            name: Staggering Curse
+            flavor: A blast of judgment disorients your foe.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Intuition
                 tier1: 3 + I holy damage; slide 1
                 tier2: 5 + I holy damage; slide 2
                 tier3: 8 + I holy damage; slide 3
+          - type: feature
+            feature_type: ability
+            name: Warrior's Prayer
+            flavor: Your quickly uttered prayer lends aggressive divine energy to a friend
+              engaged in melee.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 3 + I holy damage
                 tier2: 6 + I holy damage
                 tier3: 9 + I holy damage
               - name: Effect
-                effect: >-
-                  You or one ally within distance gains temporary Stamina equal to
-                  your Intuition score.
-    
-                  ###### Wither
-    
-                  *A bolt of holy energy saps the life from a foe.*
-    
-                  | **Magic, Ranged, Strike** |               **Main action** |
-    
-                  | ------------------------- | ----------------------------: |
-    
-                  | **📏 Ranged 10**          | **🎯 One creature or object** |
+                effect: You or one ally within distance gains temporary Stamina equal to your
+                  Intuition score.
+          - type: feature
+            feature_type: ability
+            name: Wither
+            flavor: A bolt of holy energy saps the life from a foe.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 3 + I corruption damage; P < WEAK, the target takes a bane on their next
                   power roll
@@ -5320,52 +5362,58 @@ features:
             distance: 2 cube within 1
             target: Each enemy in the area
             effects:
-              - effect: |-
-                  ###### Every Step... Death!
-    
-                  *You show your foe a glimpse of their fate after death.*
-                  | **Magic, Ranged, Strike** |     **Main action** |
-                  | ------------------------- | ------------------: |
-                  | **📏 Ranged 10**          | **🎯 One creature** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 2 holy damage; push 1
                 tier2: 4 holy damage; push 2
                 tier3: 6 holy damage; push 3
+          - type: feature
+            feature_type: ability
+            name: Every Step... Death!
+            flavor: You show your foe a glimpse of their fate after death.
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Presence
                 tier1: 5 + P psychic damage
                 tier2: 7 + P psychic damage
                 tier3: 10 + P psychic damage
               - name: Effect
-                effect: >-
-                  Each time the target willingly moves before the end of your next
-                  turn, they take 1 psychic damage for each square they move.
-    
-                  ###### Halt Miscreant!
-    
-                  *You infuse your weapon with holy magic that makes it difficult
-                  for your foe to get away.*
-    
-                  | **Melee, Strike, Weapon** |               **Main action** |
-    
-                  | ------------------------- | ----------------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature or object** |
-              - effect: >-
-                  ###### Your Allies Cannot Save You!
-    
-    
-                  *Your magic strike turns your foe's guilt into a burst of holy
-                  power.*
-    
-                  | **Melee, Strike, Weapon** |               **Main action** |
-    
-                  | ------------------------- | ----------------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature or object** |
-                roll: Power Roll + Might
+                effect: Each time the target willingly moves before the end of your next turn,
+                  they take 1 psychic damage for each square they move.
+          - type: feature
+            feature_type: ability
+            name: Halt Miscreant!
+            flavor: You infuse your weapon with holy magic that makes it difficult for your
+              foe to get away.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Might
                 tier1: 2 + M holy damage; P < WEAK, slowed (save ends)
                 tier2: 5 + M holy damage; P < AVERAGE, slowed (save ends)
                 tier3: 7 + M holy damage; P < STRONG, slowed (save ends)
+          - type: feature
+            feature_type: ability
+            name: Your Allies Cannot Save You!
+            flavor: Your magic strike turns your foe's guilt into a burst of holy power.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Might
                 tier1: 3 + M holy damage
                 tier2: 5 + M holy damage
@@ -5612,17 +5660,22 @@ features:
             distance: Ranged 10
             target: Three enemies
             effects:
-              - effect: |-
-                  ###### Edict of Peace (9 Wrath)
-    
-                  *You anticipate your foes' moves and deny them.*
-                  | **Area, Magic** |                  **Maneuver** |
-                  | --------------- | ----------------------------: |
-                  | **📏 3 aura**   | **🎯 Each enemy in the area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: Slide 3; I < WEAK, dazed (save ends)
                 tier2: Slide 5; I < AVERAGE, dazed (save ends)
                 tier3: Slide 7; I < STRONG, dazed (save ends)
+          - type: feature
+            feature_type: ability
+            name: Edict of Peace
+            cost: 9 Wrath
+            flavor: You anticipate your foes' moves and deny them.
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 3 aura
+            target: Each enemy in the area
+            effects:
               - name: Effect
                 effect: Until the end of the encounter or until you are dying, whenever any
                   target takes a triggered action or a free triggered action, that
@@ -5662,7 +5715,6 @@ features:
             usage: Main action
             distance: Melee 1
             target: One creature
-            trigger: A creature makes a strike against the target.
             effects:
               - roll: Power Roll + Might
                 tier1: 8 + M damage; as a free triggered action, one ally within 10 squares of
@@ -5674,19 +5726,21 @@ features:
                   of the target can each use a strike signature ability that gains
                   an edge against the target
               - name: Effect
-                effect: >-
-                  Each ally can shift up to 2 squares and gains 2 surges before
-                  making the strike.
-    
-                  ###### Intercede (9 Wrath)
-    
-                  *You take your ally's place.*
-    
-                  | **Magic, Ranged** | **Free triggered** |
-    
-                  | ----------------- | -----------------: |
-    
-                  | **📏 Ranged 10**  |    **🎯 One ally** |
+                effect: Each ally can shift up to 2 squares and gains 2 surges before making the
+                  strike.
+          - type: feature
+            feature_type: ability
+            name: Intercede
+            cost: 9 Wrath
+            flavor: You take your ally's place.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Free triggered
+            distance: Ranged 10
+            target: One ally
+            trigger: A creature makes a strike against the target.
+            effects:
               - name: Effect
                 effect: The target is unaffected by the strike and you become the target
                   instead, even if you aren't a valid target for it. You take half
@@ -5724,20 +5778,25 @@ features:
             usage: Main action
             distance: 3 burst
             target: Each enemy in the area
-            trigger: The target gains a condition or effect that is ended by a saving throw
-              or that ends at the end of their turn.
             effects:
-              - effect: |-
-                  ###### Pain of Your Own Making (9 Wrath)
-    
-                  *You reverse the effects from an evildoer.*
-                  | **Magic, Ranged** |      **Free triggered** |
-                  | ----------------- | ----------------------: |
-                  | **📏 Ranged 10**  | **🎯 Self or one ally** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 4 psychic damage; slide 3
                 tier2: 6 psychic damage; slide 5
                 tier3: 8 psychic damage; slide 7
+          - type: feature
+            feature_type: ability
+            name: Pain of Your Own Making
+            cost: 9 Wrath
+            flavor: You reverse the effects from an evildoer.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Free triggered
+            distance: Ranged 10
+            target: Self or one ally
+            trigger: The target gains a condition or effect that is ended by a saving throw
+              or that ends at the end of their turn.
+            effects:
               - name: Effect
                 effect: The effect ends on the target and is applied to the creature who imposed
                   the effect on them. That creature also takes damage equal to three
@@ -6085,20 +6144,21 @@ features:
             trigger: An enemy within 10 squares starts their turn.
             effects:
               - name: Effect
-                effect: >-
-                  You can spend a Recovery to allow the target to regain Stamina
-                  equal to your recovery value. The target can then take their turn
+                effect: You can spend a Recovery to allow the target to regain Stamina equal to
+                  your recovery value. The target can then take their turn
                   immediately before the triggering enemy.
-    
-                  ###### With My Blessing (5 Wrath)
-    
-                  *A word in prayer, and the gods show the way.*
-    
-                  | **Magic, Ranged** |         **Main action** |
-    
-                  | ----------------- | ----------------------: |
-    
-                  | **📏 Ranged 10**  | **🎯 Self or one ally** |
+          - type: feature
+            feature_type: ability
+            name: With My Blessing
+            cost: 5 Wrath
+            flavor: A word in prayer, and the gods show the way.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Main action
+            distance: Ranged 10
+            target: Self or one ally
+            effects:
               - name: Effect
                 effect: The target can use a free triggered action to use a strike signature
                   ability or a strike heroic ability, and has a double edge on that
@@ -6215,20 +6275,22 @@ features:
             target: Self and each ally in the area
             effects:
               - name: Effect
-                effect: >-
-                  Until the end of the encounter or until you are dying, each target
-                  gains 1 surge at the end of each of your turns.
-    
-                  ###### Sentenced (5 Wrath)
-    
-                  *The shock of your condemnation freezes your enemy in their
-                  boots.*
-    
-                  | **Magic, Melee, Strike, Weapon** |     **Main action** |
-    
-                  | -------------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**                   | **🎯 One creature** |
+                effect: Until the end of the encounter or until you are dying, each target gains
+                  1 surge at the end of each of your turns.
+          - type: feature
+            feature_type: ability
+            name: Sentenced
+            cost: 5 Wrath
+            flavor: The shock of your condemnation freezes your enemy in their boots.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Presence
                 tier1: 5 + P damage; P < WEAK, restrained (save ends)
                 tier2: 9 + P damage; P < AVERAGE, restrained (save ends)
@@ -6324,21 +6386,22 @@ features:
                 tier2: 12 + M holy damage; P < AVERAGE, frightened (save ends)
                 tier3: 15 + M holy damage; P < STRONG, frightened (save ends)
               - name: Effect
-                effect: >-
-                  If the target is already frightened of you or another creature and
-                  this ability would frighten them again, they instead take psychic
+                effect: If the target is already frightened of you or another creature and this
+                  ability would frighten them again, they instead take psychic
                   damage equal to twice your Presence score.
-    
-                  ###### Revelator (5 Wrath)
-    
-                  *You channel holy energy to harm unbelievers and reveal those
-                  hidden from your judgment.*
-    
-                  | **Area, Magic** |                  **Maneuver** |
-    
-                  | --------------- | ----------------------------: |
-    
-                  | **📏 3 burst**  | **🎯 Each enemy in the area** |
+          - type: feature
+            feature_type: ability
+            name: Revelator
+            cost: 5 Wrath
+            flavor: You channel holy energy to harm unbelievers and reveal those hidden from
+              your judgment.
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 3 burst
+            target: Each enemy in the area
+            effects:
               - name: Effect
                 effect: Each target takes holy damage equal to twice your Presence score.
                   Additionally, each hidden target is automatically revealed and
@@ -6458,23 +6521,25 @@ features:
             usage: Triggered
             distance: Ranged 10
             target: One creature
-            trigger: You or another hero ends their turn.
+            trigger: The target makes a power roll.
             effects:
               - name: Effect
-                effect: >-
-                  The target obtains a tier 1 or tier 3 outcome on their power roll
-                  (your choice). You can then choose another target within distance,
-                  who obtains the opposite outcome on their next power roll.
-    
-                  ###### Fulfill Your Destiny (11 Wrath)
-    
-                  *You have looked at various futures, and only this one works.*
-    
-                  | **Magic, Ranged** |   **Triggered** |
-    
-                  | ----------------- | --------------: |
-    
-                  | **📏 Ranged 10**  | **🎯 One ally** |
+                effect: The target obtains a tier 1 or tier 3 outcome on their power roll (your
+                  choice). You can then choose another target within distance, who
+                  obtains the opposite outcome on their next power roll.
+          - type: feature
+            feature_type: ability
+            name: Fulfill Your Destiny
+            cost: 11 Wrath
+            flavor: You have looked at various futures, and only this one works.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: One ally
+            trigger: You or another hero ends their turn.
+            effects:
               - name: Effect
                 effect: The target takes their turn after the triggering hero, and immediately
                   removes all conditions and negative effects on themself. During
@@ -6552,19 +6617,20 @@ features:
                 tier2: 19 + M holy damage
                 tier3: 26 + M holy damage
               - name: Effect
-                effect: >-
-                  Until the end of the encounter or until you are dying, the target
-                  has damage weakness 10.
-    
-                  ###### Edict of Unyielding Resolve (11 Wrath)
-    
-                  *You and your allies are clad in shimmering armor.*
-    
-                  | **Area, Magic** |                          **Maneuver** |
-    
-                  | --------------- | ------------------------------------: |
-    
-                  | **📏 2 aura**   | **🎯 Self and each ally in the area** |
+                effect: Until the end of the encounter or until you are dying, the target has
+                  damage weakness 10.
+          - type: feature
+            feature_type: ability
+            name: Edict of Unyielding Resolve
+            cost: 11 Wrath
+            flavor: You and your allies are clad in shimmering armor.
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 2 aura
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: Until the end of the encounter or until you are dying, each target who
                   starts their turn in the area gains 10 temporary Stamina.
@@ -6608,25 +6674,27 @@ features:
                 tier2: 8 + M damage; P < AVERAGE, the target is banished (save ends)
                 tier3: 11 + M damage; P < STRONG, the target is banished (save ends)
               - name: Effect
-                effect: >-
-                  This ability gains an edge against demons, devils, undead, and
-                  creatures not native to your current world. If you know the
-                  target's true name, this ability has a double edge. While
-                  banished, the target is sent to another manifold in the timescape
-                  and removed from the encounter map. A banished target can do
-                  nothing but make saving throws, and takes 10 holy damage each time
-                  they do so. If the target is reduced to 0 Stamina while banished,
-                  they are lost to the timescape.
-    
-                  ###### Terror Manifest (11 Wrath)
-    
-                  *"I know what you fear."*
-    
-                  | **Magic, Ranged, Strike** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Ranged 10**          | **🎯 One creature** |
+                effect: This ability gains an edge against demons, devils, undead, and creatures
+                  not native to your current world. If you know the target's true
+                  name, this ability has a double edge. While banished, the target
+                  is sent to another manifold in the timescape and removed from the
+                  encounter map. A banished target can do nothing but make saving
+                  throws, and takes 10 holy damage each time they do so. If the
+                  target is reduced to 0 Stamina while banished, they are lost to
+                  the timescape.
+          - type: feature
+            feature_type: ability
+            name: Terror Manifest
+            cost: 11 Wrath
+            flavor: '"I know what you fear."'
+            keywords:
+              - Magic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Presence
                 tier1: 7 + P psychic damage; P < WEAK, frightened (save ends)
                 tier2: 10 + P psychic damage; P < AVERAGE, frightened (save ends)
@@ -7762,140 +7830,135 @@ features:
                 tier2: 4 damage
                 tier3: 5 damage
               - name: Effect
-                effect: >-
-                  You can slide one adjacent enemy up to a number of squares equal
-                  to your Intuition score.
-    
-                  ###### Faster Than the Eye
-    
-                  *You strike so quickly that your hands become a blur.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |                 **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ------------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 Two creatures or
-                  objects** |
+                effect: You can slide one adjacent enemy up to a number of squares equal to your
+                  Intuition score.
+          - type: feature
+            feature_type: ability
+            name: Faster Than the Eye
+            flavor: You strike so quickly that your hands become a blur.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: Two creatures or objects
+            effects:
               - roll: Power Roll + Agility
                 tier1: 4 damage
                 tier2: 5 damage
                 tier3: 7 damage
               - name: Effect
-                effect: >-
-                  You can deal damage equal to your Agility score to one creature or
+                effect: You can deal damage equal to your Agility score to one creature or
                   object adjacent to you.
-    
-                  ###### Inertial Step
-    
-                  *You flit about the battlefield and take an opportunistic strike.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature or
-                  object** |
+          - type: feature
+            feature_type: ability
+            name: Inertial Step
+            flavor: You flit about the battlefield and take an opportunistic strike.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 5 + A damage
                 tier2: 7 + A damage
                 tier3: 10 + A damage
               - name: Effect
-                effect: >-
-                  You can shift up to half your speed before or after you make this
+                effect: You can shift up to half your speed before or after you make this
                   strike.
-    
-                  ###### Joint Lock
-    
-                  *You contort your enemy's body into a stance they struggle to
-                  escape from.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature or
-                  object** |
-              - effect: >-
-                  ###### Kinetic Strike
-    
-    
-                  *Your opponent staggers. They cannot ignore you.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature or
-                  object** |
-                roll: Power Roll + Agility
+          - type: feature
+            feature_type: ability
+            name: Joint Lock
+            flavor: You contort your enemy's body into a stance they struggle to escape
+              from.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Agility
                 tier1: 4 + A damage; A < WEAK, grabbed
                 tier2: 7 + A damage; A < AVERAGE, grabbed
                 tier3: 9 + A damage; A < STRONG, grabbed
-              - effect: >-
-                  ###### Magnetic Strike
-    
-    
-                  *The force of your blow extends past the limits of your body,
-                  pulling your enemy closer.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-    
-                  | ---------------------------------- | ------------------: |
-    
-                  | **📏 Melee 2**                     | **🎯 One creature** |
-                roll: Power Roll + Agility
+          - type: feature
+            feature_type: ability
+            name: Kinetic Strike
+            flavor: Your opponent staggers. They cannot ignore you.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
+              - roll: Power Roll + Agility
                 tier1: 4 + A damage; taunted (EoT)
                 tier2: 5 + A damage; taunted (EoT), slide 1
                 tier3: 6 + A damage; taunted (EoT), slide 2
-              - effect: >-
-                  ###### Phase Inversion Strike
-    
-    
-                  *You step momentarily out of phase as you pull an enemy through
-                  you.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature or
-                  object** |
-                roll: Power Roll + Agility
+          - type: feature
+            feature_type: ability
+            name: Magnetic Strike
+            flavor: The force of your blow extends past the limits of your body, pulling
+              your enemy closer.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 2
+            target: One creature
+            effects:
+              - roll: Power Roll + Agility
                 tier1: 5 + A psychic damage; vertical pull 1
                 tier2: 8 + A psychic damage; vertical pull 2
                 tier3: 11 + A psychic damage; vertical pull 3
+          - type: feature
+            feature_type: ability
+            name: Phase Inversion Strike
+            flavor: You step momentarily out of phase as you pull an enemy through you.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 4 + A damage; push 2
                 tier2: 6 + A damage; push 4
                 tier3: 8 + A damage; push 6
               - name: Effect
-                effect: >-
-                  Before the push is resolved, you teleport the target to a square
+                effect: Before the push is resolved, you teleport the target to a square
                   adjacent to you and opposite the one they started in. If the
                   target can't be teleported this way, you can't push them.
-    
-                  ###### Pressure Points
-    
-                  *You strike at key nerve clusters to leave your foe staggered.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | ---------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature or
-                  object** |
+          - type: feature
+            feature_type: ability
+            name: Pressure Points
+            flavor: You strike at key nerve clusters to leave your foe staggered.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 4 + A damage; A < WEAK, weakened (save ends)
                 tier2: 7 + A damage; A < AVERAGE, weakened (save ends)
@@ -8054,19 +8117,21 @@ features:
                 tier2: Vertical slide 8
                 tier3: Vertical slide 10
               - name: Effect
-                effect: >-
-                  The pillars vanish as soon as the effects of the forced movement
-                  are resolved.
-    
-                  ###### Wall of Ice (9 Discipline)
-    
-                  *You create a wall of ice.*
-    
-                  | **Area, Psionic, Ranged** | **Main action** |
-    
-                  | ------------------------- | --------------: |
-    
-                  | **📏 10 wall within 10**  |  **🎯 Special** |
+                effect: The pillars vanish as soon as the effects of the forced movement are
+                  resolved.
+          - type: feature
+            feature_type: ability
+            name: Wall of Ice
+            cost: 9 Discipline
+            flavor: You create a wall of ice.
+            keywords:
+              - Area
+              - Psionic
+              - Ranged
+            usage: Main action
+            distance: 10 wall within 10
+            target: Special
+            effects:
               - name: Effect
                 effect: You can place this wall in occupied squares, sliding each creature in
                   the area into the nearest unoccupied space of your choice. The
@@ -8114,21 +8179,20 @@ features:
                 tier2: Vertical slide 7
                 tier3: Vertical slide 9
               - name: Effect
-                effect: >-
-                  This movement ignores stability. If you slide into another
-                  creature, you resolve damage to both of you as if your force
-                  movement had ended, but you keep moving through that creature's
-                  space.
-    
-                  ###### Iron Body (9 Discipline)
-    
-                  *You focus until your body becomes as hard as iron.*
-    
-                  | **Psionic** | **Maneuver** |
-    
-                  | ----------- | -----------: |
-    
-                  | **📏 Self** |  **🎯 Self** |
+                effect: This movement ignores stability. If you slide into another creature, you
+                  resolve damage to both of you as if your force movement had ended,
+                  but you keep moving through that creature's space.
+          - type: feature
+            feature_type: ability
+            name: Iron Body
+            cost: 9 Discipline
+            flavor: You focus until your body becomes as hard as iron.
+            keywords:
+              - Psionic
+            usage: Maneuver
+            distance: Self
+            target: Self
+            effects:
               - name: Effect
                 effect: You gain 20 temporary Stamina. Additionally, until the end of the
                   encounter, your stability gains a bonus equal to your Intuition
@@ -8190,20 +8254,22 @@ features:
             target: Self
             effects:
               - name: Effect
-                effect: >-
-                  You can use up to three signature abilities, each of which gains
-                  an edge.
-    
-                  ###### Phase Step (9 Discipline)
-    
-                  *You weaken your connection to this manifold, allowing you to move
-                  through and damage enemies.*
-    
-                  | **Melee, Psionic, Weapon** | **Main action** |
-    
-                  | -------------------------- | --------------: |
-    
-                  | **📏 Self; see below**     |     **🎯 Self** |
+                effect: You can use up to three signature abilities, each of which gains an
+                  edge.
+          - type: feature
+            feature_type: ability
+            name: Phase Step
+            cost: 9 Discipline
+            flavor: You weaken your connection to this manifold, allowing you to move
+              through and damage enemies.
+            keywords:
+              - Melee
+              - Psionic
+              - Weapon
+            usage: Main action
+            distance: Self; see below
+            target: Self
+            effects:
               - name: Effect
                 effect: You can shift up to your speed, and squares occupied by enemies or
                   objects are not difficult terrain for this shift. You make one
@@ -8561,22 +8627,21 @@ features:
             distance: Melee 3
             target: One creature
             effects:
-              - effect: >-
-                  ###### Kinetic Shield (5 Discipline)
-    
-    
-                  *You manifest a force barrier that absorbs incoming kinetic
-                  energy.*
-    
-                  | **Psionic** | **Maneuver** |
-    
-                  | ----------- | -----------: |
-    
-                  | **📏 Self** |  **🎯 Self** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 8 + A psychic damage; vertical pull 3
                 tier2: 12 + A psychic damage; vertical pull 5
                 tier3: 16 + A psychic damage; vertical pull 7
+          - type: feature
+            feature_type: ability
+            name: Kinetic Shield
+            cost: 5 Discipline
+            flavor: You manifest a force barrier that absorbs incoming kinetic energy.
+            keywords:
+              - Psionic
+            usage: Maneuver
+            distance: Self
+            target: Self
+            effects:
               - roll: Power Roll + Intuition
                 tier1: You gain 10 temporary Stamina.
                 tier2: You gain 15 temporary Stamina.
@@ -8619,22 +8684,22 @@ features:
             distance: 3 cube within 1
             target: Each enemy in the area
             effects:
-              - effect: >-
-                  ###### Heat Sink (5 Discipline)
-    
-    
-                  *You absorb ambient heat, coating the ground in frost and
-                  precipitating snow from the air.*
-    
-                  | **Psionic** | **Maneuver** |
-    
-                  | ----------- | -----------: |
-    
-                  | **📏 Self** |  **🎯 Self** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 6 cold damage; A < WEAK, slowed (save ends)
                 tier2: 9 cold damage; A < AVERAGE, slowed (save ends)
                 tier3: 13 cold damage; A < STRONG, slowed (save ends)
+          - type: feature
+            feature_type: ability
+            name: Heat Sink
+            cost: 5 Discipline
+            flavor: You absorb ambient heat, coating the ground in frost and precipitating
+              snow from the air.
+            keywords:
+              - Psionic
+            usage: Maneuver
+            distance: Self
+            target: Self
+            effects:
               - name: Effect
                 effect: Until the start of your next turn, the size of your Null Field ability
                   increases by 1, and you and any ally benefit from concealment
@@ -8674,20 +8739,22 @@ features:
             target: Self
             effects:
               - name: Effect
-                effect: >-
-                  You can use a signature or heroic ability. You gain an edge on
-                  that ability's power rolls.
-    
-                  ###### Force Redirected (5 Discipline)
-    
-                  *The force of your strike moves your target in a surprising
-                  direction.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-    
-                  | ---------------------------------- | ------------------: |
-    
-                  | **📏 Melee 3**                     | **🎯 One creature** |
+                effect: You can use a signature or heroic ability. You gain an edge on that
+                  ability's power rolls.
+          - type: feature
+            feature_type: ability
+            name: Force Redirected
+            cost: 5 Discipline
+            flavor: The force of your strike moves your target in a surprising direction.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 3
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 8 + A damage; slide 1
                 tier2: 12 + A damage; slide 3
@@ -8850,28 +8917,29 @@ features:
             usage: Free triggered
             distance: Ranged 10
             target: One creature
-            trigger: Another creature on the encounter map ends their turn.
+            trigger: The triggering creature starts their turn.
             effects:
               - roll: Power Roll + Intuition
                 tier1: I < WEAK, the target loses their turn
                 tier2: I < AVERAGE, the target loses their turn
                 tier3: I < STRONG, the target loses their turn
               - name: Effect
-                effect: >-
-                  If the target loses their turn, the round continues as if they had
+                effect: If the target loses their turn, the round continues as if they had
                   acted. A target who doesn't lose their turn takes psychic damage
                   equal to twice your Intuition score for each main action they take
                   until the end of their next turn.
-    
-                  ###### Time Loop (11 Discipline)
-    
-                  *You show shadows what true speed is.*
-    
-                  | **Psionic** | **Free triggered** |
-    
-                  | ----------- | -----------------: |
-    
-                  | **📏 Self** |        **🎯 Self** |
+          - type: feature
+            feature_type: ability
+            name: Time Loop
+            cost: 11 Discipline
+            flavor: You show shadows what true speed is.
+            keywords:
+              - Psionic
+            usage: Free triggered
+            distance: Self
+            target: Self
+            trigger: Another creature on the encounter map ends their turn.
+            effects:
               - name: Effect
                 effect: You take a bonus turn immediately after the triggering creature. This
                   ability can be used only once per combat round.
@@ -8913,22 +8981,24 @@ features:
                 tier2: You gain 30 temporary Stamina.
                 tier3: You gain 40 temporary Stamina.
               - name: Effect
-                effect: >-
-                  Until the end of the encounter or until you are dead, you become
-                  an avatar of uttermost cold. You gain immunity to all damage equal
-                  to the cold damage immunity granted by your Entropic Adaptability
+                effect: Until the end of the encounter or until you are dead, you become an
+                  avatar of uttermost cold. You gain immunity to all damage equal to
+                  the cold damage immunity granted by your Entropic Adaptability
                   trait, you ignore the negative effects of dying, and you have a +2
                   bonus to potencies.
-    
-                  ###### Heat Drain (11 Discipline)
-    
-                  *You drain all the heat from the target.*
-    
-                  | **Melee, Psionic, Strike** |        **Maneuver** |
-    
-                  | -------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**             | **🎯 One creature** |
+          - type: feature
+            feature_type: ability
+            name: Heat Drain
+            cost: 11 Discipline
+            flavor: You drain all the heat from the target.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+            usage: Maneuver
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Intuition
                 tier1: 8 + I cold damage; M < WEAK, restrained (save ends)
                 tier2: 11 + I cold damage; M < AVERAGE, restrained (save ends)
@@ -8996,20 +9066,23 @@ features:
             trigger: Another creature damages you using an ability.
             effects:
               - name: Effect
-                effect: >-
-                  You take half the damage, negate any effects associated with the
-                  damage for you, and gain 3 surges.
-    
-                  ###### Realitas (11 Discipline)
-    
-                  *Your essential hyperreality disrupts your enemy's connection to
-                  existence.*
-    
-                  | **Melee, Psionic, Strike, Weapon** |     **Main action** |
-    
-                  | ---------------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**                     | **🎯 One creature** |
+                effect: You take half the damage, negate any effects associated with the damage
+                  for you, and gain 3 surges.
+          - type: feature
+            feature_type: ability
+            name: Realitas
+            cost: 11 Discipline
+            flavor: Your essential hyperreality disrupts your enemy's connection to
+              existence.
+            keywords:
+              - Melee
+              - Psionic
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 7 + A psychic damage; I < WEAK, dazed
                 tier2: 10 + A psychic damage; I < AVERAGE, dazed
@@ -9520,53 +9593,57 @@ features:
             distance: Melee 1
             target: One creature or object
             effects:
-              - effect: >-
-                  ###### Hit and Run
-    
-    
-                  *Staying in constant motion helps you slip out of reach after a
-                  brutal assault.*
-    
-                  | **Melee, Strike, Weapon** |               **Main action** |
-    
-                  | ------------------------- | ----------------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature or object** |
-                roll: Power Roll + Might
+              - roll: Power Roll + Might
                 tier1: 3 + M damage; push 1
                 tier2: 6 + M damage; push 2
                 tier3: 9 + M damage; push 4
+          - type: feature
+            feature_type: ability
+            name: Hit and Run
+            flavor: Staying in constant motion helps you slip out of reach after a brutal
+              assault.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Might
                 tier1: 2 + M damage
                 tier2: 5 + M damage
                 tier3: 7 + M damage; A < STRONG, slowed (save ends)
               - name: Effect
-                effect: >-
-                  You can shift 1 square.
-    
-                  ###### Impaled!
-    
-                  *You skewer your enemy like a boar upon a spit.*
-    
-                  | **Melee, Strike, Weapon** |                             **Main
-                  action** |
-    
-                  | ------------------------- |
-                  ------------------------------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature of your size or
-                  smaller** |
-              - effect: |-
-                  ###### To the Death!
-    
-                  *Your reckless assault leaves you tactically vulnerable.*
-                  | **Melee, Strike, Weapon** |               **Main action** |
-                  | ------------------------- | ----------------------------: |
-                  | **📏 Melee 1**            | **🎯 One creature or object** |
-                roll: Power Roll + Might
+                effect: You can shift 1 square.
+          - type: feature
+            feature_type: ability
+            name: Impaled!
+            flavor: You skewer your enemy like a boar upon a spit.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature of your size or smaller
+            effects:
+              - roll: Power Roll + Might
                 tier1: 2 + M damage; M < WEAK, grabbed
                 tier2: 5 + M damage; M < AVERAGE, grabbed
                 tier3: 7 + M damage; M < STRONG, grabbed
+          - type: feature
+            feature_type: ability
+            name: To the Death!
+            flavor: Your reckless assault leaves you tactically vulnerable.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Might
                 tier1: 3 + M damage
                 tier2: 6 + M damage
@@ -9708,22 +9785,24 @@ features:
               - name: Effect
                 effect: You jump up to your maximum jump distance and make one power roll that
                   targets each creature adjacent to the space where you land.
-              - effect: >-
-                  ###### Force of Storms (9 Ferocity)
-    
-    
-                  *You strike an enemy hard enough to be a projectile that knocks a
-                  crowd of creatures around.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
-                roll: Power Roll + Might
+              - roll: Power Roll + Might
                 tier1: 4 damage; push 1
                 tier2: 7 damage; push 2
                 tier3: 11 damage; push 3
+          - type: feature
+            feature_type: ability
+            name: Force of Storms
+            cost: 9 Ferocity
+            flavor: You strike an enemy hard enough to be a projectile that knocks a crowd
+              of creatures around.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Might
                 tier1: 7 + M damage; push 3
                 tier2: 11 + M damage; push 5
@@ -9806,21 +9885,21 @@ features:
                 tier2: 13 damage; M < AVERAGE, grabbed
                 tier3: 17 damage; M < STRONG, grabbed
               - name: Effect
-                effect: >-
-                  You can shift up to 4 squares, bringing the target with you. While
+                effect: You can shift up to 4 squares, bringing the target with you. While
                   grabbed this way, the target takes damage equal to twice your
                   Might score at the start of each of your turns.
-    
-                  ###### Riders on the Storm (9 Ferocity)
-    
-                  *You focus your connection to the Primordial Chaos into a seething
-                  storm.*
-    
-                  | **Area, Magic** |                     **Maneuver** |
-    
-                  | --------------- | -------------------------------: |
-    
-                  | **📏 3 aura**   | **🎯 Each creature in the area** |
+          - type: feature
+            feature_type: ability
+            name: Riders on the Storm
+            cost: 9 Ferocity
+            flavor: You focus your connection to the Primordial Chaos into a seething storm.
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 3 aura
+            target: Each creature in the area
+            effects:
               - name: Effect
                 effect: Until the end of the encounter or until you are dying, each enemy target
                   takes damage of your primordial damage type equal to twice your
@@ -9927,19 +10006,21 @@ features:
             trigger: You reduce a creature to 0 Stamina with a strike.
             effects:
               - name: Effect
-                effect: >-
-                  You target a creature adjacent to you with the same strike, using
-                  the same power roll as the triggering strike.
-    
-                  ###### Seek and Destroy (9 Ferocity)
-    
-                  *You break through the enemy lines to make an example.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
+                effect: You target a creature adjacent to you with the same strike, using the
+                  same power roll as the triggering strike.
+          - type: feature
+            feature_type: ability
+            name: Seek and Destroy
+            cost: 9 Ferocity
+            flavor: You break through the enemy lines to make an example.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - name: Effect
                 effect: You shift up to your speed.
               - roll: Power Roll + Might
@@ -10419,20 +10500,22 @@ features:
                 tier2: 10 damage; push 5
                 tier3: 15 damage; push 7
               - name: Effect
-                effect: >-
-                  If this forced movement causes a target to be hurled through an
-                  object, that target takes an extra 10 damage.
-    
-                  ###### Primordial Vortex (11 Ferocity)
-    
-                  *You channel the power of the Primordial Chaos to pull foes to
-                  you.*
-    
-                  | **Area, Magic, Melee, Weapon** |               **Main action** |
-    
-                  | ------------------------------ | ----------------------------: |
-    
-                  | **📏 3 burst**                 | **🎯 Each enemy in the area** |
+                effect: If this forced movement causes a target to be hurled through an object,
+                  that target takes an extra 10 damage.
+          - type: feature
+            feature_type: ability
+            name: Primordial Vortex
+            cost: 11 Ferocity
+            flavor: You channel the power of the Primordial Chaos to pull foes to you.
+            keywords:
+              - Area
+              - Magic
+              - Melee
+              - Weapon
+            usage: Main action
+            distance: 3 burst
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Might
                 tier1: 3 damage; vertical pull 3
                 tier2: 5 damage; vertical pull 5
@@ -10476,20 +10559,26 @@ features:
             distance: 3 burst
             target: Each enemy in the area
             effects:
-              - effect: |-
-                  ###### Deluge (11 Ferocity)
-    
-                  *You summon your primordial storm.*
-                  | **Area, Magic, Ranged** |               **Main action** |
-                  | ----------------------- | ----------------------------: |
-                  | **📏 5 cube within 10** | **🎯 Each enemy in the area** |
-                roll: Power Roll + Might
+              - roll: Power Roll + Might
                 tier1: 4 psychic damage; any target who is a minion is reduced to 0 Stamina
                 tier2: 6 psychic damage; any target who is a minion is reduced to 0 Stamina, as
                   does one winded target who is not a leader or solo creature
                 tier3: 10 psychic damage; each target who is not a leader or solo creature is
                   winded; any target who is a minion is reduced to 0 Stamina, as
                   does one winded target who is not a leader or solo creature
+          - type: feature
+            feature_type: ability
+            name: Deluge
+            cost: 11 Ferocity
+            flavor: You summon your primordial storm.
+            keywords:
+              - Area
+              - Magic
+              - Ranged
+            usage: Main action
+            distance: 5 cube within 10
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Might
                 tier1: 7 damage
                 tier2: 10 damage
@@ -10538,21 +10627,23 @@ features:
                 tier2: 16 + M damage
                 tier3: 21 + M damage
               - name: Effect
-                effect: >-
-                  Choose acid, cold, corruption, fire, lightning, poison, or sonic
-                  damage. The target loses any damage immunity to the chosen type
-                  and gains weakness 10 to the chosen type (save ends).
-    
-                  ###### Shower of Blood (11 Ferocity)
-    
-                  *You shock your foes with the brutality of your strike, resetting
-                  the balance of combat.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
+                effect: Choose acid, cold, corruption, fire, lightning, poison, or sonic damage.
+                  The target loses any damage immunity to the chosen type and gains
+                  weakness 10 to the chosen type (save ends).
+          - type: feature
+            feature_type: ability
+            name: Shower of Blood
+            cost: 11 Ferocity
+            flavor: You shock your foes with the brutality of your strike, resetting the
+              balance of combat.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Might
                 tier1: 12 + M damage
                 tier2: 18 + M damage
@@ -11409,23 +11500,26 @@ features:
               hidden.
             effects:
               - name: Effect
-                effect: >-
-                  If the target of the triggering ability is not a leader or solo
+                effect: If the target of the triggering ability is not a leader or solo
                   creature, they are reduced to 0 Stamina. If the target of the
                   triggering ability is a minion, the entire squad is killed. If the
                   target of the triggering ability is a leader or solo creature, the
                   triggering ability's power roll automatically obtains a tier 3
                   outcome.
-    
-                  ###### Panic in Their Lines (9 Focus)
-    
-                  *You confuse your foes, causing them to turn on each other.*
-    
-                  | **Melee, Ranged, Strike, Weapon** |      **Main action** |
-    
-                  | --------------------------------- | -------------------: |
-    
-                  | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |
+          - type: feature
+            feature_type: ability
+            name: Panic in Their Lines
+            cost: 9 Focus
+            flavor: You confuse your foes, causing them to turn on each other.
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1 or ranged 5
+            target: Two creatures
+            effects:
               - roll: Power Roll + Might
                 tier1: 6 + M damage; slide 1
                 tier2: 9 + M damage; slide 3
@@ -11471,17 +11565,24 @@ features:
               - name: Effect
                 effect: The target takes half the damage. You then make a power roll against the
                   triggering creature.
-              - effect: |-
-                  ###### To Me Squad! (9 Focus)
-    
-                  *You lead your allies in a charge.*
-                  | **Charge, Melee, Strike, Weapon** |     **Main action** |
-                  | --------------------------------- | ------------------: |
-                  | **📏 Melee 1**                    | **🎯 One creature** |
-                roll: Power Roll + Might
+              - roll: Power Roll + Might
                 tier1: A < WEAK, dazed (save ends)
                 tier2: A < AVERAGE, dazed (save ends)
                 tier3: A < STRONG, dazed (save ends)
+          - type: feature
+            feature_type: ability
+            name: To Me Squad!
+            cost: 9 Focus
+            flavor: You lead your allies in a charge.
+            keywords:
+              - Charge
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Might
                 tier1: 6 + M damage; one ally within 10 squares can use the Charge main action
                   as a free triggered action, and can use a melee strike signature
@@ -11584,21 +11685,21 @@ features:
                   weakness. Additionally, you and each ally within 3 squares of you
                   gains 2 surges.
               - name: Mark Benefit
-                effect: >-
-                  Until the end of the encounter, whenever you or any ally makes a
-                  strike against a creature marked by you, you can spend 2 focus to
-                  make the strike ignore damage immunity and deal extra damage equal
-                  to three times your Reason score.
-    
-                  ###### Hustle! (9 Focus)
-    
-                  *You and your allies coordinate to form a new battle line.*
-    
-                  | **Area**       |                          **Maneuver** |
-    
-                  | -------------- | ------------------------------------: |
-    
-                  | **📏 2 burst** | **🎯 Self and each ally in the area** |
+                effect: Until the end of the encounter, whenever you or any ally makes a strike
+                  against a creature marked by you, you can spend 2 focus to make
+                  the strike ignore damage immunity and deal extra damage equal to
+                  three times your Reason score.
+          - type: feature
+            feature_type: ability
+            name: Hustle!
+            cost: 9 Focus
+            flavor: You and your allies coordinate to form a new battle line.
+            keywords:
+              - Area
+            usage: Maneuver
+            distance: 2 burst
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: You mark two enemies within 10 squares of you. Each target can shift up
                   to their speed. You and each target gain 2 surges.
@@ -11940,17 +12041,21 @@ features:
                   reach an adjacent square. The triggering ally can spend a Recovery
                   and gains 5 temporary Stamina for each enemy you came adjacent to
                   during the move. You then make a power roll against the target.
-              - effect: |-
-                  ###### Squad! On Me! (5 Focus)
-    
-                  *Together we are invincible!*
-                  | **Area**       |                          **Maneuver** |
-                  | -------------- | ------------------------------------: |
-                  | **📏 1 burst** | **🎯 Self and each ally in the area** |
-                roll: Power Roll + Might
+              - roll: Power Roll + Might
                 tier1: R < WEAK, the target is frightened of the triggering ally (save ends)
                 tier2: R < AVERAGE, the target is frightened of the triggering ally (save ends)
                 tier3: R < STRONG, the target is frightened of the triggering ally (save ends)
+          - type: feature
+            feature_type: ability
+            name: Squad! On Me!
+            cost: 5 Focus
+            flavor: Together we are invincible!
+            keywords:
+              - Area
+            usage: Maneuver
+            distance: 1 burst
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: Until the start of your next turn, each target has a bonus to stability
                   equal to your Might score. Additionally, each target gains 2
@@ -11995,19 +12100,19 @@ features:
                 tier2: 9 + R damage; taunted (EoT)
                 tier3: 12 + R damage; taunted (EoT)
               - name: Effect
-                effect: >-
-                  One ally adjacent to the target can spend a Recovery.
-    
-                  ###### Targets of Opportunity (5 Focus)
-    
-                  *You point out easy targets to your friends, allowing them to
-                  include more enemies in their attacks.*
-    
-                  | **Ranged**      |         **Maneuver** |
-    
-                  | --------------- | -------------------: |
-    
-                  | **📏 Ranged 5** | **🎯 Two creatures** |
+                effect: One ally adjacent to the target can spend a Recovery.
+          - type: feature
+            feature_type: ability
+            name: Targets of Opportunity
+            cost: 5 Focus
+            flavor: You point out easy targets to your friends, allowing them to include
+              more enemies in their attacks.
+            keywords:
+              - Ranged
+            usage: Maneuver
+            distance: Ranged 5
+            target: Two creatures
+            effects:
               - name: Effect
                 effect: Each target is marked by you, and you gain two surges.
               - name: Mark Benefit
@@ -12052,21 +12157,23 @@ features:
                 effect: Each target is marked by you, and must immediately make a free strike
                   against a creature of your choice within 5 squares of them.
               - name: Mark Benefit
-                effect: >-
-                  Until the end of the encounter, whenever you or any ally makes a
-                  strike against a creature marked by you, you can spend 2 focus to
-                  force that target to make a free strike against a creature of your
+                effect: Until the end of the encounter, whenever you or any ally makes a strike
+                  against a creature marked by you, you can spend 2 focus to force
+                  that target to make a free strike against a creature of your
                   choice within 5 squares of them.
-    
-                  ###### Try Me Instead (5 Focus)
-    
-                  *"Try picking on someone my size."*
-    
-                  | **Melee, Strike, Weapon** | **Main action** |
-    
-                  | ------------------------- | --------------: |
-    
-                  | **📏 Self; see below**    |     **🎯 Self** |
+          - type: feature
+            feature_type: ability
+            name: Try Me Instead
+            cost: 5 Focus
+            flavor: '"Try picking on someone my size."'
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Self; see below
+            target: Self
+            effects:
               - name: Effect
                 effect: You shift up to your speed directly toward an ally, ending adjacent to
                   them, then swapping locations with that ally as long as you can
@@ -12267,21 +12374,20 @@ features:
             target: Self and each ally in the area
             effects:
               - name: Effect
-                effect: >-
-                  Each target can make a ranged free strike that gains an edge
-                  against any enemy marked by you within distance of their ranged
-                  free strike. A target ignores banes and double banes when making
-                  this strike.
-    
-                  ###### Counterstrategy (11 Focus)
-    
-                  *I've identified a way to negate their strengths.*
-    
-                  | **-**       | **Main action** |
-    
-                  | ----------- | --------------: |
-    
-                  | **📏 Self** |     **🎯 Self** |
+                effect: Each target can make a ranged free strike that gains an edge against any
+                  enemy marked by you within distance of their ranged free strike. A
+                  target ignores banes and double banes when making this strike.
+          - type: feature
+            feature_type: ability
+            name: Counterstrategy
+            cost: 11 Focus
+            flavor: I've identified a way to negate their strengths.
+            keywords:
+              - "-"
+            usage: Main action
+            distance: Self
+            target: Self
+            effects:
               - name: Effect
                 effect: "You gain 6 surges. Until the end of the encounter or until you are
                   dying, whenever the Director spends Malice (see *[Draw Steel:
@@ -12322,23 +12428,25 @@ features:
             target: Self and two allies
             effects:
               - name: Effect
-                effect: >-
-                  Each target gains 2 surges, and can use a free triggered action to
-                  use a signature ability that gains an edge. After resolving their
+                effect: Each target gains 2 surges, and can use a free triggered action to use a
+                  signature ability that gains an edge. After resolving their
                   ability, each target can shift up to 2 squares and become hidden
                   even if they have no cover or concealment, or if they are
                   observed.
-    
-                  ###### Their Lack of Focus Is Their Undoing (11 Focus)
-    
-                  *You trick your enemies into attacking each other and leave them
-                  confused by the aftermath.*
-    
-                  | **Magic, Ranged, Weapon** |      **Main action** |
-    
-                  | ------------------------- | -------------------: |
-    
-                  | **📏 Ranged 10**          | **🎯 Three enemies** |
+          - type: feature
+            feature_type: ability
+            name: Their Lack of Focus Is Their Undoing
+            cost: 11 Focus
+            flavor: You trick your enemies into attacking each other and leave them confused
+              by the aftermath.
+            keywords:
+              - Magic
+              - Ranged
+              - Weapon
+            usage: Main action
+            distance: Ranged 10
+            target: Three enemies
+            effects:
               - name: Effect
                 effect: Each target uses a signature ability against one or more targets of your
                   choosing, with each ability automatically obtaining a tier 3
@@ -12391,22 +12499,24 @@ features:
                 tier2: 16 + M damage
                 tier3: 21 + M damage
               - name: Effect
-                effect: >-
-                  If you use this ability as part of the Charge main action,
-                  enemies' spaces don't count as difficult terrain for your
-                  movement. Additionally, if you move through any creature's space,
-                  you can slide that creature 1 square out of the path of your
-                  charge.
-    
-                  ###### That One Is Mine! (11 Focus)
-    
-                  *You focus on making an enemy irrelevant.*
-    
-                  | **Melee, Ranged, Strike, Weapon** |     **Main action** |
-    
-                  | --------------------------------- | ------------------: |
-    
-                  | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+                effect: If you use this ability as part of the Charge main action, enemies'
+                  spaces don't count as difficult terrain for your movement.
+                  Additionally, if you move through any creature's space, you can
+                  slide that creature 1 square out of the path of your charge.
+          - type: feature
+            feature_type: ability
+            name: That One Is Mine!
+            cost: 11 Focus
+            flavor: You focus on making an enemy irrelevant.
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1 or ranged 5
+            target: One creature
+            effects:
               - name: Effect
                 effect: The target is marked by you.
               - roll: Power Roll + Might
@@ -12758,24 +12868,22 @@ features:
                 effect: At the end of each combat round while this performance is active, you
                   can make a power roll against the target that ignores cover. You
                   can't target the same creature twice with this effect.
-              - effect: >-
-                  ###### "Ballad of the Beast"
-    
-    
-                  *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
-    
-                  | **Area, Magic, Performance** |                         **No
-                  action** |
-    
-                  | ---------------------------- |
-                  ------------------------------------: |
-    
-                  | **📏 5 aura**                | **🎯 Self and each ally in the
-                  area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: Lightning damage equal to your level
                 tier2: Lightning damage equal to 5 + your level
                 tier3: Lightning damage equal to 10 + your level
+          - type: feature
+            feature_type: ability
+            name: '"Ballad of the Beast"'
+            flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
+            keywords:
+              - Area
+              - Magic
+              - Performance
+            usage: No action
+            distance: 5 aura
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: While this performance is active, each target who starts their turn in
                   the area gains 1 surge.
@@ -12849,23 +12957,20 @@ features:
             target: Self and each ally in the area
             effects:
               - name: Effect
-                effect: >-
-                  While this performance is active, each target who starts their
-                  turn in the area gains a +2 bonus to speed until the end of their
-                  turn.
-    
-                  ###### Revitalizing Limerick
-    
-                  *There once was a man from Capital...*
-    
-                  | **Area, Magic, Performance** |                         **No
-                  action** |
-    
-                  | ---------------------------- |
-                  ------------------------------------: |
-    
-                  | **📏 5 aura**                | **🎯 Self and each ally in the
-                  area** |
+                effect: While this performance is active, each target who starts their turn in
+                  the area gains a +2 bonus to speed until the end of their turn.
+          - type: feature
+            feature_type: ability
+            name: Revitalizing Limerick
+            flavor: There once was a man from Capital...
+            keywords:
+              - Area
+              - Magic
+              - Performance
+            usage: No action
+            distance: 5 aura
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: At the end of each of your turns while this performance is active, you
                   can choose up to a number of targets equal to your Presence score.
@@ -13291,27 +13396,24 @@ features:
             target: Each ally in the area
             effects:
               - name: Effect
-                effect: >-
-                  While this performance is active, each target who is dead can
-                  choose to continue taking turns after death. On each of their
-                  turns, a target can move and use either a main action or a
-                  maneuver, but can't spend Recoveries or use triggered actions. At
-                  the end of the encounter, each target who chose to take turns this
-                  way turns to dust and blows away.
-    
-                  ###### Radical Fantasia
-    
-                  *𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they
-                  cryyy—aaaiigh?♪*
-    
-                  | **Area, Magic, Performance** |                         **No
-                  action** |
-    
-                  | ---------------------------- |
-                  ------------------------------------: |
-    
-                  | **📏 5 aura**                | **🎯 Self and each ally in the
-                  area** |
+                effect: While this performance is active, each target who is dead can choose to
+                  continue taking turns after death. On each of their turns, a
+                  target can move and use either a main action or a maneuver, but
+                  can't spend Recoveries or use triggered actions. At the end of the
+                  encounter, each target who chose to take turns this way turns to
+                  dust and blows away.
+          - type: feature
+            feature_type: ability
+            name: Radical Fantasia
+            flavor: 𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪
+            keywords:
+              - Area
+              - Magic
+              - Performance
+            usage: No action
+            distance: 5 aura
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: While this performance is active, each target who starts their turn in
                   the area ignores difficult terrain, and any ability they use that
@@ -13432,22 +13534,24 @@ features:
             distance: Melee 1
             target: One creature or object
             effects:
-              - effect: >-
-                  ###### Fight Choreography (9 Drama)
-    
-    
-                  *You and your partner make a flashy show of derring-do, then get
-                  back to your corners.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 12 + A damage; M < WEAK, bleeding (save ends)
                 tier2: 18 + A damage; M < AVERAGE, bleeding (save ends)
                 tier3: 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+          - type: feature
+            feature_type: ability
+            name: Fight Choreography
+            cost: 9 Drama
+            flavor: You and your partner make a flashy show of derring-do, then get back to
+              your corners.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - name: Effect
                 effect: You and the target each make a melee free strike that targets each enemy
                   within 3 squares of either of you, dividing the enemies between
@@ -13488,22 +13592,22 @@ features:
             distance: 5 burst
             target: Each enemy in the area
             effects:
-              - effect: >-
-                  ###### You're All My Understudies (9 Drama)
-    
-    
-                  *It's important for everyone to know each other's lines, just in
-                  case...*
-    
-                  | **Area, Magic** |                 **Maneuver** |
-    
-                  | --------------- | ---------------------------: |
-    
-                  | **📏 5 burst**  | **🎯 Each ally in the area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 2 psychic damage; P < WEAK, frightened (save ends)
                 tier2: 5 psychic damage; P < AVERAGE, frightened (save ends)
                 tier3: 7 psychic damage; P < STRONG, frightened (save ends)
+          - type: feature
+            feature_type: ability
+            name: You're All My Understudies
+            cost: 9 Drama
+            flavor: It's important for everyone to know each other's lines, just in case...
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 5 burst
+            target: Each ally in the area
+            effects:
               - name: Effect
                 effect: Until the end of the encounter, each target gains the speed bonus,
                   weapon distance bonus, disengage bonus, and stability bonus of
@@ -13585,22 +13689,23 @@ features:
             effects:
               - name: Effect
                 effect: A prone target ignores this ability.
-              - effect: >-
-                  ###### Legendary Drum Fill (9 Drama)
-    
-    
-                  *You start a drumroll that roars like thunder with every impact
-                  the heroes make.*
-    
-                  | **Area, Magic** |                          **Maneuver** |
-    
-                  | --------------- | ------------------------------------: |
-    
-                  | **📏 4 burst**  | **🎯 Self and each ally in the area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 7 sonic damage; P < WEAK, prone
                 tier2: 10 sonic damage; P < AVERAGE, prone
                 tier3: 13 sonic damage; P < STRONG, prone
+          - type: feature
+            feature_type: ability
+            name: Legendary Drum Fill
+            cost: 9 Drama
+            flavor: You start a drumroll that roars like thunder with every impact the
+              heroes make.
+            keywords:
+              - Area
+              - Magic
+            usage: Maneuver
+            distance: 4 burst
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: Each target gains 1 surge, then gains 1 surge at the start of each
                   combat round until the end of the encounter.
@@ -13982,8 +14087,7 @@ features:
             target: Special
             effects:
               - name: Effect
-                effect: >-
-                  A guest star appears to help you during the encounter: either a
+                effect: "A guest star appears to help you during the encounter: either a
                   bystander within distance uplifted by your magic, or a mysterious
                   new hero who appears in an unoccupied space within distance. This
                   guest star is controlled by you, has their own turn, and shares
@@ -13992,17 +14096,19 @@ features:
                   At the end of the encounter, or when the guest star is reduced to
                   0 Stamina, they retreat or revert to a bystander. The same
                   bystander can't be uplifted this way more than once during an
-                  encounter.
-    
-                  ###### Twist at the End (5 Drama)
-    
-                  *You didn't see that coming, did you?!*
-    
-                  | **Magic, Ranged** |       **Main action** |
-    
-                  | ----------------- | --------------------: |
-    
-                  | **📏 Ranged 10**  | **🎯 One dead enemy** |
+                  encounter."
+          - type: feature
+            feature_type: ability
+            name: Twist at the End
+            cost: 5 Drama
+            flavor: You didn't see that coming, did you?!
+            keywords:
+              - Magic
+              - Ranged
+            usage: Main action
+            distance: Ranged 10
+            target: One dead enemy
+            effects:
               - name: Effect
                 effect: A target who is not a leader or solo creature comes back to life with
                   half their Stamina and becomes an ally under the Director's
@@ -14111,21 +14217,23 @@ features:
             target: Self and one willing ally
             effects:
               - name: Effect
-                effect: >-
-                  Each target can shift up to 5 squares, including vertically, but
-                  must end this movement adjacent to the other target and on solid
+                effect: Each target can shift up to 5 squares, including vertically, but must
+                  end this movement adjacent to the other target and on solid
                   ground. Each target can then make a melee free strike that deals
                   extra damage equal to twice their highest characteristic score.
-    
-                  ###### En Garde! (5 Drama)
-    
-                  *Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
+          - type: feature
+            feature_type: ability
+            name: En Garde!
+            cost: 5 Drama
+            flavor: Wait, it's... Guard! Turn! Parry! Dodge! Spin! Thrust! Ha!
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 7 + **A** damage
                 tier2: 11 + **A** damage
@@ -14168,22 +14276,24 @@ features:
             target: Special
             effects:
               - name: Effect
-                effect: >-
-                  You use an ability that you have observed being used this combat
-                  round. The ability must have the Strike keyword, cost 5 or fewer
-                  of a Heroic Resource, and cost no Malice. When you make the
-                  strike, you use your Presence score for any power rolls, and any
-                  damage you deal is sonic damage.
-    
-                  ###### Tough Crowd (5 Drama)
-    
-                  *Your fans don't seem to like the opening act...*
-    
-                  | **Area, Magic, Ranged** | **Main action** |
-    
-                  | ----------------------- | --------------: |
-    
-                  | **📏 3 cube within 10** |  **🎯 Special** |
+                effect: You use an ability that you have observed being used this combat round.
+                  The ability must have the Strike keyword, cost 5 or fewer of a
+                  Heroic Resource, and cost no Malice. When you make the strike, you
+                  use your Presence score for any power rolls, and any damage you
+                  deal is sonic damage.
+          - type: feature
+            feature_type: ability
+            name: Tough Crowd
+            cost: 5 Drama
+            flavor: Your fans don't seem to like the opening act...
+            keywords:
+              - Area
+              - Magic
+              - Ranged
+            usage: Main action
+            distance: 3 cube within 10
+            target: Special
+            effects:
               - name: Effect
                 effect: The area is haunted by a swirling horde of phantoms until the end of the
                   encounter. Allies can enter any square of the area without
@@ -14322,25 +14432,23 @@ features:
             target: Self and each ally in the area
             effects:
               - name: Effect
-                effect: >-
-                  While this performance is active, each target who starts their
-                  turn in the area doesn't take a bane on strikes against creatures
-                  with concealment. Once during their turn, they can search for
-                  hidden creatures as a free maneuver (see Hide and Sneak in Chapter
-                  9: Tests).
-    
-                  ###### "Never-Ending Hero"
-    
-                  *And toniiight we can truly say ♪ They will alllways find a way!♪*
-    
-                  | **Area, Magic, Performance** |                         **No
-                  action** |
-    
-                  | ---------------------------- |
-                  ------------------------------------: |
-    
-                  | **📏 5 aura**                | **🎯 Self and each ally in the
-                  area** |
+                effect: "While this performance is active, each target who starts their turn in
+                  the area doesn't take a bane on strikes against creatures with
+                  concealment. Once during their turn, they can search for hidden
+                  creatures as a free maneuver (see Hide and Sneak in Chapter 9:
+                  Tests)."
+          - type: feature
+            feature_type: ability
+            name: '"Never-Ending Hero"'
+            flavor: And toniiight we can truly say ♪ They will alllways find a way!♪
+            keywords:
+              - Area
+              - Magic
+              - Performance
+            usage: No action
+            distance: 5 aura
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: While this performance is active, each target who starts their turn
                   dying while in the area gains an edge on power rolls and ignores
@@ -14439,21 +14547,23 @@ features:
                 tier2: 21 + A damage
                 tier3: 28 + A damage; M < STRONG, bleeding (save ends)
               - name: Effect
-                effect: >-
-                  This ability can't obtain better than a tier 2 outcome unless the
-                  target is at maximum distance. If you obtain a tier 3 outcome with
-                  a natural 17 or higher, you gain 3 surges that you can use
+                effect: This ability can't obtain better than a tier 2 outcome unless the target
+                  is at maximum distance. If you obtain a tier 3 outcome with a
+                  natural 17 or higher, you gain 3 surges that you can use
                   immediately.
-    
-                  ###### Renegotiated Contract (11 Drama)
-    
-                  *No, no. You don't die until the sequel.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
+          - type: feature
+            feature_type: ability
+            name: Renegotiated Contract
+            cost: 11 Drama
+            flavor: No, no. You don't die until the sequel.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - name: Effect
                 effect: Add your current Stamina to your target's current Stamina, then you have
                   half that total Stamina and the target has the remainder. If
@@ -14510,24 +14620,24 @@ features:
                 tier2: 11 sonic damage
                 tier3: 15 sonic damage
               - name: Effect
-                effect: >-
-                  Each creature within distance gains a +5 bonus to speed until the
-                  end of their next turn. While under this effect, each target must
-                  use their full movement during their turn.
-    
-                  ###### Melt Their Faces (11 Drama)
-    
-                  *The power of music rips through the reality around the target and
-                  blows them away.*
-    
-                  | **Magic, Melee, Ranged, Strike** |               **Main action**
-                  |
-    
-                  | -------------------------------- | ----------------------------:
-                  |
-    
-                  | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object**
-                  |
+                effect: Each creature within distance gains a +5 bonus to speed until the end of
+                  their next turn. While under this effect, each target must use
+                  their full movement during their turn.
+          - type: feature
+            feature_type: ability
+            name: Melt Their Faces
+            cost: 11 Drama
+            flavor: The power of music rips through the reality around the target and blows
+              them away.
+            keywords:
+              - Magic
+              - Melee
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Melee 1 or ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Presence
                 tier1: 12 + P sonic damage; push 5
                 tier2: 16 + P sonic damage; push 10
@@ -14605,21 +14715,22 @@ features:
                 tier2: The target has a double bane on ability rolls (save ends).
                 tier3: The target has a double bane on power rolls (save ends).
               - name: Effect
-                effect: >-
-                  Choose one ally within distance. While the target is affected by
-                  this ability, each time they use an ability, that ally can make a
-                  free strike against them after the ability is resolved.
-    
-                  ###### Rising Tension (11 Drama)
-    
-                  *You narrate the tension of the scene and put all hope into your
-                  protagonist to turn things around.*
-    
-                  | **Magic, Ranged** |    **Maneuver** |
-    
-                  | ----------------- | --------------: |
-    
-                  | **📏 Ranged 10**  | **🎯 One ally** |
+                effect: Choose one ally within distance. While the target is affected by this
+                  ability, each time they use an ability, that ally can make a free
+                  strike against them after the ability is resolved.
+          - type: feature
+            feature_type: ability
+            name: Rising Tension
+            cost: 11 Drama
+            flavor: You narrate the tension of the scene and put all hope into your
+              protagonist to turn things around.
+            keywords:
+              - Magic
+              - Ranged
+            usage: Maneuver
+            distance: Ranged 10
+            target: One ally
+            effects:
               - name: Effect
                 effect: The target gains 3 of their Heroic Resource, has a double edge on a
                   power roll of their choice made during their next turn, is no
@@ -15220,52 +15331,59 @@ features:
                 tier2: 5 + A damage
                 tier3: 8 + A damage; I < STRONG, prone
               - name: Effect
-                effect: |-
-                  One ally within 5 squares of the target gains 1 surge.
-                  ###### I Work Better Alone
-                  *"It's better, just you and me. Isn't it?"*
-                  | **Melee, Ranged, Strike, Weapon** |     **Main action** |
-                  | --------------------------------- | ------------------: |
-                  | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+                effect: One ally within 5 squares of the target gains 1 surge.
+          - type: feature
+            feature_type: ability
+            name: I Work Better Alone
+            flavor: "\"It's better, just you and me. Isn't it?\""
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1 or ranged 5
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 3 + A damage
                 tier2: 6 + A damage
                 tier3: 9 + A damage
               - name: Effect
-                effect: >-
-                  If the target has none of your allies adjacent to them, you gain 1
-                  surge before making the power roll.
-    
-                  ###### Teamwork Has Its Place
-    
-                  *You attack an enemy as an ally exposes their weakness.*
-    
-                  | **Melee, Ranged, Strike, Weapon** |               **Main
-                  action** |
-    
-                  | --------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 1 or ranged 5**        | **🎯 One creature or
-                  object** |
+                effect: If the target has none of your allies adjacent to them, you gain 1 surge
+                  before making the power roll.
+          - type: feature
+            feature_type: ability
+            name: Teamwork Has Its Place
+            flavor: You attack an enemy as an ally exposes their weakness.
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1 or ranged 5
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 3 + A damage
                 tier2: 6 + A damage
                 tier3: 9 + A damage
               - name: Effect
-                effect: >-
-                  If any ally is adjacent to the target, you gain 1 surge before
-                  making the power roll.
-    
-                  ###### You Were Watching the Wrong One
-    
-                  *They can't watch both of you at once.*
-    
-                  | **Melee, Strike, Weapon** |     **Main action** |
-    
-                  | ------------------------- | ------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature** |
+                effect: If any ally is adjacent to the target, you gain 1 surge before making
+                  the power roll.
+          - type: feature
+            feature_type: ability
+            name: You Were Watching the Wrong One
+            flavor: They can't watch both of you at once.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 3 + A damage
                 tier2: 5 + A damage
@@ -15437,17 +15555,18 @@ features:
                   A creature who drinks the potion can spend up to 2 Recoveries, and
                   has acid immunity, fire immunity, or poison immunity (their
                   choice) equal to your level until the end of the encounter.
-    
-                  ###### One Vial Makes You Faster (9 Insight)
-    
-                  *Each ally who catches a potion you throw can take the battle to
-                  the next level.*
-    
-                  | **Ranged**       |        **Main action** |
-    
-                  | ---------------- | ---------------------: |
-    
-                  | **📏 Ranged 10** | **🎯 Three creatures** |
+          - type: feature
+            feature_type: ability
+            name: One Vial Makes You Faster
+            cost: 9 Insight
+            flavor: Each ally who catches a potion you throw can take the battle to the next
+              level.
+            keywords:
+              - Ranged
+            usage: Main action
+            distance: Ranged 10
+            target: Three creatures
+            effects:
               - name: Effect
                 effect: >-
                   You ready, hand, or lob a potion to each target, who can
@@ -15548,19 +15667,18 @@ features:
                 tier2: 6 + A damage; vertical push 10
                 tier3: 9 + A damage; vertical push 15
               - name: Effect
-                effect: >-
-                  A creature force moved by this ability must be moved straight
-                  upward.
-    
-                  ###### Cinderstorm (9 Insight)
-    
-                  *You teleport your friends in a burst of ash and fire.*
-    
-                  | **Magic**      |                          **Maneuver** |
-    
-                  | -------------- | ------------------------------------: |
-    
-                  | **📏 4 burst** | **🎯 Self and each ally in the area** |
+                effect: A creature force moved by this ability must be moved straight upward.
+          - type: feature
+            feature_type: ability
+            name: Cinderstorm
+            cost: 9 Insight
+            flavor: You teleport your friends in a burst of ash and fire.
+            keywords:
+              - Magic
+            usage: Maneuver
+            distance: 4 burst
+            target: Self and each ally in the area
+            effects:
               - name: Effect
                 effect: Each target can teleport up to 5 squares. For each target in addition to
                   you who teleports away from or into a space adjacent to an enemy,
@@ -15603,20 +15721,23 @@ features:
             target: Each enemy in the area
             effects:
               - name: Effect
-                effect: >-
-                  Until the start of your next turn, any ability roll made against a
+                effect: Until the start of your next turn, any ability roll made against a
                   target gains an edge.
-    
-                  ###### Puppet Strings (9 Insight)
-    
-                  *You prick little needles on the tips of your fingers into the
-                  nerves of your enemies and cause them to lose control.*
-    
-                  | **Magic, Melee**, **Strike, Weapon** |    **Main action** |
-    
-                  | ------------------------------------ | -----------------: |
-    
-                  | **📏 Melee 1**                       | **🎯 Two enemies** |
+          - type: feature
+            feature_type: ability
+            name: Puppet Strings
+            cost: 9 Insight
+            flavor: You prick little needles on the tips of your fingers into the nerves of
+              your enemies and cause them to lose control.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: Two enemies
+            effects:
               - roll: Power Roll + Agility
                 tier1: 2 damage; if the target has R < WEAK, before the damage is resolved, they
                   make a free strike.
@@ -16008,17 +16129,22 @@ features:
                   as a main action. If they don't, at the end of your next turn, the
                   bomb detonates. When the bomb detonates, you make a power roll
                   targeting each enemy within 2 squares of it.
-              - effect: |-
-                  ###### Stink Bomb (5 Insight)
-    
-                  *Putrid yellow gas explodes from a bomb you toss.*
-                  | **Area, Ranged**        |                  **Main action** |
-                  | ----------------------- | -------------------------------: |
-                  | **📏 3 cube within 10** | **🎯 Each creature in the area** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 4 + A fire damage
                 tier2: 7 + A fire damage
                 tier3: 11 + A fire damage
+          - type: feature
+            feature_type: ability
+            name: Stink Bomb
+            cost: 5 Insight
+            flavor: Putrid yellow gas explodes from a bomb you toss.
+            keywords:
+              - Area
+              - Ranged
+            usage: Main action
+            distance: 3 cube within 10
+            target: Each creature in the area
+            effects:
               - roll: Power Roll + Agility
                 tier1: 2 poison damage
                 tier2: 5 poison damage
@@ -16062,28 +16188,27 @@ features:
             usage: Maneuver
             distance: 3 cube within 10
             target: Each creature in the area
-            trigger: Another creature targets you with a strike.
             effects:
               - roll: Power Roll + Agility
                 tier1: Slide 4
                 tier2: Slide 5
                 tier3: Slide 7
               - name: Effect
-                effect: >-
-                  This forced movement ignores stability. Instead, the forced
-                  movement is reduced by a number equal to the target's Intuition
-                  score.
-    
-                  ###### So Gullible (5 Insight)
-    
-                  *When your enemy strikes, you reveal you were in a different place
-                  all along.*
-    
-                  | **Magic**   | **Free triggered** |
-    
-                  | ----------- | -----------------: |
-    
-                  | **📏 Self** |        **🎯 Self** |
+                effect: This forced movement ignores stability. Instead, the forced movement is
+                  reduced by a number equal to the target's Intuition score.
+          - type: feature
+            feature_type: ability
+            name: So Gullible
+            cost: 5 Insight
+            flavor: When your enemy strikes, you reveal you were in a different place all
+              along.
+            keywords:
+              - Magic
+            usage: Free triggered
+            distance: Self
+            target: Self
+            trigger: Another creature targets you with a strike.
+            effects:
               - name: Effect
                 effect: You use your Clever Trick ability with no insight cost against the
                   triggering creature and strike. You can teleport to an unoccupied
@@ -16125,19 +16250,23 @@ features:
             usage: Main action
             distance: Melee 1 or ranged 5
             target: One creature
-            trigger: You use your In All This Confusion ability.
             effects:
-              - effect: |-
-                  ###### Too Slow (5 Insight)
-    
-                  *Your foe made a big mistake.*
-                  | **-**                  | **Free triggered** |
-                  | ---------------------- | -----------------: |
-                  | **📏 Self; see below** |        **🎯 Self** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 6 + A damage; you can teleport the target 1 square
                 tier2: 10 + A damage; you can teleport the target up to 3 squares
                 tier3: 14 + A damage; you can teleport the target up to 5 squares
+          - type: feature
+            feature_type: ability
+            name: Too Slow
+            cost: 5 Insight
+            flavor: Your foe made a big mistake.
+            keywords:
+              - "-"
+            usage: Free triggered
+            distance: Self; see below
+            target: Self
+            trigger: You use your In All This Confusion ability.
+            effects:
               - name: Effect
                 effect: You ignore any effects associated with the damage that triggered your In
                   All This Confusion ability. Before you teleport, you can make a
@@ -16262,22 +16391,24 @@ features:
             target: One creature
             effects:
               - name: Effect
-                effect: >-
-                  Until the end of the encounter, you gain the target's damage
-                  immunities and speed (if they are better than yours), and can use
-                  any types of movement they can use. You can also use the target's
-                  signature ability, using their bonus for the power roll.
-    
-                  ###### It Was Me All Along (11 Insight)
-    
-                  *After everything you've been through together, you twist the
-                  blade and make the pain extra personal.*
-    
-                  | **Melee, Strike, Weapon** |               **Main action** |
-    
-                  | ------------------------- | ----------------------------: |
-    
-                  | **📏 Melee 1**            | **🎯 One creature or object** |
+                effect: Until the end of the encounter, you gain the target's damage immunities
+                  and speed (if they are better than yours), and can use any types
+                  of movement they can use. You can also use the target's signature
+                  ability, using their bonus for the power roll.
+          - type: feature
+            feature_type: ability
+            name: It Was Me All Along
+            cost: 11 Insight
+            flavor: After everything you've been through together, you twist the blade and
+              make the pain extra personal.
+            keywords:
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 1
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 15 + A damage
                 tier2: 21 + A damage
@@ -16360,22 +16491,25 @@ features:
               - name: Effect
                 effect: You shift up to twice your speed, making one power roll that targets
                   each creature you come adjacent to during the shift.
-              - effect: >-
-                  ###### Demon Door (11 Insight)
-    
-    
-                  *You create a temporary portal to allow a massive demonic hand to
-                  reach through.*
-    
-                  | **Magic, Melee, Strike, Weapon** |     **Main action** |
-    
-                  | -------------------------------- | ------------------: |
-    
-                  | **📏 Melee 3**                   | **🎯 One creature** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: An enemy takes 6 damage; an ally can teleport up to 3 squares.
                 tier2: An enemy takes 10 damage; an ally can teleport up to 5 squares.
                 tier3: An enemy takes 14 damage; an ally can teleport up to 7 squares.
+          - type: feature
+            feature_type: ability
+            name: Demon Door
+            cost: 11 Insight
+            flavor: You create a temporary portal to allow a massive demonic hand to reach
+              through.
+            keywords:
+              - Magic
+              - Melee
+              - Strike
+              - Weapon
+            usage: Main action
+            distance: Melee 3
+            target: One creature
+            effects:
               - roll: Power Roll + Agility
                 tier1: 13 + A corruption damage; push 3
                 tier2: 18 + A corruption damage; push 5
@@ -16422,23 +16556,24 @@ features:
                   by this ability also becomes targeted by this ability. This effect
                   continues until there are no more available targets. The ability
                   deals acid, fire, or poison damage (your choice).
-              - effect: >-
-                  ###### To the Stars (11 Insight)
-    
-    
-                  *You attach your most potent explosive to your foe. Under less
-                  pressing circumstances, you're sure you could launch them into
-                  orbit.*
-    
-                  | **Melee, Ranged, Strike**   |               **Main action** |
-    
-                  | --------------------------- | ----------------------------: |
-    
-                  | **📏 Melee 1 or ranged 10** | **🎯 One creature or object** |
-                roll: Power Roll + Agility
+              - roll: Power Roll + Agility
                 tier1: 7 damage
                 tier2: 10 damage
                 tier3: 15 damage
+          - type: feature
+            feature_type: ability
+            name: To the Stars
+            cost: 11 Insight
+            flavor: You attach your most potent explosive to your foe. Under less pressing
+              circumstances, you're sure you could launch them into orbit.
+            keywords:
+              - Melee
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Melee 1 or ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Agility
                 tier1: 4 + A fire damage; vertical push 8
                 tier2: 7 + A fire damage; vertical push 10
@@ -17280,43 +17415,42 @@ features:
                 effect: The target takes an extra 1 corruption damage for each additional time
                   they are targeted by this ability during the encounter.
               - name: Strained
-                effect: >-
-                  You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on
-                  the power roll.
-    
-                  ###### Hoarfrost
-    
-                  *You blast a foe with a pulse of cold energy.*
-    
-                  | **Cryokinesis, Psionic, Ranged**, **Strike** |     **Main
-                  action** |
-    
-                  | -------------------------------------------- |
-                  ------------------: |
-    
-                  | **📏 Ranged 10**                             | **🎯 One
-                  creature** |
+                effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the
+                  power roll.
+          - type: feature
+            feature_type: ability
+            name: Hoarfrost
+            flavor: You blast a foe with a pulse of cold energy.
+            keywords:
+              - Cryokinesis
+              - Psionic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 + R cold damage; M < WEAK, slowed (EoT)
                 tier2: 4 + R cold damage; M < AVERAGE, slowed (EoT)
                 tier3: 6 + R cold damage; M < STRONG, slowed (EoT)
               - name: Strained
-                effect: >-
-                  You are slowed until the end of your next turn. Additionally, a
-                  target slowed by this ability is restrained instead.
-    
-                  ###### Incinerate
-    
-                  *The air erupts into a column of smokeless flame.*
-    
-                  | **Area, Fire, Psionic, Pyrokinesis, Ranged**
-                  |               **Main action** |
-    
-                  | -------------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 3 cube within 10**                      | **🎯 Each enemy
-                  in the area** |
+                effect: You are slowed until the end of your next turn. Additionally, a target
+                  slowed by this ability is restrained instead.
+          - type: feature
+            feature_type: ability
+            name: Incinerate
+            flavor: The air erupts into a column of smokeless flame.
+            keywords:
+              - Area
+              - Fire
+              - Psionic
+              - Pyrokinesis
+              - Ranged
+            usage: Main action
+            distance: 3 cube within 10
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 fire damage
                 tier2: 4 fire damage
@@ -17326,56 +17460,59 @@ features:
                   Each enemy who enters the area for the first time in a combat
                   round or starts their turn there takes 2 fire damage.
               - name: Strained
-                effect: >-
-                  The size of the cube increases by 2, but the fire disappears at
-                  the end of your turn.
-    
-                  ###### Kinetic Grip
-    
-                  *You lift and hurl your foe away from you.*
-    
-                  | **Psionic, Ranged, Telekinesis** |               **Main action**
-                  |
-    
-                  | -------------------------------- | ----------------------------:
-                  |
-    
-                  | **📏 Ranged 10**                 | **🎯 One creature or object**
-                  |
+                effect: The size of the cube increases by 2, but the fire disappears at the end
+                  of your turn.
+          - type: feature
+            feature_type: ability
+            name: Kinetic Grip
+            flavor: You lift and hurl your foe away from you.
+            keywords:
+              - Psionic
+              - Ranged
+              - Telekinesis
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: Slide 2 + R
                 tier2: Slide 4 + R
                 tier3: Slide 6 + R; prone
               - name: Strained
-                effect: |-
-                  You must vertical push the target instead of sliding them.
-                  ###### Kinetic Pulse
-                  *The force of your mind hurls enemies backward.*
-                  | **Area, Psionic, Telepathy** |               **Main action** |
-                  | ---------------------------- | ----------------------------: |
-                  | **📏 1 burst**               | **🎯 Each enemy in the area** |
+                effect: You must vertical push the target instead of sliding them.
+          - type: feature
+            feature_type: ability
+            name: Kinetic Pulse
+            flavor: The force of your mind hurls enemies backward.
+            keywords:
+              - Area
+              - Psionic
+              - Telepathy
+            usage: Main action
+            distance: 1 burst
+            target: Each enemy in the area
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 psychic damage
                 tier2: 5 psychic damage; push 1
                 tier3: 7 psychic damage; push 2
               - name: Strained
-                effect: >-
-                  The size of the burst increases by 2, and you are bleeding until
-                  the start of your next turn.
-    
-                  ###### Materialize
-    
-                  *You picture an object in your mind and give it form—directly
-                  above your opponent's head.*
-    
-                  | **Psionic, Ranged, Resopathy, Strike** |               **Main
-                  action** |
-    
-                  | -------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Ranged 10**                       | **🎯 One creature or
-                  object** |
+                effect: The size of the burst increases by 2, and you are bleeding until the
+                  start of your next turn.
+          - type: feature
+            feature_type: ability
+            name: Materialize
+            flavor: You picture an object in your mind and give it form—directly above your
+              opponent's head.
+            keywords:
+              - Psionic
+              - Ranged
+              - Resopathy
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: 3 + R damage
                 tier2: 5 + R damage
@@ -17385,24 +17522,23 @@ features:
                   then rolls into an adjacent unoccupied space of your choice. The
                   object is made of wood, stone, or metal (your choice).
               - name: Strained
-                effect: >-
-                  The object explodes after the damage is dealt, and each creature
+                effect: The object explodes after the damage is dealt, and each creature
                   adjacent to the target takes damage equal to your Reason score.
                   You also take damage equal to your Reason score that can't be
                   reduced in any way.
-    
-                  ###### Optic Blast
-    
-                  *Your eyes emit rays of powerful enervating force.*
-    
-                  | **Metamorphosis, Psionic, Ranged**, **Strike**
-                  |               **Main action** |
-    
-                  | ---------------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Ranged 10**                               | **🎯 One
-                  creature or object** |
+          - type: feature
+            feature_type: ability
+            name: Optic Blast
+            flavor: Your eyes emit rays of powerful enervating force.
+            keywords:
+              - Metamorphosis
+              - Psionic
+              - Ranged
+              - Strike
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: 2 + R damage; M < WEAK, prone
                 tier2: 4 + R damage; M < AVERAGE, prone
@@ -17414,23 +17550,22 @@ features:
                   additional creature or object within 3 squares of the first
                   target.
               - name: Strained
-                effect: >-
-                  You gain 1 surge that you can use immediately, and you take damage
-                  equal to your Reason score that can't be reduced in any way.
-    
-                  ###### Spirit Sword
-    
-                  *You form a blade of mind energy and stab your target,
-                  invigorating yourself.*
-    
-                  | **Animapathy, Melee, Psionic, Strike** |               **Main
-                  action** |
-    
-                  | -------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Melee 2**                         | **🎯 One creature or
-                  object** |
+                effect: You gain 1 surge that you can use immediately, and you take damage equal
+                  to your Reason score that can't be reduced in any way.
+          - type: feature
+            feature_type: ability
+            name: Spirit Sword
+            flavor: You form a blade of mind energy and stab your target, invigorating
+              yourself.
+            keywords:
+              - Animapathy
+              - Melee
+              - Psionic
+              - Strike
+            usage: Main action
+            distance: Melee 2
+            target: One creature or object
+            effects:
               - roll: Power Roll + Presence
                 tier1: 3 + P damage
                 tier2: 6 + P damage
@@ -17729,20 +17864,23 @@ features:
                 tier3: 20 psychic damage; the target considers you and your allies to be their
                   allies when using abilities and features (save ends)
               - name: Strained
-                effect: >-
-                  While the target is under this effect, you no longer consider your
+                effect: While the target is under this effect, you no longer consider your
                   enemies to be your enemies when using your abilities and features.
-    
-                  ###### Synaptic Dissipation (9 Clarity)
-    
-                  *You manipulate your enemies' minds and make them wonder if you
-                  were ever really there in the first place.*
-    
-                  | **Psionic, Ranged, Strike, Telepathy** |   **Maneuver** |
-    
-                  | -------------------------------------- | -------------: |
-    
-                  | **📏 Ranged 10**                       | **🎯 Special** |
+          - type: feature
+            feature_type: ability
+            name: Synaptic Dissipation
+            cost: 9 Clarity
+            flavor: You manipulate your enemies' minds and make them wonder if you were ever
+              really there in the first place.
+            keywords:
+              - Psionic
+              - Ranged
+              - Strike
+              - Telepathy
+            usage: Maneuver
+            distance: Ranged 10
+            target: Special
+            effects:
               - name: Effect
                 effect: You target a number of creatures with this ability determined by the
                   outcome of your power roll. You and your allies are invisible to
@@ -17796,22 +17934,22 @@ features:
               - name: Effect
                 effect: Targets closest to the center of the area are pulled first.
               - name: Strained
-                effect: >-
-                  The size of the area increases by 2. You also target yourself and
-                  each ally within distance.
-    
-                  ###### Greater Kinetic Grip (9 Clarity)
-    
-                  *You raise the target into the air without breaking a sweat.*
-    
-                  | **Psionic, Ranged**, **Strike, Telekinesis**
-                  |               **Main action** |
-    
-                  | -------------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Ranged 10**                             | **🎯 One creature
-                  or object** |
+                effect: The size of the area increases by 2. You also target yourself and each
+                  ally within distance.
+          - type: feature
+            feature_type: ability
+            name: Greater Kinetic Grip
+            cost: 9 Clarity
+            flavor: You raise the target into the air without breaking a sweat.
+            keywords:
+              - Psionic
+              - Ranged
+              - Strike
+              - Telekinesis
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: Slide 4 + R; M < WEAK, the forced movement is vertical
                 tier2: Slide 8 + R; M < AVERAGE, the forced movement is vertical
@@ -17861,24 +17999,24 @@ features:
               - name: Strained
                 effect: This ability gains the Strike keyword as the vision hurts the target's
                   psyche. You make a power roll, then are weakened (save ends).
-              - effect: >-
-                  ###### Stasis Field (9 Clarity)
-    
-    
-                  *Keep everything as it was. Ignore everything that will be.*
-    
-                  | **Area, Chronopathy, Psionic, Ranged**
-                  |                             **Main action** |
-    
-                  | -------------------------------------- |
-                  ------------------------------------------: |
-    
-                  | **📏 4 cube within 10**                | **🎯 Each creature and
-                  object in the area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 8 + P psychic damage
                 tier2: 13 + P psychic damage
                 tier3: 17 + P psychic damage
+          - type: feature
+            feature_type: ability
+            name: Stasis Field
+            cost: 9 Clarity
+            flavor: Keep everything as it was. Ignore everything that will be.
+            keywords:
+              - Area
+              - Chronopathy
+              - Psionic
+              - Ranged
+            usage: Main action
+            distance: 4 cube within 10
+            target: Each creature and object in the area
+            effects:
               - name: Effect
                 effect: >-
                   The area is frozen in time until the start of your next turn. Each
@@ -18278,21 +18416,20 @@ features:
                   maneuver on their turn. If a target is already dazed, that
                   condition ends for them.
               - name: Strained
-                effect: >-
-                  Your speed is halved until the end of the encounter.
-    
-                  ###### Slow (5 Clarity)
-    
-                  *Perhaps they wonder why everyone else is moving so quickly?*
-    
-                  | **Chronopathy, Psionic, Ranged**
-                  |                      **Maneuver** |
-    
-                  | -------------------------------- |
-                  --------------------------------: |
-    
-                  | **📏 Ranged 10**                 | **🎯 Three creatures or
-                  objects** |
+                effect: Your speed is halved until the end of the encounter.
+          - type: feature
+            feature_type: ability
+            name: Slow
+            cost: 5 Clarity
+            flavor: Perhaps they wonder why everyone else is moving so quickly?
+            keywords:
+              - Chronopathy
+              - Psionic
+              - Ranged
+            usage: Maneuver
+            distance: Ranged 10
+            target: Three creatures or objects
+            effects:
               - roll: Power Roll + Presence
                 tier1: The target's speed is halved (save ends), or if P < WEAK, the target is
                   slowed (save ends).
@@ -18420,23 +18557,23 @@ features:
                 tier2: 6 damage; vertical push 4
                 tier3: 9 damage; vertical push 6
               - name: Strained
-                effect: >-
-                  The size of the burst increases by 1, and you are weakened until
-                  the end of your turn.
-    
-                  ###### Levity and Gravity (5 Clarity)
-    
-                  *You raise the target slightly into the air, then smother them
-                  against the ground.*
-    
-                  | **Psionic, Ranged, Strike, Telekinesis** |               **Main
-                  action** |
-    
-                  | ---------------------------------------- |
-                  ----------------------------: |
-    
-                  | **📏 Ranged 10**                         | **🎯 One creature or
-                  object** |
+                effect: The size of the burst increases by 1, and you are weakened until the end
+                  of your turn.
+          - type: feature
+            feature_type: ability
+            name: Levity and Gravity
+            cost: 5 Clarity
+            flavor: You raise the target slightly into the air, then smother them against
+              the ground.
+            keywords:
+              - Psionic
+              - Ranged
+              - Strike
+              - Telekinesis
+            usage: Main action
+            distance: Ranged 10
+            target: One creature or object
+            effects:
               - roll: Power Roll + Reason
                 tier1: 6 + R damage; M < WEAK, prone
                 tier2: 10 + R damage; M < AVERAGE, prone
@@ -18485,19 +18622,21 @@ features:
                 tier2: 10 + R psychic damage; I < AVERAGE, weakened (save ends)
                 tier3: 14 + R psychic damage; I < STRONG, dazed (save ends)
               - name: Strained
-                effect: >-
-                  You start crying, and you can't use triggered actions or make free
+                effect: You start crying, and you can't use triggered actions or make free
                   strikes until the end of the target's next turn.
-    
-                  ###### Synaptic Override (5 Clarity)
-    
-                  *You control an enemy's nervous system. How pleasant for them.*
-    
-                  | **Psionic, Ranged, Telepathy** |  **Main action** |
-    
-                  | ------------------------------ | ---------------: |
-    
-                  | **📏 Ranged 10**               | **🎯 One enemy** |
+          - type: feature
+            feature_type: ability
+            name: Synaptic Override
+            cost: 5 Clarity
+            flavor: You control an enemy's nervous system. How pleasant for them.
+            keywords:
+              - Psionic
+              - Ranged
+              - Telepathy
+            usage: Main action
+            distance: Ranged 10
+            target: One enemy
+            effects:
               - roll: Power Roll + Reason
                 tier1: The target makes a free strike against one enemy of your choice.
                 tier2: The target shifts up to their speed and uses their signature ability
@@ -18603,24 +18742,23 @@ features:
                 tier2: 3 burst
                 tier3: 4 burst
               - name: Strained
-                effect: >-
-                  You can choose to reduce the size of the burst by 2 (to a minimum
-                  of 1 burst) to give the forced movement distance a +2 bonus. You
-                  take half the total damage all targets take from forced movement.
-    
-                  ###### Gravitic Nova (11 Clarity)
-    
-                  *Unbridled psionic energy erupts from your body and flashes
-                  outward, hurling your foes back.*
-    
-                  | **Area, Psionic, Telekinesis** |                          **Main
-                  action** |
-    
-                  | ------------------------------ |
-                  ---------------------------------------: |
-    
-                  | **📏 3 burst**                 | **🎯 Each enemy and object in
-                  the area** |
+                effect: You can choose to reduce the size of the burst by 2 (to a minimum of 1
+                  burst) to give the forced movement distance a +2 bonus. You take
+                  half the total damage all targets take from forced movement.
+          - type: feature
+            feature_type: ability
+            name: Gravitic Nova
+            cost: 11 Clarity
+            flavor: Unbridled psionic energy erupts from your body and flashes outward,
+              hurling your foes back.
+            keywords:
+              - Area
+              - Psionic
+              - Telekinesis
+            usage: Main action
+            distance: 3 burst
+            target: Each enemy and object in the area
+            effects:
               - roll: Power Roll + Reason
                 tier1: 6 damage; push 7
                 tier2: 9 damage; push 10
@@ -18673,17 +18811,23 @@ features:
                   turn.
               - name: Strained
                 effect: Make a power roll that targets you and each enemy within distance.
-              - effect: |-
-                  ###### Borrow From the Future (11 Clarity)
-    
-                  *You lean on future heroism to assist you in the now.*
-                  | **Area, Chronopathy, Psionic** |                 **Maneuver** |
-                  | ------------------------------ | ---------------------------: |
-                  | **📏 2 burst**                 | **🎯 Each ally in the area** |
-                roll: Power Roll + Presence
+              - roll: Power Roll + Presence
                 tier1: 4 corruption damage; slowed (save ends)
                 tier2: 6 corruption damage; slowed (save ends)
                 tier3: 10 corruption damage; slowed (save ends)
+          - type: feature
+            feature_type: ability
+            name: Borrow From the Future
+            cost: 11 Clarity
+            flavor: You lean on future heroism to assist you in the now.
+            keywords:
+              - Area
+              - Chronopathy
+              - Psionic
+            usage: Maneuver
+            distance: 2 burst
+            target: Each ally in the area
+            effects:
               - name: Effect
                 effect: The targets share 6 of their Heroic Resource among themselves, as you
                   determine. A target can't gain more than 3 of their Heroic
@@ -18733,24 +18877,23 @@ features:
               - name: Effect
                 effect: This ability ignores cover and concealment.
               - name: Strained
-                effect: >-
-                  The ability roll scores a critical hit on a natural 17 or higher.
-                  You take half the damage the target takes, and you can't reduce
-                  this damage in any way.
-    
-                  ###### Synaptic Terror (11 Clarity)
-    
-                  *You project a terrifying image into the brains of your foes, and
-                  their fear psionically invigorates your allies.*
-    
-                  | **Area, Psionic, Telepathy** |                        **Main
-                  action** |
-    
-                  | ---------------------------- |
-                  -------------------------------------: |
-    
-                  | **📏 3 burst**               | **🎯 Each ally and enemy in the
-                  area** |
+                effect: The ability roll scores a critical hit on a natural 17 or higher. You
+                  take half the damage the target takes, and you can't reduce this
+                  damage in any way.
+          - type: feature
+            feature_type: ability
+            name: Synaptic Terror
+            cost: 11 Clarity
+            flavor: You project a terrifying image into the brains of your foes, and their
+              fear psionically invigorates your allies.
+            keywords:
+              - Area
+              - Psionic
+              - Telepathy
+            usage: Main action
+            distance: 3 burst
+            target: Each ally and enemy in the area
+            effects:
               - name: Effect
                 effect: You and each target ally can't obtain lower than a tier 2 outcome on
                   power rolls until the start of your next turn. Each target enemy
