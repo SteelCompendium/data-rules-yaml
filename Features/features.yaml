@@ -9,13 +9,13 @@ features:
       file_basename: Essence Outside of Combat
       file_dpath: Elementalist/1st-Level Features
       item_id: essence-outside-of-combat
-      item_index: "21"
+      item_index: "22"
       item_name: Essence Outside of Combat
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:essence-outside-of-combat
       scdc:
-        - 1.1.1:11.1.9.1:21
+        - 1.1.1:11.1.9.1:22
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/1st-level-feature
     effects:
@@ -65,13 +65,13 @@ features:
       file_basename: Hurl Element
       file_dpath: Elementalist/1st-Level Features
       item_id: hurl-element
-      item_index: "20"
+      item_index: "21"
       item_name: Hurl Element
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:hurl-element
       scdc:
-        - 1.1.1:11.1.9.1:20
+        - 1.1.1:11.1.9.1:21
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/1st-level-feature
     effects:
@@ -179,6 +179,118 @@ features:
                   teleport 1 additional square for each essence spent.
   - type: feature
     feature_type: trait
+    name: Specialization Triggered Action
+    metadata:
+      action_type: feature
+      class: elementalist
+      feature_type: trait
+      file_basename: Specialization Triggered Action
+      file_dpath: Features/Elementalist/1st-Level Features
+      item_id: specialization-triggered-action
+      item_index: "19"
+      item_name: Specialization Triggered Action
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:specialization-triggered-action
+      scdc:
+        - 1.1.1:11.1.9.1:19
+      source: mcdm.heroes.v1
+      type: feature/trait/elementalist/1st-level-feature
+    effects:
+      - effect: >-
+          Your elemental specialization grants you a triggered action, as shown on
+          the Specialization Triggered Actions table.
+    
+    
+          ###### Elemental Specialization Triggered Actions Table
+    
+          | Specialization | Triggered Action          |
+    
+          | -------------- | ------------------------- |
+    
+          | Earth          | Skin Like Castle Walls    |
+    
+          | Fire           | Explosive Assistance      |
+    
+          | Green          | Breath of Dawn Remembered |
+    
+          | Void           | Subtle Relocation         |
+        features:
+          - type: feature
+            feature_type: ability
+            name: Breath of Dawn Remembered
+            flavor: The power you channel grants the ability to get back in the fight.
+            keywords:
+              - Green
+              - Magic
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: Self or one ally
+            trigger: The target starts their turn or takes damage.
+            effects:
+              - name: Effect
+                effect: The target can spend a Recovery.
+              - cost: Spend 1+ Essence
+                effect: The target can spend an additional Recovery for each essence spent.
+          - type: feature
+            feature_type: ability
+            name: Explosive Assistance
+            flavor: You add a little magic to an ally's aggression at just the right time.
+            keywords:
+              - Fire
+              - Magic
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: Self or one ally
+            trigger: The target force moves a creature or object.
+            effects:
+              - name: Effect
+                effect: The forced movement distance gains a bonus equal to your Reason score.
+              - cost: Spend 1 Essence
+                effect: The forced movement distance gains a bonus equal to twice your Reason
+                  score instead.
+          - type: feature
+            feature_type: ability
+            name: Skin Like Castle Walls
+            flavor: You cover yourself or an ally in protective stone.
+            keywords:
+              - Earth
+              - Magic
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: Self or one ally
+            trigger: The target takes damage.
+            effects:
+              - name: Effect
+                effect: The target takes half the damage.
+              - cost: Spend 1 Essence
+                effect: If the damage has any potency effects associated with it, the potency is
+                  reduced by 1 for the target.
+          - type: feature
+            feature_type: ability
+            name: Subtle Relocation
+            flavor: You call on the void to swallow and spit out an ally.
+            keywords:
+              - Magic
+              - Ranged
+              - Void
+            usage: Triggered
+            distance: Ranged 10
+            target: Self or one ally
+            trigger: The target starts their turn, moves, or is force moved.
+            effects:
+              - name: Effect
+                effect: You teleport the target up to a number of squares equal to your Reason
+                  score. If the target moves to trigger this ability, you can
+                  teleport them at any point during the move.
+              - cost: Spend 1 Essence
+                effect: You teleport the target up to a number of squares equal to twice your
+                  Reason score instead.
+  - type: feature
+    feature_type: trait
     name: Ward of Excellent Protection
     metadata:
       action_type: feature
@@ -282,13 +394,13 @@ features:
       file_basename: Enchantment of Distance
       file_dpath: Elementalist/1st-Level Features
       item_id: enchantment-of-distance
-      item_index: "23"
+      item_index: "24"
       item_name: Enchantment of Distance
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:enchantment-of-distance
       scdc:
-        - 1.1.1:11.1.9.1:23
+        - 1.1.1:11.1.9.1:24
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/1st-level-feature
     effects:
@@ -303,13 +415,13 @@ features:
       file_basename: Motivate Earth
       file_dpath: Elementalist/1st-Level Features
       item_id: motivate-earth
-      item_index: "19"
+      item_index: "20"
       item_name: Motivate Earth
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:motivate-earth
       scdc:
-        - 1.1.1:11.1.9.1:19
+        - 1.1.1:11.1.9.1:20
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/1st-level-feature
     effects:
@@ -836,13 +948,13 @@ features:
       file_basename: Earth Acolyte of Earth
       file_dpath: Elementalist/1st-Level Features
       item_id: earth-acolyte-of-earth
-      item_index: "22"
+      item_index: "23"
       item_name: "Earth: Acolyte of Earth"
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.1st-level-feature:earth-acolyte-of-earth
       scdc:
-        - 1.1.1:11.1.9.1:22
+        - 1.1.1:11.1.9.1:23
       source: mcdm.heroes.v1
       subclass: Earth
       type: feature/trait/elementalist/1st-level-feature
@@ -1698,13 +1810,13 @@ features:
       file_basename: New 5 Essence Ability
       file_dpath: Elementalist/2nd-Level Features
       item_id: new-5-essence-ability
-      item_index: "05"
+      item_index: "06"
       item_name: New 5-Essence Ability
       level: 2
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:new-5-essence-ability
       scdc:
-        - 1.1.1:11.1.9.6:05
+        - 1.1.1:11.1.9.6:06
       source: mcdm.heroes.v1
       type: feature/trait/elementalist/2nd-level-feature
     effects:
@@ -1863,6 +1975,55 @@ features:
                   to emerge from when entering a portal, and a creature who force
                   moves an enemy into a portal chooses that enemy's destination
                   portal.
+  - type: feature
+    feature_type: trait
+    name: Disciple of the Green
+    metadata:
+      action_type: feature
+      class: elementalist
+      feature_type: trait
+      file_basename: Disciple of the Green
+      file_dpath: Features/Elementalist/2nd-Level Features
+      item_id: disciple-of-the-green
+      item_index: "05"
+      item_name: Disciple of the Green
+      level: 2
+      scc:
+        - mcdm.heroes.v1:feature.trait.elementalist.2nd-level-feature:disciple-of-the-green
+      scdc:
+        - 1.1.1:11.1.9.6:05
+      source: mcdm.heroes.v1
+      type: feature/trait/elementalist/2nd-level-feature
+    effects:
+      - effect: |-
+          You can use a maneuver to shapeshift into a type of creature on the Green Animal Forms table. While in animal form, you can speak, and you use your Reason score to make melee free strikes. Your statistics stay the same except as noted on the table.
+    
+          Each form has a prerequisite level that you must attain before you can adopt it. Some animal forms grant you temporary Stamina. You lose this temporary Stamina when you revert back to your true form.
+          You choose a specific animal and appearance while in animal form. For example, if you become a rodent, you might become a mouse, a rat, a shrew, or any other size 1T animal who fits the rodent type. When you take on an animal form, your equipment either melds into your new form or falls undamaged to the ground (your choice). When you return to your true form, any melded gear reappears on your person.
+          You can revert back to your true form as a maneuver. You can't enter an animal form unless you are in your true form. When you are dying, you revert to your true form and can't turn back into an animal until you are no longer dying.
+          ###### Green Animal Forms Table
+          | Animal Type           | Level | Temporary Stamina | Speed         | Size | Stability Bonus | Melee Damage Bonus | Special                                                                                                                                                                                                                                                                               |
+          | --------------------- | ----- | ----------------- | ------------- | ---- | --------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+          | Canine                | 2nd   | 5                 | 7             | 1M   | +0              | +1/+1/+1           | You gain an edge on tests that involve smell.                                                                                                                                                                                                                                         |
+          | Fish                  | 2nd   | 0                 | 5 (swim only) | 1T   | +0              | +0/+0/+0           | You can breathe in water but can't breathe outside of it.                                                                                                                                                                                                                             |
+          | Rodent                | 2nd   | 0                 | 5 (climb)     | 1T   | +0              | +0/+0/+0           | You gain an edge on tests that involve smell.                                                                                                                                                                                                                                         |
+          | Bird                  | 3rd   | 0                 | 5 (fly)       | 1T   | +0              | +0/+0/+0           | -                                                                                                                                                                                                                                                                                     |
+          | Great cat             | 3rd   | 5                 | 6 (climb)     | 2    | +0              | +1/+1/+1           | As a maneuver, you can jump up to 3 squares in any direction. If you land on<br/> an enemy of your size or smaller, that enemy is knocked prone, and you can<br/> make a melee free strike against them (no action required).                                                         |
+          | Giant frog            | 4th   | 5                 | 5 (swim)      | 2    | +0              | +0/+0/+0           | Your melee free strike has a distance of melee 3. When you take the Advance<br/> move action, you can high jump or long jump up to half your speed. This<br/> jump can allow you to move more squares than your speed.                                                                |
+          | Horse                 | 4th   | 5                 | 8             | 2    | +1              | +0/+0/+0           | You can use the Charge main action as a maneuver. You can't use two Charge<br/> main actions on the same turn.                                                                                                                                                                        |
+          | Mohler                | 4th   | 0                 | 7 (burrow)    | 1S   | +1              | +0/+0/+0           | Your melee distance gains a +1 bonus.                                                                                                                                                                                                                                                 |
+          | Bear                  | 5th   | 10                | 5 (climb)     | 2    | +1              | +2/+2/+2           | Your melee distance gains a +1 bonus.                                                                                                                                                                                                                                                 |
+          | Giant bird            | 5th   | 0                 | 7 (fly)       | 2    | +0              | +1/+1/+1           | After making a melee free strike, you can shift up to 3 squares as a free<br/> triggered action.                                                                                                                                                                                      |
+          | Giant<br/> salamander | 6th   | 5                 | 5             | 1L   | +3              | +2/+2/+2           | Your melee free strike deals fire damage. Additionally, you have fire immunity<br/> 3.                                                                                                                                                                                                |
+          | Giant spider          | 6th   | 0                 | 5 (climb)     | 2    | +0              | +0/+1/+2           | You have a double edge on melee free strikes against creatures you are hidden<br/> from.                                                                                                                                                                                              |
+          | Giant snake           | 7th   | 5                 | 5             | 3    | +0              | +0/+1/+2           | Whenever you obtain a tier 2 or tier 3 outcome on a melee free strike, you<br/> can automatically grab the target. While grabbed this way, the target takes 2<br/> damage at the start of each of their turns.                                                                        |
+          | Kangaroo              | 7th   | 0                 | 7             | 1L   | +1              | +0/+0/+4           | When you score a critical hit with a melee free strike, the target is dazed (save<br/> ends). When you take the Advance move action, you can high jump or long<br/> jump up to half your speed. This jump can allow you to move more squares<br/> than your speed.                    |
+          | Spiny armadillo       | 7th   | 10                | 5             | 1M   | +2              | +0/+0/+0           | Whenever you take damage from an adjacent creature's melee ability, that<br/> creature takes 3 damage.                                                                                                                                                                                |
+          | Ostrich               | 8th   | 0                 | 10            | 2    | +0              | +1/+1/+1           | Your movement does not provoke opportunity attacks.                                                                                                                                                                                                                                   |
+          | Shark                 | 8th   | 0                 | 8 (swim only) | 2    | +0              | +2/+2/+2           | You can breathe in water but can't breathe outside of it. Additionally, you gain<br/> an edge on strikes against targets who are bleeding or winded.                                                                                                                                  |
+          | Giant octopus         | 9th   | 5                 | 5 (swim)      | 3    | +2              | +0/+0/+0           | You can breathe in water. Additionally, you can target two creatures or objects<br/> with your melee free strike. Whenever you obtain a tier 2 or tier 3 outcome on<br/> a melee free strike, you can automatically grab the target. You can have up to<br/> eight creatures grabbed. |
+          | Rhinoceros            | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a melee free strike as part of the Charge action, that<br/> strike gains an edge.                                                                                                                                                                                   |
+          | King terror lizard    | 10th  | 20                | 5             | 4    | +3              | +2/+2/+2           | Your melee free strike is a 1 burst with the Area and Strike keywords.                                                                                                                                                                                                                |
   - type: feature
     feature_type: trait
     name: Perk
@@ -2275,6 +2436,66 @@ features:
       - effect: Each of your characteristic scores increases by 1, to a maximum of 4.
   - type: feature
     feature_type: trait
+    name: Mantle of Essence
+    metadata:
+      action_type: feature
+      class: elementalist
+      feature_type: trait
+      file_basename: Mantle of Essence
+      file_dpath: Features/Elementalist/4th-Level Features
+      item_id: mantle-of-essence
+      item_index: 8
+      item_name: Mantle of Essence
+      level: 4
+      scc:
+        - mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:mantle-of-essence
+      scdc:
+        - 1.1.1:11.1.9.10:08
+      source: mcdm.heroes.v1
+      type: feature/trait/elementalist/4th-level-feature
+    effects:
+      - effect: >-
+          While you have 3 or more essence and are not dying, you exude an aura of
+          magic whose distance is equal to your Reason score. The effects within the
+          area of the aura are based on your specialization, as shown on the Mantle
+          of Essence Specialization Effects table. You can activate and deactivate
+          the aura at will (no action required).
+    
+    
+          ###### Mantle of Essence Specialization Effects Table
+    
+          | Specialization | Feature         |
+    
+          | -------------- | --------------- |
+    
+          | Earth          | Quaking Earth   |
+    
+          | Fire           | Burning Grounds |
+    
+          | Green          | Flowering Bed   |
+    
+          | Void           | Veiling Bed     |
+    
+          ##### Burning Grounds
+    
+          At the end of each of your turns, each enemy in the area takes fire damage
+          equal to your Reason score.
+    
+          ##### Flowering Bed
+    
+          At the end of each of your turns, each ally in the area gains temporary
+          Stamina equal to your Reason score.
+    
+          ##### Quaking Earth
+    
+          At the end of each of your turns, you can push each enemy in the area up
+          to a number of squares equal to your Reason score.
+    
+          ##### Veiling Bed
+    
+          The area provides concealment for you and your allies.
+  - type: feature
+    feature_type: trait
     name: Burning Grounds
     metadata:
       action_type: feature
@@ -2327,13 +2548,13 @@ features:
       file_basename: Veiling Bed
       file_dpath: Elementalist/4th-Level Features
       item_id: veiling-bed
-      item_index: 8
+      item_index: 9
       item_name: Veiling Bed
       level: 4
       scc:
         - mcdm.heroes.v1:feature.trait.elementalist.4th-level-feature:veiling-bed
       scdc:
-        - 1.1.1:11.1.9.10:08
+        - 1.1.1:11.1.9.10:09
       source: mcdm.heroes.v1
       subclass: Void
       type: feature/trait/elementalist/4th-level-feature
@@ -3170,8 +3391,8 @@ features:
           Navigate skills.
       - name: Foggy
         effect: You and your allies gain an edge on tests that use the Hide skill.
-          **Overcast:** You and your allies gain an edge on tests that use the
-          Endurance skill.
+      - name: Overcast
+        effect: You and your allies gain an edge on tests that use the Endurance skill.
       - name: Precipitation
         effect: >-
           When the ground is muddy or snowy, you and your allies gain an edge on
@@ -9635,13 +9856,13 @@ features:
       file_basename: Ferocity in Combat
       file_dpath: Fury/1st-Level Features
       item_id: ferocity-in-combat
-      item_index: "11"
+      item_index: "12"
       item_name: Ferocity in Combat
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.fury.1st-level-feature:ferocity-in-combat
       scdc:
-        - 1.1.1:11.1.5.1:11
+        - 1.1.1:11.1.5.1:12
       source: mcdm.heroes.v1
       type: feature/trait/fury/1st-level-feature
     effects:
@@ -9685,6 +9906,98 @@ features:
           skill. (*Quick Build:* Berserker.)
       - effect: Your primordial aspect is your subclass, and your choice of aspect
           determines many of the features you'll gain as you gain new levels.
+  - type: feature
+    feature_type: trait
+    name: Aspect Triggered Action
+    metadata:
+      action_type: feature
+      class: fury
+      feature_type: trait
+      file_basename: Aspect Triggered Action
+      file_dpath: Features/Fury/1st-Level Features
+      item_id: aspect-triggered-action
+      item_index: "11"
+      item_name: Aspect Triggered Action
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.trait.fury.1st-level-feature:aspect-triggered-action
+      scdc:
+        - 1.1.1:11.1.5.1:11
+      source: mcdm.heroes.v1
+      type: feature/trait/fury/1st-level-feature
+    effects:
+      - effect: >-
+          Your primordial aspect grants you a triggered action, as shown on the
+          Aspect Triggered Actions table.
+    
+    
+          ###### Aspect Triggered Actions Table
+    
+          | Aspect     | Triggered Action   |
+    
+          | ---------- | ------------------ |
+    
+          | Berserker  | Lines of Force     |
+    
+          | Reaver     | Unearthly Reflexes |
+    
+          | Stormwight | Furious Change     |
+        features:
+          - type: feature
+            feature_type: ability
+            name: Furious Change
+            flavor: In your anger, you revert to a more bestial form.
+            keywords:
+              - "-"
+            usage: Triggered
+            distance: Self
+            target: Self
+            trigger: You lose Stamina and are not dying.
+            effects:
+              - name: Effect
+                effect: You gain temporary Stamina equal to your Might score and can enter your
+                  animal form or hybrid form.
+              - cost: Spend 1 Ferocity
+                effect: If you are not dying, you can spend a Recovery.
+          - type: feature
+            feature_type: ability
+            name: Lines of Force
+            flavor: You redirect the energy of motion.
+            keywords:
+              - Magic
+              - Melee
+            usage: Triggered
+            distance: Melee 1
+            target: Self or one creature
+            trigger: The target would be force moved.
+            effects:
+              - name: Effect
+                effect: You can select a new target of the same size or smaller within distance
+                  to be force moved instead. You become the source of the forced
+                  movement, determine the new target's destination, and can push the
+                  target instead of using the original forced movement type.
+                  Additionally, the forced movement distance gains a bonus equal to
+                  your Might score.
+              - cost: Spend 1 Ferocity
+                effect: The forced movement distance gains a bonus equal to twice your Might
+                  score instead.
+          - type: feature
+            feature_type: ability
+            name: Unearthly Reflexes
+            flavor: You are as elusive as a hummingbird.
+            keywords:
+              - "-"
+            usage: Triggered
+            distance: Self
+            target: Self
+            trigger: You take damage.
+            effects:
+              - name: Effect
+                effect: You take half the damage from the triggering effect and can shift up to
+                  a number of squares equal to your Agility score.
+              - cost: Spend 1 Ferocity
+                effect: If the damage has any potency effects associated with it, the potency is
+                  reduced by 1 for you.
   - type: feature
     feature_type: trait
     name: Beast Shape
@@ -11396,13 +11709,13 @@ features:
       file_basename: Strike Now
       file_dpath: Tactician/1st-Level Features
       item_id: strike-now
-      item_index: "03"
+      item_index: "04"
       item_name: Strike Now
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:strike-now
       scdc:
-        - 1.1.1:11.1.4.1:03
+        - 1.1.1:11.1.4.1:04
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11432,13 +11745,13 @@ features:
       file_basename: Kit Signature Ability
       file_dpath: Tactician/1st-Level Features
       item_id: kit-signature-ability
-      item_index: 8
+      item_index: 9
       item_name: Kit Signature Ability
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:kit-signature-ability
       scdc:
-        - 1.1.1:11.1.4.1:08
+        - 1.1.1:11.1.4.1:09
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11499,13 +11812,13 @@ features:
       file_basename: Field Arsenal
       file_dpath: Tactician/1st-Level Features
       item_id: field-arsenal
-      item_index: "06"
+      item_index: "07"
       item_name: Field Arsenal
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:field-arsenal
       scdc:
-        - 1.1.1:11.1.4.1:06
+        - 1.1.1:11.1.4.1:07
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11561,13 +11874,13 @@ features:
       file_basename: Studied Commander
       file_dpath: Tactician/1st-Level Features
       item_id: studied-commander
-      item_index: 9
+      item_index: "10"
       item_name: Studied Commander
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:studied-commander
       scdc:
-        - 1.1.1:11.1.4.1:09
+        - 1.1.1:11.1.4.1:10
       source: mcdm.heroes.v1
       subclass: Mastermind
       type: feature/trait/tactician/1st-level-feature
@@ -11608,13 +11921,13 @@ features:
       file_basename: Focus in Combat
       file_dpath: Tactician/1st-Level Features
       item_id: focus-in-combat
-      item_index: "07"
+      item_index: 8
       item_name: Focus in Combat
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:focus-in-combat
       scdc:
-        - 1.1.1:11.1.4.1:07
+        - 1.1.1:11.1.4.1:08
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11641,13 +11954,13 @@ features:
       file_basename: Tactical Doctrine
       file_dpath: Tactician/1st-Level Features
       item_id: tactical-doctrine
-      item_index: "04"
+      item_index: "05"
       item_name: Tactical Doctrine
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:tactical-doctrine
       scdc:
-        - 1.1.1:11.1.4.1:04
+        - 1.1.1:11.1.4.1:05
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11671,13 +11984,13 @@ features:
       file_basename: Commanding Presence
       file_dpath: Tactician/1st-Level Features
       item_id: commanding-presence
-      item_index: "10"
+      item_index: "11"
       item_name: Commanding Presence
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:commanding-presence
       scdc:
-        - 1.1.1:11.1.4.1:10
+        - 1.1.1:11.1.4.1:11
       source: mcdm.heroes.v1
       subclass: Vanguard
       type: feature/trait/tactician/1st-level-feature
@@ -11696,13 +12009,13 @@ features:
       file_basename: Mark
       file_dpath: Tactician/1st-Level Features
       item_id: mark
-      item_index: "05"
+      item_index: "06"
       item_name: Mark
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:mark
       scdc:
-        - 1.1.1:11.1.4.1:05
+        - 1.1.1:11.1.4.1:06
       source: mcdm.heroes.v1
       type: feature/trait/tactician/1st-level-feature
     effects:
@@ -11785,6 +12098,96 @@ features:
           At the Director's discretion, you and your allies can use skills from the
           intrigue skill group to attempt research or reconnaissance during a
           negotiation instead of outside of a negotiation.
+  - type: feature
+    feature_type: trait
+    name: Doctrine Triggered Action
+    metadata:
+      action_type: feature
+      class: tactician
+      feature_type: trait
+      file_basename: Doctrine Triggered Action
+      file_dpath: Features/Tactician/1st-Level Features
+      item_id: doctrine-triggered-action
+      item_index: "03"
+      item_name: Doctrine Triggered Action
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.trait.tactician.1st-level-feature:doctrine-triggered-action
+      scdc:
+        - 1.1.1:11.1.4.1:03
+      source: mcdm.heroes.v1
+      type: feature/trait/tactician/1st-level-feature
+    effects:
+      - effect: >-
+          Your tactical doctrine grants you a triggered action, as shown on the
+          Doctrine Triggered Actions table.
+    
+    
+          ###### Doctrine Triggered Actions Table
+    
+          | Doctrine   | Triggered Action |
+    
+          | ---------- | ---------------- |
+    
+          | Insurgent  | Advanced Tactics |
+    
+          | Mastermind | Overwatch        |
+    
+          | Vanguard   | Parry            |
+        features:
+          - type: feature
+            feature_type: ability
+            name: Advanced Tactics
+            flavor: Your leadership aids an ally.
+            keywords:
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: One ally
+            trigger: The target deals damage to another creature.
+            effects:
+              - name: Effect
+                effect: The target gains 2 surges, which they can use on the triggering damage.
+              - cost: Spend 1 Focus
+                effect: If the damage has any potency effect associated with it, the potency is
+                  increased by 1.
+          - type: feature
+            feature_type: ability
+            name: Overwatch
+            flavor: Under your direction, an ally waits for just the right moment to strike.
+            keywords:
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: One creature
+            trigger: The target moves.
+            effects:
+              - name: Effect
+                effect: At any time during the target's movement, one ally can make a free
+                  strike against them.
+              - cost: Spend 1 Focus
+                effect: If the target has R < AVERAGE, they are slowed (EoT).
+          - type: feature
+            feature_type: ability
+            name: Parry
+            flavor: Your quick reflexes cost an enemy the precision they seek.
+            keywords:
+              - Melee
+              - Weapon
+            usage: Triggered
+            distance: Melee 2
+            target: Self or one ally
+            trigger: A creature deals damage to the target.
+            effects:
+              - name: Effect
+                effect: You can shift 1 square. If the target is you, or if you end this shift
+                  adjacent to the target, the target takes half the damage. If the
+                  damage has any potency effect associated with it, the potency is
+                  decreased by 1.
+              - cost: Spend 1 Focus
+                effect: This ability's distance becomes Melee 1 + your Reason score, and you can
+                  shift up to a number of squares equal to your Reason score instead
+                  of 1 square.
   - type: feature
     feature_type: trait
     name: Bait and Ambush
@@ -13326,13 +13729,13 @@ features:
       file_basename: Troubadour Abilities
       file_dpath: Troubadour/1st-Level Features
       item_id: troubadour-abilities
-      item_index: "10"
+      item_index: "11"
       item_name: Troubadour Abilities
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:troubadour-abilities
       scdc:
-        - 1.1.1:11.1.3.1:10
+        - 1.1.1:11.1.3.1:11
       source: mcdm.heroes.v1
       type: feature/trait/troubadour/1st-level-feature
     effects:
@@ -13414,13 +13817,13 @@ features:
       file_basename: Dramatic Monologue
       file_dpath: Troubadour/1st-Level Features
       item_id: dramatic-monologue
-      item_index: "11"
+      item_index: "12"
       item_name: Dramatic Monologue
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:dramatic-monologue
       scdc:
-        - 1.1.1:11.1.3.1:11
+        - 1.1.1:11.1.3.1:12
       source: mcdm.heroes.v1
       subclass: Auteur
       type: feature/trait/troubadour/1st-level-feature
@@ -13578,13 +13981,13 @@ features:
       file_basename: Drama Outside of Combat
       file_dpath: Troubadour/1st-Level Features
       item_id: drama-outside-of-combat
-      item_index: "12"
+      item_index: "13"
       item_name: Drama Outside of Combat
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:drama-outside-of-combat
       scdc:
-        - 1.1.1:11.1.3.1:12
+        - 1.1.1:11.1.3.1:13
       source: mcdm.heroes.v1
       type: feature/trait/troubadour/1st-level-feature
     effects:
@@ -13640,13 +14043,13 @@ features:
       file_basename: Scene Partner
       file_dpath: Troubadour/1st-Level Features
       item_id: scene-partner
-      item_index: 9
+      item_index: "10"
       item_name: Scene Partner
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:scene-partner
       scdc:
-        - 1.1.1:11.1.3.1:09
+        - 1.1.1:11.1.3.1:10
       source: mcdm.heroes.v1
       type: feature/trait/troubadour/1st-level-feature
     effects:
@@ -13663,6 +14066,95 @@ features:
           You can have a number of bonds active equal to your level. When you form a
           bond with a new NPC that would exceed the limit, you must choose which of
           your active bonds to lose.
+  - type: feature
+    feature_type: trait
+    name: Class Act Triggered Action
+    metadata:
+      action_type: feature
+      class: troubadour
+      feature_type: trait
+      file_basename: Class Act Triggered Action
+      file_dpath: Features/Troubadour/1st-Level Features
+      item_id: class-act-triggered-action
+      item_index: 8
+      item_name: Class Act Triggered Action
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:class-act-triggered-action
+      scdc:
+        - 1.1.1:11.1.3.1:08
+      source: mcdm.heroes.v1
+      type: feature/trait/troubadour/1st-level-feature
+    effects:
+      - effect: >-
+          Your troubadour class act grants you a triggered action, as shown on the
+          Class Act Triggered Actions table.
+    
+    
+          ###### Class Act Triggered Action Table
+    
+          | Class Act | Triggered Action       |
+    
+          | --------- | ---------------------- |
+    
+          | Auteur    | Turnabout Is Fair Play |
+    
+          | Duelist   | Riposte                |
+    
+          | Virtuoso  | Harmonize              |
+        features:
+          - type: feature
+            feature_type: ability
+            name: Harmonize
+            cost: 3 Drama
+            flavor: Give the chorus a little punch.
+            keywords:
+              - Ranged
+            usage: Triggered
+            distance: Ranged 5
+            target: One ally
+            trigger: The target uses an ability that targets only one enemy and costs 3 or
+              fewer of their Heroic Resource.
+            effects:
+              - name: Effect
+                effect: The target can choose one additional target for the triggering ability.
+                  Any damage dealt to the additional target is sonic damage.
+              - cost: Spend 1+ Drama
+                effect: You can trigger this ability when a target uses an ability that has a
+                  Heroic Resource cost of 3 + each additional drama spent.
+          - type: feature
+            feature_type: ability
+            name: Riposte
+            flavor: "\"I'd have brought treats had I known I'd be fighting a dog.\""
+            keywords:
+              - Melee
+            usage: Triggered
+            distance: Melee 1
+            target: Self or one ally
+            trigger: The target takes damage from a melee strike.
+            effects:
+              - name: Effect
+                effect: The target makes a free strike against the creature who made the
+                  triggering strike.
+          - type: feature
+            feature_type: ability
+            name: Turnabout Is Fair Play
+            flavor: All's fair in love and whatever.
+            keywords:
+              - Ranged
+            usage: Triggered
+            distance: Ranged 10
+            target: One creature
+            trigger: The target makes an ability roll that has an edge, a double edge, a
+              bane, or a double bane.
+            effects:
+              - name: Effect
+                effect: An edge on the triggering roll becomes a bane, or a double edge becomes
+                  an edge. A bane becomes an edge, or a double bane becomes a bane.
+              - cost: Spend 3 Drama
+                effect: An edge on the triggering roll becomes a double bane, or a double edge
+                  is negated. A bane becomes a double edge, or a double bane is
+                  negated.
   - type: feature
     feature_type: trait
     name: Blocking
@@ -13716,13 +14208,13 @@ features:
       file_basename: Acrobatics
       file_dpath: Troubadour/1st-Level Features
       item_id: acrobatics
-      item_index: 8
+      item_index: 9
       item_name: Acrobatics
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:acrobatics
       scdc:
-        - 1.1.1:11.1.3.1:08
+        - 1.1.1:11.1.3.1:09
       source: mcdm.heroes.v1
       subclass: Duelist
       type: feature/trait/troubadour/1st-level-feature
@@ -13757,13 +14249,13 @@ features:
       file_basename: Star Power
       file_dpath: Troubadour/1st-Level Features
       item_id: star-power
-      item_index: "13"
+      item_index: "14"
       item_name: Star Power
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.troubadour.1st-level-feature:star-power
       scdc:
-        - 1.1.1:11.1.3.1:13
+        - 1.1.1:11.1.3.1:14
       source: mcdm.heroes.v1
       subclass: Duelist
       type: feature/trait/troubadour/1st-level-feature
@@ -15449,13 +15941,13 @@ features:
       file_basename: Kit
       file_dpath: Shadow/1st-Level Features
       item_id: kit
-      item_index: "04"
+      item_index: "05"
       item_name: Kit
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:kit
       scdc:
-        - 1.1.1:11.1.2.1:04
+        - 1.1.1:11.1.2.1:05
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15499,6 +15991,93 @@ features:
           You lose any remaining insight at the end of the encounter.
   - type: feature
     feature_type: trait
+    name: College Triggered Action
+    metadata:
+      action_type: feature
+      class: shadow
+      feature_type: trait
+      file_basename: College Triggered Action
+      file_dpath: Features/Shadow/1st-Level Features
+      item_id: college-triggered-action
+      item_index: "03"
+      item_name: College Triggered Action
+      level: 1
+      scc:
+        - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:college-triggered-action
+      scdc:
+        - 1.1.1:11.1.2.1:03
+      source: mcdm.heroes.v1
+      type: feature/trait/shadow/1st-level-feature
+    effects:
+      - effect: >-
+          Your shadow college grants you a triggered action, as shown on the College
+          Triggered Actions table.
+    
+    
+          ###### College Triggered Actions Table
+    
+          | College         | Triggered Action      |
+    
+          | --------------- | --------------------- |
+    
+          | Black Ash       | In All This Confusion |
+    
+          | Caustic Alchemy | Defensive Roll        |
+    
+          | Harlequin Mask  | Clever Trick          |
+        features:
+          - type: feature
+            feature_type: ability
+            name: Clever Trick
+            cost: 1 Insight
+            flavor: You sow a moment of confusion in combat, to your enemy's peril.
+            keywords:
+              - Magic
+            usage: Triggered
+            distance: Self
+            target: Self
+            trigger: An enemy targets you with a strike.
+            effects:
+              - name: Effect
+                effect: Choose an enemy within distance of the triggering strike, including the
+                  enemy who targeted you. The strike targets that enemy instead.
+          - type: feature
+            feature_type: ability
+            name: Defensive Roll
+            flavor: When an enemy attacks, you roll with the impact to reduce the harm.
+            keywords:
+              - "-"
+            usage: Triggered
+            distance: Self
+            target: Self
+            trigger: Another creature damages you.
+            effects:
+              - name: Effect
+                effect: You take half the triggering damage, then can shift up to 2 squares
+                  after the triggering effect resolves. If you end this shift with
+                  concealment or cover, you can use the Hide maneuver even if you
+                  are observed.
+              - cost: Spend 1 Insight
+                effect: The potency of any effects associated with the damage are reduced by 1
+                  for you.
+          - type: feature
+            feature_type: ability
+            name: In All This Confusion
+            flavor: You vanish in a plume of black smoke to avoid danger.
+            keywords:
+              - Magic
+            usage: Triggered
+            distance: Self
+            target: Self
+            trigger: You take damage.
+            effects:
+              - name: Effect
+                effect: You take half the damage, then can teleport up to 4 squares after the
+                  triggering effect resolves.
+              - cost: Spend 1+ Insight
+                effect: You teleport 1 additional square for each insight spent.
+  - type: feature
+    feature_type: trait
     name: Smoke Bomb
     metadata:
       action_type: feature
@@ -15507,13 +16086,13 @@ features:
       file_basename: Smoke Bomb
       file_dpath: Shadow/1st-Level Features
       item_id: smoke-bomb
-      item_index: "03"
+      item_index: "04"
       item_name: Smoke Bomb
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:smoke-bomb
       scdc:
-        - 1.1.1:11.1.2.1:03
+        - 1.1.1:11.1.2.1:04
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       type: feature/trait/shadow/1st-level-feature
@@ -15533,13 +16112,13 @@ features:
       file_basename: Shadow College
       file_dpath: Shadow/1st-Level Features
       item_id: shadow-college
-      item_index: "07"
+      item_index: 8
       item_name: Shadow College
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:shadow-college
       scdc:
-        - 1.1.1:11.1.2.1:07
+        - 1.1.1:11.1.2.1:08
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15581,13 +16160,13 @@ features:
       file_basename: Black Ash Teleport
       file_dpath: Shadow/1st-Level Features
       item_id: black-ash-teleport
-      item_index: "10"
+      item_index: "11"
       item_name: Black Ash Teleport
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:black-ash-teleport
       scdc:
-        - 1.1.1:11.1.2.1:10
+        - 1.1.1:11.1.2.1:11
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15620,13 +16199,13 @@ features:
       file_basename: Coat the Blade
       file_dpath: Shadow/1st-Level Features
       item_id: coat-the-blade
-      item_index: "06"
+      item_index: "07"
       item_name: Coat the Blade
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:coat-the-blade
       scdc:
-        - 1.1.1:11.1.2.1:06
+        - 1.1.1:11.1.2.1:07
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15657,13 +16236,13 @@ features:
       file_basename: Im No Threat
       file_dpath: Shadow/1st-Level Features
       item_id: im-no-threat
-      item_index: 9
+      item_index: "10"
       item_name: I'm No Threat
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:im-no-threat
       scdc:
-        - 1.1.1:11.1.2.1:09
+        - 1.1.1:11.1.2.1:10
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15710,13 +16289,13 @@ features:
       file_basename: Hesitation Is Weakness
       file_dpath: Shadow/1st-Level Features
       item_id: hesitation-is-weakness
-      item_index: 8
+      item_index: 9
       item_name: Hesitation Is Weakness
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:hesitation-is-weakness
       scdc:
-        - 1.1.1:11.1.2.1:08
+        - 1.1.1:11.1.2.1:09
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
@@ -15778,13 +16357,13 @@ features:
       file_basename: Signature Ability
       file_dpath: Shadow/1st-Level Features
       item_id: signature-ability
-      item_index: "05"
+      item_index: "06"
       item_name: Signature Ability
       level: 1
       scc:
         - mcdm.heroes.v1:feature.trait.shadow.1st-level-feature:signature-ability
       scdc:
-        - 1.1.1:11.1.2.1:05
+        - 1.1.1:11.1.2.1:06
       source: mcdm.heroes.v1
       type: feature/trait/shadow/1st-level-feature
     effects:
