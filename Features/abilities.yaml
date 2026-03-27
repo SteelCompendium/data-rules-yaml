@@ -12,7 +12,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:charge
       scdc:
-        - 1.1.1:16.1:03
+        - 1.1.1:15.1:03
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -41,7 +41,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:defend
       scdc:
-        - 1.1.1:16.1:01
+        - 1.1.1:15.1:01
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -64,7 +64,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:free-strike
       scdc:
-        - 1.1.1:16.1:04
+        - 1.1.1:15.1:04
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -89,7 +89,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:heal
       scdc:
-        - 1.1.1:16.1:02
+        - 1.1.1:15.1:02
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -111,7 +111,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:disengage
       scdc:
-        - 1.1.1:16.2:01
+        - 1.1.1:15.2:01
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -133,7 +133,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:ride
       scdc:
-        - 1.1.1:16.2:03
+        - 1.1.1:15.2:03
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -159,7 +159,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:advance
       scdc:
-        - 1.1.1:16.2:02
+        - 1.1.1:15.2:02
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -179,7 +179,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:use-consumable
       scdc:
-        - 1.1.1:16.3:07
+        - 1.1.1:15.3:07
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -201,7 +201,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:search-for-hidden-creatures
       scdc:
-        - 1.1.1:16.3:04
+        - 1.1.1:15.3:04
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -221,7 +221,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:grab
       scdc:
-        - 1.1.1:16.3:10
+        - 1.1.1:15.3:10
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -267,7 +267,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:escape-grab
       scdc:
-        - 1.1.1:16.3:08
+        - 1.1.1:15.3:08
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -308,7 +308,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test
       scdc:
-        - 1.1.1:16.3:01
+        - 1.1.1:15.3:01
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -337,7 +337,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:aid-attack
       scdc:
-        - 1.1.1:16.3:06
+        - 1.1.1:15.3:06
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -357,7 +357,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:stand-up
       scdc:
-        - 1.1.1:16.3:03
+        - 1.1.1:15.3:03
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -377,7 +377,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:hide
       scdc:
-        - 1.1.1:16.3:09
+        - 1.1.1:15.3:09
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -397,7 +397,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:catch-breath
       scdc:
-        - 1.1.1:16.3:02
+        - 1.1.1:15.3:02
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -424,7 +424,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:knockback
       scdc:
-        - 1.1.1:16.3:05
+        - 1.1.1:15.3:05
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -480,7 +480,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:breath-of-dawn-remembered
       scdc:
-        - 1.1.1:11.2.9.1:24
+        - 1.1.1:11.3.9.1:24
       source: mcdm.heroes.v1
       subclass: Green
       target: Self or one ally
@@ -521,7 +521,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:hurl-element
       scdc:
-        - 1.1.1:11.2.9.1:22
+        - 1.1.1:11.3.9.1:22
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/1st-level-feature
@@ -572,7 +572,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:invigorating-growth-3-essence
       scdc:
-        - 1.1.1:11.2.9.1:23
+        - 1.1.1:11.3.9.1:23
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/1st-level-feature
@@ -612,7 +612,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:practical-magic
       scdc:
-        - 1.1.1:11.2.9.1:10
+        - 1.1.1:11.3.9.1:10
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/elementalist/1st-level-feature
@@ -666,7 +666,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ray-of-agonizing-self-reflection
       scdc:
-        - 1.1.1:11.2.9.1:01
+        - 1.1.1:11.3.9.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/1st-level-feature
@@ -711,7 +711,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:test-of-rain-5-essence
       scdc:
-        - 1.1.1:11.2.9.1:15
+        - 1.1.1:11.3.9.1:15
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/1st-level-feature
@@ -757,7 +757,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-green-within-the-green-without
       scdc:
-        - 1.1.1:11.2.9.1:13
+        - 1.1.1:11.3.9.1:13
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/1st-level-feature
@@ -798,7 +798,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:motivate-earth
       scdc:
-        - 1.1.1:11.2.9.1:21
+        - 1.1.1:11.3.9.1:21
       source: mcdm.heroes.v1
       subclass: Earth
       target: Special
@@ -846,7 +846,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:return-to-formlessness
       scdc:
-        - 1.1.1:11.2.9.1:03
+        - 1.1.1:11.3.9.1:03
       source: mcdm.heroes.v1
       subclass: Fire
       target: One mundane object
@@ -889,7 +889,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:grasp-of-beyond
       scdc:
-        - 1.1.1:11.2.9.1:19
+        - 1.1.1:11.3.9.1:19
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/1st-level-feature
@@ -934,7 +934,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:no-more-than-a-breeze-5-essence
       scdc:
-        - 1.1.1:11.2.9.1:07
+        - 1.1.1:11.3.9.1:07
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/1st-level-feature
@@ -978,7 +978,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:subtle-relocation
       scdc:
-        - 1.1.1:11.2.9.1:02
+        - 1.1.1:11.3.9.1:02
       source: mcdm.heroes.v1
       subclass: Void
       target: Self or one ally
@@ -1024,7 +1024,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:viscous-fire
       scdc:
-        - 1.1.1:11.2.9.1:11
+        - 1.1.1:11.3.9.1:11
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/1st-level-feature
@@ -1064,7 +1064,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:skin-like-castle-walls
       scdc:
-        - 1.1.1:11.2.9.1:14
+        - 1.1.1:11.3.9.1:14
       source: mcdm.heroes.v1
       subclass: Earth
       target: Self or one ally
@@ -1105,7 +1105,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:shared-void-sense
       scdc:
-        - 1.1.1:11.2.9.1:12
+        - 1.1.1:11.3.9.1:12
       source: mcdm.heroes.v1
       subclass: Void
       target: Special
@@ -1151,7 +1151,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:the-flesh-a-crucible-3-essence
       scdc:
-        - 1.1.1:11.2.9.1:16
+        - 1.1.1:11.3.9.1:16
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/1st-level-feature
@@ -1197,7 +1197,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:ripples-in-the-earth-3-essence
       scdc:
-        - 1.1.1:11.2.9.1:08
+        - 1.1.1:11.3.9.1:08
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/1st-level-feature
@@ -1244,7 +1244,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:explosive-assistance
       scdc:
-        - 1.1.1:11.2.9.1:06
+        - 1.1.1:11.3.9.1:06
       source: mcdm.heroes.v1
       subclass: Fire
       target: Self or one ally
@@ -1288,7 +1288,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:meteoric-introduction
       scdc:
-        - 1.1.1:11.2.9.1:05
+        - 1.1.1:11.3.9.1:05
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/1st-level-feature
@@ -1331,7 +1331,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:instantaneous-excavation-5-essence
       scdc:
-        - 1.1.1:11.2.9.1:20
+        - 1.1.1:11.3.9.1:20
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/1st-level-feature
@@ -1385,7 +1385,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:bifurcated-incineration
       scdc:
-        - 1.1.1:11.2.9.1:04
+        - 1.1.1:11.3.9.1:04
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: feature/ability/elementalist/1st-level-feature
@@ -1430,7 +1430,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:behold-the-mystery-3-essence
       scdc:
-        - 1.1.1:11.2.9.1:17
+        - 1.1.1:11.3.9.1:17
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/1st-level-feature
@@ -1477,7 +1477,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:afflict-a-bountiful-decay
       scdc:
-        - 1.1.1:11.2.9.1:09
+        - 1.1.1:11.3.9.1:09
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/1st-level-feature
@@ -1525,7 +1525,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:unquiet-ground
       scdc:
-        - 1.1.1:11.2.9.1:18
+        - 1.1.1:11.3.9.1:18
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/1st-level-feature
@@ -1572,7 +1572,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.1st-level-feature:conflagration-5-essence
       scdc:
-        - 1.1.1:11.2.9.1:25
+        - 1.1.1:11.3.9.1:25
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/1st-level-feature
@@ -1620,7 +1620,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:muse-of-fire-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:01
+        - 1.1.1:11.3.9.2:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/8th-level-feature
@@ -1666,7 +1666,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:world-torn-asunder-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:06
+        - 1.1.1:11.3.9.2:06
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/8th-level-feature
@@ -1716,7 +1716,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:return-to-oblivion-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:07
+        - 1.1.1:11.3.9.2:07
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/8th-level-feature
@@ -1764,7 +1764,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:heart-of-the-wode-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:02
+        - 1.1.1:11.3.9.2:02
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/8th-level-feature
@@ -1816,7 +1816,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:the-green-defends-its-servants-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:08
+        - 1.1.1:11.3.9.2:08
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/8th-level-feature
@@ -1860,7 +1860,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:summon-source-of-earth
       scdc:
-        - 1.1.1:11.2.9.2:04
+        - 1.1.1:11.3.9.2:04
       source: mcdm.heroes.v1
       subclass: Earth
       target: Special
@@ -1972,7 +1972,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:earth-rejects-you-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:03
+        - 1.1.1:11.3.9.2:03
       source: mcdm.heroes.v1
       target: Each enemy and object in the area
       type: feature/ability/elementalist/8th-level-feature
@@ -2020,7 +2020,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:unquenchable-fire-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:09
+        - 1.1.1:11.3.9.2:09
       source: mcdm.heroes.v1
       target: One enemy or object
       type: feature/ability/elementalist/8th-level-feature
@@ -2063,7 +2063,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.8th-level-feature:prism-11-essence
       scdc:
-        - 1.1.1:11.2.9.2:05
+        - 1.1.1:11.3.9.2:05
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/elementalist/8th-level-feature
@@ -2112,7 +2112,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:meteor-9-essence
       scdc:
-        - 1.1.1:11.2.9.3:01
+        - 1.1.1:11.3.9.3:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/6th-level-feature
@@ -2165,7 +2165,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:magma-titan-9-essence
       scdc:
-        - 1.1.1:11.2.9.3:02
+        - 1.1.1:11.3.9.3:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/6th-level-feature
@@ -2230,7 +2230,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:luminous-champion-aloft-9-essence
       scdc:
-        - 1.1.1:11.2.9.3:04
+        - 1.1.1:11.3.9.3:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/6th-level-feature
@@ -2280,7 +2280,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.6th-level-feature:the-wode-remembers-and-returns-9-essence
       scdc:
-        - 1.1.1:11.2.9.3:03
+        - 1.1.1:11.3.9.3:03
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/6th-level-feature
@@ -2329,7 +2329,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:subverted-perception-of-space-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:03
+        - 1.1.1:11.3.9.4:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/5th-level-feature
@@ -2376,7 +2376,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:muse-of-fire-11-essence
       scdc:
-        - 1.1.1:11.2.9.4:02
+        - 1.1.1:11.3.9.4:02
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/5th-level-feature
@@ -2428,7 +2428,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:meteor-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:01
+        - 1.1.1:11.3.9.4:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/5th-level-feature
@@ -2477,7 +2477,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:world-torn-asunder-11-essence
       scdc:
-        - 1.1.1:11.2.9.4:11
+        - 1.1.1:11.3.9.4:11
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/5th-level-feature
@@ -2527,7 +2527,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:return-to-oblivion-11-essence
       scdc:
-        - 1.1.1:11.2.9.4:12
+        - 1.1.1:11.3.9.4:12
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/5th-level-feature
@@ -2575,7 +2575,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:combustion-deferred-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:05
+        - 1.1.1:11.3.9.4:05
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/elementalist/5th-level-feature
@@ -2624,7 +2624,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:storm-of-sands-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:07
+        - 1.1.1:11.3.9.4:07
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/5th-level-feature
@@ -2677,7 +2677,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:heart-of-the-wode-11-essence
       scdc:
-        - 1.1.1:11.2.9.4:09
+        - 1.1.1:11.3.9.4:09
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/5th-level-feature
@@ -2725,7 +2725,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:summon-source-of-earth
       scdc:
-        - 1.1.1:11.2.9.4:10
+        - 1.1.1:11.3.9.4:10
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/5th-level-feature
@@ -2838,7 +2838,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:magma-titan-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:04
+        - 1.1.1:11.3.9.4:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/5th-level-feature
@@ -2903,7 +2903,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:luminous-champion-aloft-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:08
+        - 1.1.1:11.3.9.4:08
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/5th-level-feature
@@ -2953,7 +2953,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:web-of-all-thats-come-before-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:13
+        - 1.1.1:11.3.9.4:13
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/5th-level-feature
@@ -3005,7 +3005,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.5th-level-feature:the-wode-remembers-and-returns-9-essence
       scdc:
-        - 1.1.1:11.2.9.4:06
+        - 1.1.1:11.3.9.4:06
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/5th-level-feature
@@ -3056,7 +3056,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:volcanos-embrace-5-essence
       scdc:
-        - 1.1.1:11.2.9.5:05
+        - 1.1.1:11.3.9.5:05
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/2nd-level-feature
@@ -3105,7 +3105,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:subvert-the-green-within-5-essence
       scdc:
-        - 1.1.1:11.2.9.5:02
+        - 1.1.1:11.3.9.5:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/elementalist/2nd-level-feature
@@ -3148,7 +3148,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:there-is-no-space-between
       scdc:
-        - 1.1.1:11.2.9.5:04
+        - 1.1.1:11.3.9.5:04
       source: mcdm.heroes.v1
       subclass: Void
       target: Special
@@ -3206,7 +3206,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:translated-through-flame-5-essence
       scdc:
-        - 1.1.1:11.2.9.5:03
+        - 1.1.1:11.3.9.5:03
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/2nd-level-feature
@@ -3257,7 +3257,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.2nd-level-feature:o-flower-aid-o-earth-defend-5-essence
       scdc:
-        - 1.1.1:11.2.9.5:01
+        - 1.1.1:11.3.9.5:01
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/2nd-level-feature
@@ -3313,7 +3313,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:erase-7-essence
       scdc:
-        - 1.1.1:11.2.9.6:06
+        - 1.1.1:11.3.9.6:06
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/3rd-level-feature
@@ -3368,7 +3368,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:wall-of-fire-7-essence
       scdc:
-        - 1.1.1:11.2.9.6:02
+        - 1.1.1:11.3.9.6:02
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/3rd-level-feature
@@ -3410,7 +3410,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:earth-accepts-me
       scdc:
-        - 1.1.1:11.2.9.6:05
+        - 1.1.1:11.3.9.6:05
       source: mcdm.heroes.v1
       subclass: Earth
       target: Self
@@ -3460,7 +3460,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:swarm-of-spirits-7-essence
       scdc:
-        - 1.1.1:11.2.9.6:04
+        - 1.1.1:11.3.9.6:04
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/3rd-level-feature
@@ -3512,7 +3512,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:maw-of-earth-7-essence
       scdc:
-        - 1.1.1:11.2.9.6:03
+        - 1.1.1:11.3.9.6:03
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/3rd-level-feature
@@ -3553,7 +3553,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.3rd-level-feature:remember-growth-and-sun-and-rain
       scdc:
-        - 1.1.1:11.2.9.6:01
+        - 1.1.1:11.3.9.6:01
       source: mcdm.heroes.v1
       subclass: Green
       target: One mundane wooden object
@@ -3597,7 +3597,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:the-green-defends-its-servants-11-essence
       scdc:
-        - 1.1.1:11.2.9.7:03
+        - 1.1.1:11.3.9.7:03
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/elementalist/9th-level-feature
@@ -3647,7 +3647,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:earth-rejects-you-11-essence
       scdc:
-        - 1.1.1:11.2.9.7:01
+        - 1.1.1:11.3.9.7:01
       source: mcdm.heroes.v1
       target: Each enemy and object in the area
       type: feature/ability/elementalist/9th-level-feature
@@ -3695,7 +3695,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:unquenchable-fire-11-essence
       scdc:
-        - 1.1.1:11.2.9.7:04
+        - 1.1.1:11.3.9.7:04
       source: mcdm.heroes.v1
       target: One enemy or object
       type: feature/ability/elementalist/9th-level-feature
@@ -3738,7 +3738,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.9th-level-feature:prism-11-essence
       scdc:
-        - 1.1.1:11.2.9.7:02
+        - 1.1.1:11.3.9.7:02
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/elementalist/9th-level-feature
@@ -3783,7 +3783,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:muse-of-fire-11-essence
       scdc:
-        - 1.1.1:11.2.9.8:01
+        - 1.1.1:11.3.9.8:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/4th-level-feature
@@ -3829,7 +3829,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:world-torn-asunder-11-essence
       scdc:
-        - 1.1.1:11.2.9.8:04
+        - 1.1.1:11.3.9.8:04
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/elementalist/4th-level-feature
@@ -3879,7 +3879,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:return-to-oblivion-11-essence
       scdc:
-        - 1.1.1:11.2.9.8:05
+        - 1.1.1:11.3.9.8:05
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/4th-level-feature
@@ -3927,7 +3927,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:heart-of-the-wode-11-essence
       scdc:
-        - 1.1.1:11.2.9.8:02
+        - 1.1.1:11.3.9.8:02
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/4th-level-feature
@@ -3975,7 +3975,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.elementalist.4th-level-feature:summon-source-of-earth
       scdc:
-        - 1.1.1:11.2.9.8:03
+        - 1.1.1:11.3.9.8:03
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/elementalist/4th-level-feature
@@ -4081,7 +4081,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:staggering-curse
       scdc:
-        - 1.1.1:11.2.8.1:11
+        - 1.1.1:11.3.8.1:11
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4119,7 +4119,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-guidance
       scdc:
-        - 1.1.1:11.2.8.1:14
+        - 1.1.1:11.3.8.1:14
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/conduit/1st-level-feature
@@ -4159,7 +4159,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:ray-of-wrath
       scdc:
-        - 1.1.1:11.2.8.1:22
+        - 1.1.1:11.3.8.1:22
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4203,7 +4203,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:blessed-light
       scdc:
-        - 1.1.1:11.2.8.1:09
+        - 1.1.1:11.3.8.1:09
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4249,7 +4249,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:call-the-thunder-down-3-piety
       scdc:
-        - 1.1.1:11.2.8.1:08
+        - 1.1.1:11.3.8.1:08
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/1st-level-feature
@@ -4289,7 +4289,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:healing-grace
       scdc:
-        - 1.1.1:11.2.8.1:12
+        - 1.1.1:11.3.8.1:12
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/1st-level-feature
@@ -4336,7 +4336,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faithful-friend
       scdc:
-        - 1.1.1:11.2.8.1:02
+        - 1.1.1:11.3.8.1:02
       source: mcdm.heroes.v1
       subclass: Nature
       target: Self
@@ -4377,7 +4377,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:grave-speech
       scdc:
-        - 1.1.1:11.2.8.1:19
+        - 1.1.1:11.3.8.1:19
       source: mcdm.heroes.v1
       subclass: Death
       target: One dead creature
@@ -4417,7 +4417,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:hands-of-the-maker
       scdc:
-        - 1.1.1:11.2.8.1:15
+        - 1.1.1:11.3.8.1:15
       source: mcdm.heroes.v1
       subclass: Creation
       target: Self
@@ -4459,7 +4459,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:wither
       scdc:
-        - 1.1.1:11.2.8.1:10
+        - 1.1.1:11.3.8.1:10
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4503,7 +4503,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:faith-is-our-armor-5-piety
       scdc:
-        - 1.1.1:11.2.8.1:03
+        - 1.1.1:11.3.8.1:03
       source: mcdm.heroes.v1
       target: Four allies
       type: feature/ability/conduit/1st-level-feature
@@ -4548,7 +4548,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:curse-of-terror-5-piety
       scdc:
-        - 1.1.1:11.2.8.1:07
+        - 1.1.1:11.3.8.1:07
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/1st-level-feature
@@ -4588,7 +4588,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sacrificial-offer
       scdc:
-        - 1.1.1:11.2.8.1:05
+        - 1.1.1:11.3.8.1:05
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/1st-level-feature
@@ -4635,7 +4635,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:judgments-hammer-3-piety
       scdc:
-        - 1.1.1:11.2.8.1:17
+        - 1.1.1:11.3.8.1:17
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4673,7 +4673,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:lightfall
       scdc:
-        - 1.1.1:11.2.8.1:06
+        - 1.1.1:11.3.8.1:06
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/1st-level-feature
@@ -4718,7 +4718,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:warriors-prayer
       scdc:
-        - 1.1.1:11.2.8.1:13
+        - 1.1.1:11.3.8.1:13
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/1st-level-feature
@@ -4765,7 +4765,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:violence-will-not-aid-thee-3-piety
       scdc:
-        - 1.1.1:11.2.8.1:21
+        - 1.1.1:11.3.8.1:21
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/1st-level-feature
@@ -4810,7 +4810,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:sermon-of-grace-5-piety
       scdc:
-        - 1.1.1:11.2.8.1:23
+        - 1.1.1:11.3.8.1:23
       source: mcdm.heroes.v1
       target: Each ally in the area
       type: feature/ability/conduit/1st-level-feature
@@ -4853,7 +4853,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:font-of-wrath-3-piety
       scdc:
-        - 1.1.1:11.2.8.1:04
+        - 1.1.1:11.3.8.1:04
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/conduit/1st-level-feature
@@ -4896,7 +4896,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:holy-lash
       scdc:
-        - 1.1.1:11.2.8.1:18
+        - 1.1.1:11.3.8.1:18
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4939,7 +4939,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:corruptions-curse-5-piety
       scdc:
-        - 1.1.1:11.2.8.1:01
+        - 1.1.1:11.3.8.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/1st-level-feature
@@ -4979,7 +4979,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:drain
       scdc:
-        - 1.1.1:11.2.8.1:20
+        - 1.1.1:11.3.8.1:20
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/1st-level-feature
@@ -5019,7 +5019,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.1st-level-feature:word-of-judgment
       scdc:
-        - 1.1.1:11.2.8.1:16
+        - 1.1.1:11.3.8.1:16
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/conduit/1st-level-feature
@@ -5060,7 +5060,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-steel-11-piety
       scdc:
-        - 1.1.1:11.2.8.2:03
+        - 1.1.1:11.3.8.2:03
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/conduit/8th-level-feature
@@ -5100,7 +5100,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:blessing-of-the-blade-11-piety
       scdc:
-        - 1.1.1:11.2.8.2:01
+        - 1.1.1:11.3.8.2:01
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/conduit/8th-level-feature
@@ -5142,7 +5142,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:arise-11-piety
       scdc:
-        - 1.1.1:11.2.8.2:02
+        - 1.1.1:11.3.8.2:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/8th-level-feature
@@ -5187,7 +5187,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.8th-level-feature:drag-the-unworthy-11-piety
       scdc:
-        - 1.1.1:11.2.8.2:04
+        - 1.1.1:11.3.8.2:04
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/8th-level-feature
@@ -5231,7 +5231,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-undoing-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:06
+        - 1.1.1:11.3.8.3:06
       source: mcdm.heroes.v1
       subclass: Knowledge
       target: Each enemy in the area
@@ -5276,7 +5276,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:aura-of-souls-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:02
+        - 1.1.1:11.3.8.3:02
       source: mcdm.heroes.v1
       subclass: Death
       target: Each creature in the area
@@ -5319,7 +5319,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:revitalizing-grace-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:10
+        - 1.1.1:11.3.8.3:10
       source: mcdm.heroes.v1
       subclass: Life
       target: Self and each ally in the area
@@ -5361,7 +5361,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lightning-lord-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:03
+        - 1.1.1:11.3.8.3:03
       source: mcdm.heroes.v1
       subclass: Storm
       target: Each enemy in the area
@@ -5408,7 +5408,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:your-story-ends-here-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:09
+        - 1.1.1:11.3.8.3:09
       source: mcdm.heroes.v1
       subclass: Fate
       target: One creature
@@ -5453,7 +5453,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:invocation-of-mystery-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:05
+        - 1.1.1:11.3.8.3:05
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self and each ally in the area
@@ -5495,7 +5495,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:spirit-stampede-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:04
+        - 1.1.1:11.3.8.3:04
       source: mcdm.heroes.v1
       subclass: Nature
       target: Each enemy in the area
@@ -5539,7 +5539,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:cuirass-of-the-gods-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:01
+        - 1.1.1:11.3.8.3:01
       source: mcdm.heroes.v1
       subclass: Protection
       target: Three creatures
@@ -5580,7 +5580,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:gods-machine-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:12
+        - 1.1.1:11.3.8.3:12
       source: mcdm.heroes.v1
       subclass: Creation
       target: Special
@@ -5631,7 +5631,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blessing-of-the-midday-sun-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:07
+        - 1.1.1:11.3.8.3:07
       source: mcdm.heroes.v1
       subclass: Sun
       target: Self and each creature in the area
@@ -5675,7 +5675,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:blade-of-the-heavens-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:08
+        - 1.1.1:11.3.8.3:08
       source: mcdm.heroes.v1
       subclass: War
       target: One creature
@@ -5719,7 +5719,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.6th-level-feature:lauded-by-god-9-piety
       scdc:
-        - 1.1.1:11.2.8.3:11
+        - 1.1.1:11.3.8.3:11
       source: mcdm.heroes.v1
       subclass: Love
       target: Two allies
@@ -5761,7 +5761,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:beacon-of-grace-9-piety
       scdc:
-        - 1.1.1:11.2.8.4:04
+        - 1.1.1:11.3.8.4:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/5th-level-feature
@@ -5810,7 +5810,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:vessel-of-retribution-9-piety
       scdc:
-        - 1.1.1:11.2.8.4:02
+        - 1.1.1:11.3.8.4:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/5th-level-feature
@@ -5852,7 +5852,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:penance-9-piety
       scdc:
-        - 1.1.1:11.2.8.4:01
+        - 1.1.1:11.3.8.4:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/5th-level-feature
@@ -5895,7 +5895,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.5th-level-feature:sanctuary-9-piety
       scdc:
-        - 1.1.1:11.2.8.4:03
+        - 1.1.1:11.3.8.4:03
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/5th-level-feature
@@ -5939,7 +5939,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:nature-judges-thee-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:11
+        - 1.1.1:11.3.8.5:11
       source: mcdm.heroes.v1
       subclass: Nature
       target: Each enemy in the area
@@ -5981,7 +5981,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:statue-of-power-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:03
+        - 1.1.1:11.3.8.5:03
       source: mcdm.heroes.v1
       subclass: Creation
       target: Special
@@ -6026,7 +6026,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:reap-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:10
+        - 1.1.1:11.3.8.5:10
       source: mcdm.heroes.v1
       subclass: Death
       target: Each ally
@@ -6067,7 +6067,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:divine-comedy-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:06
+        - 1.1.1:11.3.8.5:06
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self and each ally in the area
@@ -6113,7 +6113,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:saints-tempest-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:01
+        - 1.1.1:11.3.8.5:01
       source: mcdm.heroes.v1
       subclass: Storm
       target: Each enemy in the area
@@ -6155,7 +6155,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-fate-and-destiny-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:02
+        - 1.1.1:11.3.8.5:02
       source: mcdm.heroes.v1
       subclass: Fate
       target: Three creatures
@@ -6204,7 +6204,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:sacred-bond-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:05
+        - 1.1.1:11.3.8.5:05
       source: mcdm.heroes.v1
       subclass: Protection
       target: Self and one ally
@@ -6248,7 +6248,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:our-hearts-your-strength-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:04
+        - 1.1.1:11.3.8.5:04
       source: mcdm.heroes.v1
       subclass: Love
       target: Self and one ally
@@ -6293,7 +6293,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:the-gods-command-you-obey-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:07
+        - 1.1.1:11.3.8.5:07
       source: mcdm.heroes.v1
       subclass: Knowledge
       target: One creature
@@ -6339,7 +6339,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:morning-light-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:09
+        - 1.1.1:11.3.8.5:09
       source: mcdm.heroes.v1
       subclass: Sun
       target: Each enemy in the area
@@ -6384,7 +6384,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:wellspring-of-grace-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:08
+        - 1.1.1:11.3.8.5:08
       source: mcdm.heroes.v1
       subclass: Life
       target: Each ally in the area
@@ -6425,7 +6425,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.2nd-level-feature:blessing-of-insight-5-piety
       scdc:
-        - 1.1.1:11.2.8.5:12
+        - 1.1.1:11.3.8.5:12
       source: mcdm.heroes.v1
       subclass: War
       target: Self and each ally
@@ -6468,7 +6468,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:fear-of-the-gods-7-piety
       scdc:
-        - 1.1.1:11.2.8.6:03
+        - 1.1.1:11.3.8.6:03
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/3rd-level-feature
@@ -6513,7 +6513,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:words-of-wrath-and-grace-7-piety
       scdc:
-        - 1.1.1:11.2.8.6:02
+        - 1.1.1:11.3.8.6:02
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/3rd-level-feature
@@ -6556,7 +6556,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:saints-raiment-7-piety
       scdc:
-        - 1.1.1:11.2.8.6:04
+        - 1.1.1:11.3.8.6:04
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/conduit/3rd-level-feature
@@ -6599,7 +6599,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.3rd-level-feature:soul-siphon-7-piety
       scdc:
-        - 1.1.1:11.2.8.6:01
+        - 1.1.1:11.3.8.6:01
       source: mcdm.heroes.v1
       target: One enemy
       type: feature/ability/conduit/3rd-level-feature
@@ -6642,7 +6642,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:bend-fate-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:03
+        - 1.1.1:11.3.8.7:03
       source: mcdm.heroes.v1
       subclass: Fate
       target: Self or one ally
@@ -6683,7 +6683,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:blessing-of-the-fortress-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:04
+        - 1.1.1:11.3.8.7:04
       source: mcdm.heroes.v1
       subclass: Protection
       target: Self
@@ -6728,7 +6728,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:righteous-phalanx-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:09
+        - 1.1.1:11.3.8.7:09
       source: mcdm.heroes.v1
       subclass: War
       target: Special
@@ -6773,7 +6773,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:night-falls-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:05
+        - 1.1.1:11.3.8.7:05
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Special
@@ -6817,7 +6817,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:godstorm-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:07
+        - 1.1.1:11.3.8.7:07
       source: mcdm.heroes.v1
       subclass: Storm
       target: Each enemy in the area
@@ -6864,7 +6864,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:radiance-of-grace-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:02
+        - 1.1.1:11.3.8.7:02
       source: mcdm.heroes.v1
       subclass: Life
       target: Four allies
@@ -6907,7 +6907,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:divine-dragon-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:12
+        - 1.1.1:11.3.8.7:12
       source: mcdm.heroes.v1
       subclass: Creation
       target: Special
@@ -6972,7 +6972,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:thorn-cage-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:11
+        - 1.1.1:11.3.8.7:11
       source: mcdm.heroes.v1
       subclass: Nature
       target: One creature
@@ -7019,7 +7019,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-weakening-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:06
+        - 1.1.1:11.3.8.7:06
       source: mcdm.heroes.v1
       subclass: Knowledge
       target: One creature or object
@@ -7063,7 +7063,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:alacrity-of-the-heart-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:01
+        - 1.1.1:11.3.8.7:01
       source: mcdm.heroes.v1
       subclass: Love
       target: One ally
@@ -7105,7 +7105,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:word-of-final-redemption-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:08
+        - 1.1.1:11.3.8.7:08
       source: mcdm.heroes.v1
       subclass: Death
       target: One creature
@@ -7151,7 +7151,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.9th-level-feature:solar-flare-11-piety
       scdc:
-        - 1.1.1:11.2.8.7:10
+        - 1.1.1:11.3.8.7:10
       source: mcdm.heroes.v1
       subclass: Sun
       target: Each enemy in the area
@@ -7189,7 +7189,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:guided-to-your-side
       scdc:
-        - 1.1.1:11.2.8.8:05
+        - 1.1.1:11.3.8.8:05
       source: mcdm.heroes.v1
       subclass: Love
       target: Self and each ally
@@ -7232,7 +7232,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-steel-11-piety
       scdc:
-        - 1.1.1:11.2.8.8:03
+        - 1.1.1:11.3.8.8:03
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/conduit/7th-level-feature
@@ -7272,7 +7272,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:trinity-of-trickery-9-piety
       scdc:
-        - 1.1.1:11.2.8.8:06
+        - 1.1.1:11.3.8.8:06
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self or one ally
@@ -7318,7 +7318,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:blessing-of-the-blade-11-piety
       scdc:
-        - 1.1.1:11.2.8.8:01
+        - 1.1.1:11.3.8.8:01
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/conduit/7th-level-feature
@@ -7360,7 +7360,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:arise-11-piety
       scdc:
-        - 1.1.1:11.2.8.8:02
+        - 1.1.1:11.3.8.8:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/7th-level-feature
@@ -7405,7 +7405,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.7th-level-feature:drag-the-unworthy-11-piety
       scdc:
-        - 1.1.1:11.2.8.8:04
+        - 1.1.1:11.3.8.8:04
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/conduit/7th-level-feature
@@ -7451,7 +7451,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:beacon-of-grace-9-piety
       scdc:
-        - 1.1.1:11.2.8.9:05
+        - 1.1.1:11.3.8.9:05
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/conduit/4th-level-feature
@@ -7494,7 +7494,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:blessing-of-secrets
       scdc:
-        - 1.1.1:11.2.8.9:02
+        - 1.1.1:11.3.8.9:02
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self and each ally in the area
@@ -7538,7 +7538,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:vessel-of-retribution-9-piety
       scdc:
-        - 1.1.1:11.2.8.9:03
+        - 1.1.1:11.3.8.9:03
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/4th-level-feature
@@ -7580,7 +7580,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:penance-9-piety
       scdc:
-        - 1.1.1:11.2.8.9:01
+        - 1.1.1:11.3.8.9:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/conduit/4th-level-feature
@@ -7623,7 +7623,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.conduit.4th-level-feature:sanctuary-9-piety
       scdc:
-        - 1.1.1:11.2.8.9:04
+        - 1.1.1:11.3.8.9:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/conduit/4th-level-feature
@@ -7662,7 +7662,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:my-life-for-yours
       scdc:
-        - 1.1.1:11.2.7.1:02
+        - 1.1.1:11.3.7.1:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/censor/1st-level-feature
@@ -7709,7 +7709,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:driving-assault-3-wrath
       scdc:
-        - 1.1.1:11.2.7.1:17
+        - 1.1.1:11.3.7.1:17
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/censor/1st-level-feature
@@ -7752,7 +7752,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:every-step-death
       scdc:
-        - 1.1.1:11.2.7.1:15
+        - 1.1.1:11.3.7.1:15
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -7804,7 +7804,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-the-face-of-justice-5-wrath
       scdc:
-        - 1.1.1:11.2.7.1:03
+        - 1.1.1:11.3.7.1:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -7852,7 +7852,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:halt-miscreant
       scdc:
-        - 1.1.1:11.2.7.1:16
+        - 1.1.1:11.3.7.1:16
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/censor/1st-level-feature
@@ -7889,7 +7889,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:faithful-friend
       scdc:
-        - 1.1.1:11.2.7.1:01
+        - 1.1.1:11.3.7.1:01
       source: mcdm.heroes.v1
       subclass: Nature
       target: Self
@@ -7930,7 +7930,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:grave-speech
       scdc:
-        - 1.1.1:11.2.7.1:13
+        - 1.1.1:11.3.7.1:13
       source: mcdm.heroes.v1
       subclass: Death
       target: One dead creature
@@ -7980,7 +7980,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:behold-a-shield-of-faith-3-wrath
       scdc:
-        - 1.1.1:11.2.7.1:08
+        - 1.1.1:11.3.7.1:08
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/censor/1st-level-feature
@@ -8018,7 +8018,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:hands-of-the-maker
       scdc:
-        - 1.1.1:11.2.7.1:10
+        - 1.1.1:11.3.7.1:10
       source: mcdm.heroes.v1
       subclass: Creation
       target: Self
@@ -8065,7 +8065,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:the-gods-punish-and-defend-3-wrath
       scdc:
-        - 1.1.1:11.2.7.1:11
+        - 1.1.1:11.3.7.1:11
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/censor/1st-level-feature
@@ -8110,7 +8110,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:back-blasphemer
       scdc:
-        - 1.1.1:11.2.7.1:07
+        - 1.1.1:11.3.7.1:07
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/censor/1st-level-feature
@@ -8147,7 +8147,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:judgment
       scdc:
-        - 1.1.1:11.2.7.1:09
+        - 1.1.1:11.3.7.1:09
       source: mcdm.heroes.v1
       target: One enemy
       type: feature/ability/censor/1st-level-feature
@@ -8218,7 +8218,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:repent-3-wrath
       scdc:
-        - 1.1.1:11.2.7.1:05
+        - 1.1.1:11.3.7.1:05
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -8261,7 +8261,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:censored-5-wrath
       scdc:
-        - 1.1.1:11.2.7.1:12
+        - 1.1.1:11.3.7.1:12
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -8311,7 +8311,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:purifying-fire-5-wrath
       scdc:
-        - 1.1.1:11.2.7.1:14
+        - 1.1.1:11.3.7.1:14
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -8359,7 +8359,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:arrest-5-wrath
       scdc:
-        - 1.1.1:11.2.7.1:06
+        - 1.1.1:11.3.7.1:06
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/1st-level-feature
@@ -8404,7 +8404,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.1st-level-feature:your-allies-cannot-save-you
       scdc:
-        - 1.1.1:11.2.7.1:04
+        - 1.1.1:11.3.7.1:04
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/censor/1st-level-feature
@@ -8450,7 +8450,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:excommunication-11-wrath
       scdc:
-        - 1.1.1:11.2.7.2:04
+        - 1.1.1:11.3.7.2:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/8th-level-feature
@@ -8498,7 +8498,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:pillar-of-holy-fire-11-wrath
       scdc:
-        - 1.1.1:11.2.7.2:01
+        - 1.1.1:11.3.7.2:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/8th-level-feature
@@ -8545,7 +8545,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:hand-of-the-gods-11-wrath
       scdc:
-        - 1.1.1:11.2.7.2:02
+        - 1.1.1:11.3.7.2:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/8th-level-feature
@@ -8592,7 +8592,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.8th-level-feature:your-allies-turn-on-you-11-wrath
       scdc:
-        - 1.1.1:11.2.7.2:03
+        - 1.1.1:11.3.7.2:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/8th-level-feature
@@ -8640,7 +8640,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:edict-of-peace-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:03
+        - 1.1.1:11.3.7.3:03
       source: mcdm.heroes.v1
       subclass: Oracle
       target: Each enemy in the area
@@ -8686,7 +8686,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:burden-of-evil-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:06
+        - 1.1.1:11.3.7.3:06
       source: mcdm.heroes.v1
       subclass: Oracle
       target: Three enemies
@@ -8729,7 +8729,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:intercede-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:02
+        - 1.1.1:11.3.7.3:02
       source: mcdm.heroes.v1
       subclass: Paragon
       target: One ally
@@ -8773,7 +8773,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:congregation-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:04
+        - 1.1.1:11.3.7.3:04
       source: mcdm.heroes.v1
       subclass: Paragon
       target: One creature
@@ -8825,7 +8825,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:pain-of-your-own-making-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:05
+        - 1.1.1:11.3.7.3:05
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: Self or one ally
@@ -8867,7 +8867,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.6th-level-feature:begone-9-wrath
       scdc:
-        - 1.1.1:11.2.7.3:01
+        - 1.1.1:11.3.7.3:01
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: Each enemy in the area
@@ -8907,7 +8907,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.5th-level-feature:gods-grant-thee-strength-9-wrath
       scdc:
-        - 1.1.1:11.2.7.4:04
+        - 1.1.1:11.3.7.4:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/censor/5th-level-feature
@@ -8953,7 +8953,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.5th-level-feature:shield-of-the-righteous-9-wrath
       scdc:
-        - 1.1.1:11.2.7.4:03
+        - 1.1.1:11.3.7.4:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/5th-level-feature
@@ -8992,7 +8992,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.5th-level-feature:orison-of-victory-9-wrath
       scdc:
-        - 1.1.1:11.2.7.4:02
+        - 1.1.1:11.3.7.4:02
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/censor/5th-level-feature
@@ -9038,7 +9038,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.5th-level-feature:righteous-judgment-9-wrath
       scdc:
-        - 1.1.1:11.2.7.4:01
+        - 1.1.1:11.3.7.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/censor/5th-level-feature
@@ -9084,7 +9084,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:it-is-justice-you-fear-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:05
+        - 1.1.1:11.3.7.5:05
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: One creature
@@ -9131,7 +9131,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:prescient-grace-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:06
+        - 1.1.1:11.3.7.5:06
       source: mcdm.heroes.v1
       subclass: Oracle
       target: Self or one ally
@@ -9173,7 +9173,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:with-my-blessing-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:03
+        - 1.1.1:11.3.7.5:03
       source: mcdm.heroes.v1
       subclass: Oracle
       target: Self or one ally
@@ -9218,7 +9218,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:revelator-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:01
+        - 1.1.1:11.3.7.5:01
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: Each enemy in the area
@@ -9265,7 +9265,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:sentenced-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:02
+        - 1.1.1:11.3.7.5:02
       source: mcdm.heroes.v1
       subclass: Paragon
       target: One creature
@@ -9310,7 +9310,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.2nd-level-feature:blessing-of-the-faithful-5-wrath
       scdc:
-        - 1.1.1:11.2.7.5:04
+        - 1.1.1:11.3.7.5:04
       source: mcdm.heroes.v1
       subclass: Paragon
       target: Self and each ally in the area
@@ -9353,7 +9353,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-purifying-pacifism-7-wrath
       scdc:
-        - 1.1.1:11.2.7.6:01
+        - 1.1.1:11.3.7.6:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/censor/3rd-level-feature
@@ -9395,7 +9395,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-disruptive-isolation-7-wrath
       scdc:
-        - 1.1.1:11.2.7.6:03
+        - 1.1.1:11.3.7.6:03
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/censor/3rd-level-feature
@@ -9439,7 +9439,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-perfect-order-7-wrath
       scdc:
-        - 1.1.1:11.2.7.6:02
+        - 1.1.1:11.3.7.6:02
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/censor/3rd-level-feature
@@ -9483,7 +9483,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.3rd-level-feature:edict-of-stillness-7-wrath
       scdc:
-        - 1.1.1:11.2.7.6:04
+        - 1.1.1:11.3.7.6:04
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/censor/3rd-level-feature
@@ -9527,7 +9527,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:banish-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:05
+        - 1.1.1:11.3.7.7:05
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: One creature
@@ -9578,7 +9578,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:fulfill-your-destiny-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:02
+        - 1.1.1:11.3.7.7:02
       source: mcdm.heroes.v1
       subclass: Oracle
       target: One ally
@@ -9622,7 +9622,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:apostate-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:06
+        - 1.1.1:11.3.7.7:06
       source: mcdm.heroes.v1
       subclass: Paragon
       target: One creature
@@ -9669,7 +9669,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:terror-manifest-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:01
+        - 1.1.1:11.3.7.7:01
       source: mcdm.heroes.v1
       subclass: Exorcist
       target: One creature
@@ -9716,7 +9716,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:edict-of-unyielding-resolve-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:04
+        - 1.1.1:11.3.7.7:04
       source: mcdm.heroes.v1
       subclass: Paragon
       target: Self and each ally in the area
@@ -9758,7 +9758,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.9th-level-feature:blessing-and-a-curse-11-wrath
       scdc:
-        - 1.1.1:11.2.7.7:03
+        - 1.1.1:11.3.7.7:03
       source: mcdm.heroes.v1
       subclass: Oracle
       target: One creature
@@ -9796,7 +9796,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.7th-level-feature:guided-to-your-side
       scdc:
-        - 1.1.1:11.2.7.8:01
+        - 1.1.1:11.3.7.8:01
       source: mcdm.heroes.v1
       subclass: Love
       target: Self and each ally
@@ -9839,7 +9839,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.7th-level-feature:trinity-of-trickery-9-wrath
       scdc:
-        - 1.1.1:11.2.7.8:02
+        - 1.1.1:11.3.7.8:02
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self or one ally
@@ -9881,7 +9881,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.censor.4th-level-feature:blessing-of-secrets
       scdc:
-        - 1.1.1:11.2.7.9:01
+        - 1.1.1:11.3.7.9:01
       source: mcdm.heroes.v1
       subclass: Trickery
       target: Self and each ally in the area
@@ -9927,7 +9927,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-strike-5-discipline
       scdc:
-        - 1.1.1:11.2.6.1:02
+        - 1.1.1:11.3.6.1:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/1st-level-feature
@@ -9967,7 +9967,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:null-field
       scdc:
-        - 1.1.1:11.2.6.1:11
+        - 1.1.1:11.3.6.1:11
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/null/1st-level-feature
@@ -10024,7 +10024,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:faster-than-the-eye
       scdc:
-        - 1.1.1:11.2.6.1:04
+        - 1.1.1:11.3.6.1:04
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: feature/ability/null/1st-level-feature
@@ -10070,7 +10070,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:a-squad-unto-myself-5-discipline
       scdc:
-        - 1.1.1:11.2.6.1:18
+        - 1.1.1:11.3.6.1:18
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/null/1st-level-feature
@@ -10118,7 +10118,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:impart-force-5-discipline
       scdc:
-        - 1.1.1:11.2.6.1:13
+        - 1.1.1:11.3.6.1:13
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10169,7 +10169,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:arcane-disruptor-5-discipline
       scdc:
-        - 1.1.1:11.2.6.1:15
+        - 1.1.1:11.3.6.1:15
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/1st-level-feature
@@ -10217,7 +10217,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:relentless-nemesis-3-discipline
       scdc:
-        - 1.1.1:11.2.6.1:03
+        - 1.1.1:11.3.6.1:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10263,7 +10263,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:kinetic-strike
       scdc:
-        - 1.1.1:11.2.6.1:05
+        - 1.1.1:11.3.6.1:05
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10304,7 +10304,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:psychic-pulse-3-discipline
       scdc:
-        - 1.1.1:11.2.6.1:17
+        - 1.1.1:11.3.6.1:17
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/null/1st-level-feature
@@ -10348,7 +10348,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:joint-lock
       scdc:
-        - 1.1.1:11.2.6.1:06
+        - 1.1.1:11.3.6.1:06
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10392,7 +10392,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:magnetic-strike
       scdc:
-        - 1.1.1:11.2.6.1:09
+        - 1.1.1:11.3.6.1:09
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/1st-level-feature
@@ -10437,7 +10437,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:stunning-blow-3-discipline
       scdc:
-        - 1.1.1:11.2.6.1:07
+        - 1.1.1:11.3.6.1:07
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10473,7 +10473,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-shield
       scdc:
-        - 1.1.1:11.2.6.1:01
+        - 1.1.1:11.3.6.1:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/1st-level-feature
@@ -10516,7 +10516,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:phase-inversion-strike
       scdc:
-        - 1.1.1:11.2.6.1:08
+        - 1.1.1:11.3.6.1:08
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10565,7 +10565,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:chronal-spike-3-discipline
       scdc:
-        - 1.1.1:11.2.6.1:12
+        - 1.1.1:11.3.6.1:12
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10610,7 +10610,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:dance-of-blows
       scdc:
-        - 1.1.1:11.2.6.1:10
+        - 1.1.1:11.3.6.1:10
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/null/1st-level-feature
@@ -10655,7 +10655,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:inertial-step
       scdc:
-        - 1.1.1:11.2.6.1:16
+        - 1.1.1:11.3.6.1:16
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10699,7 +10699,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.1st-level-feature:pressure-points
       scdc:
-        - 1.1.1:11.2.6.1:14
+        - 1.1.1:11.3.6.1:14
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/null/1st-level-feature
@@ -10746,7 +10746,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.8th-level-feature:arcane-purge-11-discipline
       scdc:
-        - 1.1.1:11.2.6.2:04
+        - 1.1.1:11.3.6.2:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/8th-level-feature
@@ -10797,7 +10797,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.8th-level-feature:phase-hurl-11-discipline
       scdc:
-        - 1.1.1:11.2.6.2:03
+        - 1.1.1:11.3.6.2:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/8th-level-feature
@@ -10845,7 +10845,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.8th-level-feature:scalar-assault-11-discipline
       scdc:
-        - 1.1.1:11.2.6.2:02
+        - 1.1.1:11.3.6.2:02
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/null/8th-level-feature
@@ -10888,7 +10888,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.8th-level-feature:synaptic-anchor-11-discipline
       scdc:
-        - 1.1.1:11.2.6.2:01
+        - 1.1.1:11.3.6.2:01
       source: mcdm.heroes.v1
       target: Self or one creature
       type: feature/ability/null/8th-level-feature
@@ -10930,7 +10930,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:ice-pillars-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:01
+        - 1.1.1:11.3.6.3:01
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: Three creatures or objects
@@ -10973,7 +10973,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:iron-body-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:04
+        - 1.1.1:11.3.6.3:04
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: Self
@@ -11016,7 +11016,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:wall-of-ice-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:03
+        - 1.1.1:11.3.6.3:03
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: Special
@@ -11061,7 +11061,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:interphase-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:05
+        - 1.1.1:11.3.6.3:05
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: Self
@@ -11099,7 +11099,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:gravitic-charge-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:02
+        - 1.1.1:11.3.6.3:02
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: Self
@@ -11149,7 +11149,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.6th-level-feature:phase-step-9-discipline
       scdc:
-        - 1.1.1:11.2.6.3:06
+        - 1.1.1:11.3.6.3:06
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: Self
@@ -11195,7 +11195,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.5th-level-feature:synaptic-reset-9-discipline
       scdc:
-        - 1.1.1:11.2.6.4:02
+        - 1.1.1:11.3.6.4:02
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/null/5th-level-feature
@@ -11233,7 +11233,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.5th-level-feature:phase-leap-9-discipline
       scdc:
-        - 1.1.1:11.2.6.4:04
+        - 1.1.1:11.3.6.4:04
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/5th-level-feature
@@ -11283,7 +11283,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.5th-level-feature:anticipating-strike-9-discipline
       scdc:
-        - 1.1.1:11.2.6.4:01
+        - 1.1.1:11.3.6.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/5th-level-feature
@@ -11330,7 +11330,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.5th-level-feature:iron-grip-9-discipline
       scdc:
-        - 1.1.1:11.2.6.4:03
+        - 1.1.1:11.3.6.4:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/null/5th-level-feature
@@ -11379,7 +11379,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:force-redirected-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:06
+        - 1.1.1:11.3.6.5:06
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: One creature
@@ -11423,7 +11423,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:entropic-field-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:02
+        - 1.1.1:11.3.6.5:02
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: Each enemy in the area
@@ -11463,7 +11463,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:kinetic-shield-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:05
+        - 1.1.1:11.3.6.5:05
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: Self
@@ -11508,7 +11508,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:heat-sink-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:04
+        - 1.1.1:11.3.6.5:04
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: Self
@@ -11549,7 +11549,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:blur-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:01
+        - 1.1.1:11.3.6.5:01
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: Self
@@ -11594,7 +11594,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.2nd-level-feature:gravitic-strike-5-discipline
       scdc:
-        - 1.1.1:11.2.6.5:03
+        - 1.1.1:11.3.6.5:03
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: One creature
@@ -11636,7 +11636,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:stabilizing-field-7-discipline
       scdc:
-        - 1.1.1:11.2.6.6:04
+        - 1.1.1:11.3.6.6:04
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/3rd-level-feature
@@ -11679,7 +11679,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:molecular-rearrangement-field-7-discipline
       scdc:
-        - 1.1.1:11.2.6.6:03
+        - 1.1.1:11.3.6.6:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/3rd-level-feature
@@ -11721,7 +11721,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:absorption-field-7-discipline
       scdc:
-        - 1.1.1:11.2.6.6:01
+        - 1.1.1:11.3.6.6:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/3rd-level-feature
@@ -11762,7 +11762,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.3rd-level-feature:synapse-field-7-discipline
       scdc:
-        - 1.1.1:11.2.6.6:02
+        - 1.1.1:11.3.6.6:02
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/null/3rd-level-feature
@@ -11803,7 +11803,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:inertial-absorption-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:02
+        - 1.1.1:11.3.6.7:02
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: Self
@@ -11846,7 +11846,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:heat-drain-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:05
+        - 1.1.1:11.3.6.7:05
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: One creature
@@ -11897,7 +11897,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:realitas-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:06
+        - 1.1.1:11.3.6.7:06
       source: mcdm.heroes.v1
       subclass: Metakinetic
       target: One creature
@@ -11947,7 +11947,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:time-loop-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:04
+        - 1.1.1:11.3.6.7:04
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: Self
@@ -11991,7 +11991,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:arrestor-cycle-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:03
+        - 1.1.1:11.3.6.7:03
       source: mcdm.heroes.v1
       subclass: Chronokinetic
       target: One creature
@@ -12036,7 +12036,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.null.9th-level-feature:absolute-zero-11-discipline
       scdc:
-        - 1.1.1:11.2.6.7:01
+        - 1.1.1:11.3.6.7:01
       source: mcdm.heroes.v1
       subclass: Cryokinetic
       target: Self
@@ -12086,7 +12086,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:thunder-roar-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:09
+        - 1.1.1:11.3.5.1:09
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/fury/1st-level-feature
@@ -12130,7 +12130,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:hit-and-run
       scdc:
-        - 1.1.1:11.2.5.1:07
+        - 1.1.1:11.3.5.1:07
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/fury/1st-level-feature
@@ -12168,7 +12168,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:unearthly-reflexes
       scdc:
-        - 1.1.1:11.2.5.1:05
+        - 1.1.1:11.3.5.1:05
       source: mcdm.heroes.v1
       subclass: Reaver
       target: Self
@@ -12210,7 +12210,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:make-peace-with-your-god-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:15
+        - 1.1.1:11.3.5.1:15
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/1st-level-feature
@@ -12252,7 +12252,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:blood-for-blood-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:13
+        - 1.1.1:11.3.5.1:13
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/fury/1st-level-feature
@@ -12295,7 +12295,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-death
       scdc:
-        - 1.1.1:11.2.5.1:02
+        - 1.1.1:11.3.5.1:02
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/fury/1st-level-feature
@@ -12339,7 +12339,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:tide-of-death-3-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:10
+        - 1.1.1:11.3.5.1:10
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/1st-level-feature
@@ -12390,7 +12390,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:out-of-the-way-3-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:04
+        - 1.1.1:11.3.5.1:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/1st-level-feature
@@ -12434,7 +12434,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:brutal-slam
       scdc:
-        - 1.1.1:11.2.5.1:01
+        - 1.1.1:11.3.5.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/fury/1st-level-feature
@@ -12477,7 +12477,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:back-3-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:12
+        - 1.1.1:11.3.5.1:12
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/fury/1st-level-feature
@@ -12517,7 +12517,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:impaled
       scdc:
-        - 1.1.1:11.2.5.1:08
+        - 1.1.1:11.3.5.1:08
       source: mcdm.heroes.v1
       target: One creature of your size or smaller
       type: feature/ability/fury/1st-level-feature
@@ -12560,7 +12560,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:your-entrails-are-your-extrails-3-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:03
+        - 1.1.1:11.3.5.1:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/fury/1st-level-feature
@@ -12606,7 +12606,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:to-the-uttermost-end-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.1:06
+        - 1.1.1:11.3.5.1:06
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/1st-level-feature
@@ -12649,7 +12649,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:lines-of-force
       scdc:
-        - 1.1.1:11.2.5.1:11
+        - 1.1.1:11.3.5.1:11
       source: mcdm.heroes.v1
       subclass: Berserker
       target: Self or one creature
@@ -12691,7 +12691,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.1st-level-feature:furious-change
       scdc:
-        - 1.1.1:11.2.5.1:14
+        - 1.1.1:11.3.5.1:14
       source: mcdm.heroes.v1
       subclass: Stormwight
       target: Self
@@ -12738,7 +12738,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:relentless-death-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.2:01
+        - 1.1.1:11.3.5.2:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/8th-level-feature
@@ -12783,7 +12783,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:primordial-rage-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.2:03
+        - 1.1.1:11.3.5.2:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/8th-level-feature
@@ -12824,7 +12824,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:elemental-ferocity-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.2:04
+        - 1.1.1:11.3.5.2:04
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/8th-level-feature
@@ -12871,7 +12871,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.8th-level-feature:overkill-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.2:02
+        - 1.1.1:11.3.5.2:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/8th-level-feature
@@ -12916,7 +12916,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:avalanche-impact-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:04
+        - 1.1.1:11.3.5.3:04
       source: mcdm.heroes.v1
       subclass: Berserker
       target: Self
@@ -12965,7 +12965,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:force-of-storms-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:02
+        - 1.1.1:11.3.5.3:02
       source: mcdm.heroes.v1
       subclass: Berserker
       target: One creature
@@ -13012,7 +13012,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:seek-and-destroy-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:06
+        - 1.1.1:11.3.5.3:06
       source: mcdm.heroes.v1
       subclass: Reaver
       target: One creature
@@ -13066,7 +13066,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:death-strike-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:01
+        - 1.1.1:11.3.5.3:01
       source: mcdm.heroes.v1
       subclass: Reaver
       target: Self
@@ -13107,7 +13107,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:riders-on-the-storm-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:05
+        - 1.1.1:11.3.5.3:05
       source: mcdm.heroes.v1
       subclass: Stormwight
       target: Each creature in the area
@@ -13161,7 +13161,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.6th-level-feature:pounce-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.3:03
+        - 1.1.1:11.3.5.3:03
       source: mcdm.heroes.v1
       subclass: Stormwight
       target: One creature
@@ -13211,7 +13211,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:my-turn-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.4:04
+        - 1.1.1:11.3.5.4:04
       source: mcdm.heroes.v1
       target: The triggering creature
       type: feature/ability/fury/5th-level-feature
@@ -13256,7 +13256,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:rebounding-storm-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.4:02
+        - 1.1.1:11.3.5.4:02
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: feature/ability/fury/5th-level-feature
@@ -13305,7 +13305,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:debilitating-strike-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.4:01
+        - 1.1.1:11.3.5.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/5th-level-feature
@@ -13354,7 +13354,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.5th-level-feature:to-stone-9-ferocity
       scdc:
-        - 1.1.1:11.2.5.4:03
+        - 1.1.1:11.3.5.4:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/5th-level-feature
@@ -13401,7 +13401,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:phalanx-breaker-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:05
+        - 1.1.1:11.3.5.5:05
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/2nd-level-feature
@@ -13445,7 +13445,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:special-delivery-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:04
+        - 1.1.1:11.3.5.5:04
       source: mcdm.heroes.v1
       target: One willing ally
       type: feature/ability/fury/2nd-level-feature
@@ -13488,7 +13488,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:wrecking-ball-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:03
+        - 1.1.1:11.3.5.5:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/2nd-level-feature
@@ -13540,7 +13540,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:death-death-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:01
+        - 1.1.1:11.3.5.5:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/2nd-level-feature
@@ -13583,7 +13583,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:apex-predator-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:02
+        - 1.1.1:11.3.5.5:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/2nd-level-feature
@@ -13628,7 +13628,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.2nd-level-feature:visceral-roar-5-ferocity
       scdc:
-        - 1.1.1:11.2.5.5:06
+        - 1.1.1:11.3.5.5:06
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/fury/2nd-level-feature
@@ -13669,7 +13669,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:steelbreaker-7-ferocity
       scdc:
-        - 1.1.1:11.2.5.6:02
+        - 1.1.1:11.3.5.6:02
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/3rd-level-feature
@@ -13707,7 +13707,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:face-the-storm-7-ferocity
       scdc:
-        - 1.1.1:11.2.5.6:03
+        - 1.1.1:11.3.5.6:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/3rd-level-feature
@@ -13752,7 +13752,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:you-are-already-dead-7-ferocity
       scdc:
-        - 1.1.1:11.2.5.6:04
+        - 1.1.1:11.3.5.6:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/fury/3rd-level-feature
@@ -13791,7 +13791,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.3rd-level-feature:demon-unleashed-7-ferocity
       scdc:
-        - 1.1.1:11.2.5.6:01
+        - 1.1.1:11.3.5.6:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/fury/3rd-level-feature
@@ -13834,7 +13834,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:deluge-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:01
+        - 1.1.1:11.3.5.7:01
       source: mcdm.heroes.v1
       subclass: Stormwight
       target: Each enemy in the area
@@ -13882,7 +13882,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:shower-of-blood-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:03
+        - 1.1.1:11.3.5.7:03
       source: mcdm.heroes.v1
       subclass: Reaver
       target: One creature
@@ -13932,7 +13932,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-rattle-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:05
+        - 1.1.1:11.3.5.7:05
       source: mcdm.heroes.v1
       subclass: Stormwight
       target: Each enemy in the area
@@ -13981,7 +13981,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:death-comes-for-you-all-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:02
+        - 1.1.1:11.3.5.7:02
       source: mcdm.heroes.v1
       subclass: Berserker
       target: Each enemy in the area
@@ -14030,7 +14030,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-bane-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:04
+        - 1.1.1:11.3.5.7:04
       source: mcdm.heroes.v1
       subclass: Reaver
       target: One creature
@@ -14080,7 +14080,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.fury.9th-level-feature:primordial-vortex-11-ferocity
       scdc:
-        - 1.1.1:11.2.5.7:06
+        - 1.1.1:11.3.5.7:06
       source: mcdm.heroes.v1
       subclass: Berserker
       target: Each enemy in the area
@@ -14120,7 +14120,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:strike-now
       scdc:
-        - 1.1.1:11.2.4.1:06
+        - 1.1.1:11.3.4.1:06
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/tactician/1st-level-feature
@@ -14165,7 +14165,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:inspiring-strike-3-focus
       scdc:
-        - 1.1.1:11.2.4.1:02
+        - 1.1.1:11.3.4.1:02
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/tactician/1st-level-feature
@@ -14212,7 +14212,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:concussive-strike-3-focus
       scdc:
-        - 1.1.1:11.2.4.1:10
+        - 1.1.1:11.3.4.1:10
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/tactician/1st-level-feature
@@ -14257,7 +14257,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:hammer-and-anvil-5-focus
       scdc:
-        - 1.1.1:11.2.4.1:09
+        - 1.1.1:11.3.4.1:09
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/tactician/1st-level-feature
@@ -14304,7 +14304,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:this-is-what-we-planned-for-5-focus
       scdc:
-        - 1.1.1:11.2.4.1:04
+        - 1.1.1:11.3.4.1:04
       source: mcdm.heroes.v1
       target: Two allies
       type: feature/ability/tactician/1st-level-feature
@@ -14341,7 +14341,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:parry
       scdc:
-        - 1.1.1:11.2.4.1:01
+        - 1.1.1:11.3.4.1:01
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: Self or one ally
@@ -14385,7 +14385,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:now-5-focus
       scdc:
-        - 1.1.1:11.2.4.1:08
+        - 1.1.1:11.3.4.1:08
       source: mcdm.heroes.v1
       target: Three allies
       type: feature/ability/tactician/1st-level-feature
@@ -14428,7 +14428,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mind-game-5-focus
       scdc:
-        - 1.1.1:11.2.4.1:12
+        - 1.1.1:11.3.4.1:12
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/tactician/1st-level-feature
@@ -14468,7 +14468,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:mark
       scdc:
-        - 1.1.1:11.2.4.1:11
+        - 1.1.1:11.3.4.1:11
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/tactician/1st-level-feature
@@ -14531,7 +14531,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:advanced-tactics
       scdc:
-        - 1.1.1:11.2.4.1:05
+        - 1.1.1:11.3.4.1:05
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: One ally
@@ -14572,7 +14572,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:squad-forward-3-focus
       scdc:
-        - 1.1.1:11.2.4.1:03
+        - 1.1.1:11.3.4.1:03
       source: mcdm.heroes.v1
       target: Self and two allies
       type: feature/ability/tactician/1st-level-feature
@@ -14609,7 +14609,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:battle-cry-3-focus
       scdc:
-        - 1.1.1:11.2.4.1:07
+        - 1.1.1:11.3.4.1:07
       source: mcdm.heroes.v1
       target: Three allies
       type: feature/ability/tactician/1st-level-feature
@@ -14645,7 +14645,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.1st-level-feature:overwatch
       scdc:
-        - 1.1.1:11.2.4.1:13
+        - 1.1.1:11.3.4.1:13
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: One creature
@@ -14692,7 +14692,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:ill-open-and-youll-close-11-focus
       scdc:
-        - 1.1.1:11.2.4.2:03
+        - 1.1.1:11.3.4.2:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/tactician/8th-level-feature
@@ -14738,7 +14738,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:finish-them-11-focus
       scdc:
-        - 1.1.1:11.2.4.2:04
+        - 1.1.1:11.3.4.2:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/tactician/8th-level-feature
@@ -14776,7 +14776,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:floodgates-open-11-focus
       scdc:
-        - 1.1.1:11.2.4.2:02
+        - 1.1.1:11.3.4.2:02
       source: mcdm.heroes.v1
       target: Three allies
       type: feature/ability/tactician/8th-level-feature
@@ -14815,7 +14815,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.8th-level-feature:go-now-and-speed-well-11-focus
       scdc:
-        - 1.1.1:11.2.4.2:01
+        - 1.1.1:11.3.4.2:01
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/tactician/8th-level-feature
@@ -14855,7 +14855,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:hustle-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:02
+        - 1.1.1:11.3.4.3:02
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: Self and each ally in the area
@@ -14895,7 +14895,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:coordinated-execution-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:04
+        - 1.1.1:11.3.4.3:04
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: One ally
@@ -14940,7 +14940,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:instant-retaliation-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:05
+        - 1.1.1:11.3.4.3:05
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: One ally
@@ -14989,7 +14989,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:panic-in-their-lines-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:03
+        - 1.1.1:11.3.4.3:03
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: Two creatures
@@ -15034,7 +15034,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:battle-plan-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:01
+        - 1.1.1:11.3.4.3:01
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: Three creatures
@@ -15086,7 +15086,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.6th-level-feature:to-me-squad-9-focus
       scdc:
-        - 1.1.1:11.2.4.3:06
+        - 1.1.1:11.3.4.3:06
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: One creature
@@ -15138,7 +15138,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:youve-still-got-something-left-9-focus
       scdc:
-        - 1.1.1:11.2.4.4:02
+        - 1.1.1:11.3.4.4:02
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/tactician/5th-level-feature
@@ -15178,7 +15178,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:win-this-day-9-focus
       scdc:
-        - 1.1.1:11.2.4.4:04
+        - 1.1.1:11.3.4.4:04
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/tactician/5th-level-feature
@@ -15220,7 +15220,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-gear-check-9-focus
       scdc:
-        - 1.1.1:11.2.4.4:01
+        - 1.1.1:11.3.4.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/tactician/5th-level-feature
@@ -15261,7 +15261,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.5th-level-feature:squad-remember-your-training-9-focus
       scdc:
-        - 1.1.1:11.2.4.4:03
+        - 1.1.1:11.3.4.4:03
       source: mcdm.heroes.v1
       target: Self and two allies
       type: feature/ability/tactician/5th-level-feature
@@ -15303,7 +15303,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:ive-got-your-back-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:03
+        - 1.1.1:11.3.4.5:03
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: One creature
@@ -15350,7 +15350,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:no-dying-on-my-watch-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:02
+        - 1.1.1:11.3.4.5:02
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: One enemy
@@ -15396,7 +15396,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:squad-on-me-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:04
+        - 1.1.1:11.3.4.5:04
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: Self and each ally in the area
@@ -15437,7 +15437,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:targets-of-opportunity-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:06
+        - 1.1.1:11.3.4.5:06
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: Two creatures
@@ -15483,7 +15483,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:try-me-instead-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:01
+        - 1.1.1:11.3.4.5:01
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: Self
@@ -15530,7 +15530,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.2nd-level-feature:fog-of-war-5-focus
       scdc:
-        - 1.1.1:11.2.4.5:05
+        - 1.1.1:11.3.4.5:05
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: Two creatures
@@ -15574,7 +15574,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:rout-7-focus
       scdc:
-        - 1.1.1:11.2.4.6:02
+        - 1.1.1:11.3.4.6:02
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/tactician/3rd-level-feature
@@ -15613,7 +15613,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:frontal-assault-7-focus
       scdc:
-        - 1.1.1:11.2.4.6:04
+        - 1.1.1:11.3.4.6:04
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/tactician/3rd-level-feature
@@ -15655,7 +15655,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:hit-em-hard-7-focus
       scdc:
-        - 1.1.1:11.2.4.6:03
+        - 1.1.1:11.3.4.6:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/tactician/3rd-level-feature
@@ -15694,7 +15694,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.3rd-level-feature:stay-strong-and-focus-7-focus
       scdc:
-        - 1.1.1:11.2.4.6:01
+        - 1.1.1:11.3.4.6:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/tactician/3rd-level-feature
@@ -15733,7 +15733,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:squad-hit-and-run-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:06
+        - 1.1.1:11.3.4.7:06
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: Self and two allies
@@ -15774,7 +15774,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:counterstrategy-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:01
+        - 1.1.1:11.3.4.7:01
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: Self
@@ -15821,7 +15821,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:that-one-is-mine-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:05
+        - 1.1.1:11.3.4.7:05
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: One creature
@@ -15873,7 +15873,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:no-escape-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:03
+        - 1.1.1:11.3.4.7:03
       source: mcdm.heroes.v1
       subclass: Vanguard
       target: One creature
@@ -15926,7 +15926,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:their-lack-of-focus-is-their-undoing-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:04
+        - 1.1.1:11.3.4.7:04
       source: mcdm.heroes.v1
       subclass: Insurgent
       target: Three enemies
@@ -15973,7 +15973,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.tactician.9th-level-feature:blot-out-the-sun-11-focus
       scdc:
-        - 1.1.1:11.2.4.7:02
+        - 1.1.1:11.3.4.7:02
       source: mcdm.heroes.v1
       subclass: Mastermind
       target: Self and each ally in the area
@@ -16013,7 +16013,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:fake-your-death-5-drama
       scdc:
-        - 1.1.1:11.2.3.1:05
+        - 1.1.1:11.3.3.1:05
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/troubadour/1st-level-feature
@@ -16054,7 +16054,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:ballad-of-the-beast
       scdc:
-        - 1.1.1:11.2.3.1:22
+        - 1.1.1:11.3.3.1:22
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Self and each ally in the area
@@ -16096,7 +16096,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:hypnotic-overtones-3-drama
       scdc:
-        - 1.1.1:11.2.3.1:13
+        - 1.1.1:11.3.3.1:13
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16140,7 +16140,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:cutting-sarcasm
       scdc:
-        - 1.1.1:11.2.3.1:02
+        - 1.1.1:11.3.3.1:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/troubadour/1st-level-feature
@@ -16181,7 +16181,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harmonize-3-drama
       scdc:
-        - 1.1.1:11.2.3.1:23
+        - 1.1.1:11.3.3.1:23
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: One ally
@@ -16223,7 +16223,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:revitalizing-limerick
       scdc:
-        - 1.1.1:11.2.3.1:06
+        - 1.1.1:11.3.3.1:06
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16260,7 +16260,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-monologue
       scdc:
-        - 1.1.1:11.2.3.1:18
+        - 1.1.1:11.3.3.1:18
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Special
@@ -16309,7 +16309,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:turnabout-is-fair-play
       scdc:
-        - 1.1.1:11.2.3.1:19
+        - 1.1.1:11.3.3.1:19
       source: mcdm.heroes.v1
       subclass: Auteur
       target: One creature
@@ -16349,7 +16349,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:power-chord
       scdc:
-        - 1.1.1:11.2.3.1:09
+        - 1.1.1:11.3.3.1:09
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Each enemy in the area
@@ -16393,7 +16393,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:quick-rewrite-3-drama
       scdc:
-        - 1.1.1:11.2.3.1:01
+        - 1.1.1:11.3.3.1:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16438,7 +16438,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:flip-the-script-5-drama
       scdc:
-        - 1.1.1:11.2.3.1:10
+        - 1.1.1:11.3.3.1:10
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16473,7 +16473,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:riposte
       scdc:
-        - 1.1.1:11.2.3.1:12
+        - 1.1.1:11.3.3.1:12
       source: mcdm.heroes.v1
       subclass: Duelist
       target: Self or one ally
@@ -16514,7 +16514,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:thunder-mother
       scdc:
-        - 1.1.1:11.2.3.1:15
+        - 1.1.1:11.3.3.1:15
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: One creature
@@ -16564,7 +16564,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:harsh-critic-3-drama
       scdc:
-        - 1.1.1:11.2.3.1:20
+        - 1.1.1:11.3.3.1:20
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/troubadour/1st-level-feature
@@ -16610,7 +16610,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:dramatic-reversal-5-drama
       scdc:
-        - 1.1.1:11.2.3.1:07
+        - 1.1.1:11.3.3.1:07
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16652,7 +16652,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:instigator
       scdc:
-        - 1.1.1:11.2.3.1:24
+        - 1.1.1:11.3.3.1:24
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/troubadour/1st-level-feature
@@ -16695,7 +16695,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:artful-flourish
       scdc:
-        - 1.1.1:11.2.3.1:11
+        - 1.1.1:11.3.3.1:11
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: feature/ability/troubadour/1st-level-feature
@@ -16741,7 +16741,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:witty-banter
       scdc:
-        - 1.1.1:11.2.3.1:14
+        - 1.1.1:11.3.3.1:14
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/troubadour/1st-level-feature
@@ -16791,7 +16791,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:upstage-3-drama
       scdc:
-        - 1.1.1:11.2.3.1:04
+        - 1.1.1:11.3.3.1:04
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/troubadour/1st-level-feature
@@ -16833,7 +16833,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:choreography
       scdc:
-        - 1.1.1:11.2.3.1:08
+        - 1.1.1:11.3.3.1:08
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/troubadour/1st-level-feature
@@ -16875,7 +16875,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:method-acting-5-drama
       scdc:
-        - 1.1.1:11.2.3.1:16
+        - 1.1.1:11.3.3.1:16
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/troubadour/1st-level-feature
@@ -16917,7 +16917,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:blocking
       scdc:
-        - 1.1.1:11.2.3.1:03
+        - 1.1.1:11.3.3.1:03
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Each creature in the area
@@ -16960,7 +16960,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:acrobatics
       scdc:
-        - 1.1.1:11.2.3.1:17
+        - 1.1.1:11.3.3.1:17
       source: mcdm.heroes.v1
       subclass: Duelist
       target: Self and each ally in the area
@@ -17001,7 +17001,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.1st-level-feature:star-power-1-drama
       scdc:
-        - 1.1.1:11.2.3.1:21
+        - 1.1.1:11.3.3.1:21
       source: mcdm.heroes.v1
       subclass: Duelist
       target: Self
@@ -17043,7 +17043,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:radical-fantasia
       scdc:
-        - 1.1.1:11.2.3.2:02
+        - 1.1.1:11.3.3.2:02
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Self and each ally in the area
@@ -17091,7 +17091,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:the-show-must-go-on-11-drama
       scdc:
-        - 1.1.1:11.2.3.2:04
+        - 1.1.1:11.3.3.2:04
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/8th-level-feature
@@ -17137,7 +17137,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:moonlight-sonata
       scdc:
-        - 1.1.1:11.2.3.2:03
+        - 1.1.1:11.3.3.2:03
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Each ally in the area
@@ -17179,7 +17179,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:dramatic-reveal-11-drama
       scdc:
-        - 1.1.1:11.2.3.2:06
+        - 1.1.1:11.3.3.2:06
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/troubadour/8th-level-feature
@@ -17220,7 +17220,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:saved-in-the-edit-11-drama
       scdc:
-        - 1.1.1:11.2.3.2:01
+        - 1.1.1:11.3.3.2:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/troubadour/8th-level-feature
@@ -17278,7 +17278,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.8th-level-feature:power-ballad-11-drama
       scdc:
-        - 1.1.1:11.2.3.2:05
+        - 1.1.1:11.3.3.2:05
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/troubadour/8th-level-feature
@@ -17321,7 +17321,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:blood-on-the-stage-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:06
+        - 1.1.1:11.3.3.3:06
       source: mcdm.heroes.v1
       subclass: Duelist
       target: One creature or object
@@ -17363,7 +17363,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:heres-how-your-story-ends-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:05
+        - 1.1.1:11.3.3.3:05
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Each enemy in the area
@@ -17409,7 +17409,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:fight-choreography-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:07
+        - 1.1.1:11.3.3.3:07
       source: mcdm.heroes.v1
       subclass: Duelist
       target: One creature
@@ -17453,7 +17453,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:youre-all-my-understudies-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:03
+        - 1.1.1:11.3.3.3:03
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Each ally in the area
@@ -17496,7 +17496,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:legendary-drum-fill-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:04
+        - 1.1.1:11.3.3.3:04
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Self and each ally in the area
@@ -17535,7 +17535,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:spotlight
       scdc:
-        - 1.1.1:11.2.3.3:01
+        - 1.1.1:11.3.3.3:01
       source: mcdm.heroes.v1
       target: Self and each ally in the area
       type: feature/ability/troubadour/6th-level-feature
@@ -17578,7 +17578,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.6th-level-feature:feedback-9-drama
       scdc:
-        - 1.1.1:11.2.3.3:02
+        - 1.1.1:11.3.3.3:02
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Each enemy in the area
@@ -17620,7 +17620,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:take-two
       scdc:
-        - 1.1.1:11.2.3.4:04
+        - 1.1.1:11.3.3.4:04
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Self and each ally in the area
@@ -17660,7 +17660,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:we-cant-be-upstaged
       scdc:
-        - 1.1.1:11.2.3.4:06
+        - 1.1.1:11.3.3.4:06
       source: mcdm.heroes.v1
       subclass: Duelist
       target: Self and each ally in the area
@@ -17702,7 +17702,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:love-song-9-drama
       scdc:
-        - 1.1.1:11.2.3.4:03
+        - 1.1.1:11.3.3.4:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/troubadour/5th-level-feature
@@ -17743,7 +17743,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:patter-song-9-drama
       scdc:
-        - 1.1.1:11.2.3.4:02
+        - 1.1.1:11.3.3.4:02
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/troubadour/5th-level-feature
@@ -17791,7 +17791,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:action-hero-9-drama
       scdc:
-        - 1.1.1:11.2.3.4:01
+        - 1.1.1:11.3.3.4:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/5th-level-feature
@@ -17835,7 +17835,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.5th-level-feature:continuity-error-9-drama
       scdc:
-        - 1.1.1:11.2.3.4:05
+        - 1.1.1:11.3.3.4:05
       source: mcdm.heroes.v1
       target: One enemy or object
       type: feature/ability/troubadour/5th-level-feature
@@ -17882,7 +17882,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:encore-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:05
+        - 1.1.1:11.3.3.5:05
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Special
@@ -17926,7 +17926,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:guest-star-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:02
+        - 1.1.1:11.3.3.5:02
       source: mcdm.heroes.v1
       subclass: Auteur
       target: Special
@@ -17976,7 +17976,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:tough-crowd-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:04
+        - 1.1.1:11.3.3.5:04
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Special
@@ -18023,7 +18023,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:twist-at-the-end-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:01
+        - 1.1.1:11.3.3.5:01
       source: mcdm.heroes.v1
       subclass: Auteur
       target: One dead enemy
@@ -18069,7 +18069,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:en-garde-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:03
+        - 1.1.1:11.3.3.5:03
       source: mcdm.heroes.v1
       subclass: Duelist
       target: One creature
@@ -18116,7 +18116,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.2nd-level-feature:classic-chandelier-stunt-5-drama
       scdc:
-        - 1.1.1:11.2.3.5:06
+        - 1.1.1:11.3.3.5:06
       source: mcdm.heroes.v1
       subclass: Duelist
       target: Self and one willing ally
@@ -18159,7 +18159,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:we-meet-at-last-7-drama
       scdc:
-        - 1.1.1:11.2.3.6:06
+        - 1.1.1:11.3.3.6:06
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/troubadour/3rd-level-feature
@@ -18205,7 +18205,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:never-ending-hero
       scdc:
-        - 1.1.1:11.2.3.6:04
+        - 1.1.1:11.3.3.6:04
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Self and each ally in the area
@@ -18251,7 +18251,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:infernal-gavotte-7-drama
       scdc:
-        - 1.1.1:11.2.3.6:03
+        - 1.1.1:11.3.3.6:03
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/3rd-level-feature
@@ -18294,7 +18294,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:extensive-rewrites-7-drama
       scdc:
-        - 1.1.1:11.2.3.6:05
+        - 1.1.1:11.3.3.6:05
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/troubadour/3rd-level-feature
@@ -18337,7 +18337,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:fire-up-the-night
       scdc:
-        - 1.1.1:11.2.3.6:02
+        - 1.1.1:11.3.3.6:02
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Self and each ally in the area
@@ -18388,7 +18388,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.3rd-level-feature:star-solo-7-drama
       scdc:
-        - 1.1.1:11.2.3.6:01
+        - 1.1.1:11.3.3.6:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/troubadour/3rd-level-feature
@@ -18433,7 +18433,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:jam-session-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:01
+        - 1.1.1:11.3.3.7:01
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: Each enemy in the area
@@ -18481,7 +18481,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:rising-tension-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:06
+        - 1.1.1:11.3.3.7:06
       source: mcdm.heroes.v1
       subclass: Auteur
       target: One ally
@@ -18526,7 +18526,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:renegotiated-contract-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:03
+        - 1.1.1:11.3.3.7:03
       source: mcdm.heroes.v1
       subclass: Duelist
       target: One creature
@@ -18585,7 +18585,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:melt-their-faces-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:04
+        - 1.1.1:11.3.3.7:04
       source: mcdm.heroes.v1
       subclass: Virtuoso
       target: One creature or object
@@ -18633,7 +18633,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:epic-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:05
+        - 1.1.1:11.3.3.7:05
       source: mcdm.heroes.v1
       subclass: Auteur
       target: One creature
@@ -18683,7 +18683,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.troubadour.9th-level-feature:expert-fencer-11-drama
       scdc:
-        - 1.1.1:11.2.3.7:02
+        - 1.1.1:11.3.3.7:02
       source: mcdm.heroes.v1
       subclass: Duelist
       target: One creature or object
@@ -18728,7 +18728,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:clever-trick-1-insight
       scdc:
-        - 1.1.1:11.2.2.1:06
+        - 1.1.1:11.3.2.1:06
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Self
@@ -18768,7 +18768,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:gasping-in-pain
       scdc:
-        - 1.1.1:11.2.2.1:01
+        - 1.1.1:11.3.2.1:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -18812,7 +18812,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:teamwork-has-its-place
       scdc:
-        - 1.1.1:11.2.2.1:12
+        - 1.1.1:11.3.2.1:12
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/shadow/1st-level-feature
@@ -18858,7 +18858,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:get-in-get-out-3-insight
       scdc:
-        - 1.1.1:11.2.2.1:10
+        - 1.1.1:11.3.2.1:10
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -18904,7 +18904,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:disorienting-strike-3-insight
       scdc:
-        - 1.1.1:11.2.2.1:16
+        - 1.1.1:11.3.2.1:16
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -18942,7 +18942,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:defensive-roll
       scdc:
-        - 1.1.1:11.2.2.1:13
+        - 1.1.1:11.3.2.1:13
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Self
@@ -18990,7 +18990,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:setup-5-insight
       scdc:
-        - 1.1.1:11.2.2.1:08
+        - 1.1.1:11.3.2.1:08
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -19031,7 +19031,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:one-hundred-throats-5-insight
       scdc:
-        - 1.1.1:11.2.2.1:03
+        - 1.1.1:11.3.2.1:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/shadow/1st-level-feature
@@ -19069,7 +19069,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:black-ash-teleport
       scdc:
-        - 1.1.1:11.2.2.1:19
+        - 1.1.1:11.3.2.1:19
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: Self
@@ -19107,7 +19107,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coat-the-blade
       scdc:
-        - 1.1.1:11.2.2.1:11
+        - 1.1.1:11.3.2.1:11
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Self
@@ -19144,7 +19144,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:im-no-threat
       scdc:
-        - 1.1.1:11.2.2.1:17
+        - 1.1.1:11.3.2.1:17
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Self
@@ -19206,7 +19206,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:coup-de-grace-5-insight
       scdc:
-        - 1.1.1:11.2.2.1:07
+        - 1.1.1:11.3.2.1:07
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -19248,7 +19248,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:i-work-better-alone
       scdc:
-        - 1.1.1:11.2.2.1:09
+        - 1.1.1:11.3.2.1:09
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -19292,7 +19292,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:hesitation-is-weakness-1-insight
       scdc:
-        - 1.1.1:11.2.2.1:15
+        - 1.1.1:11.3.2.1:15
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/shadow/1st-level-feature
@@ -19326,7 +19326,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:in-all-this-confusion
       scdc:
-        - 1.1.1:11.2.2.1:04
+        - 1.1.1:11.3.2.1:04
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: Self
@@ -19371,7 +19371,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:shadowstrike-5-insight
       scdc:
-        - 1.1.1:11.2.2.1:05
+        - 1.1.1:11.3.2.1:05
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/shadow/1st-level-feature
@@ -19409,7 +19409,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:you-were-watching-the-wrong-one
       scdc:
-        - 1.1.1:11.2.2.1:14
+        - 1.1.1:11.3.2.1:14
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -19459,7 +19459,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:eviscerate-3-insight
       scdc:
-        - 1.1.1:11.2.2.1:02
+        - 1.1.1:11.3.2.1:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/1st-level-feature
@@ -19504,7 +19504,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.1st-level-feature:two-throats-at-once-3-insight
       scdc:
-        - 1.1.1:11.2.2.1:18
+        - 1.1.1:11.3.2.1:18
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: feature/ability/shadow/1st-level-feature
@@ -19547,7 +19547,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:shadowgrasp-11-insight
       scdc:
-        - 1.1.1:11.2.2.2:05
+        - 1.1.1:11.3.2.2:05
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/shadow/8th-level-feature
@@ -19592,7 +19592,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:they-always-line-up-11-insight
       scdc:
-        - 1.1.1:11.2.2.2:02
+        - 1.1.1:11.3.2.2:02
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/shadow/8th-level-feature
@@ -19631,7 +19631,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:speed-of-shadows-11-insight
       scdc:
-        - 1.1.1:11.2.2.2:03
+        - 1.1.1:11.3.2.2:03
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/shadow/8th-level-feature
@@ -19675,7 +19675,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:assassinate-11-insight
       scdc:
-        - 1.1.1:11.2.2.2:04
+        - 1.1.1:11.3.2.2:04
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/shadow/8th-level-feature
@@ -19715,7 +19715,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.8th-level-feature:time-bomb
       scdc:
-        - 1.1.1:11.2.2.2:01
+        - 1.1.1:11.3.2.2:01
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Each enemy in the area
@@ -19767,7 +19767,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:look-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:05
+        - 1.1.1:11.3.2.3:05
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Each enemy in the area
@@ -19806,7 +19806,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-better-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:06
+        - 1.1.1:11.3.2.3:06
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Three creatures
@@ -19859,7 +19859,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:black-ash-eruption-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:01
+        - 1.1.1:11.3.2.3:01
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: One creature
@@ -19909,7 +19909,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:puppet-strings-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:03
+        - 1.1.1:11.3.2.3:03
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Two enemies
@@ -19957,7 +19957,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:cinderstorm-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:02
+        - 1.1.1:11.3.2.3:02
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: Self and each ally in the area
@@ -20000,7 +20000,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.6th-level-feature:one-vial-makes-you-faster-9-insight
       scdc:
-        - 1.1.1:11.2.2.3:04
+        - 1.1.1:11.3.2.3:04
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Three creatures
@@ -20053,7 +20053,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:shadowfall-9-insight
       scdc:
-        - 1.1.1:11.2.2.4:01
+        - 1.1.1:11.3.2.4:01
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/shadow/5th-level-feature
@@ -20100,7 +20100,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:blackout-9-insight
       scdc:
-        - 1.1.1:11.2.2.4:04
+        - 1.1.1:11.3.2.4:04
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/shadow/5th-level-feature
@@ -20147,7 +20147,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:into-the-shadows-9-insight
       scdc:
-        - 1.1.1:11.2.2.4:02
+        - 1.1.1:11.3.2.4:02
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/shadow/5th-level-feature
@@ -20196,7 +20196,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.5th-level-feature:you-talk-too-much-9-insight
       scdc:
-        - 1.1.1:11.2.2.4:03
+        - 1.1.1:11.3.2.4:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/5th-level-feature
@@ -20238,7 +20238,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:too-slow-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:03
+        - 1.1.1:11.3.2.5:03
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: Self
@@ -20281,7 +20281,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:stink-bomb-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:06
+        - 1.1.1:11.3.2.5:06
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: Each creature in the area
@@ -20325,7 +20325,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:sticky-bomb-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:01
+        - 1.1.1:11.3.2.5:01
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: One creature
@@ -20373,7 +20373,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:so-gullible-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:04
+        - 1.1.1:11.3.2.5:04
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Self
@@ -20420,7 +20420,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:machinations-of-sound-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:05
+        - 1.1.1:11.3.2.5:05
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: Each creature in the area
@@ -20471,7 +20471,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.2nd-level-feature:in-a-puff-of-ash-5-insight
       scdc:
-        - 1.1.1:11.2.2.5:02
+        - 1.1.1:11.3.2.5:02
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: One creature
@@ -20515,7 +20515,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:pinning-shot-7-insight
       scdc:
-        - 1.1.1:11.2.2.6:02
+        - 1.1.1:11.3.2.6:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/3rd-level-feature
@@ -20554,7 +20554,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:dancer-7-insight
       scdc:
-        - 1.1.1:11.2.2.6:05
+        - 1.1.1:11.3.2.6:05
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/shadow/3rd-level-feature
@@ -20589,7 +20589,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:careful-observation
       scdc:
-        - 1.1.1:11.2.2.6:04
+        - 1.1.1:11.3.2.6:04
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/3rd-level-feature
@@ -20635,7 +20635,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:staggering-blow-7-insight
       scdc:
-        - 1.1.1:11.2.2.6:01
+        - 1.1.1:11.3.2.6:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/3rd-level-feature
@@ -20680,7 +20680,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.3rd-level-feature:misdirecting-strike-7-insight
       scdc:
-        - 1.1.1:11.2.2.6:03
+        - 1.1.1:11.3.2.6:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/shadow/3rd-level-feature
@@ -20724,7 +20724,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:i-am-you-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:01
+        - 1.1.1:11.3.2.7:01
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: One creature
@@ -20772,7 +20772,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:demon-door-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:06
+        - 1.1.1:11.3.2.7:06
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: One creature
@@ -20821,7 +20821,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:it-was-me-all-along-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:03
+        - 1.1.1:11.3.2.7:03
       source: mcdm.heroes.v1
       subclass: Harlequin Mask
       target: One creature or object
@@ -20871,7 +20871,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:to-the-stars-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:05
+        - 1.1.1:11.3.2.7:05
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: One creature or object
@@ -20918,7 +20918,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:cacophony-of-cinders-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:04
+        - 1.1.1:11.3.2.7:04
       source: mcdm.heroes.v1
       subclass: Black Ash
       target: Self
@@ -20963,7 +20963,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.9th-level-feature:chain-reaction-11-insight
       scdc:
-        - 1.1.1:11.2.2.7:02
+        - 1.1.1:11.3.2.7:02
       source: mcdm.heroes.v1
       subclass: Caustic Alchemy
       target: One creature or object
@@ -21007,7 +21007,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.shadow.4th-level-feature:night-watch
       scdc:
-        - 1.1.1:11.2.2.8:01
+        - 1.1.1:11.3.2.8:01
       source: mcdm.heroes.v1
       target: One ally
       type: feature/ability/shadow/4th-level-feature
@@ -21045,7 +21045,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow
       scdc:
-        - 1.1.1:15.1:01
+        - 1.1.1:14.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/arcane-archer
@@ -21089,7 +21089,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
       scdc:
-        - 1.1.1:15.2:01
+        - 1.1.1:14.2:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/retiarius
@@ -21129,7 +21129,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.battlemind:unmooring
       scdc:
-        - 1.1.1:15.3:01
+        - 1.1.1:14.3:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/battlemind
@@ -21170,7 +21170,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash
       scdc:
-        - 1.1.1:15.4:01
+        - 1.1.1:14.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/sword-and-board
@@ -21212,7 +21212,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.raider:raiders-awe
       scdc:
-        - 1.1.1:15.5:01
+        - 1.1.1:14.5:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/raider
@@ -21255,7 +21255,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade
       scdc:
-        - 1.1.1:15.6:01
+        - 1.1.1:14.6:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/cloak-and-dagger
@@ -21293,7 +21293,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
       scdc:
-        - 1.1.1:15.7:01
+        - 1.1.1:14.7:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/guisarmier
@@ -21331,7 +21331,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork
       scdc:
-        - 1.1.1:15.8:01
+        - 1.1.1:14.8:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/swashbuckler
@@ -21372,7 +21372,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
       scdc:
-        - 1.1.1:15.9:01
+        - 1.1.1:14.9:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/whirlwind
@@ -21410,7 +21410,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.sniper:patient-shot
       scdc:
-        - 1.1.1:15.10:01
+        - 1.1.1:14.10:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/sniper
@@ -21453,7 +21453,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand
       scdc:
-        - 1.1.1:15.11:01
+        - 1.1.1:14.11:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/warrior-priest
@@ -21494,7 +21494,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.ranger:hamstring-shot
       scdc:
-        - 1.1.1:15.12:01
+        - 1.1.1:14.12:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/ranger
@@ -21532,7 +21532,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.rapid-fire:two-shot
       scdc:
-        - 1.1.1:15.13:01
+        - 1.1.1:14.13:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/rapid-fire
@@ -21570,7 +21570,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.panther:devastating-rush
       scdc:
-        - 1.1.1:15.14:01
+        - 1.1.1:14.14:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/panther
@@ -21613,7 +21613,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
       scdc:
-        - 1.1.1:15.15:01
+        - 1.1.1:14.15:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/pugilist
@@ -21653,7 +21653,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
       scdc:
-        - 1.1.1:15.16:01
+        - 1.1.1:14.16:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/martial-artist
@@ -21696,7 +21696,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.shining-armor:protective-attack
       scdc:
-        - 1.1.1:15.17:01
+        - 1.1.1:14.17:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/shining-armor
@@ -21736,7 +21736,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
       scdc:
-        - 1.1.1:15.18:01
+        - 1.1.1:14.18:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/mountain
@@ -21778,7 +21778,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.dual-wielder:double-strike
       scdc:
-        - 1.1.1:15.19:01
+        - 1.1.1:14.19:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/dual-wielder
@@ -21823,7 +21823,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning
       scdc:
-        - 1.1.1:15.20:01
+        - 1.1.1:14.20:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/spellsword
@@ -21865,7 +21865,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
       scdc:
-        - 1.1.1:15.21:01
+        - 1.1.1:14.21:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/stick-and-robe
@@ -21907,7 +21907,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:entropic-bolt
       scdc:
-        - 1.1.1:11.2.1.1:16
+        - 1.1.1:11.3.1.1:16
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -21956,7 +21956,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:perfect-clarity-5-clarity
       scdc:
-        - 1.1.1:11.2.1.1:07
+        - 1.1.1:11.3.1.1:07
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -21998,7 +21998,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-pulse
       scdc:
-        - 1.1.1:11.2.1.1:15
+        - 1.1.1:11.3.1.1:15
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/talent/1st-level-feature
@@ -22043,7 +22043,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:hoarfrost
       scdc:
-        - 1.1.1:11.2.1.1:06
+        - 1.1.1:11.3.1.1:06
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -22088,7 +22088,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:optic-blast
       scdc:
-        - 1.1.1:11.2.1.1:19
+        - 1.1.1:11.3.1.1:19
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -22136,7 +22136,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:kinetic-grip
       scdc:
-        - 1.1.1:11.2.1.1:01
+        - 1.1.1:11.3.1.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -22178,7 +22178,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:feedback-loop
       scdc:
-        - 1.1.1:11.2.1.1:20
+        - 1.1.1:11.3.1.1:20
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One creature
@@ -22219,7 +22219,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:mind-spike
       scdc:
-        - 1.1.1:11.2.1.1:21
+        - 1.1.1:11.3.1.1:21
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -22267,7 +22267,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:flashback-5-clarity
       scdc:
-        - 1.1.1:11.2.1.1:04
+        - 1.1.1:11.3.1.1:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -22311,7 +22311,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:spirit-sword
       scdc:
-        - 1.1.1:11.2.1.1:08
+        - 1.1.1:11.3.1.1:08
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -22355,7 +22355,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:minor-telekinesis
       scdc:
-        - 1.1.1:11.2.1.1:02
+        - 1.1.1:11.3.1.1:02
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Self or one size 1 creature or object
@@ -22396,7 +22396,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:accelerate
       scdc:
-        - 1.1.1:11.2.1.1:12
+        - 1.1.1:11.3.1.1:12
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Self or one creature
@@ -22441,7 +22441,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:incinerate
       scdc:
-        - 1.1.1:11.2.1.1:10
+        - 1.1.1:11.3.1.1:10
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/talent/1st-level-feature
@@ -22491,7 +22491,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:iron-5-clarity
       scdc:
-        - 1.1.1:11.2.1.1:05
+        - 1.1.1:11.3.1.1:05
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -22532,7 +22532,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:again
       scdc:
-        - 1.1.1:11.2.1.1:14
+        - 1.1.1:11.3.1.1:14
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Self or one creature
@@ -22569,7 +22569,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:remote-assistance
       scdc:
-        - 1.1.1:11.2.1.1:22
+        - 1.1.1:11.3.1.1:22
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One creature or object
@@ -22616,7 +22616,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:choke-3-clarity
       scdc:
-        - 1.1.1:11.2.1.1:23
+        - 1.1.1:11.3.1.1:23
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -22657,7 +22657,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:repel
       scdc:
-        - 1.1.1:11.2.1.1:18
+        - 1.1.1:11.3.1.1:18
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Self or one ally
@@ -22706,7 +22706,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:precognition-3-clarity
       scdc:
-        - 1.1.1:11.2.1.1:11
+        - 1.1.1:11.3.1.1:11
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -22754,7 +22754,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:awe-3-clarity
       scdc:
-        - 1.1.1:11.2.1.1:17
+        - 1.1.1:11.3.1.1:17
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -22804,7 +22804,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:inertia-soak-5-clarity
       scdc:
-        - 1.1.1:11.2.1.1:13
+        - 1.1.1:11.3.1.1:13
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/1st-level-feature
@@ -22857,7 +22857,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:smolder-3-clarity
       scdc:
-        - 1.1.1:11.2.1.1:09
+        - 1.1.1:11.3.1.1:09
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/1st-level-feature
@@ -22905,7 +22905,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.1st-level-feature:materialize
       scdc:
-        - 1.1.1:11.2.1.1:03
+        - 1.1.1:11.3.1.1:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/1st-level-feature
@@ -22958,7 +22958,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:mindwipe-11-clarity
       scdc:
-        - 1.1.1:11.2.1.2:03
+        - 1.1.1:11.3.1.2:03
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/8th-level-feature
@@ -23009,7 +23009,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:rejuvenate-11-clarity
       scdc:
-        - 1.1.1:11.2.1.2:06
+        - 1.1.1:11.3.1.2:06
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/8th-level-feature
@@ -23060,7 +23060,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:levitation-field
       scdc:
-        - 1.1.1:11.2.1.2:02
+        - 1.1.1:11.3.1.2:02
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Each ally in the area
@@ -23110,7 +23110,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:doubt-11-clarity
       scdc:
-        - 1.1.1:11.2.1.2:05
+        - 1.1.1:11.3.1.2:05
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/8th-level-feature
@@ -23162,7 +23162,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:steel-11-clarity
       scdc:
-        - 1.1.1:11.2.1.2:04
+        - 1.1.1:11.3.1.2:04
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/8th-level-feature
@@ -23207,7 +23207,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.8th-level-feature:stasis-shield-3-clarity
       scdc:
-        - 1.1.1:11.2.1.2:01
+        - 1.1.1:11.3.1.2:01
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Self, or one creature or object
@@ -23256,7 +23256,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:stasis-field-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:04
+        - 1.1.1:11.3.1.3:04
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Each creature and object in the area
@@ -23313,7 +23313,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:fate-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:05
+        - 1.1.1:11.3.1.3:05
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: One enemy
@@ -23368,7 +23368,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-conditioning-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:06
+        - 1.1.1:11.3.1.3:06
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One creature
@@ -23420,7 +23420,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:gravitic-well-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:03
+        - 1.1.1:11.3.1.3:03
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Each creature and object in the area
@@ -23471,7 +23471,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:greater-kinetic-grip-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:02
+        - 1.1.1:11.3.1.3:02
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: One creature or object
@@ -23522,7 +23522,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.6th-level-feature:synaptic-dissipation-9-clarity
       scdc:
-        - 1.1.1:11.2.1.3:01
+        - 1.1.1:11.3.1.3:01
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: Special
@@ -23574,7 +23574,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:hypersonic-9-clarity
       scdc:
-        - 1.1.1:11.2.1.4:04
+        - 1.1.1:11.3.1.4:04
       source: mcdm.heroes.v1
       target: Each enemy in the area
       type: feature/ability/talent/5th-level-feature
@@ -23625,7 +23625,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:exothermic-shield-9-clarity
       scdc:
-        - 1.1.1:11.2.1.4:02
+        - 1.1.1:11.3.1.4:02
       source: mcdm.heroes.v1
       target: Self or one ally
       type: feature/ability/talent/5th-level-feature
@@ -23676,7 +23676,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:mind-snare-9-clarity
       scdc:
-        - 1.1.1:11.2.1.4:01
+        - 1.1.1:11.3.1.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/5th-level-feature
@@ -23730,7 +23730,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.5th-level-feature:soulbound-9-clarity
       scdc:
-        - 1.1.1:11.2.1.4:03
+        - 1.1.1:11.3.1.4:03
       source: mcdm.heroes.v1
       target: Two enemies
       type: feature/ability/talent/5th-level-feature
@@ -23788,7 +23788,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:overwhelm-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:02
+        - 1.1.1:11.3.1.5:02
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One creature
@@ -23837,7 +23837,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:applied-chronometrics-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:03
+        - 1.1.1:11.3.1.5:03
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Special
@@ -23887,7 +23887,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:gravitic-burst-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:05
+        - 1.1.1:11.3.1.5:05
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Each enemy in the area
@@ -23934,7 +23934,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:synaptic-override-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:04
+        - 1.1.1:11.3.1.5:04
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One enemy
@@ -23991,7 +23991,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:levity-and-gravity-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:01
+        - 1.1.1:11.3.1.5:01
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: One creature or object
@@ -24037,7 +24037,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.2nd-level-feature:slow-5-clarity
       scdc:
-        - 1.1.1:11.2.1.5:06
+        - 1.1.1:11.3.1.5:06
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Three creatures or objects
@@ -24093,7 +24093,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:force-orbs-7-clarity
       scdc:
-        - 1.1.1:11.2.1.6:01
+        - 1.1.1:11.3.1.6:01
       source: mcdm.heroes.v1
       target: Self
       type: feature/ability/talent/3rd-level-feature
@@ -24150,7 +24150,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:fling-through-time-7-clarity
       scdc:
-        - 1.1.1:11.2.1.6:03
+        - 1.1.1:11.3.1.6:03
       source: mcdm.heroes.v1
       target: One creature or object
       type: feature/ability/talent/3rd-level-feature
@@ -24207,7 +24207,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:soul-burn-7-clarity
       scdc:
-        - 1.1.1:11.2.1.6:02
+        - 1.1.1:11.3.1.6:02
       source: mcdm.heroes.v1
       target: One creature
       type: feature/ability/talent/3rd-level-feature
@@ -24255,7 +24255,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.3rd-level-feature:reflector-field-7-clarity
       scdc:
-        - 1.1.1:11.2.1.6:04
+        - 1.1.1:11.3.1.6:04
       source: mcdm.heroes.v1
       target: Special
       type: feature/ability/talent/3rd-level-feature
@@ -24306,7 +24306,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:gravitic-nova-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:05
+        - 1.1.1:11.3.1.7:05
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Each enemy and object in the area
@@ -24356,7 +24356,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:fulcrum-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:04
+        - 1.1.1:11.3.1.7:04
       source: mcdm.heroes.v1
       subclass: Telekinesis
       target: Each enemy and object in the area
@@ -24410,7 +24410,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:acceleration-field-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:03
+        - 1.1.1:11.3.1.7:03
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Three allies
@@ -24461,7 +24461,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:synaptic-terror-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:01
+        - 1.1.1:11.3.1.7:01
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: Each ally and enemy in the area
@@ -24512,7 +24512,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:borrow-from-the-future-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:02
+        - 1.1.1:11.3.1.7:02
       source: mcdm.heroes.v1
       subclass: Chronopathy
       target: Each ally in the area
@@ -24561,7 +24561,7 @@ features:
       scc:
         - mcdm.heroes.v1:feature.ability.talent.9th-level-feature:resonant-mind-spike-11-clarity
       scdc:
-        - 1.1.1:11.2.1.7:06
+        - 1.1.1:11.3.1.7:06
       source: mcdm.heroes.v1
       subclass: Telepathy
       target: One creature
