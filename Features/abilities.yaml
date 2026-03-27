@@ -12,7 +12,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:charge
       scdc:
-        - 1.1.1:15.1:03
+        - 1.1.1:16.1:03
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -41,7 +41,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:defend
       scdc:
-        - 1.1.1:15.1:01
+        - 1.1.1:16.1:01
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -64,7 +64,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:free-strike
       scdc:
-        - 1.1.1:15.1:04
+        - 1.1.1:16.1:04
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -89,7 +89,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.main-action:heal
       scdc:
-        - 1.1.1:15.1:02
+        - 1.1.1:16.1:02
       source: mcdm.heroes.v1
       type: common-ability/main-action
     effects:
@@ -111,7 +111,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:disengage
       scdc:
-        - 1.1.1:15.2:01
+        - 1.1.1:16.2:01
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -133,7 +133,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:ride
       scdc:
-        - 1.1.1:15.2:03
+        - 1.1.1:16.2:03
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -159,7 +159,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.move-action:advance
       scdc:
-        - 1.1.1:15.2:02
+        - 1.1.1:16.2:02
       source: mcdm.heroes.v1
       type: common-ability/move-action
     effects:
@@ -179,7 +179,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:use-consumable
       scdc:
-        - 1.1.1:15.3:07
+        - 1.1.1:16.3:07
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -201,7 +201,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:search-for-hidden-creatures
       scdc:
-        - 1.1.1:15.3:04
+        - 1.1.1:16.3:04
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -221,7 +221,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:grab
       scdc:
-        - 1.1.1:15.3:10
+        - 1.1.1:16.3:10
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -267,7 +267,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:escape-grab
       scdc:
-        - 1.1.1:15.3:08
+        - 1.1.1:16.3:08
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -308,7 +308,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:make-or-assist-a-test
       scdc:
-        - 1.1.1:15.3:01
+        - 1.1.1:16.3:01
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -337,7 +337,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:aid-attack
       scdc:
-        - 1.1.1:15.3:06
+        - 1.1.1:16.3:06
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -357,7 +357,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:stand-up
       scdc:
-        - 1.1.1:15.3:03
+        - 1.1.1:16.3:03
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -377,7 +377,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:hide
       scdc:
-        - 1.1.1:15.3:09
+        - 1.1.1:16.3:09
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -397,7 +397,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:catch-breath
       scdc:
-        - 1.1.1:15.3:02
+        - 1.1.1:16.3:02
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -424,7 +424,7 @@ features:
       scc:
         - mcdm.heroes.v1:common-ability.maneuver:knockback
       scdc:
-        - 1.1.1:15.3:05
+        - 1.1.1:16.3:05
       source: mcdm.heroes.v1
       type: common-ability/maneuver
     effects:
@@ -21045,7 +21045,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.arcane-archer:exploding-arrow
       scdc:
-        - 1.1.1:14.1:01
+        - 1.1.1:15.1:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/arcane-archer
@@ -21089,7 +21089,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.retiarius:net-and-stab
       scdc:
-        - 1.1.1:14.2:01
+        - 1.1.1:15.2:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/retiarius
@@ -21129,7 +21129,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.battlemind:unmooring
       scdc:
-        - 1.1.1:14.3:01
+        - 1.1.1:15.3:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/battlemind
@@ -21170,7 +21170,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.sword-and-board:shield-bash
       scdc:
-        - 1.1.1:14.4:01
+        - 1.1.1:15.4:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/sword-and-board
@@ -21212,7 +21212,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.raider:raiders-awe
       scdc:
-        - 1.1.1:14.5:01
+        - 1.1.1:15.5:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/raider
@@ -21255,7 +21255,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.cloak-and-dagger:fade
       scdc:
-        - 1.1.1:14.6:01
+        - 1.1.1:15.6:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/cloak-and-dagger
@@ -21293,7 +21293,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.guisarmier:forward-thrust-backward-smash
       scdc:
-        - 1.1.1:14.7:01
+        - 1.1.1:15.7:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/guisarmier
@@ -21331,7 +21331,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.swashbuckler:fancy-footwork
       scdc:
-        - 1.1.1:14.8:01
+        - 1.1.1:15.8:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/swashbuckler
@@ -21372,7 +21372,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.whirlwind:extension-of-my-arm
       scdc:
-        - 1.1.1:14.9:01
+        - 1.1.1:15.9:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/whirlwind
@@ -21410,7 +21410,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.sniper:patient-shot
       scdc:
-        - 1.1.1:14.10:01
+        - 1.1.1:15.10:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/sniper
@@ -21453,7 +21453,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.warrior-priest:weakening-brand
       scdc:
-        - 1.1.1:14.11:01
+        - 1.1.1:15.11:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/warrior-priest
@@ -21494,7 +21494,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.ranger:hamstring-shot
       scdc:
-        - 1.1.1:14.12:01
+        - 1.1.1:15.12:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/ranger
@@ -21532,7 +21532,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.rapid-fire:two-shot
       scdc:
-        - 1.1.1:14.13:01
+        - 1.1.1:15.13:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/rapid-fire
@@ -21570,7 +21570,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.panther:devastating-rush
       scdc:
-        - 1.1.1:14.14:01
+        - 1.1.1:15.14:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/panther
@@ -21613,7 +21613,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.pugilist:lets-dance
       scdc:
-        - 1.1.1:14.15:01
+        - 1.1.1:15.15:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/pugilist
@@ -21653,7 +21653,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.martial-artist:battle-grace
       scdc:
-        - 1.1.1:14.16:01
+        - 1.1.1:15.16:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/martial-artist
@@ -21696,7 +21696,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.shining-armor:protective-attack
       scdc:
-        - 1.1.1:14.17:01
+        - 1.1.1:15.17:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/shining-armor
@@ -21736,7 +21736,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.mountain:pain-for-pain
       scdc:
-        - 1.1.1:14.18:01
+        - 1.1.1:15.18:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/mountain
@@ -21778,7 +21778,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.dual-wielder:double-strike
       scdc:
-        - 1.1.1:14.19:01
+        - 1.1.1:15.19:01
       source: mcdm.heroes.v1
       target: Two creatures or objects
       type: kit-ability/dual-wielder
@@ -21823,7 +21823,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.spellsword:leaping-lightning
       scdc:
-        - 1.1.1:14.20:01
+        - 1.1.1:15.20:01
       source: mcdm.heroes.v1
       target: One creature or object
       type: kit-ability/spellsword
@@ -21865,7 +21865,7 @@ features:
       scc:
         - mcdm.heroes.v1:kit-ability.stick-and-robe:where-i-want-you
       scdc:
-        - 1.1.1:14.21:01
+        - 1.1.1:15.21:01
       source: mcdm.heroes.v1
       target: One creature
       type: kit-ability/stick-and-robe
